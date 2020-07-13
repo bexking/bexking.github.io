@@ -1,38 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght500;700&display=swap');
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.body {
+  height: 100%;
+  overflow: hidden;
+}
+
 .App {
-  text-align: center;
+  margin:10vh;
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar {
+  position: fixed;
+  width: 30vw;
+  margin-right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropdownContent {
+  max-height: 0;
+  overflow: hidden;
+  
+  -webkit-transition: max-height 0.2s ease-in;
+  transition: max-height 0.2s ease-in;
+
+  margin-bottom: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dropdownContainer:hover > .dropdownContent {
+  max-height: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.visibleContainer {
+  max-height:300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  margin-bottom: 0;
+}
+
+.name:visited {
+  color:black;
+}
+
+.name:hover {
+  -webkit-transition: font-size 0.2s ease-out;
+  font-size: 20px;
+  color:#000099;
+}
+
+.navItem {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 2.5%;
+}
+
+.designType {
+  margin-bottom: 5%;
+}
+
+.projectLink {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.projectLink:visited {
+  color:#000099;
+}
+
+.projectLink:hover {
+  color:#000099;
+  -webkit-transition: font-size 0.2s ease-out;
+  font-size: 16px;
 }

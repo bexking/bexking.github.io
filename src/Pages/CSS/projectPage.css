@@ -1,0 +1,41 @@
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+.hero-image {
+    width: 60vw;
+    height: 70vh;
+}
+
+.final-images {
+    width: 28vw;
+    height: 35vh;
+    background-color: blue;
+    margin-bottom: 3%;
+}
+
+.finalImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+#hero {
+    background-image: url('../../Assets/dome.jpg');
+    background-size: cover;
+}
+
+#fin1 {
+    background-image: url('../../Assets/dome.jpg');
+    background-size: cover;
+}
+
+#fin2 {
+    background-image: url('../../Assets/dome.jpg');
+    background-size: cover;
+}
+
+.content {
+    margin-left: 30vw;
+}
