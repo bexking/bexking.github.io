@@ -24,23 +24,23 @@ export default function Sidebar() {
                     <div className="dropdownContent">
                         <h4>UX/UI</h4>
                         <div className="designType">
-                            <Link to="/projects" className="projectLink">Incognito Breathing</Link>
+                            <Link to="/incognitobreathing" className="projectLink">Incognito Breathing</Link>
                         </div>
                         <div className="designType">
-                            <Link to="/projects" className="projectLink">MindFull Dome</Link>
+                            <Link to="/takeoutdome" className="projectLink">MindFull Dome</Link>
                         </div>
                         <div className="designType">
-                            <Link to="/projects" className="projectLink">Hints with Engoo</Link>
+                            <Link to="/hintswithengoo" className="projectLink">Hints with Engoo</Link>
                         </div>
                         <div className="designType">
-                            <Link to="/projects" className="projectLink">Animal Crossing Dreamy Finder</Link>
+                            <Link to="/dreamyfinder" className="projectLink">Animal Crossing Dreamy Finder</Link>
                         </div>
                         <h4>Other Work</h4>
                         <div className="designType">
-                            <Link to="/projects" className="projectLink">Shakemojispeare</Link>
+                            <Link to="/shakemojispeare" className="projectLink">Shakemojispeare</Link>
                         </div>
                         <div className="designType">
-                            <Link to="/projects" className="projectLink">Displacement</Link>
+                            <Link to="/displacement" className="projectLink">Displacement</Link>
                         </div>
                     </div>
                 </div>
