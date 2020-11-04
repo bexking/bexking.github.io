@@ -8,15 +8,14 @@ export default function Shakespeare() {
     return (
         <div className="page">
             {/* <Home /> */}
-           
-            <Sidebar />
-           
-            
+     
             <div className="content">
                 <h1 className="projectTitle">Shakemojispeare</h1>
-                <p>This is a short blurb giving a quick intro to the project</p>
+                <p>Shakemojispeare lets you translate Shakespearian passages into emojipasta and back again.
+                    This project was inspired by internet culture, and the panic many language-lovers feel when technology starts to encroach on written language.
+                </p>
                 <div className="heroImage">
-                    <div className="hero-image" id="hero"></div>
+                    <div className="hero-image" id="emojitranslate"></div>
                 </div>
                 <div className="features">
                     <h3>Design Features</h3>
@@ -31,7 +30,7 @@ export default function Shakespeare() {
                     <p>This is a short blurb giving a quick intro to the project</p>
                 </div>
                 <div className="finalImages">
-                    <div className="final-images" id="fin1"></div>
+                    <div className="final-images" id="zine"></div>
                     <div className="final-images" id="fin2"></div>
                 </div>
             </div>

@@ -8,12 +8,9 @@ export default function Dome() {
     return (
         <div className="page">
             {/* <Home /> */}
-           
-            <Sidebar />
-           
-            
+ 
             <div className="content">
-                <h1 className="projectTitle">MindFull Dome Takeaway Container</h1>
+                <h1 className="projectTitle">The Dome</h1>
                 <p>Rethinking the takeaway container based on psychology findings to aid portion control</p>
                 <div className="heroImage">
                     <div className="hero-image" id="hero"></div>
@@ -34,9 +31,8 @@ food when the geometry is not so boxy.</p>
                     <h3>Design Process</h3>
                     <p>This is a short blurb giving a quick intro to the project</p>
                 </div>
-                <div className="finalImages">
-                    <div className="final-images" id="fin1"></div>
-                    <div className="final-images" id="fin2"></div>
+                <div className="heroImage">
+                    <div className="hero-image" id="dome-sketch"></div>
                 </div>
                 <div className="finalImages">
                     <div className="final-images" id="fin1"></div>

@@ -9,6 +9,9 @@ import Dome from "./Pages/JS/dome";
 import IncognitoBreathing from './Pages/JS/iB';
 import Shakespeare from './Pages/JS/shakespeare';
 import Hints from './Pages/JS/hints';
+import CookNook from './Pages/JS/cookNook';
+import About from './Pages/JS/about';
+// import Work from '.Pages/JS/work';
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
 
       <Router>
         <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        {/* <Route path="/work" component={Work} /> */}
         <Route path="/projects" component={ProjectPage} />
         <Route path="/dreamyfinder" component={Dreamy} />
         <Route path="/displacement" component={Displacement} />
@@ -24,6 +29,7 @@ function App() {
         <Route path="/hintswithengoo" component={Hints} />
         <Route path="/incognitobreathing" component={IncognitoBreathing} />
         <Route path="/shakemojispeare" component={Shakespeare} />
+        <Route path="/cooknook" component={CookNook} />
       </Router>
     </div>
   );

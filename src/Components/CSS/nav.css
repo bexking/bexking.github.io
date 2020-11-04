@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+}
+
+nav {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+}
+
+.nav-places {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-decoration: none;
+    color: black;
+}
+
+#ingoa {
+    font-family: 'HK Grotesk Bold';
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
