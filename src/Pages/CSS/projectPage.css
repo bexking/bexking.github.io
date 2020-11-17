@@ -19,14 +19,13 @@ p {
 }
 
 .projecth1 {
-    font-family: cooper-black-std, serif;
-    font-weight: 400;
+    font-family: 'HK Grotesk Bold', sans-serif;
     font-style: normal;
     color: #d4c1e6;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0;
     padding: none;
-    margin-top: none;
+    margin-top: 10vh;
 }
 
 #hints-main-title {

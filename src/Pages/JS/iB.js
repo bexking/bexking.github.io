@@ -2,7 +2,7 @@ import React from 'react'
 import '../CSS/projectPage.css';
 import Hero from '../../Assets/dome.jpg';
 // import Home from './home.js';
-import Sidebar from '../../Components/JS/nav.js'
+
 import IBvid from '../../Assets/ib-video.mp4';
 import IbIt1 from '../../Assets/ib-it1.mp4';
 import IbIt2 from '../../Assets/ib-it2.mp4';
@@ -10,13 +10,15 @@ import IbIt3 from '../../Assets/ib-it3.mp4';
 import IbIt4 from '../../Assets/ib-it4.mp4';
 import IBshort from '../../Assets/ib-short.mp4';
 import IBinfog from '../../Assets/ib-infog.png'
-
+import Nav from '../../Components/JS/nav2.js';
 
 
 export default function IncognitoBreathing() {
     return (
         <div className="page">
             {/* <Home /> */}
+
+            <Nav />
            
             <div className="content">
                 <h1 className="projecth1">Incognito Breathing</h1>

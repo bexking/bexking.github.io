@@ -11,6 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     max-width: 85%;
+    align-items: center;
 }
 
 .nav-places {
@@ -25,4 +26,18 @@ nav {
     font-size: 18px;
     text-decoration: none;
     color: black;
+}
+
+#me-sml {
+    width: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+
+.nav-rebeccaahau {
+    width:1000px;
+    display: flex;
+   justify-content: flex-start;
+   align-items: baseline;
 }

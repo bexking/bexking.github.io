@@ -3,12 +3,14 @@ import '../CSS/projectPage.css';
 import Hero from '../../Assets/dome.jpg';
 // import Home from './home.js';
 import DfProcess from '../../Components/JS/df-process.js'
-
+import Nav from '../../Components/JS/nav2.js';
 
 export default function Dreamy() {
     return (
         <div className="page">
             {/* <Home /> */}
+
+            <Nav />
 
             <div className="content">
                 <h1 className="projecth1">Dreamy Finder</h1>

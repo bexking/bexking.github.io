@@ -2,13 +2,16 @@ import React from 'react'
 import '../CSS/projectPage.css';
 import Hero from '../../Assets/dome.jpg';
 // import Home from './home.js';
-import Sidebar from '../../Components/JS/nav.js'
+import Nav from '../../Components/JS/nav2.js';
+
 
 
 export default function CookNook() {
     return (
         <div className="page">
             {/* <Home /> */}
+
+            <Nav />
 
             <div className="content">
                 <h1 className="projectTitle">Cook Nook</h1>

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/projectPage.css';
-import Sidebar from '../../Components/JS/nav.js'
+// import Sidebar from '../../Components/JS/nav.js'
 import HintsVid from '../../Assets/engoo-hints.mp4';
 import HintFlow1 from '../../Assets/hints-uf-sbs.png';
 import HintFlow2 from '../../Assets/hints-uf-delayed.png';
@@ -27,12 +27,15 @@ import EngooDP13 from '../../Assets/engoo/engoo-dp-13.jpg';
 import EngooDP14 from '../../Assets/engoo/engoo-dp-14.jpg';
 import EngooDP15 from '../../Assets/engoo/engoo-dp-15.jpg';
 import EngooDP16 from '../../Assets/engoo/engoo-dp-16.jpg';
+import Nav from '../../Components/JS/nav2.js';
 
 
 
 export default function Hints() {
     return (
         <div className="page">
+
+            <Nav />
             
             <div className="content">
                 <h1 className="projecth1" id="hints-main-title">Language Learning Hints with Engoo</h1>

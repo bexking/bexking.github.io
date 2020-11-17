@@ -1,6 +1,7 @@
 import React from 'react';
 import '../CSS/projectgrid.css';
 import { Link } from "react-router-dom";
+
 // import IB from '../../Assets/ib-hero.png'
 // import Displacement from '../../Assets/dis1.jpg' 
 // import AC from '../../Assets/dreamy-finder.png'
@@ -11,6 +12,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectGrid() {
     return (
+        
         <div className="projectGrid">
             
             {/* <img src={IB} alt="Incognito Breathing" className="hero-image"/>
@@ -40,7 +42,7 @@ export default function ProjectGrid() {
                 </Link>
             </div>
             
-            <div className="hero-image" id="displace">
+            {/* <div className="hero-image" id="displace">
                 <Link to="/displacement" className="projectLink">
                     <div className="title">
                         <h3 className="homeTitle">Displacement</h3>
@@ -48,7 +50,7 @@ export default function ProjectGrid() {
                         <p className="home-caption">Using photography and storytelling to draw attention to sea level rise due to man-made climate change, and the impacts this could have on housing.</p>               
                     </div>
                 </Link> 
-            </div>
+            </div> */}
 
             <div className="hero-image" id="ac">
                 <Link to="/dreamyfinder" className="projectLink">
