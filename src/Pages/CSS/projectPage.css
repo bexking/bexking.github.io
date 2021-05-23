@@ -29,7 +29,7 @@ p {
 }
 
 #hints-main-title {
-    color: #666A9A;
+    color: #d4c1e6;
 }
 
 .projecth3 {
@@ -216,12 +216,18 @@ p {
     margin-right: auto;
 }
 
-.heroVid {
+/* .heroVid {
     max-width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
+} */
+
+.process {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .processVid {
@@ -275,7 +281,7 @@ p {
 .hint-dp {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1vw;
+    grid-gap: 20px;
     margin-top: 0;
     align-content: center;
     justify-content: center;
@@ -286,7 +292,11 @@ p {
 }
 
 .hint-sketches {
-    max-height: 40vh;
+    max-height: 45vh;
+}
+
+.hint-sketches2 {
+    max-height: 60vh;
     justify-self: starts;
 }
 

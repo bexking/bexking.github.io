@@ -13,6 +13,11 @@
     src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Regular.woff) format('woff');
 }
 
+@font-face {
+    font-family: 'HK Grotesk Black';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
+}
+
 .navItem {
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
@@ -49,8 +54,8 @@
 }
 
 .homeh1 {
-    font-family: cooper-black-std, serif;
-    font-weight: 400;
+    font-family: 'HK Grotesk Black', sans-serif;
+    
     font-style: normal;
     color: #d4c1e6;
     font-size: 60px;
@@ -64,6 +69,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .homeh3 {
@@ -81,7 +88,7 @@ h4 {
 
 #me {
     width: 200px;
-    margin-left: 3%;
+    margin-left: 0;
     margin-right: 0;
 }
 
@@ -109,18 +116,13 @@ h4 {
     background-color: white;
     display: flex;
     justify-content: space-around;
-    padding-top: 1.5%;
+    padding-top:4%;
+    padding-bottom: 1%;
+    
 }
 
 #work {
     color: #FCCD17;
-    margin-top: 2%;
+ 
     margin-bottom: 0;
-}
-
-.footer {
-    height: 200px;
-    background-color:#d4c1e6;
-    margin-left: 5%;
-    margin-right: 5%;
 }

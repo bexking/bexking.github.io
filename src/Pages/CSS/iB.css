@@ -1,0 +1,449 @@
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
+}
+
+.content {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+}
+/*Headings*/
+.project-title-main {
+    font-family: 'HK Grotesk Black', sans-serif;
+    font-size: 35px;
+    color: #39536C;
+}
+
+.project-subtitles {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 25px;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+    color: #39536C;
+}
+
+.Concept1-Heading {
+    font-family: 'HK Grotesk Black', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+    text-align: right;
+    max-width:4.5em;
+    background-color: #C4DFEC;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15%;
+}
+
+.Concept2-Heading {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+    
+}
+
+.Concept3-Heading {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 25px;
+    color: #39536C;
+    transform: rotate(-90deg);
+    width: 100px;
+    height: 80px;
+    text-align: right;
+    
+    
+}
+
+#c3-heading-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 30px;
+    max-width: 10vw;
+    
+
+}
+
+#iB-c2-h4 {
+    transform: rotate(-90deg);
+    height: 30px;
+    margin-top: 5.5%;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
+.IB-testing-headings{
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 25px;
+    color: #39536C;
+}
+
+/* */
+
+.flex-1 {
+    display: flex;
+}
+
+.iB-hero-vid {
+    width: 60%;
+}
+
+.IB-Overview {
+    margin-bottom: 3%;
+}
+
+.IB-Intro {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.IB-Concept1 {
+    border-top: #C4DFEC solid 3px;
+    border-right: #C4DFEC solid 3px;
+    border-bottom: #C4DFEC solid 3px;
+    padding-inline: 40px;
+    max-width: 45vw;
+    display: flex;
+}
+
+.IB-Concept2 {
+    width: 100vw;
+    height: 80vh;
+    padding-left:3%;
+    padding-right: 3%;
+    padding-bottom: 3%
+}
+
+.IB-Concept3 {
+    width: 90vw;
+    background-color:#C4DFEC;
+    padding: 5px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.ib-c2-bg {
+    background-color: #C4DFEC;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    width:42vw;
+    margin-bottom: 3%;
+}
+
+.iB-concept-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#iB-c3-flex {
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+#iB-concept-dvpt {
+    margin-left: 3%;
+}
+
+.iB-reqs-container {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #C4DFEC;
+    border-radius: 15px;
+}
+
+/*Paragraphs*/
+.ov-paragraph{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2em;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 22px;
+    color: #3B3B3B;
+}
+
+.body-content {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 18px;
+    color: #3B3B3B;
+    margin-top: 0;
+}
+
+.body-content-bold{
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 22px;
+    color: #3B3B3B;
+    margin-top: 0;
+    margin-bottom: 1.5%;
+}
+
+.feature-text-container {
+    width: 80%;
+    min-height: 38vh;
+    background-color: #39536C;
+    border-radius: 30px;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.prototype {
+    margin-left: 5%;
+    width: 80vw;
+}
+
+.feature-text {
+    font-family: 'HK Grotesk Black', sans-serif;
+    font-size: 35px;
+    color: #C4DFEC;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom:0;
+    width: 70%;
+    padding:5%;
+}
+
+.ib-c1-text {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.Concept-Paragraph {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+
+ul li:before {
+	content: "+";
+	position: absolute;
+    left: 0;
+}
+
+#iBhomeLabel {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 18px;
+    color: #3B3B3B;
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.User-Testing {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+.IB-testing-reqs {
+    width:20vw;
+    padding-left: 3%;
+    padding-right: 1.5%;
+}
+
+/*images*/
+#iBoffice {
+    width: 40vw;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#diamond {
+    width: 50vw;
+    border: 3px solid #C4DFEC;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding:2%;
+}
+
+#iB-brainstorm{
+    width: 50vw;
+    border: 3px solid #C4DFEC;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.iB-c1img {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.iB-c2img {
+    width: 11vw;
+    margin-bottom:3%;
+    padding-top:5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#ib-c2-imgs-container {
+    width: 100%;
+}
+
+#iB-chosen-img {
+    width:70vw;
+}
+
+#iB-it1 {
+    max-width: 45vw;
+}
+
+.IB-Vis-Process {
+    display: grid;
+    grid-template-columns: 1vw 43vw auto 43vw 1vw;
+    grid-template-rows: 45vh 1vw 45vh 1vw 45vh;
+    margin-top: 1.5%;
+}
+
+.iB-vis-sketches {
+    max-width: 43vw;
+    border: 3px solid blue;
+    /* padding: 1.5%;
+    margin: 1.5%; */
+    margin-top: 3%;
+}
+
+.Designing-Visualisation {
+    grid-column: 1 / span 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 3px solid #abcdef;
+    width: 42vw;
+    height: 44vh;
+}
+
+#iB-sk1 {
+    grid-column: 4 / span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    background-image: url('../../Assets/IB_Assets/IB-Vis-Sketch1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 42vw;
+    height: 44vh;
+    border: 3px solid #cdefab;
+}
+
+#iB-sk2 {
+    grid-column: 1 / span 2;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-image: url('../../Assets/IB_Assets/IB-Vis-Sketch2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 42vw;
+    height: 44vh;
+    border: 3px solid #efabcd;
+}
+
+#iB-sk3 {
+    grid-column: 4 / span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    background-image: url('../../Assets/IB_Assets/IB-Vis-Sketch3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 42vw;
+    height: 44vh;
+    border: 3px solid #bcdefa;
+}
+
+#iB-sk4 {
+    grid-column: 1 / span 2;
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    background-image: url('../../Assets/IB_Assets/IB-Vis-It4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 42vw;
+    height: 44vh;
+    border: 3px solid #defabc;
+}
+
+/* #iB-sk5 {
+    grid-column-start: 4 / span 1;
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    background-image: url('../../Assets/IB_Assets/IB-Vis-It5.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 42vw;
+    height: 44vh;
+    border: 3px solid #fabcde;
+} */
+
+#iBhome {
+    width: 70vw;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 1px 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+#ib-testing-illustration {
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+
+}
+
+.testDetailIcons {
+    height: 5vw;
+    border: 1px solid black;
+}
