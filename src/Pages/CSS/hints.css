@@ -109,8 +109,7 @@ html {
     color: #f2f2f2;
 }
 
-.feature-quote {
-    margin: 3%;
+.hint-page .feature-quote {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -177,7 +176,9 @@ html {
 }
 
 .results-text {
-    max-width: 65vw;
+    max-width: 60vw;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /* OTHER STYLING */

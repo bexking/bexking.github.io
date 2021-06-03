@@ -13,10 +13,10 @@ export default function Nav() {
                         <img id="me-sml" src={Me} alt="illustration of Bex" />
                     </Link> 
                 </div>
-                <div>
+                <div className="nav-pages">
                     <Link to="/about" className="nav-places">Work</Link>
                     <Link to="/about" className="nav-places">About</Link>
-                    </div>
+                </div>
                 
             </nav>
         </div>

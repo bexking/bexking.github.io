@@ -38,7 +38,7 @@ export default function Home() {
                     <p>Check out my work and contact me at bexkingdesign@gmail.com</p>            
                 </div>
 
-                <div id="workworkwork" className="homepage">
+                <div id="workworkwork">
                     <h2 className="homeh1" id="work">My Work</h2>
                 </div>
             </div>

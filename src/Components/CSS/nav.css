@@ -3,6 +3,12 @@
     src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
 }
 
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+
+
 nav {
     margin-top: 5vh;
     margin-left: 5vw;
@@ -10,15 +16,27 @@ nav {
     margin-bottom: 5vh;
     display: flex;
     justify-content: space-between;
-    max-width: 85%;
+    width: 90vw;
     align-items: center;
 }
 
+.nav-pages {
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-places {
-    padding-left: 15%;
-    padding-right: 15%;
     text-decoration: none;
-    color: black;
+    color: #3B3B3B;
+    font-size: 18px;
+    font-family: 'HK Grotesk SemiBold';
+}
+
+.nav-places:hover {
+    color: #b45f5f;
+    font-family: 'HK Grotesk Bold';
+    
 }
 
 #ingoa {

@@ -13,9 +13,11 @@ import CookNook from './Pages/JS/cookNook';
 import About from './Pages/JS/about';
 // import Work from '.Pages/JS/work';
 
+import Bg from './Assets/bg.png';
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundImage: `url(${Bg})`, "width" : "100vw"}}>
       
 
       <Router>

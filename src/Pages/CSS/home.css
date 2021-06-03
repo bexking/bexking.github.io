@@ -18,28 +18,6 @@
     src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
 }
 
-.navItem {
-    text-decoration: none;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    margin-right: 10%;
-    margin-bottom: 2%;
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    margin-left: 5%;
-}
-
-.header {
-    background-color: #FFBE00;
-    max-width: 20vw;
-    padding-top: 1%;
-    padding-bottom: 2.5%;
-    padding-left: 2%;
-}
 
 .nameText {
     margin-left: 5%;
@@ -55,9 +33,10 @@
 
 .homeh1 {
     font-family: 'HK Grotesk Black', sans-serif;
-    
+    -webkit-text-stroke: 1px #ffebeb;
     font-style: normal;
-    color: #d4c1e6;
+    color: #Fecc1d;
+    
     font-size: 60px;
     margin-bottom: 0;
     padding: none;
@@ -103,26 +82,24 @@ h4 {
 }
 
 .homepage {
-  
-    background-color: #d4c1e6;
+    background-color: #ffebeb;
     padding: 4.5%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2vh;
     width: 80vw;
+    filter: drop-shadow(0 2mm 2mm #ebc5c5);
 }
 
 #workworkwork {
-    background-color: white;
     display: flex;
     justify-content: space-around;
-    padding-top:4%;
-    padding-bottom: 1%;
-    
+    margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 #work {
     color: #FCCD17;
- 
+    -webkit-text-stroke: 1px #ffebeb;
     margin-bottom: 0;
 }

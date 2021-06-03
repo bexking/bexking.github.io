@@ -80,18 +80,21 @@
 
 }
 
-#iB-c2-h4 {
-    transform: rotate(-90deg);
-    height: 30px;
-    margin-top: 5.5%;
-    margin-left: -30px;
-    margin-right: 30px;
-}
-
 .IB-testing-headings{
     font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: #39536C;
+}
+
+#session-plan-heading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 3vw;
+}
+
+#results-section {
+    margin-top: 0;
 }
 
 /* */
@@ -198,10 +201,10 @@
 }
 
 .feature-text-container {
-    width: 80%;
+    width: 100%;
     min-height: 38vh;
     background-color: #39536C;
-    border-radius: 30px;
+    border-radius: 15px;
     margin-bottom: 1.5%;
     display: flex;
     justify-content: center;
@@ -252,6 +255,13 @@ ul li:before {
     left: 0;
 }
 
+li {
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 18px;
+    color: #3B3B3B;
+    margin-top: 0;
+}
+
 #iBhomeLabel {
     font-family: 'HK Grotesk SemiBold', sans-serif;
     font-size: 18px;
@@ -286,7 +296,7 @@ ul li:before {
     text-align: center;
 }
 
-#diamond {
+/* #diamond {
     width: 50vw;
     border: 3px solid #C4DFEC;
     border-radius: 30px;
@@ -296,12 +306,12 @@ ul li:before {
     margin-top: 1%;
     margin-bottom: 1%;
     padding:2%;
-}
+} */
 
 #iB-brainstorm{
     width: 50vw;
     border: 3px solid #C4DFEC;
-    border-radius: 30px;
+    border-radius: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -443,7 +453,282 @@ ul li:before {
 
 }
 
-.testDetailIcons {
+/* .testDetailIcons {
     height: 5vw;
     border: 1px solid black;
+} */
+
+/* IMAGES */
+.ib-hero-imgs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5%;
+    width: 100%;
+}
+
+.ib-hero-img {
+    max-width: 49%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 6mm 4mm #e2e2e2);
+    /* padding-left: 1%;
+    padding-right: 1%; */
+}
+
+#icon-self {
+    width: 4vw;
+}
+
+#ib-homepage-hero {
+    filter: drop-shadow(0 6mm 4mm #e2e2e2)
+}
+
+.concept {
+    max-width: 39vw;
+}
+
+#chosen-concept {
+    max-width: 72vw;
+    margin-top: 1.5%;
+    border: 1vw solid #C4DFEC;
+    border-radius: 15px;
+    padding: 2vw;
+    filter: drop-shadow(0 6mm 4mm #e2e2e2)
+}
+
+.testDetailIcons {
+    width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#results-graphic {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border: 2px solid #f2f2f2;
+    margin-bottom: 3%;
+    margin-top: 0;
+}
+
+/* HEADINGS */
+
+#page-ib h1 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 36px;
+    color: #39536C;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#page-ib h2 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 22px;
+    color: #39536C;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+}
+
+#page-ib h3 {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 36px;
+    color: #C4DFEC;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page-ib h4 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+    margin-bottom: 0;
+}
+
+#page-ib h5 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+}
+
+#page-ib h6 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+}
+
+.test-patai-subheadings {
+    margin-bottom: 1.5%;
+}
+
+.IB-testing-subheadings {
+    text-align: center;
+    margin-bottom: 2.5%;
+    margin-top: 4%;
+}
+
+
+
+/* TEXT */
+.nav-text-items {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 18px;
+    color: #3B3B3B;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.test-plan-description {
+    margin-left: 10%;
+}
+
+#test-plan-p {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+#page-ib p {
+    margin-top: 1%;
+}
+
+/* OTHER STYLING */
+nav {
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}
+
+a:hover {
+    color: #d4c1e6;
+    transform: scale(1.1);
+    transition: all .1s ease-in-out;
+}
+
+#page-ib .written-content {
+    max-width: 100%;
+    margin-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#visualisation-its {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ib-video-section {
+    width: 100%;
+    background-color: #C4DFEC;
+}
+
+.video-section-2 {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+#hmw {
+    max-width: 100%;
+    background-color: #39536C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'HK Grotesk Bold', sans-serif;
+}
+
+.iB-reqs-container {
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border: 3px solid #f2f2f2;
+    background-color: #f2f2f2;;
+    /* filter: drop-shadow(0 6mm 4mm #e2e2e2); */
+}
+
+.IB-testing-reqs {
+    max-width: 22vw;
+}
+
+.IB-test-design {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5%;
+}
+
+.Test-Details {
+    padding: 1.5%;
+    max-width: 20vw;
+    margin-bottom: 3%;
+    justify-self: center;
+}
+
+#page-ib .feature-quote {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 15px;
+}
+
+.concepts {
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrapped-concepts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#test-plan {
+    border: 2px solid #39536C;
+    border-radius: 15px;
+}
+
+.ib-hero-container {
+    width: 100%;
+}
+
+#page-ib {
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

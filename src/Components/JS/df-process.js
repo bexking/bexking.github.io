@@ -21,9 +21,7 @@ export default function DfProcess() {
             <img src={CN} alt="CookNook Logo" className="hero-image"/>
             <img src={Emoji} alt="Emoji-Translate Site" className="hero-image"/> */}
 
-            <div className="hero-image" id="df-1">
-   
-            </div>
+
             
             <div className="hero-image" id="df-2">
 

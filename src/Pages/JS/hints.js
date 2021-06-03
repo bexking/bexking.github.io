@@ -268,7 +268,7 @@ export default function Hints() {
                     viewing images.
                     The extra space also allowed for features like drawing to be incorporated.
                 </p>
-                <p>A digital prototype of the new concpet was built in Adobe XD.</p>
+                <p>A digital prototype of the new concept was built in Adobe XD.</p>
                 <img className="drawing-ft-review" src={DrawingBox} alt="" />
             </div>
 
