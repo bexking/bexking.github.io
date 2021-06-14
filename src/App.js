@@ -17,7 +17,11 @@ import Bg from './Assets/bg.png';
 
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${Bg})`, "width" : "100vw"}}>
+    <div className="App" 
+        style={{ backgroundImage: `url(${Bg})`, 
+        "background-repeat": "repeat-y",
+        "width" : "100vw",
+      }}>
       
 
       <Router>

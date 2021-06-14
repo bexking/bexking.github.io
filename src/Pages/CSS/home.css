@@ -79,6 +79,11 @@ h4 {
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 5%;
+    background-color: #ffebeb5b;
+    filter: drop-shadow(0 5mm 5mm #ebc5c548);
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .homepage {

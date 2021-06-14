@@ -27,6 +27,10 @@ html {
     margin-left: auto;
     margin-right: auto;
     max-width: 90vw;
+    max-width: 80vw;
+    padding: 4.5%;
+    border-radius: 30px;
+    filter: drop-shadow(0 5mm 5mm #ebc5c5);
 }
 
 /* HEADINGS */
@@ -116,11 +120,14 @@ html {
     border-radius:50%;
     width: 20vw;
     height: 20vw;
+    flex-grow: 0;
+	flex-shrink: 0;
 }
 
 #fq-1 {
     border: 2px solid #242838;
-
+    background-image: url(../../Assets/engoo-images/triangles.png);
+    background-size: 350px 350px;
 }
 
 #fq-1-text {
@@ -158,6 +165,8 @@ html {
 #fq-4 {
     border: 2px solid #EF7A30;
     color: #242838;
+    background-image: url(../../Assets/engoo-images/triangles.png);
+    background-size: 350px 350px;
 }
 
 #fq-4-text {
@@ -176,9 +185,9 @@ html {
 }
 
 .results-text {
-    max-width: 60vw;
-    margin-left: 3%;
-    margin-right: 3%;
+    max-width: 100%;
+    /* margin-left: 3%;
+    margin-right: 3%; */
 }
 
 /* OTHER STYLING */
@@ -199,24 +208,24 @@ html {
     flex-wrap: wrap;
     /* grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px; */
-    max-width: 70vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    /* padding-left: 2%;
+    padding-right: 2%; */
     background-color: #e2e2e2;
     /* border: 2px solid green; */
     /* grid-auto-flow: column; */
 }
 
 .testingImageContainer {
-    width:520px;
+    width:100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #testingImage1 {
@@ -271,9 +280,10 @@ a:hover {
 
 .personas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
     margin-left: auto;
     margin-right: auto;
+    justify-items: center;
 }
 
 .two-col-grid {
@@ -337,15 +347,16 @@ a:hover {
 }
 
 .persona {
-    max-width: 12vw;
+    width: 180px;
+    
 }
 
 .engoo-sketch {
-    height: 45vh;
+    width: 100%;
 }
 
 .engoo-dvpt {
-     max-width: 90vw;
+     max-width: 100%;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -401,4 +412,61 @@ a:hover {
     max-height: 40vh;
     align-items: center;
     align-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+    .results-category {
+        flex-direction: column;
+        border-radius: 100%;
+    }
+
+    .hint-page .feature-quote {
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    .hints-user-quotes {
+        max-width: 70%;
+    }
+
+    #fq-1 {
+        border: 1px solid #242838;
+        order: 1;
+    }
+
+    #fq-1-text {
+        font-size: 11px;
+    }
+
+    #fq-2 {
+        border: 1px solid #242838;
+        order: 1;
+    }
+
+    #fq-2-text {
+        font-size: 11px;
+    }
+
+
+    #fq-3 {
+        border: 1px solid #EF7A30;
+        order: 1;
+    }
+
+    #fq-3-text {
+        font-size: 11px;
+    }
+
+
+    #fq-4 {
+        border: 1px solid #EF7A30;
+        order: 1;
+    }
+
+    #fq-4-text {
+        font-size: 12px;
+    }
+
 }

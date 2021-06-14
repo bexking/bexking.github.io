@@ -18,10 +18,21 @@
     src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
 }
 
+#page-ib {
+    background-color: #fafdff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    padding: 4.5%;
+    border-radius: 30px;
+    filter: drop-shadow(0 5mm 5mm #ebc5c5);
+}
+
 .content {
     margin-left: 5vw;
     margin-right: 5vw;
     width: 90vw;
+    
 }
 /*Headings*/
 .project-title-main {
@@ -242,18 +253,13 @@
     margin-right: 2%;
 }
 
-ul {
-	position: relative;
-	list-style: none;
-	margin-left: 0;
-	padding-left: 1.2em;
-}
 
-ul li:before {
-	content: "+";
+
+/* ul li:before {
+	content: "";
 	position: absolute;
     left: 0;
-}
+} */
 
 li {
     font-family: 'HK Grotesk', sans-serif;
@@ -471,7 +477,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: drop-shadow(0 6mm 4mm #e2e2e2);
+    filter: drop-shadow(0 2mm 2mm #e2e2e2);
     /* padding-left: 1%;
     padding-right: 1%; */
 }
@@ -481,7 +487,7 @@ li {
 }
 
 #ib-homepage-hero {
-    filter: drop-shadow(0 6mm 4mm #e2e2e2)
+    filter: drop-shadow(0 2mm 2mm #e2e2e2);
 }
 
 .concept {

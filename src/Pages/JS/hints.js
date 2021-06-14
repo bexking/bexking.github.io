@@ -42,7 +42,7 @@ export default function Hints() {
                     This is a proposed hint system for English-language lesson platform Engoo, which provides one-on-one online English lessons. Engoo is a Japanese company with its main markets being Japan and South Korea, but has users in many different countries.
                 </p>
                 <p>
-                    The Daily News lesson material is the most popular feature of the site, which provides a simple-English news article for users to read and have a converstiion about. The only hints/prompts offered within the section are local language translations for their main markets.
+                    The Daily News lesson material is the most popular feature of the site, which provides a simple-English news article for users to read and have a converstion about. The only hints/prompts offered within the section are local language translations for their main markets.
                     Because Engoo is used in many countries, it was hard for them to fit the translations in a way that accommodated all languages, so the local language translations was displayed in full below the English version in one block. This disconnection from the text creates an inconvenient user experience.
                 </p>
                 <p>I used the <a href="https://uxdesign.cc/how-to-solve-problems-applying-a-uxdesign-designthinking-hcd-or-any-design-process-from-scratch-v2-aa16e2dd550b">Double Diamond</a> to inform my design process, taking the information provided by the company about their users, analysing it, doing supplementary research and trying to get a full understanding of the users and the design problem before moving on to ideation.</p>
@@ -128,16 +128,21 @@ export default function Hints() {
                 <div className="testing-images">
                     <div className="testingImageContainer">
                         <img id="testingImage1" className="testing-pic" src={Test1} alt="" />
+                        <div className="testingImageContainer">
+                            <img id="testingImage2" className="testing-pic" src={Test2} alt="" />
+                            <img id="testingImage3" className="testing-pic" src={Test3} alt="" />
+                        </div>
                     </div>
-                    <div className="testingImageContainer">
-                        <img id="testingImage2" className="testing-pic" src={Test2} alt="" />
-                        <img id="testingImage3" className="testing-pic" src={Test3} alt="" />
-                    </div>
+                    
                 </div>
                 <div className="testing-images">
-                    <img id="testingImage6" className="testing-pic" src={Test6} alt="" />
-                    <img id="testingImage5" className="testing-pic" src={Test5} alt="" />
-                    <img id="testingImage4" className="testing-pic" src={Test4} alt="" />
+                    <div className="testingImageContainer">
+                        <div className="testingImageContainer">
+                            <img id="testingImage6" className="testing-pic" src={Test6} alt="" />
+                            <img id="testingImage5" className="testing-pic" src={Test5} alt="" />
+                        </div>
+                        <img id="testingImage4" className="testing-pic" src={Test4} alt="" />
+                    </div>
                 </div>
                 <p>
                     Comparison tests were done between the two designs as I was concerned that design two with multiple options would be too complicated.
@@ -197,7 +202,7 @@ export default function Hints() {
                         </p>
                     </div>
                     <div className="feature-quote" id="fq-1">
-                        <p className="hints-user-quotes" id="fq-1-text">"I preferred version two with the extra hints. In ersion one, I had to look around for the right part a lot [if I forgot]"</p>
+                        <p className="hints-user-quotes" id="fq-1-text">"I preferred version two with the extra hints. In version one, I had to look around for the right part a lot [if I forgot]"</p>
                     </div>
                 </div>
 
