@@ -202,41 +202,7 @@ html {
     margin-top: 3vh;
 } */
 
-.testing-images {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 20px; */
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    /* padding-left: 2%;
-    padding-right: 2%; */
-    background-color: #e2e2e2;
-    /* border: 2px solid green; */
-    /* grid-auto-flow: column; */
-}
 
-.testingImageContainer {
-    width:100%;
-    display: flex;
-    justify-content: center;
-}
-
-#testingImage1 {
-    /* grid-column: 1 / 3; */
-}
-
-#testingImage4 {
-    /* grid-column: 3 / 5; */
-    max-width: 25vw;
-    place-self: center;
-}
 
 #goals {
     background-color: #242838;
@@ -261,9 +227,11 @@ a:hover {
 }
 
 .user-flows {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
@@ -343,7 +311,12 @@ a:hover {
 }
 
 .uf {
-    max-width: 40vw;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.uf-img {
+    max-width: 100%;
 }
 
 .persona {
@@ -408,12 +381,27 @@ a:hover {
     background-color: white;
 }
 
-.testing-pic {
-    max-height: 40vh;
-    align-items: center;
-    align-content: center;
-    margin-left: 2%;
-    margin-right: 2%;
+.testing-images {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+    background-color: #e2e2e2;
+}
+
+.testing-pic {  
+    max-width: 37vw;
+    border: 3px solid pink;
+    margin-bottom: 4%;
 }
 
 @media only screen and (max-width: 500px) {

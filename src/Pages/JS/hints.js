@@ -6,12 +6,10 @@ import DrawingBoxSS from '../../Assets/engoo-images/drawing-box-ss.png';
 import DrawingBoxSml from '../../Assets/engoo-images/drawing-box.png';
 import EngooDv1 from '../../Assets/engoo-images/engoo-dvpt1.jpg';
 import EngooDv2 from '../../Assets/engoo-images/engoo-dvpt2.jpg';
-import Test1 from '../../Assets/engoo-images/testing-1.jpg';
-import Test2 from '../../Assets/engoo-images/testing-2.jpg';
-import Test3 from '../../Assets/engoo-images/testing-3.jpg';
-import Test4 from '../../Assets/engoo-images/testing-4.jpg';
-import Test5 from '../../Assets/engoo-images/testing-5.jpg';
-import Test6 from '../../Assets/engoo-images/testing-6.jpg';
+import Test1 from '../../Assets/engoo-images/testing-1.png';
+import Test2 from '../../Assets/engoo-images/testing-2.png';
+import Test4 from '../../Assets/engoo-images/testing-4.png';
+import Test5 from '../../Assets/engoo-images/testing-5.png';
 import EngooHero from '../../Assets/engoo-images/engoo-hero.png';
 import HintBox from '../../Assets/engoo-images/engoo-hintbox.png';
 import Per1 from '../../Assets/engoo-images/engoo-p1.png';
@@ -52,8 +50,12 @@ export default function Hints() {
             </div>
 
             <div className="user-flows">
-                <img className="uf" src={Uf2} alt="user flows using translation feature - user scrolls up and down repetitively trying to read the english and the translation sentence by sentence" />
-                <img className="uf" src={Uf1} alt="user flows using translation feature - user reads all text in english and the translation at the end to check answers." />
+                <div className="uf">
+                    <img className="uf-img" src={Uf2} alt="user flows using translation feature - user scrolls up and down repetitively trying to read the english and the translation sentence by sentence" />
+                </div>
+                <div className="uf">
+                    <img className="uf-img" src={Uf1} alt="user flows using translation feature - user reads all text in english and the translation at the end to check answers." />
+                </div>            
             </div>
 
             <div className="written-content">
@@ -126,23 +128,10 @@ export default function Hints() {
                 <h2>User Testing</h2>
 
                 <div className="testing-images">
-                    <div className="testingImageContainer">
                         <img id="testingImage1" className="testing-pic" src={Test1} alt="" />
-                        <div className="testingImageContainer">
-                            <img id="testingImage2" className="testing-pic" src={Test2} alt="" />
-                            <img id="testingImage3" className="testing-pic" src={Test3} alt="" />
-                        </div>
-                    </div>
-                    
-                </div>
-                <div className="testing-images">
-                    <div className="testingImageContainer">
-                        <div className="testingImageContainer">
-                            <img id="testingImage6" className="testing-pic" src={Test6} alt="" />
-                            <img id="testingImage5" className="testing-pic" src={Test5} alt="" />
-                        </div>
+                        <img id="testingImage2" className="testing-pic" src={Test2} alt="" />
+                        <img id="testingImage5" className="testing-pic" src={Test5} alt="" />
                         <img id="testingImage4" className="testing-pic" src={Test4} alt="" />
-                    </div>
                 </div>
                 <p>
                     Comparison tests were done between the two designs as I was concerned that design two with multiple options would be too complicated.
