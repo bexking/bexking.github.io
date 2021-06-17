@@ -106,12 +106,17 @@ export default function Hints() {
                     I began with sketches before digital prototypes. Early on I had the idea to use the space between paragraphs to break up the translated text.
                     This concept was inspired by spoiler tags and sought to meet Engoo’s need to have a better flow when interacting with the translation, without disrupting the “news-feel” of the page.
                 </p>
-
+            
                 <div className="two-col-grid">
-                    <img className="engoo-sketch" src={Sk1} alt="persona 4" />
-                    <img className="engoo-sketch" src={Sk2} alt="" />
+                    <div className="sketches-div">
+                        <img className="engoo-sketch" src={Sk1} alt="persona 4" />
+                    </div>
+                    <div className="sketches-div">
+                        <img className="engoo-sketch" src={Sk2} alt="" />
+                    </div>
                 </div>
-
+            </div>
+            <div className="written-content">
                 <p>
                     Research findings led to the second main concept that allowed users to input their own hints to create stronger memories.
                     Memory acquisition requires active engagement. Shallow acquisition will create shallow memories. -Gleitman et. al
@@ -120,8 +125,7 @@ export default function Hints() {
                 <div>
                     <img className="engoo-dvpt" src={EngooDv1} alt=""/>
                     {/* <img className="engoo-dvpt" src={EngooDv2} alt=""/> */}
-                </div>
-                
+                </div> 
             </div>
 
             <div className="written-content">

@@ -122,6 +122,7 @@ html {
     height: 20vw;
     flex-grow: 0;
 	flex-shrink: 0;
+    margin: 2%;
 }
 
 #fq-1 {
@@ -209,7 +210,7 @@ html {
     max-width: 85vw;
     margin: 3%;
     padding: 1.5%;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -248,16 +249,24 @@ a:hover {
 
 .personas {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     margin-left: auto;
     margin-right: auto;
     justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .two-col-grid {
-    display: grid;
-    justify-content: center;
-    grid-auto-flow: column;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sketches-div {
+    flex-basis: 400px;
+    flex-grow: 1;
 }
 
 .drawing-ft-div {
@@ -320,12 +329,13 @@ a:hover {
 }
 
 .persona {
-    width: 180px;
+    width: 170px;
     
 }
 
 .engoo-sketch {
-    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .engoo-dvpt {
@@ -357,8 +367,9 @@ a:hover {
     margin-right: auto;
     /* padding: 0.7%; */
     border: 2px solid #f2f2f2;
-    border-radius: 20px;
-    filter: drop-shadow(0 6mm 4mm #d2d2d2);
+    border-radius: 10px;
+    filter: drop-shadow(0 2mm 2mm #d2d2d2);
+    margin-bottom: 2%;
 }
 
 #homepage-hero {
@@ -390,18 +401,22 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     /* padding-left: 2%;
     padding-right: 2%; */
-    background-color: #e2e2e2;
+    border: 1px solid #EF7A30;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    filter: drop-shadow(0 1mm 1mm #ef79303d);
 }
 
 .testing-pic {  
     max-width: 37vw;
-    border: 3px solid pink;
-    margin-bottom: 4%;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 @media only screen and (max-width: 500px) {
