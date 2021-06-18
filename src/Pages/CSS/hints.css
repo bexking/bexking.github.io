@@ -38,8 +38,8 @@ html {
     font-family: 'HK Grotesk Bold', sans-serif;
     font-size: 36px;
     color: #EF7A30;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
 }
 
 .hint-page h2 {
@@ -213,6 +213,14 @@ html {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#goals-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #goals-list {
@@ -423,6 +431,11 @@ a:hover {
     .results-category {
         flex-direction: column;
         border-radius: 100%;
+    }
+
+    #goals-text {
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .hint-page .feature-quote {

@@ -10,20 +10,36 @@
 
 
 nav {
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 5vh;
     display: flex;
     justify-content: space-between;
-    width: 90vw;
+    max-width: 90vw;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.home-nav {
+
+}
+
+#me-sml {
+    width: 60px;
+    margin-left: 3%;
+    margin-right: 3%;
+    transition: all .01s ease-in;
+}
+
+#me-sml:hover {
+    width: 62px;
+    filter: drop-shadow(0 2mm 2mm #eebebe);
 }
 
 .nav-pages {
-    width: 10vw;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .nav-places {
@@ -31,31 +47,12 @@ nav {
     color: #3B3B3B;
     font-size: 18px;
     font-family: 'HK Grotesk SemiBold';
+    margin: 10px;
 }
 
 .nav-places:hover {
     color: #b45f5f;
     font-family: 'HK Grotesk Bold';
-    
+    filter: drop-shadow(0 2mm 2mm #dda4a4);
 }
 
-#ingoa {
-    font-family: 'HK Grotesk Bold';
-    font-size: 18px;
-    text-decoration: none;
-    color: black;
-}
-
-#me-sml {
-    width: 60px;
-    margin-left: 3%;
-    margin-right: 3%;
-    
-}
-
-.nav-rebeccaahau {
-    width:1000px;
-    display: flex;
-   justify-content: flex-start;
-   align-items: baseline;
-}

@@ -87,17 +87,19 @@ export default function Hints() {
             </div>
 
             <div className="written-content" id="goals">
-                <h2 id="goals-title">Project Goals</h2>
-                <p id="goals-para">The solution must:</p>
-                <ul id="goals-list"> 
-                    <li>Provide a translation experience that creates better opportunities for language acquisition across the board.</li>
-                    <li>Have a natural user flow</li>
-                    <li>Support languages with differing lengths.</li>
-                    <li>Allow users to access more immediate translation feedback.</li>
-                    <li>Retain a “news-feel” - the page should feel like a news article.</li>
-                    <li>Work on a range of devices</li>
-                    <li>Be easy to use for less technically proficient users.</li>
-                </ul>
+                <div id="goals-text">
+                    <h2 id="goals-title">Project Goals</h2>
+                    <p id="goals-para">The solution must:</p>
+                    <ul id="goals-list"> 
+                        <li>Provide a translation experience that creates better opportunities for language acquisition across the board.</li>
+                        <li>Have a natural user flow</li>
+                        <li>Support languages with differing lengths.</li>
+                        <li>Allow users to access more immediate translation feedback.</li>
+                        <li>Retain a “news-feel” - the page should feel like a news article.</li>
+                        <li>Work on a range of devices</li>
+                        <li>Be easy to use for less technically proficient users.</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="written-content">

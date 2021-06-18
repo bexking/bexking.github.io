@@ -7,9 +7,8 @@ export default function Nav() {
     return (
         <div>
             <nav>
-                <div className="nav-rebeccaahau">
-                     
-                    <Link to="/home" id="ingoa">
+                <div className="home-nav">
+                    <Link to="/home" id="home">
                         <img id="me-sml" src={Me} alt="illustration of Bex" />
                     </Link> 
                 </div>
