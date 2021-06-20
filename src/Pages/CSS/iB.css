@@ -93,7 +93,7 @@
 
 .IB-testing-headings{
     font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 30px;
+    font-size: 23px;
     color: #39536C;
 }
 
@@ -183,7 +183,7 @@
     display: flex;
     justify-content: space-between;
     border: 3px solid #C4DFEC;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /*Paragraphs*/
@@ -215,7 +215,7 @@
     width: 100%;
     min-height: 38vh;
     background-color: #39536C;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-bottom: 1.5%;
     display: flex;
     justify-content: center;
@@ -317,7 +317,7 @@ li {
 #iB-brainstorm{
     width: 50vw;
     border: 3px solid #C4DFEC;
-    border-radius: 15px;
+    border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -498,7 +498,7 @@ li {
     max-width: 72vw;
     margin-top: 1.5%;
     border: 1vw solid #C4DFEC;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 2vw;
     filter: drop-shadow(0 6mm 4mm #e2e2e2)
 }
@@ -552,7 +552,7 @@ li {
     margin-right: auto;
 }
 
-#page-ib h4 {
+.iBh4 {
     font-family: 'HK Grotesk Bold', sans-serif;
     font-size: 18px;
     color: #39536C;
@@ -627,6 +627,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 
 #visualisation-its {
@@ -640,13 +641,17 @@ a:hover {
 
 .ib-video-section {
     width: 100%;
-    background-color: #C4DFEC;
+    background-color: #c4dfec62;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
 .video-section-2 {
     width: 100%;
     background-color: #f2f2f2;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #hmw {
@@ -655,7 +660,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     font-family: 'HK Grotesk Bold', sans-serif;
 }
@@ -670,10 +675,6 @@ a:hover {
     border: 3px solid #f2f2f2;
     background-color: #f2f2f2;;
     /* filter: drop-shadow(0 6mm 4mm #e2e2e2); */
-}
-
-.IB-testing-reqs {
-    max-width: 22vw;
 }
 
 .IB-test-design {
@@ -699,7 +700,7 @@ a:hover {
     padding-bottom: 1.5%;
     padding-left: 3%;
     padding-right: 3%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .concepts {
@@ -715,7 +716,7 @@ a:hover {
 
 #test-plan {
     border: 2px solid #39536C;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .ib-hero-container {
@@ -728,3 +729,15 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .iB-reqs-container {
+        flex-direction: column;
+    }
+
+    .IB-testing-reqs {
+        width: 90%;
+        padding-left: 3%;
+        padding-right: 1.5%;
+    }
+}    

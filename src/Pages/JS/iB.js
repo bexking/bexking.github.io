@@ -35,7 +35,8 @@ export default function IncognitoBreathing() {
                         <img className="ib-hero-img" src={ibofficemockup_1} alt="Office scene with incognito breathing visualisation shown on computer" />
                     </div>
                     <div className="ib-video-section">
-                        <video className="vid" width="956" height="538" controls muted autoplay>
+                        <video className="vid"  controls muted autoplay>
+                        {/* width="956" height="538" */}
                             <source src={IbVideo} type="video/mp4" />
                         </video>
                     </div>
@@ -116,7 +117,7 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div className="video-section-2">
-                        <video className="vid" width="956" height="538" controls muted autoplay>
+                        <video className="vid" controls muted autoplay>
                             <source src={IbIt4} type="video/mp4" />
                         </video>
                     </div>
@@ -257,14 +258,14 @@ export default function IncognitoBreathing() {
                     <div className="written-content">
                         <h2>Future Development Opportunities</h2>
                         <ul>
-                            <h4>Small improvements:</h4>
+                            <h4 className="iBh4">Small improvements:</h4>
                             <li>
                                 Improve audio features by ensuring timing is beautifully in sync, and that there are different options for audio that include nature sounds, as well as clearer breath guidance for those that don’t want to use/can’t use the visual features.
                             </li>
                             <li>
                                 Small, additional accessibility options such as visual only, audio only and different animations that are easier for low vision users to see.
                             </li>
-                            <h4>Larger features to improve:</h4>
+                            <h4 className="iBh4">Larger features to improve:</h4>
                             <li>
                                 Improve and test website interface and create and test a proper onboarding experience.
                             </li>
