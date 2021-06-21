@@ -35,8 +35,8 @@ export default function IncognitoBreathing() {
                         <img className="ib-hero-img" src={ibofficemockup_1} alt="Office scene with incognito breathing visualisation shown on computer" />
                     </div>
                     <div className="ib-video-section">
-                        <video className="vid"  controls muted autoplay>
-                        {/* width="956" height="538" */}
+                        <video className="vid" autoplay muted controls>
+                        {/* https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser */}
                             <source src={IbVideo} type="video/mp4" />
                         </video>
                     </div>
@@ -107,13 +107,17 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div id="visualisation-its">
-                        <video className="vid" width="637" height="358" loop autoplay muted>
-                            <source src={IbIt1} type="video/mp4" />
-                        </video>
+                        <div className="ib-its-wrapper">
+                            <video className="it-vid" controls loop autoplay muted>
+                                <source src={IbIt1} type="video/mp4" />
+                            </video>
+                        </div>
 
-                        <video className="vid" width="637" height="358" loop autoplay muted>
-                            <source src={IbIt2} type="video/mp4" />
-                        </video>
+                        <div className="ib-its-wrapper">
+                            <video className="it-vid" controls loop autoplay muted>
+                                <source src={IbIt2} type="video/mp4" />
+                            </video>
+                        </div>
                     </div>
 
                     <div className="video-section-2">
@@ -166,43 +170,45 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div className="written-content" id="test-plan">
-                        <h2 id="session-plan-heading">Testing Session Plan</h2>
-                        <div className="IB-test-design">
-                            <div className="Test-Details">
-                                <img className="testDetailIcons" src={TestIcon1} alt="calender icon with two days blocked out" />
-                                <h5 className="IB-testing-subheadings">Two Days of Testing</h5>
-                                <p className="test-plan-description">Day 1: Control test</p>
-                                <p className="test-plan-description">Day 2: Test with Incognito Breathing visualisation</p>
+                        <div className="box">
+                            <h2 id="session-plan-heading">Testing Session Plan</h2>
+                            <div className="IB-test-design">
+                                <div className="Test-Details">
+                                    <img className="testDetailIcons" src={TestIcon1} alt="calender icon with two days blocked out" />
+                                    <h5 className="IB-testing-subheadings">Two Days of Testing</h5>
+                                    <p className="test-plan-description">Day 1: Control test</p>
+                                    <p className="test-plan-description">Day 2: Test with Incognito Breathing visualisation</p>
+                                </div>
+                                <div className="Test-Details">
+                                    <img className="testDetailIcons" src={TestIcon2} alt="Illustration of someone in user testing session" />
+                                    <h5 className="IB-testing-subheadings">Four Participants</h5>
+                                    <p className="test-plan-description">
+                                        2 male and 2 female participants.<br/> 
+                                        The same participants on both days.</p>
+                                </div>
+                                <div className="Test-Details">
+                                    <img className="testDetailIcons" src={TestIcon3} alt="Illustration of someone in user testing session" />
+                                    <h5 className="IB-testing-subheadings">Setting</h5>
+                                    <p className="test-plan-description">The test will be set in an environment similar to an open office.</p>
+                                </div>
+                                <div className="Test-Details">
+                                    <img className="testDetailIcons" src={TestIcon4} alt="Illustration of someone in user testing session" />
+                                    <h5 className="IB-testing-subheadings">Time-Pressured Task</h5>
+                                    <p className="test-plan-description">To simulate stress and elevate heart rate, participants complete as many maths equations as possible in 2 minutes.</p>
+                                </div>
+                                <div className="Test-Details">
+                                    <img className="testDetailIcons" src={TestIcon5} alt="Illustration of someone in user testing session" />
+                                    <h5 className="IB-testing-subheadings">Heart Rate Monitoring</h5>
+                                    <p className="test-plan-description">Heart rate is monitored throughout both sessions and is recorded at resting, the highest point, at the end of the pressured task, and the lowest point.</p>
+                                </div>
+                                <div className="Test-Details">
+                                    <img className="testDetailIcons" src={TestIcon6} alt="Illustration of someone in user testing session" />
+                                    <h5 className="IB-testing-subheadings">Timed Unwinding</h5>
+                                    <p className="test-plan-description">After the time pressured task, participants are timed how long it takes to return to their resting heart rate - unaided on Day 1, and with Incognito Breathing on Day 2.</p>
+                                </div>
                             </div>
-                            <div className="Test-Details">
-                                <img className="testDetailIcons" src={TestIcon2} alt="Illustration of someone in user testing session" />
-                                <h5 className="IB-testing-subheadings">Four Participants</h5>
-                                <p className="test-plan-description">
-                                    2 male and 2 female participants.<br/> 
-                                    The same participants on both days.</p>
-                            </div>
-                            <div className="Test-Details">
-                                <img className="testDetailIcons" src={TestIcon3} alt="Illustration of someone in user testing session" />
-                                <h5 className="IB-testing-subheadings">Setting</h5>
-                                <p className="test-plan-description">The test will be set in an environment similar to an open office.</p>
-                            </div>
-                            <div className="Test-Details">
-                                <img className="testDetailIcons" src={TestIcon4} alt="Illustration of someone in user testing session" />
-                                <h5 className="IB-testing-subheadings">Time-Pressured Task</h5>
-                                <p className="test-plan-description">To simulate stress and elevate heart rate, participants complete as many maths equations as possible in 2 minutes.</p>
-                            </div>
-                            <div className="Test-Details">
-                                <img className="testDetailIcons" src={TestIcon5} alt="Illustration of someone in user testing session" />
-                                <h5 className="IB-testing-subheadings">Heart Rate Monitoring</h5>
-                                <p className="test-plan-description">Heart rate is monitored throughout both sessions and is recorded at resting, the highest point, at the end of the pressured task, and the lowest point.</p>
-                            </div>
-                            <div className="Test-Details">
-                                <img className="testDetailIcons" src={TestIcon6} alt="Illustration of someone in user testing session" />
-                                <h5 className="IB-testing-subheadings">Timed Unwinding</h5>
-                                <p className="test-plan-description">After the time pressured task, participants are timed how long it takes to return to their resting heart rate - unaided on Day 1, and with Incognito Breathing on Day 2.</p>
-                            </div>
-                        </div>
                         <p id="test-plan-p">As well as testing the product, particpants were interviewed about the things they usually do to relax, how relaxed they felt using the design, if they could see themselves using it in the workplace.</p>
+                        </div>
                     </div>
 
                     <div className="written-content">
