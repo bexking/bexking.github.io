@@ -34,12 +34,9 @@ html {
 }
 
 /* HEADINGS */
-.hint-page h1 {
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 36px;
+
+#hints-heading {
     color: #EF7A30;
-    margin-top: 2.5%;
-    margin-bottom: 5%;
 }
 
 .hint-page h2 {

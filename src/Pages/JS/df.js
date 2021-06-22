@@ -17,6 +17,7 @@ import DfIt1v2 from '../../Assets/df-images/digital-it1.1.png';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfHero from '../../Assets/df-images/df-hero-wide1.png';
 import Bg from '../../Assets/bg.png';
+import ContactFooter from '../../Components/JS/contact-footer';
 
 export default function Dreamy() {
     return (
@@ -29,7 +30,7 @@ export default function Dreamy() {
 
                 <img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" />
 
-                <h1>Dreamy Finder for Animal Crossing: New Horizons</h1>
+                <h1 class="project-heading" id="df-heading">Dreamy Finder for Animal Crossing: New Horizons</h1>
 
                 <div className="written-content">
                     <p>Animal Crossing: New Horizons is a  is a sandbox-style roleplaying game released by Nintendo for Nintendo Switch in 2020.</p>
@@ -126,7 +127,7 @@ export default function Dreamy() {
                             I also found an API that I could use to access the villager pictures, as well as important data I would need such as the villagers' species types and personality types for the results page.
                         </p>
                         <div className="df-video-section">
-                            <video className="vid" controls muted autoplay>
+                            <video className="vid" controls muted autoPlay>
                                 <source src={DfPrototype} type="video/mp4" />
                             </video>
                         </div>
@@ -186,6 +187,7 @@ export default function Dreamy() {
                     <p>Paragraph Paragraph</p>
                 </div> */}
             </div>
+            <ContactFooter />
         </div>
     )
 }

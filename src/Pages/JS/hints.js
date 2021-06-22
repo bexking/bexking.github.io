@@ -25,14 +25,16 @@ import Uf2 from '../../Assets/engoo-images/hints-uf2.png';
 import Results from '../../Assets/engoo-images/results.png';
 import Translations from '../../Assets/engoo-images/Translations.png';
 import Nav from '../../Components/JS/nav2.js';
+import ContactFooter from '../../Components/JS/contact-footer'
 
 
 
 export default function Hints() {
-    return (<div>
+    return (
+    <div>
         <Nav />
         <div className="hint-page">
-            <h1>Language Learning Hints - with Engoo</h1>
+            <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
             <img id="homepage-hero" src={EngooHero} alt="engoo image hints box" />
             
             <div className="written-content">
@@ -289,6 +291,7 @@ export default function Hints() {
                 <img className="drawing-ft-review" id="results-poster" src={Results} alt="" />
             </div>
         </div>
+        <ContactFooter />
     </div>
     )
 }

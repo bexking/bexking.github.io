@@ -31,13 +31,8 @@
 
 /* HEADINGS */
 
-
-#page-df h1 {
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 30px;
+#df-heading {
     color: #241F38;
-    margin-top: 5%;
-    margin-bottom: 2%;
 }
 
 #page-df h2 {

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+.contactFooter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    margin-top: 7%;
+}
+
+.contact-blurb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact {
+    font-family: 'HK Grotesk Black', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-icon {
+    width: 60%;
+    margin-top: 1.5%;
+}
+
+#contact-icon:hover {
+    /* width: 70px; */
+    transform: scale(1);
+    transition: all .05s ease-in-out;
+    filter: drop-shadow(0 2mm 2mm #f0fbff73);
+}

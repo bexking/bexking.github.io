@@ -85,7 +85,7 @@ export default function ProjectGrid() {
             <div className="hero-image" id="emoji">
                 <Link to="/shakemojispeare" className="projectLink">
                     <div className="title">
-                        <h3 className="homeTitle">ShakEmojiSpeare</h3>
+                        <h3 className="homeTitle">Shakemojispeare</h3>
                         <h4>Web Design</h4>
                         <p className="home-caption">A somewhat silly website that lets you turn Shakespearian text into Emoji-pasta.</p>
                     </div>

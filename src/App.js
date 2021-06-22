@@ -11,6 +11,7 @@ import Shakespeare from './Pages/JS/shakespeare';
 import Hints from './Pages/JS/hints';
 import CookNook from './Pages/JS/cookNook';
 import About from './Pages/JS/about';
+
 // import Work from '.Pages/JS/work';
 
 import Bg from './Assets/bg.png';

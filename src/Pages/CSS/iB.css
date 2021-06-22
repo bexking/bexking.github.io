@@ -77,8 +77,6 @@
     width: 100px;
     height: 80px;
     text-align: right;
-    
-    
 }
 
 #c3-heading-flex {
@@ -87,8 +85,6 @@
     align-items: flex-start;
     margin-left: 30px;
     max-width: 10vw;
-    
-
 }
 
 .IB-testing-headings{
@@ -222,7 +218,6 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .prototype {
@@ -252,14 +247,6 @@
     margin-left: 2%;
     margin-right: 2%;
 }
-
-
-
-/* ul li:before {
-	content: "";
-	position: absolute;
-    left: 0;
-} */
 
 li {
     font-family: 'HK Grotesk', sans-serif;
@@ -301,18 +288,6 @@ li {
     margin-right: auto;
     text-align: center;
 }
-
-/* #diamond {
-    width: 50vw;
-    border: 3px solid #C4DFEC;
-    border-radius: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    padding:2%;
-} */
 
 #iB-brainstorm{
     width: 50vw;
@@ -362,8 +337,6 @@ li {
 .iB-vis-sketches {
     max-width: 43vw;
     border: 3px solid blue;
-    /* padding: 1.5%;
-    margin: 1.5%; */
     margin-top: 3%;
 }
 
@@ -428,19 +401,6 @@ li {
     border: 3px solid #defabc;
 }
 
-/* #iB-sk5 {
-    grid-column-start: 4 / span 1;
-    grid-row-start: 5;
-    grid-row-end: span 1;
-    background-image: url('../../Assets/IB_Assets/IB-Vis-It5.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 42vw;
-    height: 44vh;
-    border: 3px solid #fabcde;
-} */
-
 #iBhome {
     width: 70vw;
     display: block;
@@ -473,8 +433,6 @@ li {
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(0 1mm 2mm #e2e2e2);
-    /* padding-left: 1%;
-    padding-right: 1%; */
 }
 
 #icon-self {
@@ -518,12 +476,8 @@ li {
 
 /* HEADINGS */
 
-#page-ib h1 {
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 36px;
+#ib-heading {
     color: #39536C;
-    margin-top: 5%;
-    margin-bottom: 3%;
 }
 
 #page-ib h2 {

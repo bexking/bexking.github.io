@@ -19,6 +19,7 @@ import TestIcon4 from "../../Assets/IB_Assets/test-icon4.png";
 import TestIcon5 from "../../Assets/IB_Assets/test-icon5.png";
 import TestIcon6 from "../../Assets/IB_Assets/test-icon6.png";
 import Results from "../../Assets/IB_Assets/ib-results.png";
+import ContactFooter from '../../Components/JS/contact-footer';
 
 export default function IncognitoBreathing() {
     return (
@@ -27,7 +28,7 @@ export default function IncognitoBreathing() {
             <div className="page" id="page-ib">
                 <div>
                     
-                    <h1>Incognito Breathing</h1>
+                    <h1 className="project-heading" id="ib-heading">Incognito Breathing</h1>
 
                 <div className="ib-hero-container">
                     <div className="ib-hero-imgs">
@@ -35,8 +36,7 @@ export default function IncognitoBreathing() {
                         <img className="ib-hero-img" src={ibofficemockup_1} alt="Office scene with incognito breathing visualisation shown on computer" />
                     </div>
                     <div className="ib-video-section">
-                        <video className="vid" autoplay muted controls>
-                        {/* https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser */}
+                        <video className="vid" autoPlay muted controls>
                             <source src={IbVideo} type="video/mp4" />
                         </video>
                     </div>
@@ -108,20 +108,20 @@ export default function IncognitoBreathing() {
 
                     <div id="visualisation-its">
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoplay muted>
+                            <video className="it-vid" controls loop autoPlay muted>
                                 <source src={IbIt1} type="video/mp4" />
                             </video>
                         </div>
 
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoplay muted>
+                            <video className="it-vid" controls loop autoPlay muted>
                                 <source src={IbIt2} type="video/mp4" />
                             </video>
                         </div>
                     </div>
 
                     <div className="video-section-2">
-                        <video className="vid" controls muted autoplay>
+                        <video className="vid" controls muted autoPlay>
                             <source src={IbIt4} type="video/mp4" />
                         </video>
                     </div>
@@ -282,6 +282,7 @@ export default function IncognitoBreathing() {
                     </div>
                 </div>
             </div>
+            <ContactFooter />
         </div>
     );
 } 
