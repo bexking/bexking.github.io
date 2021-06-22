@@ -84,7 +84,8 @@ export default function IncognitoBreathing() {
                             <img className="concept" src={IbConcept1} alt="" />
                             <img className="concept" src={IbConcept2} alt="" />
                         </div>
-                        <img id="chosen-concept" src={IbConcept3} alt="" />    
+                        <img id="chosen-concept" src={IbConcept3} alt="" /> 
+                         
                     </div>
 
                     <div className="written-content">
@@ -118,12 +119,16 @@ export default function IncognitoBreathing() {
                                 <source src={IbIt2} type="video/mp4" />
                             </video>
                         </div>
+    
                     </div>
 
                     <div className="video-section-2">
                         <video className="vid" controls muted autoPlay>
                             <source src={IbIt4} type="video/mp4" />
                         </video>
+                    </div>
+                    <div className="written-content">
+                        <p>The most successful example had a clear bubble moving from left to right at the top of the window. This warped the image enough for users to see the bubble and follow along with it. Left to right seemed to work best for inhaling and exhaling rather than vertically, or non-directional.</p>
                     </div>
 
                     <div className="written-content">

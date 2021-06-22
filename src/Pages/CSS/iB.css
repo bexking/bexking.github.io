@@ -349,58 +349,6 @@ li {
     height: 44vh;
 }
 
-#iB-sk1 {
-    grid-column: 4 / span 1;
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    background-image: url('../../Assets/IB_Assets/IB-Vis-Sketch1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 42vw;
-    height: 44vh;
-    border: 3px solid #cdefab;
-}
-
-#iB-sk2 {
-    grid-column: 1 / span 2;
-    grid-row-start: 3;
-    grid-row-end: span 1;
-    background-image: url('../../Assets/IB_Assets/IB-Vis-Sketch2.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 42vw;
-    height: 44vh;
-    border: 3px solid #efabcd;
-}
-
-#iB-sk3 {
-    grid-column: 4 / span 1;
-    grid-row-start: 3;
-    grid-row-end: span 1;
-    background-image: url('../../Assets/IB_Assets/IB-Vis-Sketch3.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 42vw;
-    height: 44vh;
-    border: 3px solid #bcdefa;
-}
-
-#iB-sk4 {
-    grid-column: 1 / span 2;
-    grid-row-start: 5;
-    grid-row-end: span 1;
-    background-image: url('../../Assets/IB_Assets/IB-Vis-It4.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 42vw;
-    height: 44vh;
-    border: 3px solid #defabc;
-}
-
 #iBhome {
     width: 70vw;
     display: block;
@@ -448,12 +396,14 @@ li {
 }
 
 #chosen-concept {
-    max-width: 72vw;
+    max-width: 97%;
     margin-top: 1.5%;
-    border: 1vw solid #C4DFEC;
+    border: 3px solid #39536C;
     border-radius: 10px;
-    padding: 2vw;
-    filter: drop-shadow(0 6mm 4mm #e2e2e2)
+    padding: 0.5%;
+    filter: drop-shadow(0 6mm 4mm #e2e2e2);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testDetailIcons {
@@ -670,7 +620,7 @@ a:hover {
 }
 
 .concepts {
-    max-width: 80vw;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
