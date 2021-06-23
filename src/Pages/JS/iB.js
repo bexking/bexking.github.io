@@ -20,6 +20,7 @@ import TestIcon5 from "../../Assets/IB_Assets/test-icon5.png";
 import TestIcon6 from "../../Assets/IB_Assets/test-icon6.png";
 import Results from "../../Assets/IB_Assets/ib-results.png";
 import ContactFooter from '../../Components/JS/contact-footer';
+import SeeMore from "../../Components/JS/see-more.js"
 
 export default function IncognitoBreathing() {
     return (
@@ -286,6 +287,7 @@ export default function IncognitoBreathing() {
                         </ul>
                     </div>
                 </div>
+                <SeeMore project1={"ib"} project2={"hints"} project3={"ib"} />
             </div>
             <ContactFooter />
         </div>

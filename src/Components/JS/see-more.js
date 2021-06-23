@@ -1,14 +1,19 @@
-import React from 'react';  
-import { Link } from "react-router-dom";
+import React from 'react';
 import '../CSS/see-more.css';
+import WorkNavItem from './work-nav-item';
+import projects from "../../projects.js"
 
-export default function SeeMore() {
+export default function SeeMore(props) {
     return (
         <div className="seeMore">
 
             <hr></hr>
 
+            <h2>Other projects</h2>
             <div className="featured-projects">
+                <WorkNavItem project={projects[props.project1]} />
+                <WorkNavItem project={projects[props.project2]} />
+                <WorkNavItem project={projects[props.project3]} />
                 {/* random project link from complete list of projects, excluding page we are already on - x2 for 13 inch screen, 3 for big screen, 2 in column for mobile */}
             </div>
 

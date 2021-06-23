@@ -1,6 +1,8 @@
 import React from 'react';
 import '../CSS/projectgrid.css';
 import { Link } from "react-router-dom";
+import WorkNavItem from "./work-nav-item.js"
+import projects from "../../projects.js";
 
 // import IB from '../../Assets/ib-hero.png'
 // import Displacement from '../../Assets/dis1.jpg' 
@@ -21,26 +23,9 @@ export default function ProjectGrid() {
             <img src={Dome} alt="Dome Takeaway Container" className="hero-image"/>
             <img src={CN} alt="CookNook Logo" className="hero-image"/>
             <img src={Emoji} alt="Emoji-Translate Site" className="hero-image"/> */}
-
-            <div className="hero-image" id="hints">
-                <Link to="/hintswithengoo" className="projectLink">
-                    <div className="title">
-                        <h3 className="homeTitle">Hint System with Engoo</h3>
-                        <h4>UX/UI/Product Design</h4>
-                        <p className="home-caption">A new solution to provide hints to language learners on the Engoo Platform.</p>
-                    </div>
-                </Link> 
-            </div>
             
-            <div className="hero-image" id="ib">
-                <Link to="/incognitobreathing" className="projectLink">
-                    <div className="title">
-                        <h3 className="homeTitle">Incognito Breathing</h3>
-                        <h4>UX/UI</h4>
-                        <p className="home-caption">A website to help open-plan office workers destress through paced respiration techniques.</p>
-                    </div>
-                </Link>
-            </div>
+            <WorkNavItem project={projects.hints} />
+            <WorkNavItem project={projects.ib} />
             
             {/* <div className="hero-image" id="displace">
                 <Link to="/displacement" className="projectLink">

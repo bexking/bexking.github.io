@@ -1,0 +1,11 @@
+.featured-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30vw);
+    grid-gap: 3vw;
+    margin-top: 0;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    filter: drop-shadow(0 2mm 2mm #ebc5c5);
+}
