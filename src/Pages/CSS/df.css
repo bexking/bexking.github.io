@@ -33,6 +33,25 @@
 
 #df-heading {
     color: #2d2257;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 80%;
+    text-align: center;
+}
+
+#df-subtitle {
+    color: #2d2257;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4%;
+    max-width: 70%;
+    font-size: 18px;
+
 }
 
 #page-df h2 {
@@ -43,7 +62,20 @@
     margin-bottom: 0;
 }
 
+#df-list-h4 {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    margin-bottom: 0;
+    color: #3B3B3B;
+}
+
 /* TEXT */
+
+#site-goals-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
 
 /* IMAGES & VIDEO */
 #df-journey {
@@ -122,6 +154,19 @@
 .digi-prototyping-container {
     width: 100%;
     margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+#df-site-goals {
+    background-color: #b7f1e470;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width: 98%;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 @media only screen and (max-width: 800px) {

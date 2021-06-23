@@ -24,41 +24,35 @@ export default function Dreamy() {
         <div>
             <Nav />
             <div className="page" id="page-df">
-                {/* <Home /> */}
 
-               
-
-                <img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" />
-
-                <h1 class="project-heading" id="df-heading">Dreamy Finder for Animal Crossing: New Horizons</h1>
-
+                <a href="https://bexking.github.io/acnh-dreamy-finder/home"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
+                <div>
+                    <h1 class="project-heading" id="df-heading">Dreamy Finder</h1>
+                    <h3 id="df-subtitle">A tool to help Animal Crossing: New Horizons players find their favourite villagers </h3>
+                </div>
                 <div className="written-content">
-                    <p>Animal Crossing: New Horizons is a  is a sandbox-style roleplaying game released by Nintendo for Nintendo Switch in 2020.</p>
-                    <p>
-                        The player is a villager on a small deserted island that they can develop. The island has space for up to 10 anthropomorphic animals who can move in as villagers, with several species of animals featured, and eight different personality types.
+                    
+                    <p>Animal Crossing: New Horizons is a  is a sandbox-style roleplaying game released by Nintendo for Nintendo Switch in 2020.<br/>
+                        The player is a villager on a small deserted island. The island has space for up to 10 anthropomorphic animals who can move in as villagers, with several species of animals featured, and eight different personality types.
                     </p>
                     <p>
-                        Animal Crossing: New Horizons is the latest title in a long series of Animal Crossing games. As the games have been around a while, many players have favourite animal villagers that they seek to find for their town. In New Horizons, one main way to find a new villager is to take a mystery island tour, where a villager will be present if you have a plot available in your game. Visiting a mystery island requires a ticket, which can take a lot of effort to obtain.
+                        Many players have favourite villagers that they seek to find for their town (known by the fandom as “Dreamies”). One main way to find a new villager is to take a Mystery Island Tour, where a seemingly random villager will be present if you have space available in your game. Visiting a mystery island requires an in-game airplane ticket, which can take a lot of effort to obtain.
                         I wanted to create a tool that would let people budget for tickets better, and see how different factors increased their odds.
                     </p>
                     <p>
-                        <a href="https://github.com/bexking/acnh-dreamy-finder">Dreamy Finder - update this link</a>
-                    </p>
-                    <p>
-                        <a href="https://github.com/bexking/acnh-dreamy-finder">My Github</a>
+                        The result of my project is Dreamy Finder which can be found online <a href="https://bexking.github.io/home">here</a>, or take a look at <a href="https://github.com/bexking/acnh-dreamy-finder">my Github</a>.
                     </p>
                 </div>
 
                 <div className="written-content">
-                    <h2>Research</h2>
+                    <h2>Research & Observations</h2>
                     <p>
-                        Many players have favourite villagers they seek to find (called “Dreamies” by the fandom). As there are over 400 villagers available in the game it can be difficult to get your faves. When the game was released I noticed many people were visiting mystery islands trying to find their faves, thinking they had enough hard-earned airplane tickets, and then becoming surprised when the amount of tickets needed crept up into the hundreds, sometimes the thousands before finding their faves. 
+                        When Animal Crossing: New Horizons released I noticed many people (including friends, streamers, people posting online) were visiting mystery islands trying to find their favourite villagers. There are around 400 villagers in the game, but people were saving up tickets and becoming shocked when the amount of tickets required crept up sometimes into the thousands before finding the villager they were after. 
                     </p>
                     <p>
-                        Dataminers found out how mystery island character was generated, and there were a few more selection steps than a simple 1/400 villagers.
-                        There are many different animal species in the game, all with differing numbers of animals within each species. 
-                        The game first selects for species, and then a random character within each species.
-                        You can see the same character an infinite number of times in a play session, and you can get the same character multiple times in a row.
+                        Dataminers found out how mystery island character was generated, and discovered villager selection wasn't a simple 1/400 villagers.
+                        They found out the game first selects for one of the 35 animal species, and then a random character within each species.
+                        You can see the same character selected an unlimited number of times in a play session, and the same character can also be selected multiple times in a row.
                     </p>
 
                     <p>
@@ -76,24 +70,28 @@ export default function Dreamy() {
 
                 <div className="written-content">
                     <h2>Design Goals</h2>
-                    <ul>
-                        <p>The site needs to:</p>
-                        <li>
-                            Be easy for players to use and understand
-                        </li>
-                        <li>
-                            Make it easy for users to find a specific villager from the large list
-                        </li>
-                        <li>
-                            Work on a wide range of devices
-                        </li>
-                        <li>
-                            Provide players with data in a straightforward, easy to understand way
-                        </li>
-                        <li>
-                            Allow players to easily adjust their inputs to see how different changes affect their odds
-                        </li>
-                    </ul>
+                    <div id="df-site-goals">
+                        <div id="site-goals-text">
+                            <h4 id="df-list-h4">The site needs to:</h4>
+                            <ul>
+                                <li>
+                                    Be easy for players to use and understand
+                                </li>
+                                <li>
+                                    Make it easy for users to find a specific villager from the large list
+                                </li>
+                                <li>
+                                    Work on a wide range of devices
+                                </li>
+                                <li>
+                                    Provide players with data in a straightforward, easy to understand way
+                                </li>
+                                <li>
+                                    Allow players to easily adjust their inputs to see how different changes affect their odds
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="written-content">
@@ -118,16 +116,16 @@ export default function Dreamy() {
                             <img className="df-digi-ideation" src={DfIt1v2} alt="Rough first digital iteration page 2" />
                         </div>
                         <p>
-                            I continued to iterate within Figma, working on improving flow and creating clear wireframes, and refining the visual style.
+                            I continued to iterate within Figma, working on improving flow, creating clear wireframes, and refining the visual style.
                         </p>
                         <p>
-                            The design was resolved into the below digital prototype. Most of all I wanted it to be simple for users to find the villager they're looking for from the large list, so I planned to keep track of the state of the search box, so that the applicable results update with every keystroke.
+                            The design was resolved into the below digital prototype. My main priority was to make it simple for users to find the villager they're looking for from the large list, so I planned to keep track of the state of the search box, so that the applicable results update with every keystroke.
                         </p>
                         <p>
                             I also found an API that I could use to access the villager pictures, as well as important data I would need such as the villagers' species types and personality types for the results page.
                         </p>
                         <div className="df-video-section">
-                            <video className="vid" controls muted autoPlay>
+                            <video className="vid" controls muted>
                                 <source src={DfPrototype} type="video/mp4" />
                             </video>
                         </div>
@@ -137,7 +135,7 @@ export default function Dreamy() {
                 <div className="written-content">
                     <h2>Building & Publishing the site</h2>
                     <p>
-                        The site was built in reactJs. This was the first site I built in react and was a big learning curve. To make the site more interactive and a more natural user experience, I took advantage of state to keep the search box updating. -something about componenets. -something about API. -something about later getting the API content.
+                        The site was built in React. This was the first site I'd ever built in React so it was a big learning curve. To make the site more interactive and a more natural user experience, I took advantage of state to keep the search box updating. It was great to be able to create components and reuse them throughout the site so I didn't have to repeat content. This was also the first time using an API. It was great to be able to get all the information and images I needed about each villager from the API and saved a lot of time.
                     </p>
                     <p>
                         Can be found on my github.

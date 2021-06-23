@@ -12,7 +12,7 @@ export default function ContactFooter() {
             <div className="contactFooter">
                 <div className="contact-blurb">
                     <h3 className="contact">Whakapā mai!</h3>
-                    <p id="footer-text">Contact me with any opportunities, or to say hey 🙋🏻‍♀️ </p>
+                    <p id="footer-text">Contact me with opportunities, or to say hey 🙋🏻‍♀️ </p>
                     <div className="contact-links">
                         <Link to="/about" id="about">
                             <img className="contact-icon" src={Contact} alt="envelope icon" />
