@@ -35,6 +35,80 @@
     
 }
 /*Headings*/
+
+#ib-heading {
+    color: #39536C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#ib-subtitle {
+    color: #39536C;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4%;
+    max-width: 70%;
+    font-size: 18px;
+}
+
+
+.ib-project-subheadings {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 22px;
+    color: #39536C;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+}
+
+#page-ib h3 {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 36px;
+    color: #C4DFEC;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iBh4 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+    margin-bottom: 0;
+}
+
+#page-ib h6 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+}
+
+.test-patai-subheadings {
+    margin-bottom: 1.5%;
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+}
+
+.IB-testing-subheadings {
+    text-align: center;
+    margin-bottom: 2.5%;
+    margin-top: 4%;
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 18px;
+    color: #39536C;
+}
+
 .project-title-main {
     font-family: 'HK Grotesk Black', sans-serif;
     font-size: 35px;
@@ -424,61 +498,6 @@ li {
     margin-top: 0;
 }
 
-/* HEADINGS */
-
-#ib-heading {
-    color: #39536C;
-}
-
-#page-ib h2 {
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 22px;
-    color: #39536C;
-    margin-top: 1.5%;
-    margin-bottom: 0;
-}
-
-#page-ib h3 {
-    font-family: 'HK Grotesk SemiBold', sans-serif;
-    font-size: 36px;
-    color: #C4DFEC;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    max-width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.iBh4 {
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 18px;
-    color: #39536C;
-    margin-bottom: 0;
-}
-
-#page-ib h6 {
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 18px;
-    color: #39536C;
-}
-
-.test-patai-subheadings {
-    margin-bottom: 1.5%;
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 18px;
-    color: #39536C;
-}
-
-.IB-testing-subheadings {
-    text-align: center;
-    margin-bottom: 2.5%;
-    margin-top: 4%;
-    font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 18px;
-    color: #39536C;
-}
 
 
 
@@ -553,7 +572,7 @@ a:hover {
 }
 
 .ib-video-section {
-    width: 100%;
+    width: 70%;
     background-color: #c4dfec62;
     display: block;
     margin-left: auto;

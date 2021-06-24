@@ -37,6 +37,23 @@ html {
 
 #hints-heading {
     color: #EF7A30;
+    max-width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5%;
+}
+
+#hints-subtitle {
+    color: #242838;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4%;
+    max-width: 70%;
+    font-size: 18px;
 }
 
 .hint-page h2 {
@@ -378,14 +395,14 @@ a:hover {
 }
 
 #homepage-hero {
-    width: 65vw;
+    width: 65%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 3%;
     border: 2px solid #f2f2f2;
     border-radius: 20px;
-    filter: drop-shadow(0 6mm 4mm #d2d2d2);
+    filter: drop-shadow(0 2mm 2mm #d2d2d2);
 }
 
 #results-poster {

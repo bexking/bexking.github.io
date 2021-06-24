@@ -26,6 +26,10 @@ export default function ProjectGrid() {
             
             <WorkNavItem project={projects.hints} />
             <WorkNavItem project={projects.ib} />
+            <WorkNavItem project={projects.df} />
+            <WorkNavItem project={projects.dome} />
+            <WorkNavItem project={projects.cn} />
+            <WorkNavItem project={projects.emoji} />
             
             {/* <div className="hero-image" id="displace">
                 <Link to="/displacement" className="projectLink">
@@ -37,7 +41,7 @@ export default function ProjectGrid() {
                 </Link> 
             </div> */}
 
-            <div className="hero-image" id="ac">
+            {/* <div className="hero-image" id="ac">
                 <Link to="/dreamyfinder" className="projectLink">
                     <div className="title">
                         <h3 className="homeTitle">Dreamy Finder</h3>
@@ -45,9 +49,9 @@ export default function ProjectGrid() {
                         <p className="home-caption">A tool to help Animal Crossing:New Horizons players work out the likelihood of finding their favourite characters in-game.</p>
                     </div>
                 </Link>
-            </div>
+            </div> */}
 
-            <div className="hero-image" id="dome">
+            {/* <div className="hero-image" id="dome">
                 <Link to="/dome" className="projectLink">
                     <div className="title">
                         <h3 className="homeTitle">Dome Takeaway Container</h3>
@@ -55,8 +59,8 @@ export default function ProjectGrid() {
                         <p className="home-caption">Rethinking the humble takeaway container to help manage portion-control.</p>
                     </div>
                 </Link>    
-            </div>
-
+            </div> */}
+{/* 
             <div className="hero-image" id="cn">
                 <Link to="/cooknook" className="projectLink">
                     <div className="title">
@@ -65,9 +69,9 @@ export default function ProjectGrid() {
                         <p className="home-caption">A space to save and share your favourite recipes, as well as discover new ones.</p>
                     </div>
                 </Link>    
-            </div>
+            </div> */}
 
-            <div className="hero-image" id="emoji">
+            {/* <div className="hero-image" id="emoji">
                 <Link to="/shakemojispeare" className="projectLink">
                     <div className="title">
                         <h3 className="homeTitle">Shakemojispeare</h3>
@@ -75,7 +79,7 @@ export default function ProjectGrid() {
                         <p className="home-caption">A somewhat silly website that lets you turn Shakespearian text into Emoji-pasta.</p>
                     </div>
                 </Link>    
-            </div>
+            </div> */}
                  
         </div>
     )

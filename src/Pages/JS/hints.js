@@ -34,8 +34,9 @@ export default function Hints() {
     <div>
         <Nav />
         <div className="hint-page">
-            <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
             <img id="homepage-hero" src={EngooHero} alt="engoo image hints box" />
+            <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
+            <h2 id="hints-subtitle">Rethinking the way online English lessons deliver vocabulary hints</h2>
             
             <div className="written-content">
                 <p>

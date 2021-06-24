@@ -13,7 +13,7 @@ export default function Nav() {
                     </Link> 
                 </div>
                 <div className="nav-pages">
-                    <Link to="/about" className="nav-places">Work</Link>
+                    <Link to="/work" className="nav-places">Work</Link>
                     <Link to="/about" className="nav-places">About</Link>
                 </div>
                 

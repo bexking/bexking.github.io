@@ -11,9 +11,7 @@ import Shakespeare from './Pages/JS/shakespeare';
 import Hints from './Pages/JS/hints';
 import CookNook from './Pages/JS/cookNook';
 import About from './Pages/JS/about';
-
-// import Work from '.Pages/JS/work';
-
+import Work from './Pages/JS/work';
 import Bg from './Assets/bg.png';
 
 function App() {
@@ -24,11 +22,10 @@ function App() {
         "width" : "100vw",
       }}>
       
-
       <Router>
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />
-        {/* <Route path="/work" component={Work} /> */}
+        <Route path="/work" component={Work} />
         <Route path="/projects" component={ProjectPage} />
         <Route path="/dreamyfinder" component={Dreamy} />
         <Route path="/displacement" component={Displacement} />

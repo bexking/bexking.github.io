@@ -28,20 +28,19 @@ export default function IncognitoBreathing() {
             <Nav />
             <div className="page" id="page-ib">
                 <div>
-                    
-                    <h1 className="project-heading" id="ib-heading">Incognito Breathing</h1>
 
-                <div className="ib-hero-container">
-                    <div className="ib-hero-imgs">
-                        <img className="ib-hero-img" id="ib-homepage-hero" src={Homepage} alt="incognito breathing hompage shown on laptop" />
-                        <img className="ib-hero-img" src={ibofficemockup_1} alt="Office scene with incognito breathing visualisation shown on computer" />
+                    <div className="ib-hero-container">
+                        <div className="ib-video-section">
+                            <video className="vid" autoPlay muted controls>
+                                <source src={IbVideo} type="video/mp4" />
+                            </video>
+                        </div>
                     </div>
-                    <div className="ib-video-section">
-                        <video className="vid" autoPlay muted controls>
-                            <source src={IbVideo} type="video/mp4" />
-                        </video>
-                    </div>
-                </div>
+
+                    <h1 className="project-heading" id="ib-heading">Incognito Breathing</h1>
+                    <h2 id="ib-subtitle">Exploring the possiblities of using paced resipration techniques to manage workplace stress </h2>
+
+                    
 
                     <div className="written-content">
                         <p>
@@ -60,8 +59,15 @@ export default function IncognitoBreathing() {
                         </p>
                     </div>
 
+                    <div className="ib-hero-container">
+                        <div className="ib-hero-imgs">
+                            <img className="ib-hero-img" id="ib-homepage-hero" src={Homepage} alt="incognito breathing hompage shown on laptop" />
+                            <img className="ib-hero-img" src={ibofficemockup_1} alt="Office scene with incognito breathing visualisation shown on computer" />
+                        </div>
+                    </div>
+
                     <div className="written-content">
-                        <h2>Discovery & Ideation</h2>
+                        <h2 className="ib-project-subheadings">Discovery & Ideation</h2>
                         <p>I researched paced respiration and how it is best used, and brainstormed different contexts in which people either feel stressed/anxious, and contexts where I thought paced respiration techniques would have the most benefit. <br/>
                             Through secondary research techniques I learned about the physiological response of stress and anxiety and how shallow breathing can cause a state of constant hyperventilation, which worsens the problem. Without managing the breath, it can be difficult to manage other symptoms of stress and anxiety. <br/> 
                             Cognitive Behavioural Therapy (CBT) commonly uses paced respiration techniques to correct this overbreathing.
@@ -96,7 +102,7 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div className="written-content">
-                        <h2>Further Development</h2>
+                        <h2 className="ib-project-subheadings">Further Development</h2>
                         <p>Initial concepts had popular productivity software backgrounds for users to choose, but I decided a better solution was to let users upload screenshots of their workspace, with the breath timer appearing overtop of. This allows more people to use the site, regardless of their office software.</p>
                         <p>A lot of effort went into designing an appropriate breath-pacing visualisation. </p>
                         <ul>The animation for the breath timer needed to be:
@@ -177,7 +183,7 @@ export default function IncognitoBreathing() {
 
                     <div className="written-content" id="test-plan">
                         <div className="box">
-                            <h2 id="session-plan-heading">Testing Session Plan</h2>
+                            <h2 className="ib-project-subheadings" id="session-plan-heading">Testing Session Plan</h2>
                             <div className="IB-test-design">
                                 <div className="Test-Details">
                                     <img className="testDetailIcons" src={TestIcon1} alt="calender icon with two days blocked out" />
@@ -218,7 +224,7 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div className="written-content">
-                        <h2>Additional Testing</h2>
+                        <h2 className="ib-project-subheadings">Additional Testing</h2>
                         <p>
                             I also had an office worker test the visualisation in their workplace. This was an observational study to investigate subjective experience using the visualisation in an open-plan office. One male participant used the visualisation at two different times during their workday in their usual place of work, with their own headphones.
                         </p>
@@ -228,7 +234,7 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div className="written-content">
-                        <h2>Results</h2>
+                        <h2 className="ib-project-subheadings">Results</h2>
                         <div className="written-content" id="results-section">
                             <img id="results-graphic" src={Results} alt="infographic with results" />
                         </div>
@@ -268,7 +274,7 @@ export default function IncognitoBreathing() {
 
 
                     <div className="written-content">
-                        <h2>Future Development Opportunities</h2>
+                        <h2 className="ib-project-subheadings">Future Development Opportunities</h2>
                         <ul>
                             <h4 className="iBh4">Small improvements:</h4>
                             <li>
@@ -287,8 +293,8 @@ export default function IncognitoBreathing() {
                         </ul>
                     </div>
                 </div>
-                <SeeMore project1={"ib"} project2={"hints"} project3={"ib"} />
             </div>
+            <SeeMore project1={"ib"} project2={"hints"} project3={"ib"} />
             <ContactFooter />
         </div>
     );
