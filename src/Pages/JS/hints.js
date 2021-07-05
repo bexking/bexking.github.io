@@ -32,7 +32,7 @@ import ContactFooter from '../../Components/JS/contact-footer'
 export default function Hints() {
     return (
     <div>
-        <Nav />
+
         <div className="hint-page">
             <img id="homepage-hero" src={EngooHero} alt="engoo image hints box" />
             <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
@@ -46,7 +46,7 @@ export default function Hints() {
                     The Daily News lesson material is the most popular feature of the site, which provides a simple-English news article for users to read and have a converstion about. The only hints/prompts offered within the section are local language translations for their main markets.
                     Because Engoo is used in many countries, it was hard for them to fit the translations in a way that accommodated all languages, so the local language translations was displayed in full below the English version in one block. This disconnection from the text creates an inconvenient user experience.
                 </p>
-                <p>I used the <a href="https://uxdesign.cc/how-to-solve-problems-applying-a-uxdesign-designthinking-hcd-or-any-design-process-from-scratch-v2-aa16e2dd550b">Double Diamond</a> to inform my design process, taking the information provided by the company about their users, analysing it, doing supplementary research and trying to get a full understanding of the users and the design problem before moving on to ideation.</p>
+                <p>I used the <a id="diamond" href="https://uxdesign.cc/how-to-solve-problems-applying-a-uxdesign-designthinking-hcd-or-any-design-process-from-scratch-v2-aa16e2dd550b">Double Diamond</a> to inform my design process, taking the information provided by the company about their users, analysing it, doing supplementary research and trying to get a full understanding of the users and the design problem before moving on to ideation.</p>
                 <p>
                     The following user flow diagrams show the two main journeys users follow when using Daily News.
                 </p>

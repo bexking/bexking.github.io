@@ -27,9 +27,9 @@ export default function ProjectGrid() {
             <WorkNavItem project={projects.hints} />
             <WorkNavItem project={projects.ib} />
             <WorkNavItem project={projects.df} />
-            <WorkNavItem project={projects.dome} />
+            {/* <WorkNavItem project={projects.dome} />
             <WorkNavItem project={projects.cn} />
-            <WorkNavItem project={projects.emoji} />
+            <WorkNavItem project={projects.emoji} /> */}
             
             {/* <div className="hero-image" id="displace">
                 <Link to="/displacement" className="projectLink">

@@ -6,7 +6,6 @@ import ContactFooter from '../../Components/JS/contact-footer'
 export default function Work() {
     return (
         <div>
-            <Nav />
            <div id="workworkwork">
                 <h2 className="homeh1" id="work">My Work</h2>
             </div>

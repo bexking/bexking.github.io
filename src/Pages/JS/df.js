@@ -22,7 +22,6 @@ import ContactFooter from '../../Components/JS/contact-footer';
 export default function Dreamy() {
     return (
         <div>
-            <Nav />
             <div className="page" id="page-df">
 
                 <a href="http://bexking.github.io/acnh-dreamy-finder"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>

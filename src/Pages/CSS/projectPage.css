@@ -214,9 +214,9 @@ p {
 
 #df {
     background-image: url('../../Assets/dreamy-finder.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-left: aut\;
+    background-position: center left;
 }
 
 .df-hero-image {

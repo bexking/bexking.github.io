@@ -24,8 +24,8 @@ import SeeMore from "../../Components/JS/see-more.js"
 
 export default function IncognitoBreathing() {
     return (
-        <div>
-            <Nav />
+        <div id="top">
+
             <div className="page" id="page-ib">
                 <div>
 

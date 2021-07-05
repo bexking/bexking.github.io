@@ -14,9 +14,9 @@ export default function ContactFooter() {
                     <h3 className="contact">Whakapā mai!</h3>
                     <p id="footer-text">Contact me with opportunities, or to say hey 🙋🏻‍♀️ </p>
                     <div className="contact-links">
-                        <Link to="/about" id="about">
+                        <a href="mailto:bexkingdesign@gmail.com">
                             <img className="contact-icon" src={Contact} alt="envelope icon" />
-                        </Link> 
+                        </a>  
                         <a href="https://www.instagram.com/"><img className="contact-icon" src={Insta}></img></a>
                     </div>
                 </div>

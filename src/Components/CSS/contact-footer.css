@@ -20,7 +20,9 @@
     margin-top: 5%;
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(253, 154, 154, 0.815);
+    /* FCCE19 */
+    /* border-top: 1px solid rgba(253, 154, 154, 0.815); */
+    border-top: 1px solid #FCCE19;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3)
     /* border: thin solid rgb(44, 61, 92); */
 }
@@ -38,11 +40,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    color: rgb(44, 61, 92);
+    color: #3b3b3b;
 }
 
 #footer-text {
-    color: rgb(44, 61, 92);
+    color: #3b3b3b;
     margin-top: 1%;
 }
 

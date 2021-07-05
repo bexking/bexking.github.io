@@ -12,16 +12,25 @@
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 90vw;
+    width: 100vw;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    /* margin-left: ;
+    margin-right: ; */
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    position: fixed;
+    z-index: 1;
+    
+    
+}
+
+nav:hover {
+    background-color: rgba(255, 130, 140, 0.185);
+    transition: all 0.25s ease-in-out;
 }
 
 .home-nav {
-
+ margin-left: 3%;
 }
 
 #me-sml {
@@ -29,16 +38,24 @@ nav {
     margin-left: 3%;
     margin-right: 3%;
     transition: all .01s ease-in;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 50%;
 }
 
 #me-sml:hover {
     width: 62px;
-    filter: drop-shadow(0 2mm 2mm #eebebe);
+    filter: drop-shadow(0 2mm 2mm #b4a39786);
+    background-color: rgba(255, 94, 0, 0.2);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+    transition: all 0.4s ease-out;
 }
 
 .nav-pages {
     display: flex;
     justify-content: space-between;
+    margin-right: 3%;
     
 }
 
@@ -48,11 +65,14 @@ nav {
     font-size: 18px;
     font-family: 'HK Grotesk SemiBold';
     margin: 10px;
+    background-color: #ffef95;
 }
 
 .nav-places:hover {
-    color: #b45f5f;
-    font-family: 'HK Grotesk Bold';
-    filter: drop-shadow(0 2mm 2mm #dda4a4);
+    color: #D49B9B;
+    background-color: white;
+    /* font-family: 'HK Grotesk Bold';
+    filter: drop-shadow(0 2mm 2mm #94706786); */
 }
+
 

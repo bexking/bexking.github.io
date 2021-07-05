@@ -29,8 +29,9 @@ html {
     max-width: 90vw;
     max-width: 80vw;
     padding: 4.5%;
-    border-radius: 30px;
-    filter: drop-shadow(0 5mm 5mm #ebc5c5);
+    margin-top: 8%;
+    /* border-radius: 30px; */
+    filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
 
 /* HEADINGS */
@@ -78,6 +79,16 @@ html {
 
 /* TEXT */
 
+#diamond {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    text-decoration: none;
+    color: #EF7A30;
+}
+
+#diamond:hover {
+    color: #554f68;
+}
+
 #goals-para {
     color: #f2f2f2;
     margin-left: 3%;
@@ -114,7 +125,7 @@ html {
     margin: 1%;
     padding: 2%;
     background-color: #242838;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     
 }
 
@@ -224,7 +235,7 @@ html {
     max-width: 85vw;
     margin: 3%;
     padding: 1.5%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -379,7 +390,7 @@ a:hover {
     margin-top: 3%;
     max-width: 60vw;
     border: 2px solid #f2f2f2;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .drawing-ft-review {
@@ -389,7 +400,7 @@ a:hover {
     margin-right: auto;
     /* padding: 0.7%; */
     border: 2px solid #f2f2f2;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     filter: drop-shadow(0 2mm 2mm #d2d2d2);
     margin-bottom: 2%;
 }
@@ -401,7 +412,7 @@ a:hover {
     margin-right: auto;
     margin-bottom: 3%;
     border: 2px solid #f2f2f2;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     filter: drop-shadow(0 2mm 2mm #d2d2d2);
 }
 
@@ -429,14 +440,14 @@ a:hover {
     /* padding-left: 2%;
     padding-right: 2%; */
     border: 1px solid #EF7A30;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #f2f2f2;
     filter: drop-shadow(0 1mm 1mm #ef79303d);
 }
 
 .testing-pic {  
     max-width: 37vw;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -453,7 +464,7 @@ a:hover {
     }
 
     .hint-page .feature-quote {
-        border-radius: 10px;
+        /* border-radius: 10px; */
         width: 80%;
     }
 
