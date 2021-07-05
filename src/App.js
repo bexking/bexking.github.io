@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { Router, Route, Switch} from "react-router-dom";
 import Home from "./Pages/JS/home";
 import ProjectPage from "./Pages/JS/projectPage";
 import Dreamy from "./Pages/JS/df";
@@ -14,8 +14,24 @@ import About from './Pages/JS/about';
 import Work from './Pages/JS/work';
 import Bg from './Assets/bg.png';
 import Nav from './Components/JS/nav2';
+import { createBrowserHistory } from "history";
+import { wrapHistory } from "oaf-react-router";
 
 function App() {
+  const settings = {
+    shouldHandleAction: (previousLocation, nextLocation, action) => true,
+    disableAutoScrollRestoration: true,
+    announcePageNavigation: true,
+    setPageTitle: false,
+    handleHashFragment: true,
+    restorePageStateOnPop: true,
+    primaryFocusTarget: 'body',
+    smoothScroll: true
+  }
+
+  const history = createBrowserHistory();
+  wrapHistory(history, settings);
+
   return (
     <div className="App" 
         style={{ backgroundImage: `url(${Bg})`, 
@@ -23,7 +39,7 @@ function App() {
         "width" : "100vw",
       }}>
       
-      <Router>
+      <Router history={history}>
         <Nav />
         <Switch>
           <Route path="/home" component={Home} />
