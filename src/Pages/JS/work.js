@@ -11,7 +11,6 @@ export default function Work() {
             </div>
 
             <ProjectGrid />
-            <ContactFooter />
         </div>
     )
 }

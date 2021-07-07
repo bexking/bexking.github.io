@@ -32,7 +32,6 @@ export default function Home() {
             </div>
 
             <ProjectGrid />
-            <ContactFooter />
         </div>
     )
 }

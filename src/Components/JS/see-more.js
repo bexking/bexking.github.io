@@ -7,14 +7,16 @@ export default function SeeMore(props) {
     return (
         <div className="seeMore">
 
-            <hr></hr>
+            <hr className="footer-hr"></hr>
 
-            <h2>Other projects</h2>
-            <div className="featured-projects">
-                <WorkNavItem project={projects[props.project1]} />
-                <WorkNavItem project={projects[props.project2]} />
-                {/* <WorkNavItem project={projects[props.project3]} /> */}
-                {/* random project link from complete list of projects, excluding page we are already on - x2 for 13 inch screen, 3 for big screen, 2 in column for mobile */}
+            <div className="see-more-content">
+                <h2 id="other-pr-heading">More projects</h2>
+                <div className="featured-projects">
+                    <WorkNavItem project={projects[props.project1]} />
+                    <WorkNavItem project={projects[props.project2]} />
+                    {/* <WorkNavItem project={projects[props.project3]} /> */}
+                    {/* random project link from complete list of projects, excluding page we are already on - x2 for 13 inch screen, 3 for big screen, 2 in column for mobile */}
+                </div>
             </div>
 
         </div>

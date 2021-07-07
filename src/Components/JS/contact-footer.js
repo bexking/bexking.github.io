@@ -8,7 +8,7 @@ import Insta from '../../Assets/insta.png';
 export default function ContactFooter() {
     return (
         <div>
-            <hr className="footer-hr"></hr>
+
             <div className="contactFooter">
                 <div className="contact-blurb">
                     <h3 className="contact">Whakapā mai!</h3>

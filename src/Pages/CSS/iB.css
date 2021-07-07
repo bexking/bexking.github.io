@@ -25,6 +25,7 @@
     max-width: 80vw;
     padding: 4.5%;
     margin-top: 8%;
+    margin-bottom: 5%;
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
 
@@ -253,7 +254,6 @@
     display: flex;
     justify-content: space-between;
     border: 3px solid #C4DFEC;
-    border-radius: 10px;
 }
 
 /*Paragraphs*/
@@ -285,7 +285,6 @@
     width: 100%;
     min-height: 38vh;
     background-color: #39536C;
-    border-radius: 10px;
     margin-bottom: 1.5%;
     display: flex;
     justify-content: center;
@@ -366,7 +365,6 @@ li {
 #iB-brainstorm{
     width: 50vw;
     border: 3px solid #C4DFEC;
-    border-radius: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -473,7 +471,6 @@ li {
     max-width: 97%;
     margin-top: 1.5%;
     border: 3px solid #39536C;
-    border-radius: 10px;
     padding: 0.5%;
     filter: drop-shadow(0 6mm 4mm #e2e2e2);
     margin-left: auto;
@@ -577,13 +574,11 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
 }
 
 .video-section-2 {
     width: 100%;
     background-color: #f2f2f2;
-    border-radius: 10px;
     filter: drop-shadow(0 2mm 2mm #bebebe);
 }
 
@@ -593,7 +588,6 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
     text-align: center;
     font-family: 'HK Grotesk Bold', sans-serif;
 }
@@ -635,7 +629,6 @@ a:hover {
     padding-bottom: 1.5%;
     padding-left: 3%;
     padding-right: 3%;
-    border-radius: 10px;
 }
 
 .concepts {
@@ -651,7 +644,6 @@ a:hover {
 
 #test-plan {
     border: 2px solid #39536C;
-    border-radius: 10px;
 }
 
 .box {
@@ -695,7 +687,6 @@ a:hover {
         align-items: center;
         width: 90%;
         border: 2px solid rgb(230, 230, 230);
-        border-radius: 10px;
         margin-bottom: 1%;
         padding-top: 2%;
     }

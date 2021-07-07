@@ -25,7 +25,6 @@ export default function About() {
                         <Link to="/incognitobreathing#top">IB</Link>
                 </div>
             </div>    
-            <ContactFooter />
         </div>
     )
 }

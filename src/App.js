@@ -16,6 +16,8 @@ import Bg from './Assets/bg.png';
 import Nav from './Components/JS/nav2';
 import { createBrowserHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
+import ContactFooter from './Components/JS/contact-footer';
+import SeeMore from "./Components/JS/see-more.js"
 
 function App() {
   const settings = {
@@ -26,7 +28,7 @@ function App() {
     handleHashFragment: true,
     restorePageStateOnPop: true,
     primaryFocusTarget: 'body',
-    smoothScroll: true
+    smoothScroll: false
   }
 
   const history = createBrowserHistory();
@@ -54,6 +56,7 @@ function App() {
           <Route path="/shakemojispeare" component={Shakespeare} />
           <Route path="/cooknook" component={CookNook} />
         </Switch>
+        <ContactFooter />
       </Router>
     </div>
   );

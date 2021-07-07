@@ -12,20 +12,10 @@
     margin-left: auto;
     margin-right: auto;
     width: 30vw;
-    margin-top: 4%;
+    margin-top: 5%;
+    padding-bottom: 4%;
 }
 
-.footer-hr {
-    width: 93%;
-    margin-top: 5%;
-    border: 0;
-    height: 0;
-    /* FCCE19 */
-    /* border-top: 1px solid rgba(253, 154, 154, 0.815); */
-    border-top: 1px solid #FCCE19;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
-    /* border: thin solid rgb(44, 61, 92); */
-}
 
 .contact-blurb {
     display: block;

@@ -295,7 +295,6 @@ export default function IncognitoBreathing() {
                 </div>
             </div>
             <SeeMore project1={"ib"} project2={"hints"} project3={"ib"} />
-            <ContactFooter />
         </div>
     );
 } 

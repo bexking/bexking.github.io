@@ -23,9 +23,7 @@ import Sk2 from '../../Assets/engoo-images/engoo-sk2.jpg';
 import Uf1 from '../../Assets/engoo-images/hints-uf1.png';
 import Uf2 from '../../Assets/engoo-images/hints-uf2.png';
 import Results from '../../Assets/engoo-images/results.png';
-import Translations from '../../Assets/engoo-images/Translations.png';
-import Nav from '../../Components/JS/nav2.js';
-import ContactFooter from '../../Components/JS/contact-footer'
+import SeeMore from "../../Components/JS/see-more.js"
 
 
 
@@ -292,7 +290,7 @@ export default function Hints() {
                 <img className="drawing-ft-review" id="results-poster" src={Results} alt="" />
             </div>
         </div>
-        <ContactFooter />
+        <SeeMore project1={"ib"} project2={"df"} project3={"ib"} />
     </div>
     )
 }
