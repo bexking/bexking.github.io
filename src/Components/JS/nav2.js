@@ -7,7 +7,7 @@ import Bg from '../../Assets/bg.png';
 
 export default function Nav() {
     return (
-        <div>
+        <div id="main-nav">
             <nav>
                 <div className="home-nav">
                     <Link to="/home" id="home">

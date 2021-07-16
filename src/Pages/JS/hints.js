@@ -23,7 +23,8 @@ import Sk2 from '../../Assets/engoo-images/engoo-sk2.jpg';
 import Uf1 from '../../Assets/engoo-images/hints-uf1.png';
 import Uf2 from '../../Assets/engoo-images/hints-uf2.png';
 import Results from '../../Assets/engoo-images/results.png';
-import SeeMore from "../../Components/JS/see-more.js"
+import SeeMore from "../../Components/JS/see-more.js";
+import Bg from '../../Assets/bg.png';
 
 
 
@@ -121,8 +122,8 @@ export default function Hints() {
             </div>
             <div className="written-content">
                 <p>
-                    Research findings led to the second main concept that allowed users to input their own hints to create stronger memories.
-                    Memory acquisition requires active engagement. Shallow acquisition will create shallow memories. -Gleitman et. al
+                    The second main concept allowed users to input their own hints to create stronger memories, inspired by Psychology research on memory.
+                    From Pschology (Fifth Edition) by Gleitman, Fridlund & Reisberg, I learned memory acquisition requires active engagement. Shallow acquisition creates more shallow memories.
                 </p>
 
                 <div>
@@ -183,7 +184,7 @@ export default function Hints() {
                 <h2>Results</h2>
                 <div className="results-category">
                     <div className="results-text">
-                        <h2>Usability</h2>
+                        <h4 className="testing-subheading">Usability</h4>
                         <h3>Design One - Translation Only</h3>
                         <p>
                             Even with the translation now available below each paragraph, the user still scrolled up and down often while they were trying to learn the words from the vocabulary section.
@@ -208,7 +209,7 @@ export default function Hints() {
                     </div>
                     
                     <div className="results-text">
-                        <h2>Clarity</h2>
+                        <h4 className="testing-subheading">Clarity</h4>
                         <p>There was no visual cue within the paper prototype to show you could interact with the paragraph space, so the user needed to be prompted to find this feature.</p>
                         <h3>Design One - Translation Only</h3> 
                         <p>
@@ -226,7 +227,7 @@ export default function Hints() {
 
                 <div className="results-category">
                     <div className="results-text">
-                        <h2>Memory</h2>
+                        <h4 className="testing-subheading">Memory</h4>
                         <h3>Design One - Translation Only</h3> 
                         <p>
                             The user had a difficult time remembering the words through searching in the translations alone. 
@@ -253,7 +254,7 @@ export default function Hints() {
                     </div>
 
                     <div className="results-text">
-                        <h2>Other Points Of Interest</h2>
+                        <h4 className="testing-subheading">Other Points Of Interest</h4>
                         <p>The user did not find the different options overwhelming in Design Two & felt everything available was useful.</p>
                         <p>The user also commented that they would like to draw their own hints for the image section if possible.</p>
                     </div>

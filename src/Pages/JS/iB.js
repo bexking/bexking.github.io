@@ -105,7 +105,7 @@ export default function IncognitoBreathing() {
                         <h2 className="ib-project-subheadings">Further Development</h2>
                         <p>Initial concepts had popular productivity software backgrounds for users to choose, but I decided a better solution was to let users upload screenshots of their workspace, with the breath timer appearing overtop of. This allows more people to use the site, regardless of their office software.</p>
                         <p>A lot of effort went into designing an appropriate breath-pacing visualisation. </p>
-                        <ul>The animation for the breath timer needed to be:
+                        <ul><h5 id="list-subheading">The animation for the breath timer needed to be:</h5>
                             <li>Subtle enough that co-workers wouldn’t really notice it</li>
                             <li>Aid the sense of calm in visuals and audio</li>
                             <li>Easy to breathe along with</li>
@@ -294,7 +294,7 @@ export default function IncognitoBreathing() {
                     </div>
                 </div>
             </div>
-            <SeeMore project1={"ib"} project2={"hints"} project3={"ib"} />
+            <SeeMore project1={"hints"} project2={"df"} />
         </div>
     );
 } 

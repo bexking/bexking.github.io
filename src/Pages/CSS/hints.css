@@ -77,6 +77,14 @@ html {
     margin-left: 3%;
 }
 
+.testing-subheading {
+    color: #3B3B3B;
+    font-family: 'HK Grotesk Bold', sans-serif;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
 /* TEXT */
 
 #diamond {
@@ -235,7 +243,7 @@ html {
     max-width: 85vw;
     margin: 3%;
     padding: 1.5%;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -331,7 +339,8 @@ a:hover {
 }
 
 .hero-img {
-    max-width: 45vw;
+    /* max-width: 45vw; */
+    width:60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -433,16 +442,13 @@ a:hover {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
+    margin-top: 2%;
     margin-bottom: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
-    /* padding-left: 2%;
-    padding-right: 2%; */
-    border: 1px solid #EF7A30;
-    /* border-radius: 10px; */
-    background-color: #f2f2f2;
-    filter: drop-shadow(0 1mm 1mm #ef79303d);
+    filter: drop-shadow(0 1mm 1mm #cecece3d);
+    background-color: #eef1f2;
+    border-radius: 10px;
 }
 
 .testing-pic {  

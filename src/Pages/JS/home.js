@@ -23,12 +23,13 @@ export default function Home() {
             <div className="homepage">
                 <p>Nau mai haere mai, ki taku kohinga hoahoa whaiaro.</p>
                 <p>Welcome to my design portfolio. I'm  a former Visual Merchandiser turned Interaction Design Graduate.</p>   
-                <p>I like UX design, research, analysing information, questioning assumptions, drawing unflattering portraits, knitting, rollerskating, colour, goldfish, </p>         
-                <p>Check out my <Link to="#workworkwork">work</Link> learn more <Link to="#about">about me</Link> and get in touch at bexkingdesign@gmail.com</p>
+                <p>I like these things </p>      
+                <p>My strengths are </p>         
+                <p>Check out my <Link to="#workworkwork" className="homepage-links"  id="homepage-link1">work</Link> learn more <Link to="#about" className="homepage-links" id="homepage-link2">about me</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links" id="homepage-link3">bexkingdesign@gmail.com</a></p>
             </div>
 
             <div id="workworkwork">
-                <h2 className="homeh1" id="work">My Work</h2>
+                <h2 className="home-work" id="work">My Work</h2>
             </div>
 
             <ProjectGrid />

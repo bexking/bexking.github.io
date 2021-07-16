@@ -33,10 +33,21 @@
 
 .homeh1 {
     font-family: 'HK Grotesk Black', sans-serif;
-    -webkit-text-stroke: 1px #ffef95;
+    -webkit-text-stroke: 1.1px #d49b9b;
     font-style: normal;
-    color: #Fecc1d;
+    color: #ffef95;
     font-size: 60px;
+    margin-bottom: 0;
+    padding: none;
+    margin-top: none;
+}
+
+.home-work {
+    font-family: 'HK Grotesk Black', sans-serif;
+    -webkit-text-stroke: 1px #d49b9b;
+    font-style: normal;
+    color: #ffef95;
+    font-size: 50px;
     margin-bottom: 0;
     padding: none;
     margin-top: none;
@@ -111,9 +122,63 @@ h4 {
     margin-bottom: 5vh;
 }
 
-#work {
+.homepage-links {
+    color: #3B3B3B;
+    font-family: 'HK Grotesk SemiBold';
+    text-decoration: none;
+}
+
+#homepage-link1 {
+    color: #cffaf0;
+    -webkit-text-stroke: 0.5px #abcfc7;
+}
+
+
+#homepage-link1:hover {
+    background-color: #cffaf0;
+    color: #e99595;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'HK Grotesk SemiBold';
+    filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
+    border-radius: 30px;
+}
+
+#homepage-link2 {
+    color: #ffef95;
+    -webkit-text-stroke: 0.5px #d3ca93;
+}
+
+#homepage-link2:hover {
+    background-color: #ffef95;
+    color: rebeccapurple;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'HK Grotesk SemiBold';
+    filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
+    border-radius: 30px;
+}
+
+#homepage-link3 {
+    color: #eef1f2;
+    -webkit-text-stroke: 0.5px #dfdfdf;
+}
+
+#homepage-link3:hover {
+    background-color: #eef1f2;
+    color: #ebae9c;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'HK Grotesk SemiBold';
+    filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
+    border-radius: 30px;
+    
+}
+
+
+/* #work {
     color: #FCCD17;
     -webkit-text-stroke: 1px #ffef95;
     margin-bottom: 0;
-}
+} */
 

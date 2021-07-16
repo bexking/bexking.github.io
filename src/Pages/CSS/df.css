@@ -78,8 +78,14 @@
 
 /* IMAGES & VIDEO */
 #df-journey {
-    max-width: 45vw;
+    /* max-width: 50%; */
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-test {
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,6 +173,41 @@
     border-radius: 10px;
     margin-bottom: 5%;
 }
+
+.popup-content {
+    margin: auto;
+    background: rgb(17, 17, 17);
+    /* width: 100%; */
+    padding: 5px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+  .popup-arrow {
+    display:none;
+  }
+
+/* .modal-popout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 @media only screen and (max-width: 800px) {
     .df-digital-prototyping {

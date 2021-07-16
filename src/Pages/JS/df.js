@@ -1,10 +1,11 @@
 import React from 'react'
+import Popup from 'reactjs-popup';
 import '../CSS/df.css';
 import Hero from '../../Assets/dome.jpg';
-// import Home from './home.js';
 import DfProcess from '../../Components/JS/df-process.js'
 import Nav from '../../Components/JS/nav2.js';
-import DfJourney from '../../Assets/df-images/df-1.jpg';
+import DfJourney1 from '../../Assets/df-images/df-1.jpg';
+import DfJourney2 from '../../Assets/df-images/df-2.jpg';
 import DfSketch1 from '../../Assets/df-images/df-sk1.jpg';
 import DfSketch2 from '../../Assets/df-images/df-sk2.jpg';
 import DfSketch3 from '../../Assets/df-images/df-sk3.jpg';
@@ -16,8 +17,7 @@ import DfIt1v1 from '../../Assets/df-images/digital-it1.png';
 import DfIt1v2 from '../../Assets/df-images/digital-it1.1.png';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfHero from '../../Assets/df-images/df-hero-wide1.png';
-import Bg from '../../Assets/bg.png';
-import ContactFooter from '../../Components/JS/contact-footer';
+import SeeMore from "../../Components/JS/see-more.js";
 
 export default function Dreamy() {
     return (
@@ -26,7 +26,7 @@ export default function Dreamy() {
 
                 <a href="http://bexking.github.io/acnh-dreamy-finder"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
                 <div>
-                    <h1 class="project-heading" id="df-heading">Dreamy Finder</h1>
+                    <h1 className="project-heading" id="df-heading">Dreamy Finder</h1>
                     <h3 id="df-subtitle">A tool to help Animal Crossing: New Horizons players find their favourite villagers </h3>
                 </div>
                 <div className="written-content">
@@ -63,8 +63,22 @@ export default function Dreamy() {
                         I observed streamers on Twitch, and players in various Discords and Reddit forums saving up tickets to find their favourite villagers, with many saving their tickets into the hundreds, and being disappointed when the final totals were above 600-1000 tickets.
                         I recorded a rough idea of their process and what they wanted to know/find out in order to determine what a player might want to know, and what the ideal user flow would be.
                     </p>
-
-                    <img id="df-journey" src={DfJourney} alt="User Journey - annotated" />
+                    <div className="modal-popout">
+                        <Popup 
+                            trigger={<img id="df-journey" src={DfJourney2} alt="User Journey - annotated" />} 
+                            position='top center'>
+                            { close => (<>
+                                <img style={{height: "1200px", "width": "927px"}} src={DfJourney1} alt="User Journey - annotated" />
+                                <button className="close" onClick={close}>
+                                    &times;
+                                </button>
+                            </>)
+                        }
+                        </Popup>
+                    </div>
+                    {/* <div className="modal-test">
+                        <img id="df-journey" src={DfJourney} alt="User Journey - annotated" />
+                    </div> */}
                 </div>
 
                 <div className="written-content">
@@ -140,51 +154,8 @@ export default function Dreamy() {
                         Can be found on my github.
                     </p>
                 </div>    
-
-                {/* <div className="content">
-                    <h1 className="projecth1">Dreamy Finder</h1>
-                    <p>Animal Crossing: New Horizons is a  is a sandbox-style roleplaying game released by Nintendo for Nintendo Switch in 2020.  <br/>
-                        The game is a cute role-playing game where the player is a villager on a small island that they can develop. Each game can have up to 10 anthropomorphic animals as villagers, with several species of animals featured, and eight different personality types. 
-                    </p>
-
-                    <p>Animal Crossing: New Horizons is the latest title in a long series of Animal Crossing games. As the games have been around a while, many players have favourite animal villagers that they seek to find for their town.
-                        In New Horizons, one main way to find a new villager is to take a mystery island tour, where a villager will be present if you have a plot available in your game. Visiting a mystery island requires a ticket, which can take a lot of effort to obtain.
-                    </p>
-
-                    <p>Finding a specific villager on a mystery island can take a lot of tickets, as there are almost 400 villagers in the game, and the random selection for the mystery island isn't a simple 1/total villagers.<br/>
-                    Dreamy Finder aims to help player work out the odds of finding their dream villager on a mystery island so they can budget and save their tickets accordingly.
-                    </p>
-
-                    <div className="df-hero">
-                        <div className="df-hero-image" id="df"></div>
-                    </div>
-                    <div className="features">
-                        <h3 className="projecth3">Design Process</h3>
-                        <p>I was building this website while learning ReactJS, so a large part of what I was working on was how to code and use state/routes/components. However it was still really important to me and my design process that I consider user flow and how they would want to journey through the tool.</p>
-                    </div>
-
-                    <DfProcess />
-
-                    <div className="problem">
-                        <h3 className="projecth3">Development</h3>
-                        <p>Once I had a design in mind, it was important to me that the site flow quite quickly and give good feedback, so that users would be able to tell the villager they clicked had been locked in.</p>
-                    </div>
-                    <div className="process">
-                        <h3 className="projecth3">Design Process</h3>
-                        <p>This is a short blurb giving a quick intro to the project</p>
-                    </div>
-                    <div className="finalImages">
-                        <div className="final-images" id="fin1"></div>
-                        <div className="final-images" id="fin2"></div>
-                    </div>
-                </div>
-
-                <div className="written-content">
-                    <h2>Title</h2>
-                    <p>Paragraph Paragraph</p>
-                </div> */}
             </div>
-            <ContactFooter />
+            <SeeMore project1={"ib"} project2={"df"} project3={"ib"} />
         </div>
     )
 }
