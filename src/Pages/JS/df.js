@@ -24,7 +24,7 @@ export default function Dreamy() {
         <div>
             <div className="page" id="page-df">
 
-                <a href="http://bexking.github.io/acnh-dreamy-finder"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
+                <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
                 <div>
                     <h1 className="project-heading" id="df-heading">Dreamy Finder</h1>
                     <h3 id="df-subtitle">A tool to help Animal Crossing: New Horizons players find their favourite villagers </h3>
@@ -39,7 +39,7 @@ export default function Dreamy() {
                         I wanted to create a tool that would let people budget for tickets better, and see how different factors increased their odds.
                     </p>
                     <p>
-                        The result of my project is Dreamy Finder which can be found online <a href="http://bexking.github.io/acnh-dreamy-finder">here</a>, or take a look at <a href="https://github.com/bexking/acnh-dreamy-finder">my Github</a>.
+                        The result of my project is Dreamy Finder which can be found online <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">here</a>, or take a look at <a href="https://github.com/bexking/acnh-dreamy-finder" target="_blank">my Github</a>.
                     </p>
                 </div>
 
