@@ -372,7 +372,12 @@ a:hover {
 
 .persona {
     width: 170px;
-    
+}
+
+.persona-big {
+    height: 90vh;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .engoo-sketch {

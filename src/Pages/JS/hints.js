@@ -25,8 +25,25 @@ import Uf2 from '../../Assets/engoo-images/hints-uf2.png';
 import Results from '../../Assets/engoo-images/results.png';
 import SeeMore from "../../Components/JS/see-more.js";
 import Bg from '../../Assets/bg.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, {
+    Navigation
+  } from 'swiper/core';
+import "swiper/swiper-bundle.min.css";
+import "swiper/components/navigation/navigation.min.css"
+import Popup from 'reactjs-popup';
 
+SwiperCore.use([Navigation]);
 
+let personas = (initialSlide) => 
+    <Swiper navigation={true} initialSlide={initialSlide}>
+        <SwiperSlide className="swiper-slide"><img src={Per1} alt="persona 1" className="persona-big" /></SwiperSlide>
+        <SwiperSlide className="swiper-slide"><img src={Per2} alt="persona 2" className="persona-big" /></SwiperSlide>
+        <SwiperSlide className="swiper-slide"><img src={Per3} alt="persona 3" className="persona-big" /></SwiperSlide>
+        <SwiperSlide className="swiper-slide"><img src={Per4} alt="persona 4" className="persona-big" /></SwiperSlide>
+        <SwiperSlide className="swiper-slide"><img src={Per5} alt="persona 5" className="persona-big" /></SwiperSlide>
+        <SwiperSlide className="swiper-slide"><img src={Per6} alt="persona 6" className="persona-big" /></SwiperSlide>
+    </Swiper>
 
 export default function Hints() {
     return (
@@ -79,12 +96,78 @@ export default function Hints() {
                     <li>Daily news is provided for the intermediate-advanced level users, but only intermediate level articles have a translation option, so the users most affected are personas 1, 2, and 5.</li>
                 </ul>
                 <div className="personas">
-                    <img className="persona" src={Per1} alt="persona 1" />
-                    <img className="persona" src={Per2} alt="persona 2" />
-                    <img className="persona" src={Per3} alt="persona 3" />
-                    <img className="persona" src={Per4} alt="persona 4" />
-                    <img className="persona" src={Per5} alt="persona 5" />
-                    <img className="persona" src={Per6} alt="persona 6" />
+                    <Popup 
+                        trigger={<img className="persona" src={Per1} alt="persona 1" />} 
+                        modal>
+                        { close => (<>
+                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                                {personas(0)}
+                            </div>
+                            <button className="close" onClick={close}>
+                                &times;
+                            </button></>)
+                    }
+                    </Popup>
+                    <Popup 
+                        trigger={<img className="persona" src={Per2} alt="persona 2" />} 
+                        modal>
+                        { close => (<>
+                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                                {personas(1)}
+                            </div>
+                            <button className="close" onClick={close}>
+                                &times;
+                            </button></>)
+                    }
+                    </Popup>
+                    <Popup 
+                        trigger={<img className="persona" src={Per3} alt="persona 3" />} 
+                        modal>
+                        { close => (<>
+                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                                {personas(2)}
+                            </div>
+                            <button className="close" onClick={close}>
+                                &times;
+                            </button></>)
+                    }
+                    </Popup>
+                    <Popup 
+                        trigger={<img className="persona" src={Per4} alt="persona 4" />} 
+                        modal>
+                        { close => (<>
+                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                                {personas(3)}
+                            </div>
+                            <button className="close" onClick={close}>
+                                &times;
+                            </button></>)
+                    }
+                    </Popup>
+                    <Popup 
+                        trigger={<img className="persona" src={Per5} alt="persona 5" />} 
+                        modal>
+                        { close => (<>
+                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                                {personas(4)}
+                            </div>
+                            <button className="close" onClick={close}>
+                                &times;
+                            </button></>)
+                    }
+                    </Popup>
+                    <Popup 
+                        trigger={<img className="persona" src={Per6} alt="persona 6" />} 
+                        modal>
+                        { close => (<>
+                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                                {personas(5)}
+                            </div>
+                            <button className="close" onClick={close}>
+                                &times;
+                            </button></>)
+                    }
+                    </Popup>
                 </div>
             </div>
 
