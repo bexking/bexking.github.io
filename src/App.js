@@ -44,7 +44,7 @@ function App() {
       <Router history={history}>
         <Nav />
         <Switch>
-          <Route path="/home" component={Home} />
+          <Route path="/(home|)" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
           <Route path="/projects" component={ProjectPage} />
