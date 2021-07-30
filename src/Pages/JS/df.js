@@ -151,11 +151,11 @@ export default function Dreamy() {
                         The site was built in React. This was the first site I'd ever built in React so it was a big learning curve. To make the site more interactive and a more natural user experience, I took advantage of state to keep the search box updating. It was great to be able to create components and reuse them throughout the site so I didn't have to repeat content. This was also the first time using an API. It was great to be able to get all the information and images I needed about each villager from the API and saved a lot of time.
                     </p>
                     <p>
-                        Can be found on my github.
+                        See the project on my  <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">github</a>.
                     </p>
                 </div>    
             </div>
-            <SeeMore project1={"ib"} project2={"df"} project3={"ib"} />
+            <SeeMore project1={"ib"} project3={"hints"} />
         </div>
     )
 }
