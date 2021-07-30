@@ -23,8 +23,8 @@ export default function Home() {
             <div className="homepage">
                 <p>Nau mai haere mai, ki taku kohinga hoahoa whaiaro.</p>
                 <p>Welcome to my design portfolio. I'm  a former Visual Merchandiser turned Interaction Design Graduate.</p>   
-                <p>I like these things </p>      
-                <p>My strengths are </p>         
+                <p>In work I like getting to the bottom of a problem, finding out what makes people tick, and designing solutions to meet their needs. At home I like knitting, nature, live music and learning languages. </p>      
+                <p>My strengths are finding creative solutions to messy problems, analysing situtations and finding trends, and keeping users at the heart of my designs.</p>         
                 <p>Check out my <Link to="#workworkwork" className="homepage-links"  id="homepage-link1">work</Link> learn more <Link to="#about" className="homepage-links" id="homepage-link2">about me</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links" id="homepage-link3">bexkingdesign@gmail.com</a></p>
             </div>
 

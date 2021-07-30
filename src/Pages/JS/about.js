@@ -20,9 +20,7 @@ export default function About() {
                         <p>
                             In my spare time I love knitting and crocheting, learning Te Reo, learning all about freshwater fish, and trying to garden.
                         </p>            
-                        <p>Check out my work and contact me at bexkingdesign@gmail.com</p>
-                        <Link to="#workworkwork">Work</Link>
-                        <Link to="/incognitobreathing#top">IB</Link>
+                        <p>Check out my <Link to="#workworkwork">Work</Link> and contact me at <a href="mailto:bexkingdesign@gmail.com">bexkingdesign@gmail.com</a></p>
                 </div>
             </div>    
         </div>
