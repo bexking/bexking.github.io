@@ -35,7 +35,7 @@ import Popup from 'reactjs-popup';
 
 SwiperCore.use([Navigation]);
 
-let personas = (initialSlide) => 
+let personas = (initialSlide) =>
     <Swiper navigation={true} initialSlide={initialSlide}>
         <SwiperSlide className="swiper-slide"><img src={Per1} alt="persona 1" className="persona-big" /></SwiperSlide>
         <SwiperSlide className="swiper-slide"><img src={Per2} alt="persona 2" className="persona-big" /></SwiperSlide>
@@ -74,7 +74,7 @@ export default function Hints() {
                 </div>
                 <div className="uf">
                     <img className="uf-img" src={Uf1} alt="user flows using translation feature - user reads all text in english and the translation at the end to check answers." />
-                </div>            
+                </div>
             </div>
 
             <div className="written-content">
@@ -96,74 +96,74 @@ export default function Hints() {
                     <li>Daily news is provided for the intermediate-advanced level users, but only intermediate level articles have a translation option, so the users most affected are personas 1, 2, and 5.</li>
                 </ul>
                 <div className="personas">
-                    <Popup 
-                        trigger={<img className="persona" src={Per1} alt="persona 1" />} 
+                    <Popup
+                        trigger={<img className="persona" src={Per1} alt="persona 1" />}
                         modal>
                         { close => (<>
                             <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(0)}
                             </div>
-                            <button className="close" onClick={close}>
+                            <button className="close" onClick={close} style={{zIndex: 1}}>
                                 &times;
                             </button></>)
                     }
                     </Popup>
-                    <Popup 
-                        trigger={<img className="persona" src={Per2} alt="persona 2" />} 
+                    <Popup
+                        trigger={<img className="persona" src={Per2} alt="persona 2" />}
                         modal>
                         { close => (<>
-                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                            <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(1)}
                             </div>
-                            <button className="close" onClick={close}>
+                            <button className="close" onClick={close} style={{zIndex: 1}}>
                                 &times;
                             </button></>)
                     }
                     </Popup>
-                    <Popup 
-                        trigger={<img className="persona" src={Per3} alt="persona 3" />} 
+                    <Popup
+                        trigger={<img className="persona" src={Per3} alt="persona 3" />}
                         modal>
                         { close => (<>
-                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                            <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(2)}
                             </div>
-                            <button className="close" onClick={close}>
+                            <button className="close" onClick={close} style={{zIndex: 1}}>
                                 &times;
                             </button></>)
                     }
                     </Popup>
-                    <Popup 
-                        trigger={<img className="persona" src={Per4} alt="persona 4" />} 
+                    <Popup
+                        trigger={<img className="persona" src={Per4} alt="persona 4" />}
                         modal>
                         { close => (<>
-                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                            <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(3)}
                             </div>
-                            <button className="close" onClick={close}>
+                            <button className="close" onClick={close} style={{zIndex: 1}}>
                                 &times;
                             </button></>)
                     }
                     </Popup>
-                    <Popup 
-                        trigger={<img className="persona" src={Per5} alt="persona 5" />} 
+                    <Popup
+                        trigger={<img className="persona" src={Per5} alt="persona 5" />}
                         modal>
                         { close => (<>
-                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                            <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(4)}
                             </div>
-                            <button className="close" onClick={close}>
+                            <button className="close" onClick={close} style={{zIndex: 1}}>
                                 &times;
                             </button></>)
                     }
                     </Popup>
-                    <Popup 
-                        trigger={<img className="persona" src={Per6} alt="persona 6" />} 
+                    <Popup
+                        trigger={<img className="persona" src={Per6} alt="persona 6" />}
                         modal>
                         { close => (<>
-                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                            <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(5)}
                             </div>
-                            <button className="close" onClick={close}>
+                            <button className="close" onClick={close} style={{zIndex: 1}}>
                                 &times;
                             </button></>)
                     }
@@ -175,7 +175,7 @@ export default function Hints() {
                 <div id="goals-text">
                     <h2 id="goals-title">Project Goals</h2>
                     <p id="goals-para">The solution must:</p>
-                    <ul id="goals-list"> 
+                    <ul id="goals-list">
                         <li>Provide a translation experience that creates better opportunities for language acquisition across the board.</li>
                         <li>Have a natural user flow</li>
                         <li>Support languages with differing lengths.</li>
@@ -193,7 +193,7 @@ export default function Hints() {
                     I began with sketches before digital prototypes. Early on I had the idea to use the space between paragraphs to break up the translated text.
                     This concept was inspired by spoiler tags and sought to meet Engoo’s need to have a better flow when interacting with the translation, without disrupting the “news-feel” of the page.
                 </p>
-            
+
                 <div className="two-col-grid">
                     <div className="sketches-div">
                         <img className="engoo-sketch" src={Sk1} alt="persona 4" />
@@ -212,7 +212,7 @@ export default function Hints() {
                 <div>
                     <img className="engoo-dvpt" src={EngooDv1} alt=""/>
                     {/* <img className="engoo-dvpt" src={EngooDv2} alt=""/> */}
-                </div> 
+                </div>
             </div>
 
             <div className="written-content">

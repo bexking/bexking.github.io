@@ -32,6 +32,14 @@ body {
   max-height: 500px;
 }
 
+.swiper-container {
+  background-color: #FFFFFF;
+}
+
+.popup-content {
+  background:#FFFFFF !important;
+}
+
 .visibleContainer {
   max-height:300px;
 }
