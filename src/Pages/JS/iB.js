@@ -31,7 +31,7 @@ export default function IncognitoBreathing() {
 
                     <div className="ib-hero-container">
                         <div className="ib-video-section">
-                            <video className="vid" autoPlay muted controls>
+                            <video className="vid" autoPlay muted controls playsinline>
                                 <source src={IbVideo} type="video/mp4" />
                             </video>
                         </div>
@@ -109,28 +109,28 @@ export default function IncognitoBreathing() {
                             <li>Subtle enough that co-workers wouldn’t really notice it</li>
                             <li>Aid the sense of calm in visuals and audio</li>
                             <li>Easy to breathe along with</li>
-                        </ul>    
+                        </ul>
                         <p>Iterations were sketched, and mocked up and tested in After Effects/Premiere Pro.</p>
                         <p>I explored obscuring the screenshot in subtle ways, to take the user away from their work.</p>
                     </div>
 
                     <div id="visualisation-its">
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoPlay muted>
+                            <video className="it-vid" controls loop autoPlay muted playsinline>
                                 <source src={IbIt1} type="video/mp4" />
                             </video>
                         </div>
 
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoPlay muted>
+                            <video className="it-vid" controls loop autoPlay muted playsinline>
                                 <source src={IbIt2} type="video/mp4" />
                             </video>
                         </div>
-    
+
                     </div>
 
                     <div className="video-section-2">
-                        <video className="vid" controls muted autoPlay>
+                        <video className="vid" controls muted autoPlay playsinline>
                             <source src={IbIt4} type="video/mp4" />
                         </video>
                     </div>
