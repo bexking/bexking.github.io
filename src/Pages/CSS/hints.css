@@ -444,8 +444,7 @@ a:hover {
 }
 
 .testing-pic {
-    max-width: 37vw;
-    /* border-radius: 5px; */
+    max-width: min(37vw, 650px);
     margin-bottom: 1%;
     margin-top: 1%;
 }
