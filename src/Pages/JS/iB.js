@@ -31,7 +31,7 @@ export default function IncognitoBreathing() {
 
                     <div className="ib-hero-container">
                         <div className="ib-video-section">
-                            <video className="vid" autoPlay muted controls playsinline>
+                            <video className="vid" autoPlay muted controls playsInline>
                                 <source src={IbVideo} type="video/mp4" />
                             </video>
                         </div>
@@ -116,13 +116,13 @@ export default function IncognitoBreathing() {
 
                     <div id="visualisation-its">
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoPlay muted playsinline>
+                            <video className="it-vid" controls loop autoPlay muted playsInline>
                                 <source src={IbIt1} type="video/mp4" />
                             </video>
                         </div>
 
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoPlay muted playsinline>
+                            <video className="it-vid" controls loop autoPlay muted playsInline>
                                 <source src={IbIt2} type="video/mp4" />
                             </video>
                         </div>
@@ -130,7 +130,7 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div className="video-section-2">
-                        <video className="vid" controls muted autoPlay playsinline>
+                        <video className="vid" controls muted autoPlay playsInline>
                             <source src={IbIt4} type="video/mp4" />
                         </video>
                     </div>
