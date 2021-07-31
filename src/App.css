@@ -1,6 +1,5 @@
-.body {
-  height: 100%;
-  overflow: hidden;
+body {
+  background-image: url('./Assets/bg.png');
 }
 
 .App {

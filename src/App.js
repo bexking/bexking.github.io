@@ -12,7 +12,6 @@ import Hints from './Pages/JS/hints';
 import CookNook from './Pages/JS/cookNook';
 import About from './Pages/JS/about';
 import Work from './Pages/JS/work';
-import Bg from './Assets/bg.png';
 import Nav from './Components/JS/nav2';
 import { createBrowserHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
@@ -35,12 +34,7 @@ function App() {
   wrapHistory(history, settings);
 
   return (
-    <div className="App" 
-        style={{ backgroundImage: `url(${Bg})`, 
-        "background-repeat": "repeat",
-        "width" : "100vw",
-      }}>
-      
+    <div className="App">
       <Router history={history}>
         <Nav />
         <Switch>
