@@ -152,7 +152,7 @@ p {
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-bottom: 5%;   
+    margin-bottom: 5%;
 }
 
 .hint-sketches {
@@ -205,7 +205,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
-    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
     justify-self: center;
@@ -237,11 +236,11 @@ p {
     font-size: 20px;
     text-decoration: none;
   }
-  
+
 .projectLink:visited {
     color:#000099;
   }
-  
+
 .projectLink:hover {
     color:#000099;
     -webkit-transition: font-size 0.2s ease-out;

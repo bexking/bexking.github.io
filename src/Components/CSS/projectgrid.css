@@ -1,6 +1,6 @@
 .projectGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 43vw);
+    grid-template-columns: repeat(auto-fill, 600px);
     grid-gap: 3vw;
     margin-top: 0;
     align-content: center;
@@ -21,6 +21,7 @@
 
 .hero-image {
     width: 100%;
+    max-width: 600px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;

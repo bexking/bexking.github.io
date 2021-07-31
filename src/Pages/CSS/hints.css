@@ -26,8 +26,6 @@ html {
     background-color: #fafdff;
     margin-left: auto;
     margin-right: auto;
-    max-width: 90vw;
-    max-width: 80vw;
     padding: 4.5%;
     margin-top: calc(65px + 8vh);
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
@@ -133,7 +131,7 @@ html {
     padding: 2%;
     background-color: #242838;
     /* border-radius: 20px; */
-    
+
 }
 
 .results p {
@@ -179,14 +177,14 @@ html {
     color: #f2f2f2;
     font-family: 'HK Grotesk SemiBold', sans-serif;
     font-size: 1.5vw;
-    
+
 }
 
 
 #fq-3 {
     border: 2px solid #EF7A30;
     background-color: #EF7A30;
-    
+
 }
 
 #fq-3-text {
@@ -396,7 +394,7 @@ a:hover {
 }
 
 .drawing-ft-review {
-    max-width: 70vw;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -445,7 +443,7 @@ a:hover {
     border-radius: 10px;
 }
 
-.testing-pic {  
+.testing-pic {
     max-width: 37vw;
     /* border-radius: 5px; */
     margin-bottom: 1%;

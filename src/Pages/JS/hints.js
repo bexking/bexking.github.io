@@ -49,11 +49,11 @@ export default function Hints() {
     return (
     <div>
 
-        <div className="hint-page">
+        <div className="hint-page page">
             <img id="homepage-hero" src={EngooHero} alt="engoo image hints box" />
             <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
             <h2 id="hints-subtitle">Rethinking the way online English lessons deliver vocabulary hints</h2>
-            
+
             <div className="written-content">
                 <p>
                     This is a proposed hint system for English-language lesson platform Engoo, which provides one-on-one online English lessons. Engoo is a Japanese company with its main markets being Japan and South Korea, but has users in many different countries.
