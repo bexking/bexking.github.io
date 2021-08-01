@@ -2,16 +2,12 @@ import React from 'react'
 import '../CSS/projectPage.css';
 import '../CSS/hints.css';
 import DrawingBox from '../../Assets/engoo-images/drawing-box-review.png';
-import DrawingBoxSS from '../../Assets/engoo-images/drawing-box-ss.png';
-import DrawingBoxSml from '../../Assets/engoo-images/drawing-box.png';
 import EngooDv1 from '../../Assets/engoo-images/engoo-dvpt1.jpg';
-import EngooDv2 from '../../Assets/engoo-images/engoo-dvpt2.jpg';
 import Test1 from '../../Assets/engoo-images/testing-1.png';
 import Test2 from '../../Assets/engoo-images/testing-2.png';
 import Test4 from '../../Assets/engoo-images/testing-4.png';
 import Test5 from '../../Assets/engoo-images/testing-5.png';
 import EngooHero from '../../Assets/engoo-images/engoo-hero.png';
-import HintBox from '../../Assets/engoo-images/engoo-hintbox.png';
 import Per1 from '../../Assets/engoo-images/engoo-p1.png';
 import Per2 from '../../Assets/engoo-images/engoo-p2.png';
 import Per3 from '../../Assets/engoo-images/engoo-p3.png';
@@ -24,7 +20,6 @@ import Uf1 from '../../Assets/engoo-images/hints-uf1.png';
 import Uf2 from '../../Assets/engoo-images/hints-uf2.png';
 import Results from '../../Assets/engoo-images/results.png';
 import SeeMore from "../../Components/JS/see-more.js";
-import Bg from '../../Assets/bg.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
     Navigation

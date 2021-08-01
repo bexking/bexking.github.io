@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+
+#notfound-page {
+    margin-top: calc(65px + 8vh);
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#elle {
+    max-width: 40%;
+}
+
+.content404 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: calc(65px + 4vh);
+    background-color: #d49b9b;
+    filter: drop-shadow(0 5mm 5mm #a1a1a148);
+}
+
+.text404 {
+    max-width: 40%;
+    text-align: center;
+}
+
+.notfoundh1 {
+    font-family: 'HK Grotesk Bold';
+    font-size: 80px;
+    color: #ffebeb;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+
+.notfoundh2 {
+    font-family: 'HK Grotesk SemiBold';
+    font-size: 45px;
+    color: #ffebeb;
+    margin-bottom: 4%;
+}
+
+.notfoundh3 {
+    font-family: 'HK Grotesk SemiBold';
+    font-size: 20px;
+    color: #ffebeb;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .content404 {
+        flex-direction: column-reverse;
+    }
+
+    #elle {
+        max-width: 90%;
+    }
+
+    .text404 {
+        max-width: 90%;
+        margin-top: 5%;
+    }
+}

@@ -1,9 +1,6 @@
 import React from 'react'
 import Popup from 'reactjs-popup';
 import '../CSS/df.css';
-import Hero from '../../Assets/dome.jpg';
-import DfProcess from '../../Components/JS/df-process.js'
-import Nav from '../../Components/JS/nav2.js';
 import DfJourney1 from '../../Assets/df-images/df-1.jpg';
 import DfJourney2 from '../../Assets/df-images/df-2.jpg';
 import DfSketch1 from '../../Assets/df-images/df-sk1.jpg';
@@ -76,9 +73,6 @@ export default function Dreamy() {
                         }
                         </Popup>
                     </div>
-                    {/* <div className="modal-test">
-                        <img id="df-journey" src={DfJourney} alt="User Journey - annotated" />
-                    </div> */}
                 </div>
 
                 <div className="written-content">
