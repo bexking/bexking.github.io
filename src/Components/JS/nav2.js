@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import '../CSS/nav.css';
 import Me from '../../Assets/self.png'
-import Bg from '../../Assets/bg.png';
-
 
 export default function Nav() {
     return (
