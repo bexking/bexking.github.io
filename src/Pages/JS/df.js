@@ -138,7 +138,7 @@ export default function Dreamy() {
                             I also found an API that I could use to access the villager pictures, as well as important data I would need such as the villagers' species types and personality types for the results page.
                         </p>
                         <div className="df-video-section">
-                            <video className="vid" controls muted>
+                            <video className="vid" controls muted playsinline>
                                 <source src={DfPrototype} type="video/mp4" />
                             </video>
                         </div>
