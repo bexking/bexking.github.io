@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../CSS/about.css';
-import ContactFooter from '../../Components/JS/contact-footer'
 
 export default function About() {
     return (
