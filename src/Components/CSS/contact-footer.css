@@ -40,20 +40,21 @@
 
 .contact-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 40%;
+    max-width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .contact-icon {
-    width: 60%;
+    width: 50px;
     margin-top: 1.5%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #contact-icon:hover {
-    /* width: 70px; */
     transform: scale(1);
     transition: all .05s ease-in-out;
     filter: drop-shadow(0 2mm 2mm #f0fbff73);
