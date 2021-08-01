@@ -55,7 +55,7 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 4%;
-    max-width: 70%;
+    max-width: 90%;
     font-size: 18px;
 }
 
@@ -745,5 +745,9 @@ a:hover {
 @media only screen and (max-width: 500px) {
     #page-ib {
         margin-top: calc(65px + 6vh);
+    }
+
+    #ib-subtitle {
+        font-size: 4vw;
     }
 }

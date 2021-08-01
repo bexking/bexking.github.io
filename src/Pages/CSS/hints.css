@@ -38,7 +38,7 @@ html {
 
 #hints-heading {
     color: #EF7A30;
-    max-width: 60%;
+    max-width: 70%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -53,7 +53,7 @@ html {
     text-align: center;
     margin-top: 0;
     margin-bottom: 4%;
-    max-width: 70%;
+    max-width: 90%;
     font-size: 18px;
 }
 
@@ -486,6 +486,10 @@ a:hover {
 
     .hints-user-quotes {
         max-width: 70%;
+    }
+
+    #hints-subtitle {
+        font-size: 4vw;
     }
 
     #fq-1 {

@@ -76,10 +76,16 @@ ul {
 
 .project-heading {
   font-family: 'HK Grotesk Bold', sans-serif;
-  font-size: 36px;
+  font-size: 32px;
   margin-top: 2.5%;
   margin-bottom: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) { 
+  .project-heading {
+    font-size: 6vw;
+  }
 }
