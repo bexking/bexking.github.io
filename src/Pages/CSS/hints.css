@@ -443,6 +443,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-content: space-between;
+    align-items: flex-start; /* Stops images stretching in Safari */
     flex-wrap: wrap;
     width: 100%;
     margin-left: auto;
