@@ -76,7 +76,6 @@
 
 /* IMAGES & VIDEO */
 #df-journey {
-    /* max-width: 50%; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -139,7 +138,6 @@
     margin-right: auto;
     border-bottom: 1px solid rgba(255, 166, 0, 0.315);
     background-color: white;
-    /* border-radius: 15px; */
     padding-top: 2%;
     padding-bottom: 2%;
     filter: drop-shadow(0 2mm 2mm #f2f2f2);
