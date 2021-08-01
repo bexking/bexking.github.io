@@ -14,8 +14,6 @@ export default function SeeMore(props) {
                 <div className="featured-projects">
                     <WorkNavItem project={projects[props.project1]} className="see-more-image"/>
                     <WorkNavItem project={projects[props.project2]} className="see-more-image"/>
-                    {/* <WorkNavItem project={projects[props.project3]} /> */}
-                    {/* random project link from complete list of projects, excluding page we are already on - x2 for 13 inch screen, 3 for big screen, 2 in column for mobile */}
                 </div>
             </div>
 
