@@ -476,7 +476,7 @@ a:hover {
     }
 
     .hint-page .feature-quote {
-        /* border-radius: 10px; */
+        border-radius: 10px;
         width: 80%;
     }
 
@@ -491,6 +491,7 @@ a:hover {
 
     #fq-1-text {
         font-size: 11px;
+        margin-top: 10px;
     }
 
     #fq-2 {
@@ -520,6 +521,8 @@ a:hover {
 
     #fq-4-text {
         font-size: 12px;
+        max-width: 85%;
+        margin-top: 10px;
     }
 
 }

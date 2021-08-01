@@ -231,38 +231,6 @@ export default function Hints() {
                 <p>The user was asked to try to learn some vocabulary and then identify the words and their meaning within the article.</p>
             </div>
 
-            {/* <div className="written-content">
-                <h2>Results</h2>
-                <div className="results-container">
-                    <ul className="results">
-                        <p>Design One:</p>
-                        <li>The user didn't have to do a significant amount of scrolling, but did have to go back up the page to the vocab section once. </li>
-                        <li>It was difficult for the user to know to interact with the paragraph space, but this may have been due to the limitations on the paper prototype.</li>
-                        <li>It didn't take long for the user to learn how the translation space worked.</li>
-                        <li>In some cases, the translation alone didn't help the user, as they didn't know the new word strongly enough to identify it in the translated paragraph.</li>
-                        <li>The user liked the idea of learning from the news story, and it was clear to them that it was a news story, even with the slightly expanded paragraphs. </li>
-                    </ul>
-
-                    <ul className="results">
-                        <p>Design Two:</p>
-                        <li>Due to using the previous design, the user instinctively looked to the paragraph space when they needed a prompt.</li>
-                        <li>The user was able to successfully identify the majority of hint icons, and became a bit excited and energetic when they saw the options. They identified all the icons except Text - they assumed it would be a translation like they had previously seen, and when they saw a separate translate icon, they wondered what Text would be.</li>
-                        <li>The user clicked the icons and was excited when saw they could upload their own hints. They started listing the types of hints they would add, such as uploading sound files and writing hints such as "rhymes with x"</li>
-                        <li>The user wanted to draw their own hints for the image section, and said they would probably open up paint, but would prefer if they could draw directly in the site during the lesson.</li>
-                    </ul>
-                </div>
-
-                <p>From testing I discovered the design was not too
-                    complex and in fact the participant wanted extra
-                    features, such as adding hints at the vocabulary section,
-                    and a drawing feature. The user quickly learned how the system worked and enjoyed coming up with their own hints, and felt that this helped them better identify new words they had learned later in the text. They liked the variety of hint options available.</p>
-                <p>The user liked the idea of highlighting the word in the article and being able to view all avaliable hints for that word.</p>
-                <p>The user also wanted to be able to add hints directly from the vocabulary section before the article.</p>
-                <p>
-                    Testing also uncovered some further opportunities for the hint system, such as adding hints at the vocabulary section, and the desire to be able to draw own hints rather than just uploading an image. The user mentioned they often like to learn things by drawing a picture or a diagram. From my own experience in learning languages I could see the appeal, as you could create your own diagrams to show relationships between words to better learn the structure of the language, as well as drawing simple images of the words as a hint. 
-                </p> 
-            </div> */}
-
             <div className="written-content">
                 <h2>Results</h2>
                 <div className="results-category">
