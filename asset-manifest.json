@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.95b8364b.chunk.css",
-    "main.js": "/static/js/main.5fbc8f08.chunk.js",
-    "main.js.map": "/static/js/main.5fbc8f08.chunk.js.map",
+    "main.js": "/static/js/main.9e13c9b6.chunk.js",
+    "main.js.map": "/static/js/main.9e13c9b6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.4dbeafc5.chunk.css": "/static/css/2.4dbeafc5.chunk.css",
     "static/js/2.f23990a1.chunk.js": "/static/js/2.f23990a1.chunk.js",
     "static/js/2.f23990a1.chunk.js.map": "/static/js/2.f23990a1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2888fcdb9a178c30fa8f4e6b45cca74d.js": "/precache-manifest.2888fcdb9a178c30fa8f4e6b45cca74d.js",
+    "precache-manifest.a9c38422b36e4e6e79d466598e34149f.js": "/precache-manifest.a9c38422b36e4e6e79d466598e34149f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4dbeafc5.chunk.css.map": "/static/css/2.4dbeafc5.chunk.css.map",
     "static/css/main.95b8364b.chunk.css.map": "/static/css/main.95b8364b.chunk.css.map",
@@ -54,9 +54,9 @@
     "static/media/ib-concept2.png": "/static/media/ib-concept2.72cac2e6.png",
     "static/media/ib-concept3.png": "/static/media/ib-concept3.f9a19579.png",
     "static/media/ib-hero.png": "/static/media/ib-hero.a65ad58e.png",
-    "static/media/ib-it1.mp4": "/static/media/ib-it1.61fd426e.mp4",
-    "static/media/ib-it2.mp4": "/static/media/ib-it2.1c9fa47d.mp4",
-    "static/media/ib-it4.mp4": "/static/media/ib-it4.c80e0c17.mp4",
+    "static/media/ib-it1.gif": "/static/media/ib-it1.a1cf8dcb.gif",
+    "static/media/ib-it2.gif": "/static/media/ib-it2.51c2d9d1.gif",
+    "static/media/ib-it4.gif": "/static/media/ib-it4.15afc8d9.gif",
     "static/media/ib-office-mockup_1.png": "/static/media/ib-office-mockup_1.3eff5cce.png",
     "static/media/ib-results.png": "/static/media/ib-results.540f46f5.png",
     "static/media/ib-video.mp4": "/static/media/ib-video.41d739ad.mp4",
@@ -79,6 +79,6 @@
     "static/css/2.4dbeafc5.chunk.css",
     "static/js/2.f23990a1.chunk.js",
     "static/css/main.95b8364b.chunk.css",
-    "static/js/main.5fbc8f08.chunk.js"
+    "static/js/main.9e13c9b6.chunk.js"
   ]
 }
