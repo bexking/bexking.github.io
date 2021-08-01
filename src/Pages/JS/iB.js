@@ -1,8 +1,6 @@
 import React from 'react'
 import '../CSS/iB.css';
-import InnerImageZoom from 'react-inner-image-zoom';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';
-import Nav from '../../Components/JS/nav2.js';
 import Homepage from "../../Assets/IB_Assets/homepage.png";
 import ibofficemockup_1 from "../../Assets/IB_Assets/ib-office-mockup_1.png";
 import IbVideo from "../../Assets/IB_Assets/ib-video.mp4";
@@ -19,7 +17,6 @@ import TestIcon4 from "../../Assets/IB_Assets/test-icon4.png";
 import TestIcon5 from "../../Assets/IB_Assets/test-icon5.png";
 import TestIcon6 from "../../Assets/IB_Assets/test-icon6.png";
 import Results from "../../Assets/IB_Assets/ib-results.png";
-import ContactFooter from '../../Components/JS/contact-footer';
 import SeeMore from "../../Components/JS/see-more.js"
 
 export default function IncognitoBreathing() {
