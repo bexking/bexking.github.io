@@ -206,7 +206,6 @@ export default function Hints() {
 
                 <div>
                     <img className="engoo-dvpt" src={EngooDv1} alt=""/>
-                    {/* <img className="engoo-dvpt" src={EngooDv2} alt=""/> */}
                 </div>
             </div>
 
