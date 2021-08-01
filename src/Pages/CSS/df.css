@@ -100,6 +100,7 @@
 
 .df-digi-ideation {
     width: 32%;
+    height: intrinsic;
     margin-bottom: 1%;
     filter: drop-shadow(0 2mm 2mm #e0e0e0);
     margin-left: 1.5%;
