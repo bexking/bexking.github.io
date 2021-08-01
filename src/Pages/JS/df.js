@@ -155,7 +155,7 @@ export default function Dreamy() {
                     </p>
                 </div>    
             </div>
-            <SeeMore project1={"ib"} project3={"hints"} />
+            <SeeMore project1={"ib"} project2={"hints"} />
         </div>
     )
 }

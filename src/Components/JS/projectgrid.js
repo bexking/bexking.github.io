@@ -25,9 +25,9 @@ export default function ProjectGrid() {
                 <img src={CN} alt="CookNook Logo" className="hero-image"/>
                 <img src={Emoji} alt="Emoji-Translate Site" className="hero-image"/> */}
                 
+                <WorkNavItem project={projects.df} className="hero-image"/>
                 <WorkNavItem project={projects.hints} className="hero-image"/>
                 <WorkNavItem project={projects.ib} className="hero-image"/>
-                <WorkNavItem project={projects.df} className="hero-image"/>
                 {/* <WorkNavItem project={projects.dome} />
                 <WorkNavItem project={projects.cn} />
                 <WorkNavItem project={projects.emoji} /> */}
