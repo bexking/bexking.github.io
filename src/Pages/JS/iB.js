@@ -125,11 +125,12 @@ export default function IncognitoBreathing() {
 
                     </div>
 
-                    <div className="video-section-2">
-                        <img className="vid" src={IbIt4} alt="final version of visualisation with bubble moving left to right at top of window, and opacity blur fading in and out on content."></img>
-                    </div>
+                    
                     <div className="written-content">
                         <p>The most successful example had a clear bubble moving from left to right at the top of the window. This warped the image enough for users to see the bubble and follow along with it. Left to right seemed to work best for inhaling and exhaling rather than vertically, or non-directional.</p>
+                    </div>
+                    <div className="video-section-2">
+                        <img className="vid" src={IbIt4} alt="final version of visualisation with bubble moving left to right at top of window, and opacity blur fading in and out on content."></img>
                     </div>
 
                     <div className="written-content">
