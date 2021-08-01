@@ -18,19 +18,6 @@
     src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
 }
 
-
-.nameText {
-    margin-left: 5%;
-}
-
-.discipline {
-    margin-left: 5%;
-}
-
-.name {
-    text-decoration: none;
-}
-
 .home-work {
     font-family: 'HK Grotesk Black', sans-serif;
     -webkit-text-stroke: 1px #d49b9b;
@@ -169,7 +156,6 @@ h4 {
     font-family: 'HK Grotesk SemiBold';
     filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
     border-radius: 30px;
-    
 }
 
 @media only screen and (max-width: 650px) {

@@ -2,9 +2,7 @@ import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import '../CSS/home.css';
 import Me from '../../Assets/self.png'
-import IBHero from '../../Assets/ib-hero.png'
 import ProjectGrid from '../../Components/JS/projectgrid.js'
-import ContactFooter from '../../Components/JS/contact-footer'
 
 
 export default function Home() {
