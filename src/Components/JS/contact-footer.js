@@ -1,7 +1,5 @@
 import React from 'react';  
-import { Link } from "react-router-dom";
 import '../CSS/contact-footer.css';
-import Me from '../../Assets/self.png';
 import Contact from '../../Assets/contact.png';
 import Insta from '../../Assets/insta.png';
 
