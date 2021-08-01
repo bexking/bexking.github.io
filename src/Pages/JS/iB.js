@@ -9,9 +9,9 @@ import IbVideo from "../../Assets/IB_Assets/ib-video.mp4";
 import IbConcept1 from "../../Assets/IB_Assets/ib-concept1.png";
 import IbConcept2 from "../../Assets/IB_Assets/ib-concept2.png";
 import IbConcept3 from "../../Assets/IB_Assets/ib-concept3.png";
-import IbIt1 from "../../Assets/IB_Assets/ib-it1.mp4";
-import IbIt2 from "../../Assets/IB_Assets/ib-it2.mp4";
-import IbIt4 from "../../Assets/IB_Assets/ib-it4.mp4";
+import IbIt1 from "../../Assets/IB_Assets/ib-it1.gif";
+import IbIt2 from "../../Assets/IB_Assets/ib-it2.gif";
+import IbIt4 from "../../Assets/IB_Assets/ib-it4.gif";
 import TestIcon1 from "../../Assets/IB_Assets/test-icon1.png";
 import TestIcon2 from "../../Assets/IB_Assets/test-icon2.png";
 import TestIcon3 from "../../Assets/IB_Assets/test-icon3.png";
@@ -116,23 +116,17 @@ export default function IncognitoBreathing() {
 
                     <div id="visualisation-its">
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoPlay muted playsInline>
-                                <source src={IbIt1} type="video/mp4" />
-                            </video>
+                            <img className="it-vid" src={IbIt1} alt="visualisation with bubble going up left side and across the top."></img>
                         </div>
 
                         <div className="ib-its-wrapper">
-                            <video className="it-vid" controls loop autoPlay muted playsInline>
-                                <source src={IbIt2} type="video/mp4" />
-                            </video>
+                            <img className="it-vid" src={IbIt2} alt="visualisation with jagged blur phasing in and out"></img>
                         </div>
 
                     </div>
 
                     <div className="video-section-2">
-                        <video className="vid" controls muted autoPlay playsInline>
-                            <source src={IbIt4} type="video/mp4" />
-                        </video>
+                        <img className="vid" src={IbIt4} alt="final version of visualisation with bubble moving left to right at top of window, and opacity blur fading in and out on content."></img>
                     </div>
                     <div className="written-content">
                         <p>The most successful example had a clear bubble moving from left to right at the top of the window. This warped the image enough for users to see the bubble and follow along with it. Left to right seemed to work best for inhaling and exhaling rather than vertically, or non-directional.</p>
