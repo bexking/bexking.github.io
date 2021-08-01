@@ -29,7 +29,7 @@ html {
     max-width: 90vw;
     max-width: 80vw;
     padding: 4.5%;
-    margin-top: 8%;
+    margin-top: calc(65px + 8vh);
     /* border-radius: 30px; */
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
@@ -478,6 +478,10 @@ a:hover {
     .hint-page .feature-quote {
         border-radius: 10px;
         width: 80%;
+    }
+
+    .hint-page {
+        margin-top: calc(65px + 6vh);
     }
 
     .hints-user-quotes {
