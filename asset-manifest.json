@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3f6d2b7.chunk.css",
-    "main.js": "/static/js/main.0d21d711.chunk.js",
-    "main.js.map": "/static/js/main.0d21d711.chunk.js.map",
+    "main.css": "/static/css/main.c40914b9.chunk.css",
+    "main.js": "/static/js/main.3965f955.chunk.js",
+    "main.js.map": "/static/js/main.3965f955.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.4dbeafc5.chunk.css": "/static/css/2.4dbeafc5.chunk.css",
     "static/js/2.f23990a1.chunk.js": "/static/js/2.f23990a1.chunk.js",
     "static/js/2.f23990a1.chunk.js.map": "/static/js/2.f23990a1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bf67cab74ebce04596c9e5881c852aa4.js": "/precache-manifest.bf67cab74ebce04596c9e5881c852aa4.js",
+    "precache-manifest.6904cbdc7e8be7ccf9f8b4de6765679e.js": "/precache-manifest.6904cbdc7e8be7ccf9f8b4de6765679e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4dbeafc5.chunk.css.map": "/static/css/2.4dbeafc5.chunk.css.map",
-    "static/css/main.c3f6d2b7.chunk.css.map": "/static/css/main.c3f6d2b7.chunk.css.map",
+    "static/css/main.c40914b9.chunk.css.map": "/static/css/main.c40914b9.chunk.css.map",
     "static/js/2.f23990a1.chunk.js.LICENSE.txt": "/static/js/2.f23990a1.chunk.js.LICENSE.txt",
     "static/media/hints.css": "/static/media/triangles.9c9ce810.png",
     "static/media/acnh-map.jpg": "/static/media/acnh-map.41986c51.jpg",
@@ -62,7 +62,7 @@
     "static/media/ib-video.mp4": "/static/media/ib-video.41d739ad.mp4",
     "static/media/insta.png": "/static/media/insta.aa3a99e9.png",
     "static/media/results.png": "/static/media/results.35ccdb2e.png",
-    "static/media/self.png": "/static/media/self.dd60fd33.png",
+    "static/media/self.png": "/static/media/self.37531559.png",
     "static/media/test-icon1.png": "/static/media/test-icon1.82400134.png",
     "static/media/test-icon2.png": "/static/media/test-icon2.ed3e7cd6.png",
     "static/media/test-icon3.png": "/static/media/test-icon3.d01bbcb5.png",
@@ -78,7 +78,7 @@
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.4dbeafc5.chunk.css",
     "static/js/2.f23990a1.chunk.js",
-    "static/css/main.c3f6d2b7.chunk.css",
-    "static/js/main.0d21d711.chunk.js"
+    "static/css/main.c40914b9.chunk.css",
+    "static/js/main.3965f955.chunk.js"
   ]
 }
