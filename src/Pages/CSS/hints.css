@@ -30,7 +30,6 @@ html {
     max-width: 80vw;
     padding: 4.5%;
     margin-top: calc(65px + 8vh);
-    /* border-radius: 30px; */
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
 
@@ -220,23 +219,9 @@ html {
 
 .results-text {
     max-width: 100%;
-    /* margin-left: 3%;
-    margin-right: 3%; */
 }
 
 /* OTHER STYLING */
-/* nav {
-    margin-bottom: 3vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 98vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3vh;
-} */
-
-
 
 #goals {
     background-color: #242838;
@@ -375,9 +360,12 @@ a:hover {
 }
 
 .persona-big {
-    height: 90vh;
-    margin-left: 50px;
-    margin-right: 50px;
+    height: 75vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .engoo-sketch {

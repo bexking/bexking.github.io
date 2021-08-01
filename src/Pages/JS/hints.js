@@ -100,7 +100,7 @@ export default function Hints() {
                         trigger={<img className="persona" src={Per1} alt="persona 1" />} 
                         modal>
                         { close => (<>
-                            <div style={{height: "90vh", width: "calc(90vh * .497 + 100px"}}>
+                            <div style={{height: "80vh", width: "calc(90vh * .497 + 100px"}}>
                                 {personas(0)}
                             </div>
                             <button className="close" onClick={close}>
