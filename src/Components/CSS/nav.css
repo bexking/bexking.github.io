@@ -80,4 +80,10 @@ nav:hover {
     filter: drop-shadow(0 2mm 2mm #94706786); */
 }
 
+@media only screen and (max-width: 500px) {
+    .nav-places {
+        padding-right: 4%;
+    }
+}
+
 
