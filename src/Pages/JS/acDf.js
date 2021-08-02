@@ -21,8 +21,7 @@ export default function AcDf() {
         <div>
             <div className="page" id="page-df">
 
-                {/* <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank"></a> */}
-                <img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" />
+                <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
                 <div>
                     <h1 className="project-heading" id="df-heading">Dreamy Finder</h1>
                     <h3 id="df-subtitle">A tool to help Animal Crossing: New Horizons players find their favourite villagers </h3>
@@ -36,9 +35,9 @@ export default function AcDf() {
                         Many players have favourite villagers that they seek to find for their town (known by the fandom as “Dreamies”). One main way to find a new villager is to take a Mystery Island Tour, where a seemingly random villager will be present if you have space available in your game. Visiting a mystery island requires an in-game airplane ticket, which can take a lot of effort to obtain.
                         I wanted to create a tool that would let people budget for tickets better, and see how different factors increased their odds.
                     </p>
-                    {/* <p>
+                    <p>
                         The result of my project is Dreamy Finder which can be found online <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">here</a>, or take a look at <a href="https://github.com/bexking/acnh-dreamy-finder" target="_blank">my Github</a>.
-                    </p> */}
+                    </p>
                 </div>
 
                 <div className="written-content">
@@ -145,9 +144,9 @@ export default function AcDf() {
                     <p>
                         The site was built in React. This was the first site I'd ever built in React so it was a big learning curve. To make the site more interactive and a more natural user experience, I took advantage of state to keep the search box updating. It was great to be able to create components and reuse them throughout the site so I didn't have to repeat content. This was also the first time using an API. It was great to be able to get all the information and images I needed about each villager from the API and saved a lot of time.
                     </p>
-                    {/* <p>
+                    <p>
                         See the project on my  <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">github</a>.
-                    </p> */}
+                    </p>
                 </div>    
             </div>
             <SeeMore project1={"ib"} project2={"hints"} />
