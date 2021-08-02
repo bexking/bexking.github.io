@@ -336,7 +336,7 @@ export default function Hints() {
                 <img className="drawing-ft-review" id="results-poster" src={Results} alt="" />
             </div>
         </div>
-        <SeeMore project1={"ib"} project2={"df"} project3={"ib"} />
+        <SeeMore project1={"ib"} project2={"acDf"}/>
     </div>
     )
 }

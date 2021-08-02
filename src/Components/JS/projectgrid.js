@@ -12,7 +12,7 @@ export default function ProjectGrid() {
             <div className="projectGrid">
                 <WorkNavItem project={projects.ib} className="hero-image"/>
                 <WorkNavItem project={projects.hints} className="hero-image"/>
-                <WorkNavItem project={projects.df} className="hero-image"/>
+                <WorkNavItem project={projects.acDf} className="hero-image"/>
             </div>
 
             <hr className="footer-hr"></hr>

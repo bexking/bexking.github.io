@@ -15,12 +15,12 @@ const projects = {
         "id": "hints"
     },
 
-    "df": {
+    "acDf": {
         "title": "Dreamy Finder",
         "workType": "Web Design",
         "description": "A tool to help Animal Crossing: New Horizons players work out the likelihood of finding their favourite villagers.",
-        "link": "/dreamyfinder",
-        "id": "df"
+        "link": "/acdreamyfinder",
+        "id": "acDf"
     },
 
     "dome": {

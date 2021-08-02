@@ -1,6 +1,6 @@
 import React from 'react'
 import Popup from 'reactjs-popup';
-import '../CSS/df.css';
+import '../CSS/acDf.css';
 import DfJourney1 from '../../Assets/df-images/df-1.jpg';
 import DfJourney2 from '../../Assets/df-images/df-2.jpg';
 import DfSketch1 from '../../Assets/df-images/df-sk1.jpg';
@@ -16,7 +16,7 @@ import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfHero from '../../Assets/df-images/df-hero-wide1.png';
 import SeeMore from "../../Components/JS/see-more.js";
 
-export default function Dreamy() {
+export default function AcDf() {
     return (
         <div>
             <div className="page" id="page-df">

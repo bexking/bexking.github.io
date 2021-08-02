@@ -3,7 +3,7 @@ import './App.css';
 import { Router, Route, Switch} from "react-router-dom";
 import Home from "./Pages/JS/home";
 import ProjectPage from "./Pages/JS/projectPage";
-import Dreamy from "./Pages/JS/df";
+import AcDf from "./Pages/JS/acDf";
 import Displacement from "./Pages/JS/displacement";
 import Dome from "./Pages/JS/dome";
 import IncognitoBreathing from './Pages/JS/iB';
@@ -44,7 +44,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
           <Route path="/projects" component={ProjectPage} />
-          <Route path="/dreamyfinder" component={Dreamy} />
+          <Route path="/acdreamyfinder" component={AcDf} />
           <Route path="/displacement" component={Displacement} />
           <Route path="/takeoutdome" component={Dome} />
           <Route path="/hintswithengoo" component={Hints} />
