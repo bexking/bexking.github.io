@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.65012ea2.chunk.css",
-    "main.js": "/static/js/main.cb33e552.chunk.js",
-    "main.js.map": "/static/js/main.cb33e552.chunk.js.map",
+    "main.js": "/static/js/main.ba8818ba.chunk.js",
+    "main.js.map": "/static/js/main.ba8818ba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.4dbeafc5.chunk.css": "/static/css/2.4dbeafc5.chunk.css",
-    "static/js/2.0d83f096.chunk.js": "/static/js/2.0d83f096.chunk.js",
-    "static/js/2.0d83f096.chunk.js.map": "/static/js/2.0d83f096.chunk.js.map",
+    "static/js/2.c623d04e.chunk.js": "/static/js/2.c623d04e.chunk.js",
+    "static/js/2.c623d04e.chunk.js.map": "/static/js/2.c623d04e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.89ae755dfd53a27d3cbdcc3f002e9847.js": "/precache-manifest.89ae755dfd53a27d3cbdcc3f002e9847.js",
+    "precache-manifest.04fc2e9a1c04ef7a47fd4b5152227179.js": "/precache-manifest.04fc2e9a1c04ef7a47fd4b5152227179.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4dbeafc5.chunk.css.map": "/static/css/2.4dbeafc5.chunk.css.map",
     "static/css/main.65012ea2.chunk.css.map": "/static/css/main.65012ea2.chunk.css.map",
-    "static/js/2.0d83f096.chunk.js.LICENSE.txt": "/static/js/2.0d83f096.chunk.js.LICENSE.txt",
+    "static/js/2.c623d04e.chunk.js.LICENSE.txt": "/static/js/2.c623d04e.chunk.js.LICENSE.txt",
     "static/media/cookNook.css": "/static/media/HKGrotesk-Regular.a22f9227.woff",
     "static/media/404.css": "/static/media/HKGrotesk-SemiBold.75f2b19b.woff",
     "static/media/acnh-map.jpg": "/static/media/acnh-map.41986c51.jpg",
@@ -29,6 +29,7 @@
     "static/media/df-sk5.jpg": "/static/media/df-sk5.c3c51ab1.jpg",
     "static/media/df-sk6.jpg": "/static/media/df-sk6.fae5551d.jpg",
     "static/media/digital-it1.1.png": "/static/media/digital-it1.1.3512b5ae.png",
+    "static/media/digital-it1.png": "/static/media/digital-it1.3d954141.png",
     "static/media/projectPage.css": "/static/media/dis6.389aea26.png",
     "static/media/drawing-box-review.png": "/static/media/drawing-box-review.32fdb3e7.png",
     "static/media/ellewoods.JPG": "/static/media/ellewoods.b11d6dae.JPG",
@@ -72,8 +73,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.4dbeafc5.chunk.css",
-    "static/js/2.0d83f096.chunk.js",
+    "static/js/2.c623d04e.chunk.js",
     "static/css/main.65012ea2.chunk.css",
-    "static/js/main.cb33e552.chunk.js"
+    "static/js/main.ba8818ba.chunk.js"
   ]
 }
