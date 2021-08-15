@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f2fba025c67132b6afa11cd0528fd9c",
+    "revision": "25f29056137b6b9256345f7a781c35b7",
     "url": "/index.html"
   },
   {
-    "revision": "05d172e973aed57f9192",
+    "revision": "4fb8f221821dd3e972ff",
     "url": "/static/css/2.4dbeafc5.chunk.css"
   },
   {
-    "revision": "158fb81a4007591d7280",
+    "revision": "48f6bd1d73adaa20b73d",
     "url": "/static/css/main.65012ea2.chunk.css"
   },
   {
-    "revision": "05d172e973aed57f9192",
-    "url": "/static/js/2.cb7472d8.chunk.js"
+    "revision": "4fb8f221821dd3e972ff",
+    "url": "/static/js/2.0d83f096.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.cb7472d8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0d83f096.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "158fb81a4007591d7280",
-    "url": "/static/js/main.52cfe49b.chunk.js"
+    "revision": "48f6bd1d73adaa20b73d",
+    "url": "/static/js/main.cb33e552.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75f2b19bdcb3489c10bece9323ca038c",
     "url": "/static/media/HKGrotesk-SemiBold.75f2b19b.woff"
+  },
+  {
+    "revision": "41986c510275f841a331d759d77e4a3e",
+    "url": "/static/media/acnh-map.41986c51.jpg"
   },
   {
     "revision": "e34cc2bf535679e92438dd677a393d42",
