@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "620573932adbd1f197864ad88c7d6e57",
+    "revision": "85214431410b38f480ba7a77a213576f",
     "url": "/index.html"
   },
   {
-    "revision": "ca584bfdf60f14931c39",
+    "revision": "51da6291df57ecea00ad",
     "url": "/static/css/2.4dbeafc5.chunk.css"
   },
   {
-    "revision": "aa409ec8703d80ed7a12",
+    "revision": "4147a6f9a539e33cb623",
     "url": "/static/css/main.65012ea2.chunk.css"
   },
   {
-    "revision": "ca584bfdf60f14931c39",
-    "url": "/static/js/2.03653b8e.chunk.js"
+    "revision": "51da6291df57ecea00ad",
+    "url": "/static/js/2.eb9f83f6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.03653b8e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.eb9f83f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa409ec8703d80ed7a12",
-    "url": "/static/js/main.2ece6ce8.chunk.js"
+    "revision": "4147a6f9a539e33cb623",
+    "url": "/static/js/main.233f7614.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75f2b19bdcb3489c10bece9323ca038c",
     "url": "/static/media/HKGrotesk-SemiBold.75f2b19b.woff"
-  },
-  {
-    "revision": "41986c510275f841a331d759d77e4a3e",
-    "url": "/static/media/acnh-map.41986c51.jpg"
   },
   {
     "revision": "e34cc2bf535679e92438dd677a393d42",
@@ -90,14 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fae5551d7b456201283f2a8149b6f738",
     "url": "/static/media/df-sk6.fae5551d.jpg"
-  },
-  {
-    "revision": "3512b5ae9ecb795fcd38bfdf0966f173",
-    "url": "/static/media/digital-it1.1.3512b5ae.png"
-  },
-  {
-    "revision": "3d95414117b0b43fdadf9b439bcde977",
-    "url": "/static/media/digital-it1.3d954141.png"
   },
   {
     "revision": "cb2ffbff453c1fe8baf900c784de612e",
