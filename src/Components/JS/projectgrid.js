@@ -13,6 +13,7 @@ export default function ProjectGrid() {
                 <WorkNavItem project={projects.ib} className="hero-image"/>
                 <WorkNavItem project={projects.hints} className="hero-image"/>
                 <WorkNavItem project={projects.acDf} className="hero-image"/>
+                {/* <WorkNavItem project={projects.cn} className="hero-image"/> */}
             </div>
 
             <hr className="footer-hr"></hr>
