@@ -11,7 +11,7 @@ import DfSketch5 from '../../Assets/df-images/df-sk5.jpg';
 import DfSketch6 from '../../Assets/df-images/df-sk6.jpg';
 import AcnhMap from '../../Assets/df-images/acnh-map.jpg';
 import DfIt1v1 from '../../Assets/df-images/digital-it1.png';
-import DfIt1v2 from '../../Assets/df-images/digital-it1.1.png';
+import DfIt1v2 from '../../Assets/df-images/digital-it2.png';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfHero from '../../Assets/df-images/df-hero-wide1.png';
 import SeeMore from "../../Components/JS/see-more.js";
