@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a244fe0fa5c633c125656d1c812477c2",
+    "revision": "2701e7cb5c7651193f6d6af623af482a",
     "url": "/index.html"
   },
   {
-    "revision": "86f262c80419926c6878",
+    "revision": "1b19bb553c746996b847",
     "url": "/static/css/2.4dbeafc5.chunk.css"
   },
   {
-    "revision": "23e0c9657e300acdc87a",
+    "revision": "668a3b423db143431e68",
     "url": "/static/css/main.65012ea2.chunk.css"
   },
   {
-    "revision": "86f262c80419926c6878",
-    "url": "/static/js/2.c623d04e.chunk.js"
+    "revision": "1b19bb553c746996b847",
+    "url": "/static/js/2.8d5543c0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.c623d04e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8d5543c0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23e0c9657e300acdc87a",
-    "url": "/static/js/main.ba8818ba.chunk.js"
+    "revision": "668a3b423db143431e68",
+    "url": "/static/js/main.4b148a79.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -64,6 +64,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contact.d7cf2e4c.png"
   },
   {
+    "revision": "7947318e1acedf18c9390f3b49c02fff",
+    "url": "/static/media/df-1.7947318e.jpg"
+  },
+  {
+    "revision": "427d1c88799db12bb1e2fbed7e04068a",
+    "url": "/static/media/df-2.427d1c88.jpg"
+  },
+  {
+    "revision": "5f6e6bb0a743a7e2bb391e0737d905d5",
+    "url": "/static/media/df-hero-wide1.5f6e6bb0.png"
+  },
+  {
     "revision": "6adcc2fa1530dc5f81bc997d7cc1b2dd",
     "url": "/static/media/df-prototype.6adcc2fa.mp4"
   },
@@ -92,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/df-sk6.fae5551d.jpg"
   },
   {
-    "revision": "3512b5ae9ecb795fcd38bfdf0966f173",
-    "url": "/static/media/digital-it1.1.3512b5ae.png"
-  },
-  {
     "revision": "3d95414117b0b43fdadf9b439bcde977",
     "url": "/static/media/digital-it1.3d954141.png"
+  },
+  {
+    "revision": "3512b5ae9ecb795fcd38bfdf0966f173",
+    "url": "/static/media/digital-it2.3512b5ae.png"
   },
   {
     "revision": "cb2ffbff453c1fe8baf900c784de612e",
