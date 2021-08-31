@@ -17,6 +17,7 @@ import { createBrowserHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
 import ContactFooter from './Components/JS/contact-footer';
 import NotFoundMsg from "./Pages/JS/404";
+import Rm from "./Pages/JS/rm";
 import SeeMore from "./Components/JS/see-more.js"
 import NotFound from './Pages/JS/404';
 
@@ -51,6 +52,7 @@ function App() {
           <Route path="/incognitobreathing" component={IncognitoBreathing} />
           <Route path="/shakemojispeare" component={Shakespeare} />
           <Route path="/cooknook" component={CookNook} />
+          <Route path="/remindmat" component={Rm}/>
           <Route component={NotFoundMsg}/>
         </Switch>
         <ContactFooter />
