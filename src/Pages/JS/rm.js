@@ -125,7 +125,6 @@ export default function Rm() {
                         <img className="app-process" src={RmProcess10} alt="" /> 
                         <img className="app-process" src={RmProcess11} alt="" /> 
                         <img className="app-process" src={RmProcess12} alt="" />
-
                     </div>
                 </div>
 

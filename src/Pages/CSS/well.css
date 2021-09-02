@@ -27,6 +27,32 @@
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
 
+/* .ideation-content {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.ideation-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #f2f2f2;
+    padding: 1%;
+    row-gap: 15px;
+    align-items: top;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    max-width: 100%;
+}
+
+.paper-proto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+/* HEADINGS */
+
 #well-heading {
     color: #1a5a87;
     max-width: 70%;
@@ -58,10 +84,28 @@
     text-align: left;
 }
 
+.well-h3 {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 36px;
+    color: #1a5a87;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .well-written-content {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* TEXT */
+#ideation-p {
+    max-width: 100%;
 }
 
 /* IMAGES */
@@ -70,4 +114,17 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+}
+
+.ideas {
+    max-width: 90%;
+}
+
+#proto4 {
+    width: 65%;
+}
+
+#para-proto {
+    max-width: 30%;
+    margin-top: 0;
 }
