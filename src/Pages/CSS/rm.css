@@ -27,6 +27,41 @@
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
 
+.hardware {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hardware-list {
+    max-width: 66%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.pi-process-container {
+    max-width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.app-process-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #f2f2f2;
+    padding: 1%;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+
 /* HEADINGS */
 
 #rm-heading {
@@ -58,19 +93,6 @@
     margin-bottom: 1%;
 }
 
-.rm-page h3 {
-    font-family: 'HK Grotesk SemiBold', sans-serif;
-    font-size: 36px;
-    color: #C4DFEC;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    max-width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /*TEXT*/
 
 .rm-page p {
@@ -80,15 +102,32 @@
     margin-top: 0;
 }
 
-#hmw {
+#rm-hmw {
     max-width: 100%;
-    background-color: #39536C;
+    background-color: #f2f2f2;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: 'HK Grotesk Bold', sans-serif;
-    border-radius: 10px;
+}
+
+.rm-li {
+    font-family: 'HK Grotesk', sans-serif;
+    margin-bottom: 5%;
+}
+
+.rm-h3 {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 36px;
+    color: #3B3B3B;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*IMAGES*/
@@ -110,4 +149,22 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
+}
+
+.proto-process {
+    max-width: 50%;
+}
+
+.pi-process {
+    max-width: 24%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+#rm-hardware {
+    max-width: 40%;
+}
+
+.app-process {
+    max-width: 90%;
 }

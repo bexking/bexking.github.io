@@ -76,7 +76,7 @@ export default function IncognitoBreathing() {
                     </div>
 
                     <div id="hmw">
-                        <h3>How might we create a product that helps people relax and manage workplace stress in an office environment, by adding paced breathing techniques into daily routines?</h3>
+                        <h3 className="ib-h3">How might we create a product that helps people relax and manage workplace stress in an office environment, by adding paced breathing techniques into daily routines?</h3>
                     </div>
 
                     <div className="written-content">

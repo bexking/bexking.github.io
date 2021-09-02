@@ -6,6 +6,18 @@ import RmHero from '../../Assets/rm-images/rm-main.jpg';
 import RmMatConcept from '../../Assets/rm-images/rm-concept.png';
 import RmAppConcept1 from '../../Assets/rm-images/rm-app1.png';
 import RmAppConcept2 from '../../Assets/rm-images/rm-app2.png';
+import RmProcess3 from '../../Assets/rm-images/rm-process3.jpg';
+import RmProcess4 from '../../Assets/rm-images/rm-process4.jpg';
+import RmProcess5 from '../../Assets/rm-images/rm-process5.jpg';
+import RmProcess6 from '../../Assets/rm-images/rm-process6.jpg';
+import RmProcess7 from '../../Assets/rm-images/rm-process7.jpg';
+import RmProcess8 from '../../Assets/rm-images/rm-process8.jpg';
+import RmProcess9 from '../../Assets/rm-images/rm-process9.jpg';
+import RmProcess10 from '../../Assets/rm-images/rm-process10.jpg';
+import RmProcess11 from '../../Assets/rm-images/rm-process11.jpg';
+import RmProcess12 from '../../Assets/rm-images/rm-process12.jpg';
+import RmHardware from '../../Assets/rm-images/rm-hardware.jpg';
+import RmVideo from "../../Assets/rm-images/rm-vid.mp4";
 
 export default function Rm() {
     return (
@@ -39,10 +51,10 @@ export default function Rm() {
 
                     <p>My mission for this project was to try and find a solution to the below question.</p>
                 </div>
-
-                <div id="hmw">
-                        <h3>How might we use a mixed reality approach to help people with working memory difficulties remember the things they need to take with them when they leave the house?</h3>
-                    </div>
+            
+                <div id="rm-hmw">
+                    <h3 className="rm-h3">How might we use a mixed reality approach to help people with working memory difficulties remember the things they need to take with them when they leave the house?</h3>
+                </div>
                 
                 <div className="written-content">
                     <h2>Ideation</h2>
@@ -68,22 +80,65 @@ export default function Rm() {
 
                 <div className="written-content">
                     <h2>Building The Prototype</h2>
-                    <ul>
-                        <p>Hardware used:</p>
-                        <li>Raspberry Pi B</li>
-                        <li>Wifi Dongle for Raspberry Pi internet connection</li>
-                        <li>Pressure Sensor</li>
-                        <li>Resistor</li>
-                        <li>Android Phone to put the app on and receive the notifications</li>
-                    </ul>
+                    <h2>Hardware</h2>
+                    <p>I researched what hardware I would need to build the prototype as I had never used a Raspberry Pi or similar technology before. </p>
+                    <div className="hardware">
+                        <ul className="hardware-list">
+                            <h4>Hardware used:</h4>
+                            <li className="rm-li">Raspberry Pi B</li>
+                            <li className="rm-li">SD Card</li>
+                            <li className="rm-li">Wifi Dongle for Raspberry Pi internet connection</li>
+                            <li className="rm-li">Solderless Breadboard</li>
+                            <li className="rm-li">Pressure Sensor</li>
+                            <li className="rm-li">Resistor</li>
+                            <li className="rm-li">Android Phone to install the app on & receive    notifications</li>
+                        </ul>
+                        <img id="rm-hardware" src={RmHardware} alt="An android phone, and a raspberry pi connected to a small pressure sensor" />
+                    </div>
+                    <p>I coded the Raspberry Pi to read the pressure sensor values, communicate this change in state, and then make some sort of output - initially printing     the information to the screen. This formed the foundation of code that I could manipulate more specifically later. </p>
+                    <div className="pi-process-container">
+                        <img className="pi-process" src={RmProcess3} alt="" />
+                        <img className="pi-process" src={RmProcess4} alt="" />
+                        <img className="pi-process" src={RmProcess5} alt="" />
+                        <img className="pi-process" src={RmProcess6} alt="" />
+                    </div>
+
+
+                    <h2>Software</h2> 
                     <p>
                         I decided to build a progressive web app, as I could use React which I was familiar with.
                         A progressive web app is a website that you can add to homescreen with an app logo, and can be coded to receive push notifications. 
                     </p>
                     <p>
-                        Due to time constraints for this project, I needed to use a placeholder page within the app, rather than building a functioning to do list. This allowed me to create proof of concept for the mat/push notification interaction - which is the heart of the experience.
+                        Due to time constraints for this project, I used a placeholder page within the app, rather than building a functioning to do list. This allowed me to create proof of concept for the mat/push notification interaction - which is the heart of the experience.
                     </p>
+                    <p>To create the progressive web app I used Firebase, and used Postman to send the push notifications.</p>
+                    <div className="app-process-container">
+                        <img className="app-process" src={RmProcess7} alt="" /> 
+                        <img className="app-process" src={RmProcess8} alt="" /> 
+                        <img className="app-process" src={RmProcess9} alt="" /> 
+                        <img className="app-process" src={RmProcess10} alt="" /> 
+                        <img className="app-process" src={RmProcess11} alt="" /> 
+                        <img className="app-process" src={RmProcess12} alt="" /> 
+                    </div>
                 </div>
+
+                <div className="written-content">
+                    <h2>Styling the Mat</h2>
+                    <p>I had discovered the prototype sensor worked better when it was embedded into cardboard, so I made the prototype mat out of foam board. Ideally a professional version of the remind mat would use a much larger and more responsive sensor, allowing for the mat to be crafted out of more durable materials. </p>
+                    <p>Even though the prototype mat was made out of card, I wanted to bring a homewares feel to the prototype, so I used yarn to create a pattern on the mat. </p>
+                </div>
+
+                <div className="written-content">
+                    <div className="ib-hero-container">
+                        <div className="ib-video-section">
+                            <video className="vid" muted controls playsInline>
+                                <source src={RmVideo} type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
             <SeeMore project1={"ib"} project2={"hints"}/>
         </div>
