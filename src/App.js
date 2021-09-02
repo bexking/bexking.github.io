@@ -12,6 +12,7 @@ import Hints from './Pages/JS/hints';
 import CookNook from './Pages/JS/cookNook';
 import About from './Pages/JS/about';
 import Work from './Pages/JS/work';
+import Well from './Pages/JS/well';
 import Nav from './Components/JS/nav2';
 import { createBrowserHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
@@ -53,6 +54,7 @@ function App() {
           <Route path="/shakemojispeare" component={Shakespeare} />
           <Route path="/cooknook" component={CookNook} />
           <Route path="/remindmat" component={Rm}/>
+          <Route path="/wellwellwell" component={Well}/>
           <Route component={NotFoundMsg}/>
         </Switch>
         <ContactFooter />
