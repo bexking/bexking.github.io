@@ -12,6 +12,13 @@ import WellProto1 from '../../Assets/well-images/well-proto1.jpg';
 import WellProto2 from '../../Assets/well-images/well-proto2.jpg';
 import WellProto3 from '../../Assets/well-images/well-proto3.jpg';
 import WellProto4 from '../../Assets/well-images/well-proto4.jpg';
+import WellProto5 from '../../Assets/well-images/well-proto5.jpg';
+import WellFinal1 from '../../Assets/well-images/final-1.png';
+import WellFinal2 from '../../Assets/well-images/final-2.png';
+import WellFinal3 from '../../Assets/well-images/final-3.png';
+import WellFinal4 from '../../Assets/well-images/final-4.png';
+import WellFinal5 from '../../Assets/well-images/final-5.png';
+import WellFinal6 from '../../Assets/well-images/final-6.png';
 
 export default function Well() {
     return (
@@ -102,13 +109,53 @@ export default function Well() {
                     </div>
                     <div className="paper-proto">
                         <img id="proto4" src={WellProto4} alt="large paper prototype showing all proposed app screens" /> 
-                        <p id="para-proto">I worked my ideas into a paper protoype template so that my classmates could get an idea of the app's features and provide any feedback before refining the design into a more polished digital prototype. This planned design contained SDG-related information about global, national and local health, as well as containing a "Your health" section - tackling issues relevant to students related to physical, and mental wellbeing. The your health section contained a Health Log where users could submit simple feedback to the university about how they are feeling, and if they have enough support.</p>
+                        <p className="para-proto">I worked my ideas into a paper protoype template so that my classmates could get an idea of the app's features and provide any feedback before refining the design into a more polished digital prototype. This planned design contained SDG-related information about global, national and local health, as well as containing a "Your health" section - tackling issues relevant to students related to physical, and mental wellbeing. The your health section contained a Health Log where users could submit simple feedback to the university about how they are feeling, and if they have enough support.</p>
                     </div>
                     
                 </div>
             </div>
 
-            <SeeMore project1={"ib"} project2={"rm"}/>
+            <div className="">
+                <div className="well-written-content">
+                    <h2 className="well-h2">Test</h2>
+                    <p className="well-p">
+                        We were not given a lot of time to test our designs, but were given time for classmates to go through our prototype in class and provide brief feedback. 
+                        People liked the idea that the app was a one-stop shop for Health and Wellbeing,
+                        with both learning materials about the SDGs and worldwide health issues, as well as things to help students with health such as easy recipes to cook, and resources such as breathing exercises
+                        for managing anxiety and stress symptoms.
+                    </p>
+                </div>
+            </div>
+
+            <div className="">
+                <div className="well-written-content">
+                    <h2 className="well-h2">Refine</h2>
+                    <div className="digi-proto">
+                        <div className="para-digi-cont">
+                            <p className="para-digi">
+                                I refined my design based on feedback and created a higher quality digital prototype. I used Adobe Xd to create different pages within the app. I also spent time creating basic icons to use throughout.
+                            </p>
+                            <p className="para-digi">
+                                Because the VUW students I spoke to had the biggest concerns about mental health, I chose a calming, pastel colour palette.
+                            </p>
+                            <p className="para-digi">
+                                I further developed the How Are You Feeling section with a blurb sharing that the information would be sent anonymously to the university and its purpose. I added sliders for physical and mental wellbeing, and also added Find Help buttons so students who need help could view what services are available to them.
+                            </p>
+                        </div>    
+                        <img id="proto5" src={WellProto5} alt="Refining the app's pages into a higher quality digital prototype in Adobe Xd" /> 
+                    </div>
+                    <div className="well-final-imgs">
+                        <img className="well-final-img" src={WellFinal1} alt="Homepage for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal2} alt="Homepage for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal3} alt="Homepage for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal4} alt="Homepage for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal5} alt="Homepage for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal6} alt="Homepage for Well Well Well digital prototype" /> 
+                    </div>
+                </div>
+            </div>
+
+            <SeeMore project1={"ib"} project2={"rm"}/>  
         </div> 
     
     )

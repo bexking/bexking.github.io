@@ -51,6 +51,17 @@
     margin-top: 5%;
 }
 
+.digi-proto {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.para-digi-cont {
+    max-width: 40%;
+    margin-top: 0;
+    margin-right: 5%;
+}
+
 /* HEADINGS */
 
 #well-heading {
@@ -124,7 +135,31 @@
     width: 65%;
 }
 
-#para-proto {
+#proto5 {
+    max-height: 300px;
+    
+}
+
+.para-proto {
     max-width: 30%;
     margin-top: 0;
+}
+
+.para-digi {
+    margin-top: 0;
+}
+
+.well-final-imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    row-gap: 15px;
+    align-items: top;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    margin-top: 5%;
+}
+
+.well-final-img {
+    width: 180px;
 }
