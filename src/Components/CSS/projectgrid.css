@@ -83,6 +83,14 @@
     background-repeat: no-repeat;
     background-position: left top;
 }
+
+#rm {
+    background-image: url('../../Assets/rm-logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #displace {
     background-image: url('../../Assets/dis1.jpg');
     background-size: cover;

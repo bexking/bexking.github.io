@@ -45,6 +45,14 @@ const projects = {
         "description": "Just for fun - a website that lets you turn Shakespearian text into Emoji-pasta.",
         "link": "/shakemojispeare",
         "id": "emoji"
+    },
+
+    "rm": {
+        "title": "Remind Mat",
+        "workType": "Product Design",
+        "description": "A doormat to assist people affected by working memory challenges",
+        "link": "/remindmat",
+        "id": "rm"
     }
 }
 
