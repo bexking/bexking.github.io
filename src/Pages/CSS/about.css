@@ -15,6 +15,10 @@
     filter: drop-shadow(0 2mm 2mm #97aab457);
 }
 
+.about-para {
+    color: #d2d2d2;
+}
+
 .link {
     color: #ffd6e9;
     text-decoration: none;
