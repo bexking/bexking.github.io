@@ -20,6 +20,8 @@ import WellFinal4 from '../../Assets/well-images/final-4.png';
 import WellFinal5 from '../../Assets/well-images/final-5.png';
 import WellFinal6 from '../../Assets/well-images/final-6.png';
 import WellInfog from '../../Assets/well-images/interview-info.png';
+import WellInfog1 from '../../Assets/well-images/interview-info1.png';
+import WellInfog2 from '../../Assets/well-images/interview-info2.png';
 
 export default function Well() {
     return (
