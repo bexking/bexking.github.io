@@ -27,14 +27,22 @@
     filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
 }
 
-/* .ideation-content {
-    display: flex;
-    justify-content: space-around;
-} */
-
 .ideation-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: #f2f2f2;
+    padding: 1%;
+    row-gap: 15px;
+    align-items: top;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    max-width: 100%;
+}
+
+.draft-proto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     background-color: #f2f2f2;
     padding: 1%;
     row-gap: 15px;
@@ -60,6 +68,12 @@
     max-width: 40%;
     margin-top: 0;
     margin-right: 5%;
+}
+
+.well-link {
+    text-decoration: none;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    color: #1a5a87;
 }
 
 /* HEADINGS */
@@ -162,4 +176,11 @@
 
 .well-final-img {
     width: 180px;
+}
+
+#well-infographic {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

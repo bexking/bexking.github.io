@@ -19,6 +19,7 @@ import WellFinal3 from '../../Assets/well-images/final-3.png';
 import WellFinal4 from '../../Assets/well-images/final-4.png';
 import WellFinal5 from '../../Assets/well-images/final-5.png';
 import WellFinal6 from '../../Assets/well-images/final-6.png';
+import WellInfog from '../../Assets/well-images/interview-info.png';
 
 export default function Well() {
     return (
@@ -46,7 +47,7 @@ export default function Well() {
                     <h2 className="well-h2">Empathise</h2>
                     <p className="well-p">To try and empathise and understand VUW students' experiences with Health & Wellbeing, and with the SDGs, I interviewed 5 students to find out about their knowledge and experiences with Health and Wellbeing.</p>
 
-                    {/* infographic */}
+                    <img id="well-infographic" src={WellInfog} alt="infographic summarising results of interviews" /> 
 
                     <p className="well-p">
                         Through these interviews I was able to identify that many people found uni to be a stressful place and
@@ -54,9 +55,9 @@ export default function Well() {
                         Most tended to say that when their mental health was poorer, it was hard to think about broader
                         health sustainability. This was unsurprising to me, having just read the Mental Health Inquiry which
                         identified that many students around New Zealand feel academic pressure which leads to depression,
-                        anxiety and stress. I also researched the relationship between learning and stress and that under
+                        anxiety and stress. I also  <a className="well-link" href="https://www.edudemic.com/stress-affects-brain-learning/" target="_blank">researched</a> the relationship between learning and stress and that under
                         prolonged stress we release a lot of cortisol because we’re in survival mode, which makes learning
-                        difficult (http://www.edudemic.com/stress-affects-brain-learning/).
+                        difficult.
                     </p>
                 </div>
             </div>
@@ -80,10 +81,10 @@ export default function Well() {
                             It was this relationship between the health of students and the university institution that stuck with me - I wanted to achieve the task of increasing awareness of the SDG with students, but I also wanted to try and give insights to the university institution in a way that did not significantly increase workload for students.
                         </p>
                         <div className="ideation-container">
-                            <img className="ideas" src={WellIt1} alt="" /> 
-                            <img className="ideas" src={WellIt2} alt="" />
-                            <img className="ideas" src={WellIt3} alt="" />  
-                            <img className="ideas" src={WellIt4} alt="" /> 
+                            <img className="ideas" src={WellIt1} alt="Handwritten note recording the priority of sharing the sdgs with students and helping manage health." /> 
+                            <img className="ideas" src={WellIt2} alt="Handwritten note with a bunch of feature ideas for a design based around health, including breathing exercises, recipes, available support" />
+                            <img className="ideas" src={WellIt3} alt="Handwritten note with an app idea, and a note asking how we can create stronger partnerships between students and uni to support health" />  
+                            <img className="ideas" src={WellIt4} alt="Handwritten note recording ideas for potential games or printed good health and wellbeing designs" /> 
                         </div>
                         
                         <div className="hardware">
@@ -102,10 +103,10 @@ export default function Well() {
             <div className="">
                 <div className="well-written-content">
                     <h2 className="well-h2">Prototype</h2>
-                    <div className="ideation-container">
-                        <img className="ideas" src={WellProto1} alt="" /> 
-                        <img className="ideas" src={WellProto2} alt="" />
-                        <img className="ideas" src={WellProto3} alt="" />  
+                    <div className="draft-proto-container">
+                        <img className="ideas" src={WellProto1} alt="very rough hand-drawn homescreen plan beginning prototyping process" /> 
+                        <img className="ideas" src={WellProto2} alt="very rough hand-drawn plan for app's initial functional layout" />
+                        <img className="ideas" src={WellProto3} alt="more fleshed-out hand-drawn draft for a home screen and app features" />  
                     </div>
                     <div className="paper-proto">
                         <img id="proto4" src={WellProto4} alt="large paper prototype showing all proposed app screens" /> 
@@ -146,11 +147,11 @@ export default function Well() {
                     </div>
                     <div className="well-final-imgs">
                         <img className="well-final-img" src={WellFinal1} alt="Homepage for Well Well Well digital prototype" /> 
-                        <img className="well-final-img" src={WellFinal2} alt="Homepage for Well Well Well digital prototype" /> 
-                        <img className="well-final-img" src={WellFinal3} alt="Homepage for Well Well Well digital prototype" /> 
-                        <img className="well-final-img" src={WellFinal4} alt="Homepage for Well Well Well digital prototype" /> 
-                        <img className="well-final-img" src={WellFinal5} alt="Homepage for Well Well Well digital prototype" /> 
-                        <img className="well-final-img" src={WellFinal6} alt="Homepage for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal2} alt="Your Health page for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal3} alt="How are you feeling page for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal4} alt="Health resources page for Well Well Well digital prototype with physical and mental health links, as well as exercise and cooking sections" /> 
+                        <img className="well-final-img" src={WellFinal5} alt="Intro to UN SDGs page for Well Well Well digital prototype" /> 
+                        <img className="well-final-img" src={WellFinal6} alt="SDGs Good Health & Wellbeing information page for Well Well Well digital prototype" /> 
                     </div>
                 </div>
             </div>
