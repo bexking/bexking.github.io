@@ -91,6 +91,9 @@
     justify-content: center;
     justify-items: center;
     align-content: center;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rm-reqs-cont {
