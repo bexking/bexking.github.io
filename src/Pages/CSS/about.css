@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(65px + 8vh);
-    background-color: #E6C5C5;
+    background-color: #35444e;
 }
 
 .about-text {
@@ -16,11 +16,12 @@
 }
 
 .link {
-    color: #0896A1;
+    color: #ffd6e9;
     text-decoration: none;
     font-family: 'HK Grotesk SemiBold', sans-serif;
 }
 
 .link:hover {
-    color: #9F2042;
+    background-color: #ffd6e9;
+    color: #388888;
 }
