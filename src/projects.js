@@ -2,7 +2,7 @@ const projects = {
     "ib": {
         "title": "Incognito Breathing",
         "link": "/incognitobreathing",
-        "workType": "UX/UI",
+        "workType": "Product Design/UX Research",
         "description": "A website to help open-plan office workers destress through paced respiration techniques.",
         "id": "ib"
     },
@@ -53,6 +53,14 @@ const projects = {
         "description": "A doormat to assist people affected by working memory challenges",
         "link": "/remindmat",
         "id": "rm"
+    },
+
+    "well": {
+        "title": "Well Well Well",
+        "workType": "Product Design",
+        "description": "An app to help VUW Students engage with UN Sustainable Development Goal 3 - Good Health & Wellbeing",
+        "link": "/wellwellwell",
+        "id": "well"
     }
 }
 

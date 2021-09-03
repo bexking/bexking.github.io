@@ -77,11 +77,12 @@
     color: rgb(51, 52, 94);
 }
 
-#ib {
-    background-image: url('../../Assets/ib-hero.png');
+
+#well {
+    background-image: url('../../Assets/well-hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: center;
 }
 
 #rm {
@@ -89,6 +90,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#ib {
+    background-image: url('../../Assets/ib-hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 #displace {

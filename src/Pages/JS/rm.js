@@ -37,7 +37,7 @@ export default function Rm() {
                     </p>
 
                     <p>
-                        This project was the result of a challenge to come up with a mixed reality design - mixing the physical and digital world.
+                        This project was the result of a challenge to come up with a mixed reality design - mixing the physical and digital world, and create a prototype/proof of concept.
                         Rather than designing something that was hyper-futuristic, I wanted to come up with something that had the potential to help people everyday. 
                     </p>
                 </div>
@@ -72,7 +72,7 @@ export default function Rm() {
                     <div className="rm-reqs-cont">
                         <div className="app-concepts">
                             <img className="app-concept" src={RmAppConcept1} alt="A simple to do list app" />
-                            <img className="app-concept" src={RmAppConcept2} alt="A simple to do list app" />
+                            <img className="app-concept" src={RmAppConcept2} alt="A simple to do list app with one task swiped to reveal delete button" />
                         </div>
                         <ul className="rm-reqs">
                             <h4>The app should be...</h4>
@@ -102,10 +102,10 @@ export default function Rm() {
                     </div>
                     <p>I coded the Raspberry Pi to read the pressure sensor values, communicate this change in state, and then make some sort of output - initially printing     the information to the screen. This formed the foundation of code that I could manipulate more specifically later. </p>
                     <div className="pi-process-container">
-                        <img className="pi-process" src={RmProcess3} alt="" />
-                        <img className="pi-process" src={RmProcess4} alt="" />
-                        <img className="pi-process" src={RmProcess5} alt="" />
-                        <img className="pi-process" src={RmProcess6} alt="" />
+                        <img className="pi-process" src={RmProcess3} alt="Notes from my workbook - learning how to use the code editor to program the raspberry pi" />
+                        <img className="pi-process" src={RmProcess4} alt="Notes from my workbook - breaking down the idea into steps - identifying that the code needs to get the input, process the information and then send an output." />
+                        <img className="pi-process" src={RmProcess5} alt="Notes from my workbook - learning some of the commands needed to code in python." />
+                        <img className="pi-process" src={RmProcess6} alt="Notes from my workbook - breaking down the idea into steps - showing a photo of my code displayed on a tv doing some debugging to get the simple program to work." />
                     </div>
 
 
@@ -119,12 +119,12 @@ export default function Rm() {
                     </p>
                     <p>To create the progressive web app I used Firebase, and used Postman to send the push notifications.</p>
                     <div className="app-process-container">
-                        <img className="app-process" src={RmProcess7} alt="" /> 
-                        <img className="app-process" src={RmProcess9} alt="" />
-                        <img className="app-process" src={RmPostman} alt="" />  
-                        <img className="app-process" src={RmProcess10} alt="" /> 
-                        <img className="app-process" src={RmProcess11} alt="" /> 
-                        <img className="app-process" src={RmProcess12} alt="" />
+                        <img className="app-process" src={RmProcess7} alt="Notes from my workbook - figuring out hosting with firebase" /> 
+                        <img className="app-process" src={RmProcess9} alt="Notes from my workbook - working on adding the progressive web app to my phone homescreen" />
+                        <img className="app-process" src={RmPostman} alt="Notes from my workbook - using postman to create the push notification" />  
+                        <img className="app-process" src={RmProcess10} alt="Notes from my workbook - app added to homescreen" /> 
+                        <img className="app-process" src={RmProcess11} alt="Notes from my workbook - app added to homescreen" /> 
+                        <img className="app-process" src={RmProcess12} alt="Notes from my workbook - the push notification works for the first time." />
                     </div>
                 </div>
 
@@ -133,9 +133,9 @@ export default function Rm() {
                     <p>I had discovered the prototype sensor worked better when it was embedded into cardboard, so I made the prototype mat out of foam board. Ideally a professional version of the remind mat would use a much larger and more responsive sensor, allowing for the mat to be crafted out of more durable materials. </p>
                     <p>Even though the prototype mat was made out of card, I wanted to bring a homewares feel to the prototype, so I used yarn to create a pattern on the mat. </p>
                     <div className="mat-process-container">
-                        <img className="app-process" src={RmCardboard} alt="" /> 
-                        <img className="app-process" src={RmFoamboard1} alt="" /> 
-                        <img className="app-process" src={RmFoamboard2} alt="" /> 
+                        <img className="app-process" src={RmCardboard} alt="Experimenting with the sensor embedded in a piece of cardboard" /> 
+                        <img className="app-process" src={RmFoamboard1} alt="The sensor now sits in plain black foamboard" /> 
+                        <img className="app-process" src={RmFoamboard2} alt="Red yarn has been tied to make a criss-cross pattern around the foamboard" /> 
                     </div>
                 </div>
 
