@@ -44,17 +44,30 @@
 .pi-process-container {
     max-width: 100%;
     background-color: #f2f2f2;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 15px;
+    align-items: top;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: 0.5%;
     padding-right: 0.5%;
 }
 
 .mat-process-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 15px;
+    align-items: top;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
     background-color: #f2f2f2;
-    padding: 1%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -64,9 +77,15 @@
 
 .app-process-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 15px;
+    align-items: top;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
     background-color: #f2f2f2;
-    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     row-gap: 15px;
     align-items: center;
     justify-content: center;
@@ -202,7 +221,7 @@
 }
 
 .pi-process {
-    max-width: 24%;
+    max-width: 90%;
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
@@ -216,7 +235,41 @@
 }
 
 .rm-video-sec {
-    width: 100%;
+    width: 80%;
     background-color: #f2f2f2;
     padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .rm-concept-cont {
+        flex-direction: column;
+    }
+
+    #mat-concept {
+        width: 100%;
+    }
+
+    .rm-reqs-cont {
+        flex-direction: column;
+    }
+
+    .app-concepts {
+        display: flex;
+        justify-content: center;
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rm-reqs {
+        max-width: 80%;
+    }
+
+    .rm-video-sec {
+        width: 100%;
+        background-color: #f2f2f2;
+        padding-bottom: 3%;
+    }
 }

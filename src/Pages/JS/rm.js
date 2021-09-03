@@ -154,7 +154,7 @@ export default function Rm() {
                 <div className="rm-video-sec">
                     <h3 className="proto-h3">See the prototype</h3>
                     <div className="ib-hero-container">
-                        <div className="ib-video-section">
+                        <div className="rm-video-sec">
                             <video className="vid" muted controls playsInline>
                                 <source src={RmVideo} type="video/mp4" />
                             </video>
