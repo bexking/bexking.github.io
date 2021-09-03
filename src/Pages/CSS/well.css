@@ -54,20 +54,20 @@
 }
 
 .paper-proto {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(min(600px, 100%), 1fr));
     margin-top: 5%;
 }
 
 .digi-proto {
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 650px), 1fr));
 }
 
 .para-digi-cont {
-    max-width: 40%;
     margin-top: 0;
-    margin-right: 5%;
 }
 
 .well-link {
@@ -135,10 +135,17 @@
 
 /* IMAGES */
 #design-thinking {
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    margin: auto auto;
+}
+
+#design-thinking img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+    width: 100%;
 }
 
 .ideas {
@@ -146,16 +153,17 @@
 }
 
 #proto4 {
-    width: 65%;
+    width: min(548px, 100%);
+    height: min(388px, 100%);
+    margin-bottom: 1em;
 }
 
 #proto5 {
-    max-height: 300px;
-    
+    max-width: min(630px, 95%);
+
 }
 
 .para-proto {
-    max-width: 30%;
     margin-top: 0;
 }
 
@@ -179,7 +187,7 @@
 }
 
 #well-infographic {
-    max-width: 90%;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
