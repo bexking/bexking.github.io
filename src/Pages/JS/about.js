@@ -14,8 +14,9 @@ export default function About() {
                         <p> I'm a recent Interaction Design grad, and a former Visual Merchandiser with a bunch of management experience.</p> 
                         <p>I'm analytical, inquisitive, logical and whimsical. I love UX Design and research because I love gathering and considering tons of information to help solve problems.</p>
                         <p>In my retail visual merchandising career, I would approach problems in store displays and layouts by observing customer interactions with the displays, making changes based on what I saw. Afterwards, I loved checking the stats and listening to staff feedback to make small improvements until we got it right. <br/>
-                            When I learned UX Design was in 2017, I was inspired to go and study ASAP, so I could combine the problem-solving approach I'd naturally come to with my love of technology.
+                            When I learned UX Design was in 2017, I was inspired to go and study ASAP so I could learn more about design and use design thinking approaches to solve interesting challenges.
                         </p>
+                        <p>In particular I enjoy all things digital, but the most important thing is that I'm designing things that are useful and help solve problems for people.</p>
                         <p>
                             In my spare time I love knitting and crocheting, learning Te Reo, learning all about freshwater fish, and trying to garden.
                         </p>            
