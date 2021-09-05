@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87688f2c45e5d24d3406aabbbbfc05ad",
+    "revision": "bc176e5c07a150f7f5150fbcd6bf794b",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4dbeafc5.chunk.css"
   },
   {
-    "revision": "49bbc3d6e3d6884ae387",
-    "url": "/static/css/main.4071aac7.chunk.css"
+    "revision": "e69969e68d42515ab5a1",
+    "url": "/static/css/main.840fe294.chunk.css"
   },
   {
     "revision": "f6bc9ce13b5f51d58f21",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9fb8ae2c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49bbc3d6e3d6884ae387",
-    "url": "/static/js/main.86b65952.chunk.js"
+    "revision": "e69969e68d42515ab5a1",
+    "url": "/static/js/main.d08aa2d0.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -116,20 +116,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/digital-it2.3512b5ae.png"
   },
   {
+    "revision": "7a814f79bf366a68d2cc8cf7d92b8bc8",
+    "url": "/static/media/dis1.7a814f79.jpg"
+  },
+  {
     "revision": "cb2ffbff453c1fe8baf900c784de612e",
     "url": "/static/media/dis1.cb2ffbff.jpg"
+  },
+  {
+    "revision": "3186990462efd7c555c58eadd2d1c5d4",
+    "url": "/static/media/dis2.31869904.jpg"
   },
   {
     "revision": "f463a85fe7245c2f329cb93849cac2a3",
     "url": "/static/media/dis2.f463a85f.jpg"
   },
   {
+    "revision": "02bf39683b12ee545e98c4735c17a535",
+    "url": "/static/media/dis3.02bf3968.jpg"
+  },
+  {
     "revision": "4feda4fba87970715803e6a5bf957c74",
     "url": "/static/media/dis3.4feda4fb.jpg"
   },
   {
+    "revision": "2956b378a716ecb7fb84e95ac1e8ab75",
+    "url": "/static/media/dis4.2956b378.jpg"
+  },
+  {
     "revision": "acc1fc14c78111adfb8c598348565b26",
     "url": "/static/media/dis4.acc1fc14.jpg"
+  },
+  {
+    "revision": "5bae3d48204418350e478546c47626cc",
+    "url": "/static/media/dis5.5bae3d48.jpg"
   },
   {
     "revision": "e5bfa66633edac7de309ba3f180616eb",
