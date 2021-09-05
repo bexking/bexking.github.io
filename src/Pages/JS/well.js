@@ -33,7 +33,7 @@ export default function Well() {
                 <h2 id="well-subtitle">A Victoria University of Wellington-based app to help raise awareness of the United Nations Sustainable Development Goals, help students to learn to look after their health and wellbeing, and provide anonymous reporting to the university about how students are feeling.</h2>
             </div>
 
-            <div className="">
+            <div className="well-bg">
                 <div className="well-written-content">
                     <h2 className="well-h2">Background</h2>
                     <p className="well-p">As part of DSDN 183 - Design Thinking For Sustainability I was tasked to come up with a project that would increase VUW students’ awareness of the UN Sustainable Development Goals. The outcome needed to address a given SDG, as well as increase awareness of the SDGs in general. </p>
@@ -46,7 +46,7 @@ export default function Well() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="well-empathise">
                 <div className="well-written-content">
                     <h2 className="well-h2">Empathise</h2>
                     <p className="well-p">To try and empathise and understand VUW students' experiences with Health & Wellbeing, and with the SDGs, I interviewed 5 students to find out about their knowledge and experiences with Health and Wellbeing.</p>
@@ -68,7 +68,7 @@ export default function Well() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="well-define">
                 <div className="well-written-content">
                     <h2 className="well-h2">Define</h2>
                     <div id="rm-hmw">
@@ -78,9 +78,9 @@ export default function Well() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="well-ideate">
                 <div className="well-written-content">
-                    <h2 className="well-h2">Ideate</h2>
+                    <h2 className="well-h2" id="ideate-title">Ideate</h2>
                     <div className="ideation-content">
                         <p className="well-p" id="ideation-p">
                             I had an ideation session where I jotted down everything that came to mind after reviewing the interview content. I considered apps, games, and printed solutions. From the interviews I recognised that the university itself influences the health of students, with good teachers and tutors and access to student health services contributing to good health and wellbeing, and stressful workloads and long wait-times to access help amplified feelings of unhealth.
@@ -95,7 +95,7 @@ export default function Well() {
 
                         <div className="hardware">
                             <ul className="hardware-list">
-                                <h4>Concept</h4>
+                                <h4 className="ulh4">Concept</h4>
                                 <p>I chose to work on a mobile app for VUW students that would serve three purposes:</p>
                                 <li className="rm-li">Increase awareness of the SDG Good Health & Wellbeing amongst students</li>
                                 <li className="rm-li">Provide students with extra tools and information to look after their own health and wellbeing</li>
@@ -106,7 +106,7 @@ export default function Well() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="well-define">
                 <div className="well-written-content">
                     <h2 className="well-h2">Prototype</h2>
                     <div className="draft-proto-container">
@@ -122,7 +122,7 @@ export default function Well() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="well-empathise">
                 <div className="well-written-content">
                     <h2 className="well-h2">Test</h2>
                     <p className="well-p">
@@ -134,7 +134,7 @@ export default function Well() {
                 </div>
             </div>
 
-            <div className="">
+            <div className="well-refine">
                 <div className="well-written-content">
                     <h2 className="well-h2">Refine</h2>
                     <div className="digi-proto">
