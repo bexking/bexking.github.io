@@ -73,7 +73,7 @@
 .dis-caption {
     font-family: franklin-gothic-urw,sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1vw;
     color: #201d28;
     max-width: 100%;
     text-align: end;
@@ -112,4 +112,22 @@
     max-width: 90%;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .photos-section {
+        max-width: 90%;
+    }
+
+    .dis-caption {
+        font-size: 2vw;
+    }
+
+    #dis-heading {
+        max-width: 94%;
+    }
+
+    .dis-p {
+        font-size: 14px;
+    }
 }
