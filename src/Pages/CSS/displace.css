@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
+}
+.dis-p {
+    font-family: franklin-gothic-urw,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c1c1c1;
+}
+
+#displacement-intro {
+    font-family: franklin-gothic-urw,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    margin-top: 10%;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #c1c1c1;
+}
+
+.dis-page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(65px + 10vh);
+    margin-bottom: 0;
+}
+
+#dis-heading {
+    color: #e42a2a;
+    max-width: 64%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dis-photo-caption {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40%;
+    margin-top: 10%;
+}
+
+.dis-img {
+    max-width: 100%;
+}
+
+.dis-caption {
+    font-family: franklin-gothic-urw,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #201d28;
+    max-width: 100%;
+    text-align: end;
+
+}
+
+#dis-last {
+    margin-bottom: 10%;
+}
+
+#dis-img-all {
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.photos-section {
+    background-color: #ffffff;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+    padding-bottom: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.dis-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #201d28;
+    max-width: 90%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}

@@ -61,7 +61,15 @@ const projects = {
         "description": "An app to help VUW Students engage with UN Sustainable Development Goal 3 - Good Health & Wellbeing",
         "link": "/wellwellwell",
         "id": "well"
-    }
+    },
+
+    "displace": {
+        "title": "Displacement",
+        "workType": "Photography",
+        "description": "A photographic series about the risk of sea level rise",
+        "link": "/displacement",
+        "id": "displace"
+    },
 }
 
 export default projects;
