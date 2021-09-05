@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.71ed92ea.chunk.css",
-    "main.js": "/static/js/main.0bf54246.chunk.js",
-    "main.js.map": "/static/js/main.0bf54246.chunk.js.map",
+    "main.css": "/static/css/main.4071aac7.chunk.css",
+    "main.js": "/static/js/main.86b65952.chunk.js",
+    "main.js.map": "/static/js/main.86b65952.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.4dbeafc5.chunk.css": "/static/css/2.4dbeafc5.chunk.css",
-    "static/js/2.3f4d1886.chunk.js": "/static/js/2.3f4d1886.chunk.js",
-    "static/js/2.3f4d1886.chunk.js.map": "/static/js/2.3f4d1886.chunk.js.map",
+    "static/js/2.9fb8ae2c.chunk.js": "/static/js/2.9fb8ae2c.chunk.js",
+    "static/js/2.9fb8ae2c.chunk.js.map": "/static/js/2.9fb8ae2c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7233c6de00d9aba9961a617cc4f82619.js": "/precache-manifest.7233c6de00d9aba9961a617cc4f82619.js",
+    "precache-manifest.76607ab8464b2398f76ace7ac18ae8d3.js": "/precache-manifest.76607ab8464b2398f76ace7ac18ae8d3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4dbeafc5.chunk.css.map": "/static/css/2.4dbeafc5.chunk.css.map",
-    "static/css/main.71ed92ea.chunk.css.map": "/static/css/main.71ed92ea.chunk.css.map",
-    "static/js/2.3f4d1886.chunk.js.LICENSE.txt": "/static/js/2.3f4d1886.chunk.js.LICENSE.txt",
+    "static/css/main.4071aac7.chunk.css.map": "/static/css/main.4071aac7.chunk.css.map",
+    "static/js/2.9fb8ae2c.chunk.js.LICENSE.txt": "/static/js/2.9fb8ae2c.chunk.js.LICENSE.txt",
     "static/media/rm.css": "/static/media/HKGrotesk-SemiBold.75f2b19b.woff",
     "static/media/acnh-map.jpg": "/static/media/acnh-map.41986c51.jpg",
     "static/media/App.css": "/static/media/bg.e34cc2bf.png",
@@ -33,6 +33,11 @@
     "static/media/df-sk6.jpg": "/static/media/df-sk6.fae5551d.jpg",
     "static/media/digital-it1.png": "/static/media/digital-it1.3d954141.png",
     "static/media/digital-it2.png": "/static/media/digital-it2.3512b5ae.png",
+    "static/media/dis2.jpg": "/static/media/dis2.f463a85f.jpg",
+    "static/media/dis3.jpg": "/static/media/dis3.4feda4fb.jpg",
+    "static/media/dis4.jpg": "/static/media/dis4.acc1fc14.jpg",
+    "static/media/dis5.jpg": "/static/media/dis5.e5bfa666.jpg",
+    "static/media/dis6.jpg": "/static/media/dis6.389aea26.jpg",
     "static/media/projectPage.css": "/static/media/dis6.389aea26.png",
     "static/media/drawing-box-review.png": "/static/media/drawing-box-review.32fdb3e7.png",
     "static/media/ellewoods.JPG": "/static/media/ellewoods.b11d6dae.JPG",
@@ -114,8 +119,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.4dbeafc5.chunk.css",
-    "static/js/2.3f4d1886.chunk.js",
-    "static/css/main.71ed92ea.chunk.css",
-    "static/js/main.0bf54246.chunk.js"
+    "static/js/2.9fb8ae2c.chunk.js",
+    "static/css/main.4071aac7.chunk.css",
+    "static/js/main.86b65952.chunk.js"
   ]
 }
