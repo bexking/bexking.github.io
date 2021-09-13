@@ -15,7 +15,7 @@ export default function ContactFooter() {
                         <a href="mailto:bexkingdesign@gmail.com">
                             <img className="contact-icon" src={Contact} alt="envelope icon" />
                         </a>  
-                        <a href="https://www.instagram.com/thingsbexmade" target="_blank"><img className="contact-icon" src={Insta}></img></a>
+                        <a href="https://www.instagram.com/bex_sketchh" target="_blank"><img className="contact-icon" src={Insta}></img></a>
                     </div>
                 </div>
             </div>
