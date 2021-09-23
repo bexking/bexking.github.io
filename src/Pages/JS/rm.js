@@ -11,7 +11,6 @@ import RmProcess4 from '../../Assets/rm-images/rm-process4.jpg';
 import RmProcess5 from '../../Assets/rm-images/rm-process5.jpg';
 import RmProcess6 from '../../Assets/rm-images/rm-process6.jpg';
 import RmProcess7 from '../../Assets/rm-images/rm-process7.jpg';
-// import RmProcess8 from '../../Assets/rm-images/rm-process8.jpg';
 import RmPostman from '../../Assets/rm-images/rm-postman.jpg';
 import RmProcess9 from '../../Assets/rm-images/rm-process9.jpg';
 import RmProcess10 from '../../Assets/rm-images/rm-process10.jpg';
@@ -26,12 +25,12 @@ import RmVideo from "../../Assets/rm-images/rm-vid.mp4";
 export default function Rm() {
     return (
         <div>
-            <div className="rm-page page">
+            <div className="rm-page">
                 <img id="homepage-hero" src={RmHero} alt="Remind Mat sitting in front of an open sliding door." />
                 <h1 class="project-heading" id="rm-heading">Remind Mat</h1>
                 <h2 id="rm-subtitle">A doormat to assist people with working memory challenges</h2>
-                
-                <div className="written-content">
+
+                <div className="rm-written-content">
                     <p>
                         The Remind Mat is an interior doormat designed to help people remember the things they need to take with them when they leave the house. 
                     </p>
@@ -41,9 +40,11 @@ export default function Rm() {
                         Rather than designing something that was hyper-futuristic, I wanted to come up with something that had the potential to help people everyday. 
                     </p>
                 </div>
+            </div> 
 
-                <div className="written-content">
-                    <h2>The Challenge</h2>
+            <div className="rm-challenge">    
+                <div className="rm-written-content">
+                    <h2 className="rm-h2">The Challenge</h2>
                     <p>
                         A lot of people struggle with working memory issues from time to time. In Psychology First Edition working memory is described as "active information your mind is currently working on. Once the information is no longer being worked on, it must be retrieved from long term memory."
                         Retrieving the information from long-term memory tends to require a promt or trigger to bring it to the forefront of your mind.
@@ -54,14 +55,17 @@ export default function Rm() {
                     </p>
 
                     <p>My mission for this project was to try and find a solution to the below question.</p>
-                </div>
+                
             
-                <div id="rm-hmw">
-                    <h3 className="rm-h3">How might we use a mixed reality approach to help people with working memory difficulties remember the things they need to take with them when they leave the house?</h3>
+                    <div id="rm-hmw">
+                        <h3 className="rm-h3">How might we use a mixed reality approach to help people with working memory difficulties remember the things they need to take with them when they leave the house?</h3>
+                    </div>
                 </div>
+            </div>
 
-                <div className="written-content">
-                    <h2>The Concept</h2>
+            <div className="rm-concept">    
+                <div className="rm-written-content">
+                    <h2 className="rm-h2">The Concept</h2>
                     <div className="rm-concept-cont">
                         <div>
                             <p>I explored different options relating to adding memory triggers into the daily routine so the user can re-access tasks that have gone into long term memory.</p>
@@ -83,9 +87,11 @@ export default function Rm() {
                         </ul>
                     </div>
                 </div>
+            </div>
 
-                <div className="written-content">
-                    <h2>Prototyping - Hardware</h2>
+            <div className="rm-prototype">    
+                <div className="rm-written-content">
+                    <h2 className="rm-h2">Prototyping - Hardware</h2>
                     <p>I researched what hardware I would need to build the prototype as I had never used a Raspberry Pi or similar technology before. </p>
                     <div className="hardware">
                         <ul className="hardware-list">
@@ -109,7 +115,7 @@ export default function Rm() {
                     </div>
 
 
-                    <h2>Prototyping - Software</h2> 
+                    <h2 className="rm-h2">Prototyping - Software</h2> 
                     <p>
                         I decided to build a progressive web app, as I could use React which I was familiar with.
                         A progressive web app is a website that you can add to homescreen with an app logo, and can be coded to receive push notifications. 
@@ -127,9 +133,11 @@ export default function Rm() {
                         <img className="app-process" src={RmProcess12} alt="Notes from my workbook - the push notification works for the first time." />
                     </div>
                 </div>
+            </div>
 
-                <div className="written-content">
-                    <h2>Styling the Mat</h2>
+            <div className="rm-finishing">    
+                <div className="rm-written-content">
+                    <h2 className="rm-h2">Styling the Mat</h2>
                     <p>I had discovered the prototype sensor worked better when it was embedded into cardboard, so I made the prototype mat out of foam board. Ideally a professional version of the remind mat would use a much larger and more responsive sensor, allowing for the mat to be crafted out of more durable materials. </p>
                     <p>Even though the prototype mat was made out of card, I wanted to bring a homewares feel to the prototype, so I used yarn to create a pattern on the mat. </p>
                     <div className="mat-process-container">
@@ -138,16 +146,18 @@ export default function Rm() {
                         <img className="app-process" src={RmFoamboard2} alt="Red yarn has been tied to make a criss-cross pattern around the foamboard" /> 
                     </div>
                 </div>
+            </div> 
 
-                <div className="written-content">
-                    <h2>Future Mahi</h2>
+            <div className="rm-future">
+                <div className="rm-written-content">
+                    <h2 className="rm-h2-alt">Future Mahi</h2>
                     <ul>
-                        <li>Testing and feedback sessions with users for the first prototype</li>
-                        <li>Produce a strong to-do app based on user needs</li>
-                        <li>Iterating on current concept for the mat, strengthening the materials, visual design and the overall system</li>
-                        <li>Devise a way to have multiple users and to do lists in one household.</li>
-                        <li>Enhance accessibility options</li>
-                        <li>Privacy</li>
+                        <li className="rm-li2">Testing and feedback sessions with users for the first prototype</li>
+                        <li className="rm-li2">Produce a strong to-do app based on user needs</li>
+                        <li className="rm-li2">Iterating on current concept for the mat, strengthening the materials, visual design and the overall system</li>
+                        <li className="rm-li2">Devise a way to have multiple users and to do lists in one household.</li>
+                        <li className="rm-li2">Enhance accessibility options</li>
+                        <li className="rm-li2">Privacy</li>
                     </ul>
                 </div>
 
