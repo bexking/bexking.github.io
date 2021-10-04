@@ -23,9 +23,8 @@ export default function IncognitoBreathing() {
     return (
         <div id="top">
 
-            <div className="page" id="page-ib">
-                <div>
-
+            <div >
+                <div className="iB-page">
                     <div className="ib-hero-container">
                         <div className="ib-video-section">
                             <video className="vid" autoPlay muted controls playsInline>
@@ -37,9 +36,7 @@ export default function IncognitoBreathing() {
                     <h1 className="project-heading" id="ib-heading">Incognito Breathing</h1>
                     <h2 id="ib-subtitle">Exploring the possiblities of using paced resipration techniques to manage workplace stress </h2>
 
-                    
-
-                    <div className="written-content">
+                    <div className="iB-written-content">
                         <p>
                             Incognito Breathing is a concept website which helps used paced resipration techniques to manage workplace stress. Inspired by psychology research, Incognito Breathing generates subtle breath-pacing visualisations based on your own digital workspace. As the visualisations are based on the user's own workspace, the website can easily be used in open plan offices without drawing unwanted attention from co-workers.
                         </p>
@@ -62,8 +59,10 @@ export default function IncognitoBreathing() {
                             <img className="ib-hero-img" src={ibofficemockup_1} alt="Office scene with incognito breathing visualisation shown on computer" />
                         </div>
                     </div>
+                </div>
 
-                    <div className="written-content">
+                <div className="iB-discovery">   
+                    <div className="iB-written-content">
                         <h2 className="ib-project-subheadings">Discovery & Ideation</h2>
                         <p>I researched paced respiration and how it is best used, and brainstormed different contexts in which people either feel stressed/anxious, and contexts where I thought paced respiration techniques would have the most benefit. <br/>
                             Through secondary research techniques I learned about the physiological response of stress and anxiety and how shallow breathing can cause a state of constant hyperventilation, which worsens the problem. Without managing the breath, it can be difficult to manage other symptoms of stress and anxiety. <br/> 
@@ -79,7 +78,7 @@ export default function IncognitoBreathing() {
                         <h3 className="ib-h3">How might we create a product that helps people relax and manage workplace stress in an office environment, by adding paced breathing techniques into daily routines?</h3>
                     </div>
 
-                    <div className="written-content">
+                    <div className="iB-written-content">
                         <p>Three diverse concepts were pitched. To ensure the greatest positive impact on user wellbeing, all concepts focussed on subtlety and routine-building. </p>
                     </div>
 
@@ -89,16 +88,17 @@ export default function IncognitoBreathing() {
                             <img className="concept" src={IbConcept2} alt="" />
                         </div>
                         <img id="chosen-concept" src={IbConcept3} alt="" /> 
-                         
                     </div>
 
-                    <div className="written-content">
-                        <p>After presenting all three designs to a group of people, the third design was chosen to further develop as it allowed for habit building and considered some unique environmental factors. The chosen concept was a breath timer disguised as a regular productivity website. A subtle animation within the page  would set the ideal breath pace. Treatment for anxiety is often more effective in the situation where the person feels anxious, rather than them going somewhere else, so this lets the staff member manage feelings of anxiety in place, without feeling self conscious.
-                            
+                    <div className="iB-written-content">
+                        <p>
+                            After presenting all three designs to a group of people, the third design was chosen to further develop as it allowed for habit building and considered some unique environmental factors. The chosen concept was a breath timer disguised as a regular productivity website. A subtle animation within the page  would set the ideal breath pace. Treatment for anxiety is often more effective in the situation where the person feels anxious, rather than them going somewhere else, so this lets the staff member manage feelings of anxiety in place, without feeling self conscious.
                         </p>
                     </div>
+                </div>
 
-                    <div className="written-content">
+                <div className="ib-development">    
+                    <div className="iB-written-content">
                         <h2 className="ib-project-subheadings">Further Development</h2>
                         <p>Initial concepts had popular productivity software backgrounds for users to choose, but I decided a better solution was to let users upload screenshots of their workspace, with the breath timer appearing overtop of. This allows more people to use the site, regardless of their office software.</p>
                         <p>A lot of effort went into designing an appropriate breath-pacing visualisation. </p>
@@ -119,18 +119,20 @@ export default function IncognitoBreathing() {
                         <div className="ib-its-wrapper">
                             <img className="it-vid" src={IbIt2} alt="visualisation with jagged blur phasing in and out"></img>
                         </div>
-
                     </div>
 
                     
-                    <div className="written-content">
+                    <div className="iB-written-content">
                         <p>The most successful example had a clear bubble moving from left to right at the top of the window. This warped the image enough for users to see the bubble and follow along with it. Left to right seemed to work best for inhaling and exhaling rather than vertically, or non-directional.</p>
                     </div>
                     <div className="video-section-2">
                         <img className="vid" src={IbIt4} alt="final version of visualisation with bubble moving left to right at top of window, and opacity blur fading in and out on content."></img>
                     </div>
+                </div>
 
-                    <div className="written-content">
+                <div className="ib-testing">
+                    <div className="iB-written-content">
+                        <h2 className="ib-project-subheadings">Testing</h2>
                         <p>As a requirement for this project, testing needed to be conducted using psychology methodology. I wanted to measure stress, recovery and environmental concerns of working in a fast-paced, open plan office environment, and needed to consider how I would measure states of stress and restfulness, and factors to control for to ensure the test would be fair.</p>
                         <p>I wanted to find out the following things during testing:</p>
                     </div>
@@ -173,7 +175,7 @@ export default function IncognitoBreathing() {
                         </div>
                     </div>
 
-                    <div className="written-content" id="test-plan">
+                    <div className="iB-written-content" id="test-plan">
                         <div className="box">
                             <h2 className="ib-project-subheadings" id="session-plan-heading">Testing Session Plan</h2>
                             <div className="IB-test-design">
@@ -215,7 +217,7 @@ export default function IncognitoBreathing() {
                         </div>
                     </div>
 
-                    <div className="written-content">
+                    <div className="iB-written-content">
                         <h2 className="ib-project-subheadings">Additional Testing</h2>
                         <p>
                             I also had an office worker test the visualisation in their workplace. This was an observational study to investigate subjective experience using the visualisation in an open-plan office. One male participant used the visualisation at two different times during their workday in their usual place of work, with their own headphones.
@@ -224,8 +226,10 @@ export default function IncognitoBreathing() {
                             At the end of their workday they participated in a semi-formal interview and answered questions about their experience with the visualisation, how it affected their feelings and focus during the workday, and how aware they were of their colleagues while using the visualisation. 
                         </p>
                     </div>
+                </div>
 
-                    <div className="written-content">
+                <div className="ib-results">
+                    <div className="iB-written-content">
                         <h2 className="ib-project-subheadings">Results</h2>
                         <div className="written-content" id="results-section">
                             <img id="results-graphic" src={Results} alt="infographic with results" />
@@ -235,37 +239,38 @@ export default function IncognitoBreathing() {
                         </p>
                     </div>
 
-                    <div className="feature-quote">
-                        <h6>
+                    <div className="ib-feature-quote">
+                        <h6 className="ib-h6">
                             "[I felt] content, calm and unworried. I wasn't distracted with what I was doing before."
                         </h6>
-                        <h6>
+                        <h6 className="ib-h6">
                             "I would be happy to use the site. It's non-invasive. You can show your own desktop or what you're working on and people won't ask questions. You can chuck headphones on and be in your own space for a bit. "
                         </h6>
-                        <h6>
+                        <h6 className="ib-h6">
                             "I wouldn't worry about using it around other people, It has a simple UI so you can kind of just do it on the screen and it guides you. You wouldn't need to explain to anyone."
                         </h6>
                     </div>
 
-                    <div className="written-content">  
+                    <div className="iB-written-content">
                         <p>
                             In addition to the user testing sessions, one further person was asked to test the site in their own workplace and interviewed about their experience. The following quote is from this participant.
                         </p>
                     </div>
 
-                    <div className="feature-quote">
-                        <h6>"I felt good [after using the site]. It was nice to stop in the middle of work and do it. It was quite calming not to think about what you were working on and watch the visualisation.
+                    <div className="ib-feature-quote">
+                        <h6 className="ib-h6">"I felt good [after using the site]. It was nice to stop in the middle of work and do it. It was quite calming not to think about what you were working on and watch the visualisation.
                             I could definitely incorporate it into my normal workday. I end up staring at code for a length of time to work something out anyway, so no one would be able to tell if I was staring at the bubble instead to calm down.
                             It helped me relax - it made me stop thinking about what I was doing at the time and zone out a little bit and helped me focus after."</h6>
                     </div>
 
-                    <div className="written-content">
+                    <div className="iB-written-content">
                         <p>
                             It was encouraging to see that the visualisation achieved its goals of helping people to relax in a high-pressure work situation, and it was even more encouraging that those that tested it felt they would feel comfortable using the device in their workplace.</p>
                     </div>
+                </div>    
 
-
-                    <div className="written-content">
+                <div className="ib-future">
+                    <div className="iB-written-content">
                         <h2 className="ib-project-subheadings">Future Development Opportunities</h2>
                         <ul>
                             <h4 className="iBh4">Small improvements:</h4>
