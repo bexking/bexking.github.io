@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8dbc6fa0.chunk.css",
+    "main.css": "/static/css/main.f10bb73d.chunk.css",
     "main.js": "/static/js/main.efa0d65a.chunk.js",
     "main.js.map": "/static/js/main.efa0d65a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
@@ -9,10 +9,10 @@
     "static/js/2.9fb8ae2c.chunk.js": "/static/js/2.9fb8ae2c.chunk.js",
     "static/js/2.9fb8ae2c.chunk.js.map": "/static/js/2.9fb8ae2c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.28ffa893993b40c04d4f1478aca100b2.js": "/precache-manifest.28ffa893993b40c04d4f1478aca100b2.js",
+    "precache-manifest.260d7bfb035a833a4003c7322fa082c7.js": "/precache-manifest.260d7bfb035a833a4003c7322fa082c7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4dbeafc5.chunk.css.map": "/static/css/2.4dbeafc5.chunk.css.map",
-    "static/css/main.8dbc6fa0.chunk.css.map": "/static/css/main.8dbc6fa0.chunk.css.map",
+    "static/css/main.f10bb73d.chunk.css.map": "/static/css/main.f10bb73d.chunk.css.map",
     "static/js/2.9fb8ae2c.chunk.js.LICENSE.txt": "/static/js/2.9fb8ae2c.chunk.js.LICENSE.txt",
     "static/media/rm.css": "/static/media/HKGrotesk-SemiBold.75f2b19b.woff",
     "static/media/acnh-map.jpg": "/static/media/acnh-map.41986c51.jpg",
@@ -121,7 +121,7 @@
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.4dbeafc5.chunk.css",
     "static/js/2.9fb8ae2c.chunk.js",
-    "static/css/main.8dbc6fa0.chunk.css",
+    "static/css/main.f10bb73d.chunk.css",
     "static/js/main.efa0d65a.chunk.js"
   ]
 }
