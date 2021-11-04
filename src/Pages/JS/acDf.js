@@ -19,15 +19,17 @@ import SeeMore from "../../Components/JS/see-more.js";
 export default function AcDf() {
     return (
         <div>
-            <div className="page" id="page-df">
-
-                <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
+            <div className="df-page">
+                <a className="df-link" href="http://bexking.github.io/acnh-dreamy-finder" target="_blank"><img id="df-hero" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" /></a>
                 <div>
                     <h1 className="project-heading" id="df-heading">Dreamy Finder</h1>
                     <h3 id="df-subtitle">A tool to help Animal Crossing: New Horizons players find their favourite villagers </h3>
                 </div>
-                <div className="written-content">
-                    
+            </div>
+
+            <div className="df-bg">
+                <div className="df-written-content">
+                    <h2 className="df-h2">Background</h2>
                     <p>Animal Crossing: New Horizons is a  is a sandbox-style roleplaying game released by Nintendo for Nintendo Switch in 2020.<br/>
                         The player is a villager on a small deserted island. The island has space for up to 10 anthropomorphic animals who can move in as villagers, with several species of animals featured, and eight different personality types.
                     </p>
@@ -36,12 +38,14 @@ export default function AcDf() {
                         I wanted to create a tool that would let people budget for tickets better, and see how different factors increased their odds.
                     </p>
                     <p>
-                        The result of my project is Dreamy Finder which can be found online <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">here</a>, or take a look at <a href="https://github.com/bexking/acnh-dreamy-finder" target="_blank">my Github</a>.
+                        The result of my project is Dreamy Finder which can be found online <a className="df-link" href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">here</a>, or take a look at <a className="df-link" href="https://github.com/bexking/acnh-dreamy-finder" target="_blank">my Github</a>.
                     </p>
                 </div>
+            </div>    
 
-                <div className="written-content">
-                    <h2>Research & Observations</h2>
+            <div className="df-research">    
+                <div className="df-written-content">
+                    <h2 className="df-h2">Research & Observations</h2>
                     <p>
                         When Animal Crossing: New Horizons released I noticed many people (including friends, streamers, people posting online) were visiting mystery islands trying to find their favourite villagers. There are around 400 villagers in the game, but people were saving up tickets and becoming shocked when the amount of tickets required crept up sometimes into the thousands before finding the villager they were after. 
                     </p>
@@ -50,12 +54,10 @@ export default function AcDf() {
                         They found out the game first selects for one of the 35 animal species, and then a random character within each species.
                         You can see the same character selected an unlimited number of times in a play session, and the same character can also be selected multiple times in a row.
                     </p>
-
                     <p>
                         This can lead to some interesting strategies that are less obvious. For example, if you are searching for an octopus, there are only 3 octopi in the game.
                         If you took an octopus you didn’t particularly want, the next time the game selected for the species octopus, you now have a 50% chance that the octopus is the one you want.
                     </p>
-
                     <p>
                         I observed streamers on Twitch, and players in various Discords and Reddit forums saving up tickets to find their favourite villagers, with many saving their tickets into the hundreds, and being disappointed when the final totals were above 600-1000 tickets.
                         I recorded a rough idea of their process and what they wanted to know/find out in order to determine what a player might want to know, and what the ideal user flow would be.
@@ -74,9 +76,11 @@ export default function AcDf() {
                         </Popup>
                     </div>
                 </div>
+            </div>    
 
-                <div className="written-content">
-                    <h2>Design Goals</h2>
+            <div className="df-goals">
+                <div className="df-written-content">
+                    <h2 className="df-h2">Design Goals</h2>
                     <div id="df-site-goals">
                         <div id="site-goals-text">
                             <h4 id="df-list-h4">The site needs to:</h4>
@@ -100,9 +104,11 @@ export default function AcDf() {
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div className="written-content">
-                    <h2>Ideation & Prototyping</h2>
+            <div className="df-ideas"> 
+                <div className="df-written-content">
+                    <h2 className="df-h2">Ideation & Prototyping</h2>
                     <p>Ideation began with sketching to work out the general structure and logic of the page, before moving into Figma to start digital prototyping.</p>
                     <div className="df-ideation-container">
                         <img className="df-ideation" src={DfSketch1} alt="User Journey - annotated" />
@@ -138,17 +144,20 @@ export default function AcDf() {
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div className="written-content">
-                    <h2>Building & Publishing the site</h2>
+            <div className="df-build">
+                <div className="df-written-content">
+                    <h2 className="df-h2">Building & Publishing the site</h2>
                     <p>
                         The site was built in React. This was the first site I'd ever built in React so it was a big learning curve. To make the site more interactive and a more natural user experience, I took advantage of state to keep the search box updating. It was great to be able to create components and reuse them throughout the site so I didn't have to repeat content. This was also the first time using an API. It was great to be able to get all the information and images I needed about each villager from the API and saved a lot of time.
                     </p>
                     <p>
-                        See the project on my  <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">github</a>.
+                        See the project on my  <a className="df-link" href="http://bexking.github.io/acnh-dreamy-finder" target="_blank">github</a>.
                     </p>
                 </div>    
             </div>
+
             <SeeMore project1={"ib"} project2={"hints"} />
         </div>
     )
