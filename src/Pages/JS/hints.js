@@ -44,12 +44,15 @@ export default function Hints() {
     return (
     <div>
 
-        <div className="hint-page page">
+        <div className="hint-page">
             <img id="homepage-hero" src={EngooHero} alt="engoo image hints box" />
             <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
-            <h2 id="hints-subtitle">Rethinking the way online English lessons deliver vocabulary hints</h2>
+            <h2 id="hint-subtitle">Rethinking the way online English lessons deliver vocabulary hints</h2>
+        </div>
 
-            <div className="written-content">
+        <div className="hint-bg">
+            <div className="hint-written-content">
+                <h2 className="hint-h2">Background & Research</h2>
                 <p>
                     This is a proposed hint system for English-language lesson platform Engoo, which provides one-on-one online English lessons. Engoo is a Japanese company with its main markets being Japan and South Korea, but has users in many different countries.
                 </p>
@@ -72,16 +75,16 @@ export default function Hints() {
                 </div>
             </div>
 
-            <div className="written-content">
+            <div className="hint-written-content">
                 <p>
                     Sentence by sentence is the ideal translation method for students to learn the material as it provides immediate feedback. To read this way, users must frequently scroll up and down between English and their native language. Many users give up on this method because of the need to scroll.
                     When reading the text in their native language, users accidentally read too far ahead at once because of the translation appearing as one block of text. This ruins the challenge for the rest of the exercise.
                     Due to the limitations of the translation experience, many users end up changing their behaviour - first trying to read as much as they can in English, and then reading their native-language translation in one go at the end of the exercise.
                 </p>
             </div>
-
-            <div className="written-content">
-                <h2>Who does this problem impact?</h2>
+        
+            <div className="hint-written-content">
+                <h2 className="hint-h2">Who does this problem impact?</h2>
                 <p>
                     Engoo’s main customer groups are represented below as personas.
                 </p>
@@ -165,12 +168,14 @@ export default function Hints() {
                     </Popup>
                 </div>
             </div>
+        </div>
 
-            <div className="written-content" id="goals">
+        <div className="hint-goals">
+            <div className="hint-written-content" id="goals">
                 <div id="goals-text">
-                    <h2 id="goals-title">Project Goals</h2>
+                    <h2 className="hint-h2" id="goals-title">Project Goals</h2>
                     <p id="goals-para">The solution must:</p>
-                    <ul id="goals-list">
+                    <ul id="hint-goals-list">
                         <li>Provide a translation experience that creates better opportunities for language acquisition across the board.</li>
                         <li>Have a natural user flow</li>
                         <li>Support languages with differing lengths.</li>
@@ -181,9 +186,10 @@ export default function Hints() {
                     </ul>
                 </div>
             </div>
-
-            <div className="written-content">
-                <h2>Research, Ideation & Prototyping</h2>
+        </div>
+        <div className="hint-research">
+            <div className="hint-written-content">
+                <h2 className="hint-h2">Further Research, Ideation & Prototyping</h2>
                 <p>
                     I began with sketches before digital prototypes. Early on I had the idea to use the space between paragraphs to break up the translated text.
                     This concept was inspired by spoiler tags and sought to meet Engoo’s need to have a better flow when interacting with the translation, without disrupting the “news-feel” of the page.
@@ -198,7 +204,7 @@ export default function Hints() {
                     </div>
                 </div>
             </div>
-            <div className="written-content">
+            <div className="hint-written-content">
                 <p>
                     The second main concept allowed users to input their own hints to create stronger memories, inspired by Psychology research on memory.
                     From Pschology (Fifth Edition) by Gleitman, Fridlund & Reisberg, I learned memory acquisition requires active engagement. Shallow acquisition creates more shallow memories.
@@ -208,9 +214,16 @@ export default function Hints() {
                     <img className="engoo-dvpt" src={EngooDv1} alt=""/>
                 </div>
             </div>
+        </div>
+        <div className="hint-testing">
+            <div className="hint-written-content">
+                <h2 className="hint-h2">User Testing</h2>
 
-            <div className="written-content">
-                <h2>User Testing</h2>
+                <p>
+                    Comparison tests were done between the two designs as I was concerned that design two with multiple options would be too complicated.
+                    Paper prototypes were used so the user could fill in their own hints.
+                </p>
+                <p>The user was asked to try to learn some vocabulary and then identify the words and their meaning within the article.</p>
 
                 <div className="testing-images">
                         <img id="testingImage1" className="testing-pic" src={Test1} alt="" />
@@ -218,23 +231,19 @@ export default function Hints() {
                         <img id="testingImage5" className="testing-pic" src={Test5} alt="" />
                         <img id="testingImage4" className="testing-pic" src={Test4} alt="" />
                 </div>
-                <p>
-                    Comparison tests were done between the two designs as I was concerned that design two with multiple options would be too complicated.
-                    Paper prototypes were used so the user could fill in their own hints.
-                </p>
-                <p>The user was asked to try to learn some vocabulary and then identify the words and their meaning within the article.</p>
             </div>
-
-            <div className="written-content">
-                <h2>Results</h2>
+        </div>
+        <div className="hint-result">
+            <div className="hint-written-content">
+                <h2 className="hint-h2">Results</h2>
                 <div className="results-category">
                     <div className="results-text">
                         <h4 className="testing-subheading">Usability</h4>
-                        <h3>Design One - Translation Only</h3>
+                        <h3 className="hint-h3">Design One - Translation Only</h3>
                         <p>
                             Even with the translation now available below each paragraph, the user still scrolled up and down often while they were trying to learn the words from the vocabulary section.
                         </p>
-                        <h3>Design Two - Translation & Hints</h3>
+                        <h3 className="hint-h3">Design Two - Translation & Hints</h3>
                         <p>
                             Once the user was aware of the paragraph space options, it became natural for them interact with it. 
                             hey had no problems using the feature and were able to easily submit and retrieve their own hints.
@@ -243,24 +252,24 @@ export default function Hints() {
                             With all the new hint options, the user wished to be able to add hints right away in the vocabulary exercise at the top. 
                         </p>
                     </div>
-                    <div className="feature-quote" id="fq-1">
+                    <div className="hint-feature-quote" id="fq-1">
                         <p className="hints-user-quotes" id="fq-1-text">"I preferred version two with the extra hints. In version one, I had to look around for the right part a lot [if I forgot]"</p>
                     </div>
                 </div>
 
                 <div className="results-category">
-                    <div className="feature-quote" id="fq-2">
+                    <div className="hint-feature-quote" id="fq-2">
                             <p className="hints-user-quotes" id="fq-2-text">"Oooohh! I could add my own hints? Like sound files and things?!"</p>
                     </div>
                     
                     <div className="results-text">
                         <h4 className="testing-subheading">Clarity</h4>
                         <p>There was no visual cue within the paper prototype to show you could interact with the paragraph space, so the user needed to be prompted to find this feature.</p>
-                        <h3>Design One - Translation Only</h3> 
+                        <h3 className="hint-h3">Design One - Translation Only</h3> 
                         <p>
                             It was easy for the user to understand what the translation button would do.
                         </p>
-                        <h3>Design Two - Translation & Hints</h3>     
+                        <h3 className="hint-h3">Design Two - Translation & Hints</h3>     
                         <p>
                             Most of the icons were clear here, though the user thought the text button would bring up the translation. When they saw the translation button, they wondered what the Text button would do and weren’t sure what to expect.
                         </p>              
@@ -273,11 +282,11 @@ export default function Hints() {
                 <div className="results-category">
                     <div className="results-text">
                         <h4 className="testing-subheading">Memory</h4>
-                        <h3>Design One - Translation Only</h3> 
+                        <h3 className="hint-h3">Design One - Translation Only</h3> 
                         <p>
                             The user had a difficult time remembering the words through searching in the translations alone. 
                         </p>
-                        <h3>Design Two - Translation & Hints</h3> 
+                        <h3 className="hint-h3">Design Two - Translation & Hints</h3> 
                         <p>
                             The user was excited when they realised they could add their own hints and felt that this would help them remember. 
                             They made up rules for remembering the words that made sense to them.
@@ -285,14 +294,14 @@ export default function Hints() {
                             They especially liked that you could add multiple different hints for one word to really help with memory.
                         </p>
                     </div>
-                    <div className="feature-quote" id="fq-3">
+                    <div className="hint-feature-quote" id="fq-3">
                         <p className="hints-user-quotes" id="fq-3-text">
                             “I liked having the different options. I think it would help you remember.”
                         </p>
                     </div>
                 </div>
                 <div className="results-category">
-                    <div className="feature-quote" id="fq-4">
+                    <div className="hint-feature-quote" id="fq-4">
                         <p className="hints-user-quotes" id="fq-4-text">
                             “I’d probably open up paint and draw a picture and then upload it, but that it would be cool if I could draw directly in the website.””
                         </p>
@@ -304,11 +313,11 @@ export default function Hints() {
                         <p>The user also commented that they would like to draw their own hints for the image section if possible.</p>
                     </div>
                 </div>
-
             </div>
-
-            <div className="written-content">
-                <h2>Refining the Design</h2>
+        </div>
+        <div className="hint-refine">
+            <div className="hint-written-content">
+                <h2 className="hint-h2">Refining the Design</h2>
                 <p>
                     I created an overlaid hints window for adding and
                     showing most hint types as space was lacking for
@@ -318,9 +327,10 @@ export default function Hints() {
                 <p>A digital prototype of the new concept was built in Adobe XD.</p>
                 <img className="drawing-ft-review" src={DrawingBox} alt="" />
             </div>
-
-            <div className="written-content">
-                <h2>The Final Concept</h2>
+        </div>
+        <div className="hint-final">
+            <div className="hint-written-content">
+                <h2 className="hint-h2">The Final Concept</h2>
                 <p>
                     Engoo hints is a new hint system for the Daily News
                     learning materials.
