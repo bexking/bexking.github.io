@@ -54,7 +54,7 @@ nav:hover {
 
 .nav-places {
     text-decoration: none;
-    color: #3B3B3B;
+    color: #736bbb;
     font-size: 18px;
     font-family: 'HK Grotesk SemiBold';
     margin: 10px;
@@ -62,7 +62,7 @@ nav:hover {
     padding-bottom: 1%;
     padding-left: 4%;
     padding-right: 70px;
-    background-color: #ffef95;
+    background-color: #e8d7eb;
 }
 
 .nav-places:hover {
