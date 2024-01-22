@@ -29,3 +29,41 @@
     background-color: #ffd6e9;
     color: #388888;
 }
+
+.info-bullets {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+}
+
+.info-bullet-group{
+    width: 30%;
+}
+
+.xp{
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 16px;  
+    margin-bottom: 2%;
+}
+
+.xp-para {
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14px;  
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.xp-para-edu {
+    font-family: 'HK Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 14px;  
+    margin-top: 0;
+    margin-bottom: 0%;
+}
+
+.edu-para {
+    margin-bottom: 10%;
+}
