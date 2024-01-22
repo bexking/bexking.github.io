@@ -6,21 +6,29 @@ export default function About() {
     return (
         <div>
             <div id="about-page">
-                <div className="about-text">
-                        <p className="about-para">
-                            Ko Rebecca tōku ingoa. He kaihoahoa ahau no Te Whanganui-a-Tara. <br/>
-                            My name is Rebecca. I'm a Designer from Wellington.
-                        </p>
-                        <p className="about-para"> I'm a recent Interaction Design grad, and a former Visual Merchandiser with a bunch of management experience.</p> 
-                        <p className="about-para">I'm analytical, inquisitive, logical and whimsical. I love UX Design and research because I love gathering and considering tons of information to help solve problems.</p>
-                        <p className="about-para">In my retail visual merchandising career, I would approach problems in store displays and layouts by observing customer interactions with the displays, making changes based on what I saw. Afterwards, I loved checking the stats and listening to staff feedback to make small improvements until we got it right. <br/>
-                            When I learned UX Design was in 2017, I was inspired to go and study ASAP so I could learn more about design and use design thinking approaches to solve interesting challenges.
-                        </p>
-                        <p className="about-para">In particular I enjoy all things digital, but the most important thing is that I'm designing things that are useful and help solve problems for people.</p>
-                        <p className="about-para">
-                            In my spare time I love knitting and crocheting, learning Te Reo, learning all about freshwater fish, and trying to garden.
-                        </p>            
-                        <p className="about-para">Check out my <Link to="#workworkwork" className="link">work</Link> and contact me at <a href="mailto:bexkingdesign@gmail.com" className="link">bexkingdesign@gmail.com</a></p>
+
+            <div className="intro">
+                <div className="intro-text">
+                    <h1 className="homeh1">About me</h1>
+                    <h2 className="homeh2">Ko Bex King ahau</h2>
+                </div>
+            </div>
+
+                <div className="homepage">
+                    <p className="homepage-p">I’m currently a Kaitātai (Designer) at ThinkPlace, a for-purpose design consultancy based in Te-Whanganui-a-Tara.</p>
+                    <p className="homepage-p">
+                        I love using design to create better, more inclusive experiences for people, especially those who are often overlooked. I believe empathy and open-mindedness are crucial to getting to the root of a problem, and support finding the best solutions.
+                    </p>
+                    <p className="homepage-p">
+                        Before working for ThinkPlace, I worked a Visual Merchandising Co-ordinator for LUSH Fresh Cosmetics Australia & NZ, where I found my passion for design thinking. I hold a Bachelor of Design Innovation from Victoria University of Wellington, majoring in Interaction Design.
+                    </p>
+
+
+                    <p className="homepage-p">
+                        When I’m not designing, I can be found out at gigs, or at home, knitting, reading, or learning raranga (weaving) or Te Reo Māori. 
+                    </p>             
+                    <p className="homepage-p">Check out my <Link to="#workworkwork" className="homepage-links"  id="homepage-link1">work</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links" id="homepage-link2">bexkingdesign@gmail.com</a>. </p>
+                    <p className="homepage-p">Ngā mihi nui</p>
                 </div>
             </div>    
         </div>

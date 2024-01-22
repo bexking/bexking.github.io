@@ -3,21 +3,21 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(65px + 8vh);
-    background-color: #35444e;
+    /* background-color: #35444e; */
 }
 
-.about-text {
+/* .about-text {
     margin-left: auto;
     margin-right: auto;
     padding-top: 3%;
     padding-bottom: 3%;
     width: 80vw;
     filter: drop-shadow(0 2mm 2mm #97aab457);
-}
+} */
 
-.about-para {
+/* .about-para {
     color: #d2d2d2;
-}
+} */
 
 .link {
     color: #ffd6e9;

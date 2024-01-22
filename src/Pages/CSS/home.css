@@ -147,20 +147,6 @@ h4 {
     border-radius: 30px;
 }
 
-#homepage-link3 {
-    color: #736bbb;
-}
-
-#homepage-link3:hover {
-    background-color: #736bbb;
-    color: #e8d7eb;
-    padding-left: 1%;
-    padding-right: 1%;
-    font-family: 'HK Grotesk SemiBold';
-    filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
-    border-radius: 30px;
-}
-
 @media only screen and (max-width: 650px) {
     .intro {
         width: 70%;
