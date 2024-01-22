@@ -38,17 +38,17 @@ export default function IncognitoBreathing() {
 
                     <div className="iB-written-content">
                         <p>
-                            Incognito Breathing is a concept website which helps used paced resipration techniques to manage workplace stress. Inspired by psychology research, Incognito Breathing generates subtle breath-pacing visualisations based on your own digital workspace. As the visualisations are based on the user's own workspace, the website can easily be used in open plan offices without drawing unwanted attention from co-workers.
+                            Incognito Breathing is a proof-of-concept design for a website helping office-workers manage mental health in the workplace.  Incognito Breathing takes your workspace and applies a paced respiration timer to it. It is designed to allow users to engage in paced-respiration exercises without drawing unwanted attention, adding to anxiety. 
                         </p>
 
                         <p>
-                            Incognito Breathing was inspired by the psychology findings of Harris, Katkin, Lick & Habberfield in 1976. They found that paced respiration is easy to learn and very effective in promoting relaxation and reduced stress responses. <br/>
-                            Incognito Breathing is designed to help office workers manage mental health while at work, particularly in open plan offices where it can be more difficult to take a break. Incognito Breathing takes your workspace and applies a paced respiration timer to it, so users can do breathing exercises at right time/right place, without feeling insecure that someone will notice.
-                        </p>
-
-                        <p>
+                            Incognito Breathing was inspired by the psychology research. Harris, Katkin, Lick & Habberfield in 1976 found that paced respiration is easy to learn and very effective in promoting relaxation and reduced stress responses.
                             Manfred Garhammer wrote in 2002 that half of German office workers felt time pressured - up from a quarter in 1990. Open-plan offices in particular can cause fatigue and stress, even at normal volume levels as found by Witterseh, Wyon, & Clausen in 2002. <br/>
+                        </p>
+                        <p>  
                             Paced respiration (deep, slow breathing from the diaphragm) helps manage stress and anxiety. Slowing, deep breathing lowers heart rates and prevents a state of hyperventilation from habitual over-breathing. Using paced respiration to manage anxiety is especially effective if it is practiced where the stress occurs, rather than removing yourself from a situation and then completing breath exercises. <br/>
+                        </p>    
+                        <p>
                             Staff experiencing stress and anxiety in open plan offices often feel too anxious to take a break, because they may worry people will notice them not working. This can make it difficult to manage stress using this technique.
                         </p>
                     </div>
@@ -64,13 +64,7 @@ export default function IncognitoBreathing() {
                 <div className="iB-discovery">   
                     <div className="iB-written-content">
                         <h2 className="ib-project-subheadings">Discovery & Ideation</h2>
-                        <p>I researched paced respiration and how it is best used, and brainstormed different contexts in which people either feel stressed/anxious, and contexts where I thought paced respiration techniques would have the most benefit. <br/>
-                            Through secondary research techniques I learned about the physiological response of stress and anxiety and how shallow breathing can cause a state of constant hyperventilation, which worsens the problem. Without managing the breath, it can be difficult to manage other symptoms of stress and anxiety. <br/> 
-                            Cognitive Behavioural Therapy (CBT) commonly uses paced respiration techniques to correct this overbreathing.
-                        </p>
-                        <p>
-                            From my research I considered places and situations where paced respiration could have the most use and realised there was a lot of opportunity to incorporate this practice into an office workday. <br/>
-                            Workplaces are becoming more stressful, and open plan offices in particular contribute to steady increases of stress, fatigue, anxiety and burnout. Paced respiration is easily learned, quickly effective, and only takes a couple of minutes, meaning it could easily become a part of someone’s workday routine to great effect
+                        <p>After extensive desktop reseach, I defined the scope possible scope of my project into a problem question before moving onto ideation. After exploring a lot of ideas, I selected three projects to pitch and created low-fidelity mockups of the concepts.
                         </p>
                     </div>
 
@@ -84,10 +78,10 @@ export default function IncognitoBreathing() {
 
                     <div className="concepts">
                         <div className="scrapped-concepts">
-                            <img className="concept" src={IbConcept1} alt="" />
-                            <img className="concept" src={IbConcept2} alt="" />
+                            <img className="concept" src={IbConcept1} alt="calendar software with built in breath timer button" />
+                            <img className="concept" src={IbConcept2} alt="breathing exercise app mockup" />
                         </div>
-                        <img id="chosen-concept" src={IbConcept3} alt="" /> 
+                        <img id="chosen-concept" src={IbConcept3} alt="screenshot of trello with an example of how a breath app plugin could fit within the browser window" /> 
                     </div>
 
                     <div className="iB-written-content">

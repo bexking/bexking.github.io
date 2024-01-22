@@ -94,7 +94,7 @@
 .test-patai-subheadings {
     margin-bottom: 1.5%;
     font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #39536C;
 }
 
@@ -103,7 +103,7 @@
     margin-bottom: 2.5%;
     margin-top: 4%;
     font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color: #39536C;
 }
 
@@ -161,7 +161,7 @@
 
 .IB-testing-headings{
     font-family: 'HK Grotesk Bold', sans-serif;
-    font-size: 23px;
+    font-size: 18px;
     color: #39536C;
 }
 
@@ -258,6 +258,7 @@
     display: flex;
     justify-content: space-between;
     border: 3px solid #C4DFEC;
+    margin-bottom: 2%;
 }
 
 /*Paragraphs*/
@@ -436,9 +437,9 @@ li {
 }
 
 #chosen-concept {
-    max-width: 97%;
+    max-width: 99%;
     margin-top: 1.5%;
-    background-color:#39536C;
+    /* background-color:#39536C; */
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -456,7 +457,7 @@ li {
 }
 
 #results-graphic {
-    width: 90%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -501,9 +502,10 @@ a:hover {
 }
 
 .iB-written-content {
-    width: 80%;
+    width: 82%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
 }
 
 .iB-discovery {
@@ -579,13 +581,13 @@ a:hover {
 
 .video-section-2 {
     width: 80%;
-    background-color:#39536C;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    background-color:#3c3c3c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
     filter: drop-shadow(0 0mm 2mm #bdbdbd);
-    border-radius: 10px;
+    border-radius: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -630,7 +632,7 @@ a:hover {
 }
 
 .ib-feature-quote {
-    max-width: 68%;
+    max-width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -653,7 +655,8 @@ a:hover {
 }
 
 #test-plan {
-    border: 2px solid #39536C;
+    border: 3px solid #39536C;
+    border-radius: 3px;
 }
 
 .box {
