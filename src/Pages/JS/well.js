@@ -36,10 +36,7 @@ export default function Well() {
             <div className="well-bg">
                 <div className="well-written-content">
                     <h2 className="well-h2">Background</h2>
-                    <p className="well-p">As part of DSDN 183 - Design Thinking For Sustainability I was tasked to come up with a project that would increase VUW students’ awareness of the UN Sustainable Development Goals. The outcome needed to address a given SDG, as well as increase awareness of the SDGs in general. </p>
-                    <p className="well-p">
-                        I was given SDG 3 - Good Health and Wellbeing and used Stanford's Design Thinking model to come up with my concept.
-                    </p>
+                    <p className="well-p">As part of DSDN 183 - Design Thinking For Sustainability I needed to design something to increase VUW students’ awareness of the UN Sustainable Development Goals, and especially SDG3 - Good health and wellbeing. I drew upon Stanford's Design Thinking model for my approach.</p>
                     <div id="design-thinking">
                         <img src={DesignThinking} alt="Stanford Design Thinking Model - Empathise-Define-Ideate-Prototype-Test" />
                     </div>
@@ -49,20 +46,20 @@ export default function Well() {
             <div className="well-empathise">
                 <div className="well-written-content">
                     <h2 className="well-h2">Empathise</h2>
-                    <p className="well-p">To try and empathise and understand VUW students' experiences with Health & Wellbeing, and with the SDGs, I interviewed 5 students to find out about their knowledge and experiences with Health and Wellbeing.</p>
+                    <p className="well-p">I conducted interviews with students to empathise and understand their experiences with health, wellbeing, and the SDGs.</p>
                     <div className="well-infog-cont">
                         <img id="well-infographic" src={WellInfog} alt="infographic summarising results of interviews" />
                     </div>
 
 
                     <p className="well-p">
-                        Through these interviews I was able to identify that many people found uni to be a stressful place and
-                        a lot of thoughts on wellbeing were around mental health in particular, or obesity.
-                        Most tended to say that when their mental health was poorer, it was hard to think about broader
-                        health sustainability. This was unsurprising to me, having just read the Mental Health Inquiry which
+                        I found many students felt uni was a stressful place and
+                        most understood wellbeing to relate to mental health in particular, or obesity.
+                        Most students believed that when their mental health was poorer, it was hard to think about broader
+                        health issues. This was consistent with results from the recent Mental Health Inquiry, which
                         identified that many students around New Zealand feel academic pressure which leads to depression,
                         anxiety and stress. I also  <a className="well-link" href="https://www.edudemic.com/stress-affects-brain-learning/" target="_blank">researched</a> the relationship between learning and stress and learned that under
-                        prolonged stress we release a lot of cortisol because we’re in survival mode, which makes learning
+                        prolonged stress people release highler levels cortisol, making learning
                         difficult.
                     </p>
                 </div>
@@ -70,7 +67,7 @@ export default function Well() {
 
             <div className="well-define">
                 <div className="well-written-content">
-                    <h2 className="well-h2">Define</h2>
+                    <h2 className="well-h2">Defining the problem</h2>
                     <div id="rm-hmw">
                         <h3 className="well-h3">
                             How might we create a useful tool for VUW students to learn about SDG3 Good Health & Wellbeing in a lasting way, and sustain Good Health & Wellbeing in their own lives?</h3>
@@ -80,7 +77,7 @@ export default function Well() {
 
             <div className="well-ideate">
                 <div className="well-written-content">
-                    <h2 className="well-h2" id="ideate-title">Ideate</h2>
+                    <h2 className="well-h2" id="ideate-title">Ideation</h2>
                     <div className="ideation-content">
                         <p className="well-p" id="ideation-p">
                             I had an ideation session where I jotted down everything that came to mind after reviewing the interview content. I considered apps, games, and printed solutions. From the interviews I recognised that the university itself influences the health of students, with good teachers and tutors and access to student health services contributing to good health and wellbeing, and stressful workloads and long wait-times to access help amplified feelings of unhealth.
@@ -115,7 +112,7 @@ export default function Well() {
                         <img className="ideas" src={WellProto3} alt="more fleshed-out hand-drawn draft for a home screen and app features" />
                     </div>
                     <div className="paper-proto">
-                        <img id="proto4" src={WellProto4} alt="large paper prototype showing all proposed app screens" />
+                        {/* <img id="proto4" src={WellProto4} alt="large paper prototype showing all proposed app screens" /> */}
                         <p className="para-proto">I worked my ideas into a paper protoype template so that my classmates could get an idea of the app's features and provide any feedback before refining the design into a more polished digital prototype. This planned design contained SDG-related information about global, national and local health, as well as containing a "Your Health" section - tackling issues relevant to students related to physical, and mental wellbeing. The Your Health section contained a Health Log where users could submit simple feedback to the university about how they are feeling, and if they have enough support.</p>
                     </div>
 
@@ -126,10 +123,8 @@ export default function Well() {
                 <div className="well-written-content">
                     <h2 className="well-h2">Test</h2>
                     <p className="well-p">
-                        We were not given a lot of time to test our designs, but were given time for classmates to go through our prototype in class and provide brief feedback.
-                        People liked the idea that the app was a one-stop shop for health and wellbeing,
-                        with both learning materials about the SDGs and worldwide health issues, as well as things to help students with health such as easy recipes to cook, and resources such as breathing exercises
-                        for managing anxiety and stress symptoms.
+                        The design was tested with classmates to gather feedback.
+                        People liked that the app was holistic, including practical resources such as easy recipes to cook, breathing exercises, and other tools to manage stress and anxiety at an individual level, as well as learning materials about the SDGs and global health.
                     </p>
                 </div>
             </div>
@@ -149,7 +144,7 @@ export default function Well() {
                                 I further developed the How Are You Feeling section with a blurb sharing that the information would be sent anonymously to the university and its purpose. I added sliders for physical and mental wellbeing, and also added Find Help buttons so students who need help could view what services are available to them.
                             </p>
                         </div>
-                        <img id="proto5" src={WellProto5} alt="Refining the app's pages into a higher quality digital prototype in Adobe Xd" />
+                        {/* <img id="proto5" src={WellProto5} alt="Refining the app's pages into a higher quality digital prototype in Adobe Xd" /> */}
                     </div>
                     <div className="well-final-imgs">
                         <img className="well-final-img" src={WellFinal1} alt="Homepage for Well Well Well digital prototype" />
