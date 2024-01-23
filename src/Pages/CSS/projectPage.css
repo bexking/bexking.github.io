@@ -247,3 +247,10 @@ p {
     -webkit-transition: font-size 0.2s ease-out;
     font-size: 16px;
   }
+
+#bus {
+    background-image: url('../../Assets/bus-images/bus-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+}

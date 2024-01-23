@@ -21,6 +21,7 @@ import NotFoundMsg from "./Pages/JS/404";
 import Rm from "./Pages/JS/rm";
 import SeeMore from "./Components/JS/see-more.js"
 import NotFound from './Pages/JS/404';
+import Business from './Pages/JS/business.js';
 
 function App() {
   const settings = {
@@ -55,6 +56,7 @@ function App() {
           <Route path="/cooknook" component={CookNook} />
           <Route path="/remindmat" component={Rm}/>
           <Route path="/wellwellwell" component={Well}/>
+          <Route path="/businessecosystem" component={Business}/>
           <Route component={NotFoundMsg}/>
         </Switch>
         <ContactFooter />

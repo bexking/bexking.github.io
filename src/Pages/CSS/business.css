@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Black.woff) format('woff');
+}
+
+.page {
+    background-color: #f2f2f2c2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4.5%;
+    margin-top: calc(65px + 8vh);
+    filter: drop-shadow(0 2mm 2mm #3b3b3b3f);
+    margin-bottom: 0;
+}
+
+#bus-hero {
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    border-bottom: 1px solid rgba(255, 166, 0, 0.233);
+    filter: drop-shadow(0 2mm 2mm rgba(181, 195, 234, 0.575));
+}
+
+#bus-layers {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+#busVid {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+/* Headings */
+
+#bus-heading {
+    color: #2d2257;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 80%;
+    text-align: center;
+}
+
+#bus-subtitle {
+    color: #2d2257;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4%;
+    max-width: 90%;
+    font-size: 18px;
+}
+
+.bus-h2 {
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 28px;
+    color: #2d2257;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    max-width: 50%;
+    text-align: left;
+}

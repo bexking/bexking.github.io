@@ -1,4 +1,12 @@
 const projects = {
+    "business": {
+        "title": "Mapping the Māori Business Ecosystem",
+        "link": "/businessecosystem",
+        "workType": "Product Design",
+        "description": "Proof of Concept interactive map of the local Māori buisness ecosystem",
+        "id": "bus"
+    },
+
     "ib": {
         "title": "Incognito Breathing",
         "link": "/incognitobreathing",
