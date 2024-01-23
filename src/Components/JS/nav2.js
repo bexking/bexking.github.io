@@ -7,16 +7,11 @@ export default function Nav() {
     return (
         <div id="main-nav">
             <nav>
-                <div className="home-nav">
-                    <Link to="/home" id="home">
-                        <img id="me-sml" src={Me} alt="illustration of Bex" />
-                    </Link> 
-                </div>
                 <div className="nav-pages">
+                    <Link to="/home" className="nav-places">Home</Link> 
                     <Link to="/work" className="nav-places">Work</Link>
                     <Link to="/about" className="nav-places">About</Link>
                 </div>
-                
             </nav>
         </div>
     )

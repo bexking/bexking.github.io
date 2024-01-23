@@ -3,7 +3,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(65px + 8vh);
-    /* background-color: #35444e; */
 }
 
 /* .about-text {
@@ -66,4 +65,41 @@
 
 .edu-para {
     margin-bottom: 10%;
+}
+
+.pepeha {
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.pepeha-line {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'HK Grotesk', sans-serif;
+    font-size: 16px;  
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0%;
+    color: #000000;
+}
+
+.intro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: calc(65px + 8vh);
+    filter: drop-shadow(0 5mm 5mm #a1a1a148);
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
 }

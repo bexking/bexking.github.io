@@ -29,45 +29,32 @@ nav:hover {
     transition: all 0.25s ease-in-out;
 }
 
-#me-sml {
-    width: 64px;
-    height: 64px;
-    transition: all .01s ease-in;
-    background-color: rgb(255, 255, 255, 0.2);
-    border-radius: 50%;
-}
-
-#me-sml:hover {
-    width: 62px;
-    filter: drop-shadow(0 2mm 2mm #b4a39786);
-    background-color: rgba(255, 94, 0, 0.2);
-    -webkit-transform: rotate(360deg);
-    transform: rotate(-360deg);
-
-    transition: all 0.4s ease-out;
-}
-
 .nav-pages {
+    margin-top: 3vh;
+    margin-left: 5%;
+    width: 20vw;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .nav-places {
     text-decoration: none;
-    color: #736bbb;
+    color: #2d2257;
     font-size: 18px;
     font-family: 'HK Grotesk SemiBold';
-    margin: 10px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 4%;
-    padding-right: 70px;
-    background-color: #e8d7eb;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5%;
+    padding-right: 20px;
+    width: 100px;
 }
 
 .nav-places:hover {
-    color: #D49B9B;
+    color: #cc641f;
     background-color: white;
+    border-radius: 30px;
 }
 
 @media only screen and (max-width: 500px) {

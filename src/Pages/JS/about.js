@@ -7,14 +7,19 @@ export default function About() {
         <div>
             <div id="about-page">
 
-            <div className="intro">
+            <div className="intro2">
                 <div className="intro-text">
                     <h1 className="homeh1">About me</h1>
-                    <h2 className="homeh2">Ko Bex King ahau</h2>
                 </div>
             </div>
 
                 <div className="homepage">
+
+                    <div className='pepeha'>
+                        <p className='pepeha-line'>Ko Marotiri te maunga. Ko Mangahauini te awa.</p>
+                        <p className='pepeha-line'>Ko Horouta te waka. Ko Ngāti Porou te iwi.</p>
+                        <p className='pepeha-line'>Ko Bex tōku ingoa</p>
+                    </div>
                     <p className="homepage-p">I’m currently a Kaitātai (Designer) at ThinkPlace, a for-purpose design consultancy based in Te-Whanganui-a-Tara.</p>
                     <p className="homepage-p">
                         I love using design to create better, more inclusive experiences for people, especially those who are often overlooked. I believe empathy and open-mindedness are crucial to getting to the root of a problem, and support finding the best solutions.
@@ -28,7 +33,8 @@ export default function About() {
                         When I’m not designing, I can be found out at gigs, or at home, knitting, reading, or learning raranga (weaving) or Te Reo Māori. 
                     </p>             
                     <p className="homepage-p">Check out my <Link to="#workworkwork" className="homepage-links"  id="homepage-link1">work</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links" id="homepage-link2">bexkingdesign@gmail.com</a>. </p>
-                    <p className="homepage-p">Ngā mihi nui</p>
+                    <p className="homepage-p">Ngā mihi nui,</p>
+                    <p className="homepage-p">Bex King</p>
                     <div className="info-bullets">
                         <div className="info-bullet-group">
                             <h5 className='xp'>Skills</h5>
