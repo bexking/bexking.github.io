@@ -15,11 +15,11 @@
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-around; */
     width: 88.7%;
     height: 65px;
-    align-items: center;
+    /* align-items: center; */
     padding-top: 0.5vh;
     position: fixed;
     z-index: 1;
@@ -32,9 +32,9 @@ nav:hover {
 .nav-pages {
     margin-top: 3vh;
     margin-left: 5%;
-    width: 20vw;
-    display: flex;
-    justify-content:space-around;
+    /* width: 10vw; */
+    /* display: flex;
+    justify-content:right; */
 }
 
 .nav-places {
@@ -46,8 +46,8 @@ nav:hover {
     margin-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 5%;
-    padding-right: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
     width: 100px;
 }
 
@@ -59,7 +59,7 @@ nav:hover {
 
 @media only screen and (max-width: 500px) {
     .nav-places {
-        padding-right: 4%;
+        /* padding-right: 4%; */
     }
 }
 

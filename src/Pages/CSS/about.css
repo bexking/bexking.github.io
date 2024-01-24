@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'HK Grotesk SemiBold';
+    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+}
+
 #about-page {
     max-width: 90%;
     margin-left: auto;
@@ -82,12 +87,12 @@
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'HK Grotesk', sans-serif;
-    font-size: 16px;  
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0%;
-    color: #000000;
+    font-family: 'HK Grotesk SemiBold', sans-serif;
+    font-size: 18px;  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #3b3b3b;
+
 }
 
 .intro2 {
