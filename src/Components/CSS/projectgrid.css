@@ -74,7 +74,7 @@
 .home-caption {
     text-align: center;
     max-width: 85%;
-    color: rgb(51, 52, 94);
+    color: black;
 }
 
 
@@ -99,12 +99,12 @@
     background-position: left top;
 }
 
-#displace {
+/* #displace {
     background-image: url('../../Assets/dis1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 #acDf {
     background-image: url('../../Assets/dreamy-finder.png');
@@ -113,87 +113,105 @@
     background-position: left center;
 }
 
-#well:hover {
-    box-shadow: inset 0 0 0 1000px #ffebeb;
-}
 
-#hints:hover {
-    box-shadow: inset 0 0 0 1000px #e4fffe;
-}
-
-#acDf:hover {
-    box-shadow: inset 0 0 0 1000px #e4fffe;
+#bus:hover {
+    box-shadow: inset 0 0 0 1000px #F1f1f1;
 }
 
 #ib:hover {
-    box-shadow: inset 0 0 0 1000px #ffebeb;
+    box-shadow: inset 0 0 0 1000px #F1f1f1;
 }
 
 #rm:hover {
-    box-shadow: inset 0 0 0 1000px #fff3c3;
+    box-shadow: inset 0 0 0 1000px #F1f1f1;
 }
 
-#displace:hover {
-    box-shadow: inset 0 0 0 1000px #fff3c3;
+#acDf:hover {
+    box-shadow: inset 0 0 0 1000px #F1f1f1;
 }
+
+#hints:hover {
+    box-shadow: inset 0 0 0 1000px #F1f1f1;
+}
+
+#well:hover {
+    box-shadow: inset 0 0 0 1000px #F1f1f1;
+}
+
+
+
+
+
+
+
+
+/* #displace:hover {
+    box-shadow: inset 0 0 0 1000px #fff3c3;
+} */
 
 #rm .homeTitle {
-    color: #ddae2b;
+    color: #4d4b4e;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #ddae2b;
+    -webkit-text-stroke-color: #4d4b4e;
 }
 
 
-#displace .homeTitle {
+/* #displace .homeTitle {
     color: #ddae2b;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #ddae2b;
+} */
+
+#bus .homeTitle {
+    color: #B40404;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #B40404;
 }
 
 #well .homeTitle {
-    color: #eca4a4;
+    color: #4d4b4e;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #e99595;
+    -webkit-text-stroke-color: #4d4b4e;
 }
 
 #ib .homeTitle {
-    color: #eca4a4;
+    color: #4d4b4e;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #e99595;
+    -webkit-text-stroke-color: #4d4b4e;
 }
 
 #hints .homeTitle {
-    color: #9cc2c1;
+    color: #B40404;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #93b4b3;
+    -webkit-text-stroke-color: #B40404;
 }
 
 #acDf .homeTitle {
-    color: #9cc2c1;
+    color: #0a00c9;
     -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #93b4b3;
+    -webkit-text-stroke-color: #0a00c9;
 }
 
 
-#cn .homeTitle {
+/* #cn .homeTitle {
     color: #eca4a4;
     -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: #e99595;
-}
+} */
 
-#dome {
+/* #dome {
     background-image: url('../../Assets/dome.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-}
+} */
 
-#cn {
+/* #cn {
     background-image: url('../../Assets/cn-logo.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 /* #cn:hover {
     box-shadow: inset 0 0 0 1000px #ffebeb;
@@ -214,7 +232,7 @@
 }
 
 .projectGrid h4 {
-    color: rgb(51, 52, 94);
+    color: #4d4b4e;
 }
 
 @media only screen and (max-width: 650px) {
