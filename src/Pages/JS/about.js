@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../CSS/about.css';
+import Me from '../../Assets/self.png'
 
 export default function About() {
     return (
@@ -8,9 +9,8 @@ export default function About() {
             <div id="about-page">
 
             <div className="intro2">
-                <div className="intro-text">
-                    <h1 className="homeh1">About me</h1>
-                </div>
+                    <img id="me" src={Me} alt="illustration of Bex" />
+                    <h1 className="abouth1">About me</h1>
             </div>
 
                 <div className="homepage">
@@ -32,7 +32,7 @@ export default function About() {
                     <p className="homepage-p">
                         When I’m not designing, I can be found out at gigs, or at home, knitting, reading, or learning raranga (weaving) or Te Reo Māori. 
                     </p>             
-                    <p className="homepage-p">Check out my <Link to="#workworkwork" className="homepage-links"  id="homepage-link1">work</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links" id="homepage-link2">bexkingdesign@gmail.com</a>. </p>
+                    <p className="homepage-p">Check out my <Link to="/home" className="homepage-links">work</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links">bexkingdesign@gmail.com</a>. </p>
                     <p className="homepage-p">Ngā mihi nui,</p>
                     <p className="homepage-p">Bex King</p>
                     <div className="info-bullets">

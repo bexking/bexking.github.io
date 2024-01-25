@@ -31,9 +31,9 @@
 
 .homeh1 {
     font-family: 'HK Grotesk Black', sans-serif;
-    -webkit-text-stroke: 1px #6d350fd8;
+    /* -webkit-text-stroke: 1px #6d350fd8; */
     font-style: normal;
-    color: #cc641f;
+    color: #0a00c9;
     font-size: 60px;
     margin-bottom: 0;
     padding: none;
@@ -82,13 +82,13 @@ h4 {
     margin-bottom: calc(65px + 2vh);
     margin-top: calc(65px + 8vh);
     filter: drop-shadow(0 5mm 5mm #a1a1a148);
-    width: 35vw;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .intro-text {
-    margin-right: 4%;
+    width: 38%;
 }
 
 .homepage-p {
@@ -149,19 +149,31 @@ h4 {
 
 @media only screen and (max-width: 650px) {
     .intro {
-        width: 70%;
+        width: 300px;
         margin-bottom: calc(65px + 1vh);
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-items: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 
+    .intro-text {
+        width: 280px;
+        text-align: center;
+    }
+    
+
     .homeh1 {
-        font-size: 10vw;
+        font-size: 42px;
     }
 
     .homeh2 {
-        font-size: 6.5vw;
+        font-size: 18px;
     }
 
     .homeh3 {
-        font-size: 4vw;
+        font-size: 16px;
+        max-width: 280px;
     }
 }

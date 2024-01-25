@@ -10,28 +10,30 @@
     margin-top: calc(65px + 8vh);
 }
 
-/* .about-text {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    width: 80vw;
-    filter: drop-shadow(0 2mm 2mm #97aab457);
-} */
-
-/* .about-para {
-    color: #d2d2d2;
-} */
-
-.link {
-    color: #ffd6e9;
-    text-decoration: none;
-    font-family: 'HK Grotesk SemiBold', sans-serif;
+.abouth1 {
+    font-family: 'HK Grotesk Black', sans-serif;
+    font-style: normal;
+    color: #0a00c9;
+    font-size: 60px;
+    margin-bottom: 0;
+    padding: none;
+    margin-top: 0;
 }
 
-.link:hover {
-    background-color: #ffd6e9;
-    color: #388888;
+.homepage-links {
+    color: #0a00c9;
+    font-family: 'HK Grotesk SemiBold';
+    text-decoration: none;
+}
+
+.homepage-links:hover {
+    background-color: #0a00c9;
+    color: #ffffff;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'HK Grotesk SemiBold';
+    filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
+    border-radius: 30px;
 }
 
 .info-bullets {
@@ -97,6 +99,7 @@
 
 .intro2 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 0.5%;
