@@ -495,12 +495,6 @@ li {
 
 /* OTHER STYLING */
 
-a:hover {
-    color: #d4c1e6;
-    transform: scale(1.1);
-    transition: all .1s ease-in-out;
-}
-
 .iB-written-content {
     width: 82%;
     margin-left: auto;

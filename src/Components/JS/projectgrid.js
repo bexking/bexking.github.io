@@ -8,7 +8,6 @@ import projects from "../../projects.js";
 export default function ProjectGrid() {
     return (
         <div>
-
             <div className="projectGrid">
                 <WorkNavItem project={projects.business} className="hero-image"/>
                 <WorkNavItem project={projects.ib} className="hero-image"/>
@@ -19,10 +18,6 @@ export default function ProjectGrid() {
                 {/* <WorkNavItem project={projects.displace} className="hero-image"/> */}
                 {/* <WorkNavItem project={projects.cn} className="hero-image"/> */}
             </div>
-
-            <hr className="footer-hr"></hr>
-
         </div>
-
     )
 }

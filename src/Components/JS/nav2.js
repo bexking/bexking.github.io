@@ -1,18 +1,21 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../CSS/nav.css';
-import Me from '../../Assets/self.png'
+import Logo from '../../Assets/home13.svg'
 
 export default function Nav() {
     return (
-        <div id="main-nav">
-            <nav>
-                <div className="nav-pages">
-                    <Link to="/home" className="nav-places">Home</Link> 
-                    {/* <Link to="/work" className="nav-places">Work</Link> */}
+
+        <nav id="main-nav">
+            <div id="nav-contents">
+                <Link to="/home"><img className="nav-logo" src={Logo} alt="logo saying Bex King"/></Link>
+                <div className="nav-pages"> 
+                    <Link to="/work" className="nav-places">Work</Link>
                     <Link to="/about" className="nav-places">About</Link>
+                    {/* <Link to="/contact" className="nav-places">Contact</Link> */}
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+       
     )
 }

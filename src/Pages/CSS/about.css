@@ -4,111 +4,100 @@
 }
 
 #about-page {
-    max-width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(65px + 8vh);
 }
 
-.abouth1 {
-    font-family: 'HK Grotesk Black', sans-serif;
-    font-style: normal;
-    color: #0a00c9;
-    font-size: 60px;
-    margin-bottom: 0;
-    padding: none;
-    margin-top: 0;
-    text-align: center;
+#feature-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.homepage-links {
-    color: #0a00c9;
-    font-family: 'HK Grotesk SemiBold';
-    text-decoration: none;
+.bio-container {
+    width: calc(100% / 3 * 2);
 }
 
-.homepage-links:hover {
-    background-color: #0a00c9;
-    color: #ffffff;
-    padding-left: 1%;
-    padding-right: 1%;
-    font-family: 'HK Grotesk SemiBold';
-    filter: drop-shadow(0 0mm 1mm #aaaaaa8f);
-    border-radius: 30px;
+#self-portrait {
+    max-width: 300px;
+    margin-right: 5%;
+}
+
+#bio-h1 {
+    margin-bottom: 2.5%;
 }
 
 .info-bullets {
     display: flex;
-    width:100%;
-    justify-content: space-between;
-
+    max-width: 100%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-top: 5%;
+    column-gap: 5%;
 }
 
-.info-bullet-group{
-    width: 30%;
+.info-bullet-group {
+    width: 35%;
 }
 
 .xp{
-    font-family: 'HK Grotesk', sans-serif;
-    font-weight: 600;
-    font-size: 16px;  
-    margin-bottom: 2%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #382F2F;
+    text-decoration: none;
+    margin-bottom: 2.5%;
 }
 
-.xp-para {
-    font-family: 'HK Grotesk', sans-serif;
+.xp-para{
+    font-family: "Manrope", sans-serif;
     font-weight: 600;
-    font-size: 14px;  
-    margin-top: 0;
-    margin-bottom: 5%;
+    font-size: 18px;
+    color: #382F2F;
+    text-decoration: none;
+    padding-left: 10px;
 }
 
-.xp-para-edu {
-    font-family: 'HK Grotesk', sans-serif;
-    font-weight: 600;
-    font-size: 14px;  
-    margin-top: 0;
-    margin-bottom: 0%;
+.attribution {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #382F2F;
+    text-decoration: none;
+    padding-left: 0;
+    margin-top: 1%;
 }
 
 .edu-para {
     margin-bottom: 10%;
 }
 
-.pepeha {
-    margin-top: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 3%;
+li {
+    margin-bottom: 1em;
 }
 
-.pepeha-line {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'HK Grotesk SemiBold', sans-serif;
-    font-size: 18px;  
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #3b3b3b;
+ul {
+    list-style-type: '🞴';
+    list-style-position: outside;
+  }
 
-}
+  .Underlined-Link {
+    text-decoration:underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #382F2F;
+  }
 
-.intro2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 0.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: calc(65px + 8vh);
-    filter: drop-shadow(0 5mm 5mm #a1a1a148);
-    width: 35vw;
-    margin-left: auto;
-    margin-right: auto;
-}
+  .Underlined-Link:hover {
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+  }

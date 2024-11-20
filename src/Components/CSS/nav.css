@@ -1,66 +1,48 @@
-@font-face {
-    font-family: 'HK Grotesk Bold';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'HK Grotesk SemiBold';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
-}
-
 #main-nav {
-    width: 90%;
-    margin-right: auto;
+    margin-top: 2vh;
+    width: 80%;
     margin-left: auto;
+    margin-right: auto;
+    height: 5vh;
+    margin-bottom: 12vh;
 }
 
-nav {
-    /* display: flex;
-    justify-content: space-around; */
-    width: 88.7%;
-    height: 65px;
-    /* align-items: center; */
-    padding-top: 0.5vh;
-    position: fixed;
-    z-index: 1;
-}
-
-nav:hover {
-    transition: all 0.25s ease-in-out;
+#nav-contents {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-pages {
-    margin-top: 3vh;
-    margin-left: 5%;
-    /* width: 10vw; */
-    /* display: flex;
-    justify-content:right; */
+    display: flex;
+    justify-content:right;
+    width: 75%;
+    align-items: center;
 }
 
 .nav-places {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #382F2F;
     text-decoration: none;
-    color: #0a00c9;
-    font-size: 18px;
-    font-family: 'HK Grotesk SemiBold';
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 100px;
+    padding-left: 5%;
 }
 
 .nav-places:hover {
-    color: #ffffff;
-    background-color:#0a00c9;
-    border-radius: 30px;
+    text-decoration:underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+.nav-logo {
+    height: 8vh;
 }
 
 @media only screen and (max-width: 500px) {
-    .nav-places {
-        /* padding-right: 4%; */
-    }
+    /* .nav-places {
+        padding-right: 4%;
+    } */
 }
 
 

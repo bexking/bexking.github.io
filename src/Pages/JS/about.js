@@ -1,73 +1,65 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../CSS/about.css';
-import Me from '../../Assets/self.png'
+import ContactFooter from '../../Components/JS/contact-footer.js';
+import SelfPortrait from '../../Assets/self.png'
 
 export default function About() {
     return (
         <div>
-            <div id="about-page">
+           <div className="work-feature">
+                <div id='feature-section'>
+                    <img id="self-portrait" src={SelfPortrait} alt="Illustration of Bex in monochromatic brown. She has curly hair and round glasses." />
+                    <div className='bio-container'>
+                        <h1 id="bio-h1">Ko wai au?</h1>
+                        <p className='intro-large'>
+                            Ko Bex King ahau. Ko Ngāti Porou te iwi. No Kōtirana (Scotland), no Te Tairāwhiti ōku tīpuna.</p>
+                        <p className='intro-large'>
+                            I'm a multi-disciplinary designer based in Te-Whanganui-a-Tara, experienced and passionate about UX/UI, visual design, service design and research.
+                            I love creating exceptional, human-centred experiences that weave beauty and practicality together, making complexity feel simple.
+                        </p>
+                        <p className='intro-large'>
+                            When I’m not doing mahi I spend most of my time at live music, or at home knitting or learning raranga (weaving).
+                        </p>
+                        <div className="info-bullets">
+                            <div className="info-bullet-group">
+                                <h5 className='xp'>Skills</h5>
+                                <ul>
+                                    <li className='xp-para'>User experience design</li>
+                                    <li className='xp-para'>User interface design</li>
+                                    <li className='xp-para'>Human-centered design</li>
+                                    <li className='xp-para'>User research & testing</li>
+                                    <li className='xp-para'>Qualitative research</li>
+                                    <li className='xp-para'>Visual design</li>
+                                </ul>    
+                            </div>
 
-            <div className="intro2">
-                    <img id="me" src={Me} alt="illustration of Bex" />
-                    <h1 className="abouth1">About me</h1>
-            </div>
-
-                <div className="homepage">
-
-                    <div className='pepeha'>
-                        <p className='pepeha-line'>Ko Marotiri te maunga. Ko Mangahauini te awa.</p>
-                        <p className='pepeha-line'>Ko Horouta te waka. Ko Ngāti Porou te iwi.</p>
-                        <p className='pepeha-line'>Ko Bex tōku ingoa</p>
-                    </div>
-                    <p className="homepage-p">I’m currently a Kaitātai (Designer) at ThinkPlace, a for-purpose design consultancy based in Te-Whanganui-a-Tara.</p>
-                    <p className="homepage-p">
-                        I love using design to create better, more inclusive experiences for people, especially those who are often overlooked. I believe empathy and open-mindedness are crucial to getting to the root of a problem, and support finding the best solutions.
-                    </p>
-                    <p className="homepage-p">
-                        Before working for ThinkPlace, I worked a Visual Merchandising Co-ordinator for LUSH Fresh Cosmetics Australia & NZ, where I found my passion for design thinking. I hold a Bachelor of Design Innovation from Victoria University of Wellington, majoring in Interaction Design.
-                    </p>
-
-
-                    <p className="homepage-p">
-                        When I’m not designing, I can be found out at gigs, or at home, knitting, reading, or learning raranga (weaving) or Te Reo Māori. 
-                    </p>             
-                    <p className="homepage-p">Check out my <Link to="/home" className="homepage-links">work</Link> and get in touch at <a href="mailto:bexkingdesign@gmail.com"  className="homepage-links">bexkingdesign@gmail.com</a>. </p>
-                    <p className="homepage-p">Ngā mihi nui,</p>
-                    <p className="homepage-p">Bex King</p>
-                    <div className="info-bullets">
-                        <div className="info-bullet-group">
-                            <h5 className='xp'>Skills</h5>
-                            <hr></hr>
-                            <p className='xp-para'>User experience design</p>
-                            <p className='xp-para'>User interface design</p>
-                            <p className='xp-para'>Human-centered design</p>
-                            <p className='xp-para'>User research & testing</p>
-                            <p className='xp-para'>Qualitative research</p>
-                            <p className='xp-para'>Visual design</p>
-                        </div>
                         <div className="info-bullet-group">
                             <h5 className='xp'>Education</h5>
-                            <hr></hr>
-                            <div className="edu-para">
-                                <p className='xp-para-edu'>Bachelor of Design Innovation (Interaction Design)</p>
-                                <p className='xp-para-edu'>Victoria University of Wellington</p>
-                                <p className='xp-para-edu'>2018-2020</p>
-                            </div>
-                            <div>
-                                <p className='xp-para-edu'>Certificate in Māori Protocol and Language (Level 4)</p>
-                                <p className='xp-para-edu'>Te Wānanga o Raukawa</p>
-                                <p className='xp-para-edu'>2021</p>
-                            </div>
+                                <ul className='xp-para'>
+                                    <li className='xp-para'>
+                                        Bachelor of Design Innovation (Interaction Design) 
+                                        <p className='attribution'>Victoria University of Wellington, 2021</p>
+                                    </li>
+                                    <li className='xp-para'>
+                                        Certificate in Māori Protocol and Language (Level 4)
+                                        <p className='attribution'>Te Wānanga o Raukawa, 2021</p>
+                                    </li>
+                                </ul>                       
                         </div>
                         <div className="info-bullet-group">
                             <h5 className='xp'>Resume</h5>
-                            <hr></hr>
-                            <p className='xp-para'>Available on request</p>
+                            <ul className='xp-para'>
+                                <li className='xp-para'>
+                                <a href="" className='Underlined-Link'>Download</a> 
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
+        <ContactFooter />
+    </div>
     )
 }

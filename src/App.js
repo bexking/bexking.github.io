@@ -59,7 +59,7 @@ function App() {
           <Route path="/businessecosystem" component={Business}/>
           <Route component={NotFoundMsg}/>
         </Switch>
-        <ContactFooter />
+        {/* <ContactFooter /> */}
       </Router>
     </div>
   );

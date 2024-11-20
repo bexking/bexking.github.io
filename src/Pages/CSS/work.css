@@ -1,0 +1,62 @@
+.work-feature {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: left;
+}
+
+.text-block-third {
+    width: calc(100% / 3);
+    padding-right: 3%;
+}
+
+.intro-large {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #382F2F;
+    text-decoration: none;
+}
+
+.project-two-thirds {
+    width: calc(100% / 3 * 2);
+}
+
+#test-image {
+    width: calc(80vw / 3 * 2);
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.project-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-label-large {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #5C5347;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.project-label-sml {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #5C5347;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#light-text {
+    font-weight: 300;
+}
+
