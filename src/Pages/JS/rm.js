@@ -1,7 +1,6 @@
 import React from 'react'
 import '../CSS/rm.css';
 import '../CSS/projectPage.css';
-import SeeMore from "../../Components/JS/see-more.js";
 import RmHero from '../../Assets/rm-images/rm-main.jpg';
 import RmMatConcept from '../../Assets/rm-images/rm-concept.png';
 import RmAppConcept1 from '../../Assets/rm-images/rm-app1.png';
@@ -173,7 +172,6 @@ export default function Rm() {
                 </div>
             
             </div>
-            <SeeMore project1={"ib"} project2={"hints"}/>
         </div>
     )
 }

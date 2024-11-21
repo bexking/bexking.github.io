@@ -78,6 +78,14 @@ const projects = {
         "link": "/displacement",
         "id": "displace"
     },
+
+    "template": {
+        "title": "template",
+        "worktype": "Testing",
+        "description": "setting up format",
+        "link": "/projects",
+        "id": "template"
+    }
 }
 
 export default projects;

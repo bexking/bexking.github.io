@@ -1,32 +1,67 @@
-@font-face {
-    font-family: 'HK Grotesk SemiBold';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
+.project-page {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
 }
 
-@font-face {
-    font-family: 'HK Grotesk Bold';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
+.project-heading-container {
+   display: flex;
+   justify-content: flex-start; 
 }
 
-@font-face {
-    font-family: 'HK Grotesk';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Regular.woff) format('woff');
+.upper-title {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #382F2F;
 }
 
-p {
-    font-family: 'HK Grotesk', sans-serif;
-    font-size: 18px;
-    color: #3b3b3b;
-}
-
-.projecth1 {
-    font-family: 'HK Grotesk Bold', sans-serif;
+.projectTitle {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
-    color: #d4c1e6;
-    font-size: 30px;
-    margin-bottom: 0;
-    padding: none;
-    margin-top: 10vh;
+    font-variation-settings:
+      "SOFT" 100,
+      "WONK" 0.5;
+    color: #5C5347;
+    font-size: 2.25rem;
+}
+
+.type-of-work {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #382F2F;
+}
+
+.external-link {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #382F2F;
+    margin-bottom: 15%;
+    text-decoration:underline;
+    text-underline-offset: 5px;
+}
+
+.external-link:hover {
+    text-decoration-style: wavy;
+    transition: all 0.33s ease-in-out;
+    transform: scale(1.1);
+}
+
+#full-width-test {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#half-width-test {
+    width: 48.5%;
 }
 
 #hints-main-title {
@@ -36,7 +71,7 @@ p {
 .projecth3 {
     font-family: 'HK Grotesk SemiBold', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .hero-image-w {
@@ -234,7 +269,7 @@ p {
 .projectLink {
     font-family: 'HK Grotesk', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
   }
 
@@ -245,7 +280,7 @@ p {
 .projectLink:hover {
     color:#000099;
     -webkit-transition: font-size 0.2s ease-out;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
 #bus {

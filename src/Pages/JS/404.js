@@ -1,6 +1,5 @@
 import React from 'react'
 import '../CSS/404.css';
-import SeeMore from "../../Components/JS/see-more.js";
 import ElleWoods from '../../Assets/ellewoods.JPG';
 
 export default function NotFoundMsg() {
@@ -14,7 +13,6 @@ export default function NotFoundMsg() {
                 </div>
                 <img id="elle" src={ElleWoods} alt="Reese Witherspoon as Elle Woods in Legally Blonde looking annoyed with Apple Clamshell Laptop"></img>
             </div>
-            <SeeMore project1={"ib"} project2={"hints"} />
         </div>
         
     )

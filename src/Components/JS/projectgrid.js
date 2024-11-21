@@ -15,6 +15,7 @@ export default function ProjectGrid() {
                 <WorkNavItem project={projects.acDf} className="hero-image"/>
                 <WorkNavItem project={projects.hints} className="hero-image"/>
                 <WorkNavItem project={projects.well} className="hero-image"/>
+                <WorkNavItem project={projects.template} className="hero-image"/>
                 {/* <WorkNavItem project={projects.displace} className="hero-image"/> */}
                 {/* <WorkNavItem project={projects.cn} className="hero-image"/> */}
             </div>

@@ -1,25 +1,18 @@
-@font-face {
-    font-family: 'HK Grotesk Bold';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-Bold.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'HK Grotesk SemiBold';
-    src: local('HK Grotesk'), url(../../Fonts/HKGrotesk-SemiBold.woff) format('woff');
-}
-
 .contactFooter {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     padding-bottom: 4%;
 }
 
 .footer-hr {
-    width: 100%;
-    margin-top: 5%;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.5%;
     margin-bottom: 5%;
     border: 0;
     height: 0;
@@ -38,34 +31,15 @@
 }
 
 .contact {
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #382F2F;
-    text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 #footer-text {
-    font-family: 'Fraunces', serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-      "SOFT" 100,
-      "WONK" 0.5;
-    color: #5C5347;
-    font-size: 72px;
     margin-top: 10px;
 }
 
 .button-reg {
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #382F2F;
-    text-decoration: none;
     padding-top:10px;
     padding-bottom:10px;
     padding-left: 45px;
@@ -94,22 +68,39 @@ button.button-reg:hover {
 }
 
 .contactLink {
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #382F2F;
     padding-right: 2.5%;
     text-decoration: none;
     margin-bottom: 15%;
-    text-decoration:underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
 }
 
 .contactLink:hover {
-    text-decoration:underline;
+    text-decoration:underline 1px solid;
     text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
     text-underline-offset: 5px;
     transition: all .2s ease-in-out;
+}
+
+
+@media only screen and (max-width: 1512px) {
+    .work-feature {
+        margin-bottom: 5%;
+    }
+    .contactFooter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+    }
+
+    .wavefooter{
+        height: 100px;
+    }
+
+    .contact-blurb {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20%;
+    }
 }

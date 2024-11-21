@@ -3,7 +3,6 @@ import '../CSS/business.css';
 import BusHero from '../../Assets/bus-images/bus-hero.jpg';
 import BusVid from '../../Assets/bus-images/bus-vid.mp4';
 import BusLayers from '../../Assets/bus-images/bus-layers.jpg';
-import SeeMore from "../../Components/JS/see-more.js";
 
 export default function Business() {
     return (
@@ -61,7 +60,6 @@ export default function Business() {
                 </div>   
             
             </div>
-            <SeeMore project1={"ib"} project2={"hints"} />
             
         </div>
     )

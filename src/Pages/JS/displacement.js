@@ -7,7 +7,6 @@ import Dis3 from '../../Assets/dis-images/dis3.jpg';
 import Dis4 from '../../Assets/dis-images/dis4.jpg';
 import Dis5 from '../../Assets/dis-images/dis5.jpg';
 import Dis6 from '../../Assets/dis-images/dis6.jpg';
-import SeeMore from "../../Components/JS/see-more.js";
 
 export default function Displacement() {
     return (
@@ -51,7 +50,6 @@ export default function Displacement() {
                 </div>
             </div>
 
-            <SeeMore project1={"rm"} project2={"well"}/>
 
         </div>
     )

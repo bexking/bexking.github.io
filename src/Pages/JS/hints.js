@@ -19,7 +19,6 @@ import Sk2 from '../../Assets/engoo-images/engoo-sk2.jpg';
 import Uf1 from '../../Assets/engoo-images/hints-uf1.png';
 import Uf2 from '../../Assets/engoo-images/hints-uf2.png';
 import Results from '../../Assets/engoo-images/results.png';
-import SeeMore from "../../Components/JS/see-more.js";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, {
     Navigation
@@ -346,7 +345,6 @@ export default function Hints() {
                 <img className="drawing-ft-review" id="results-poster" src={Results} alt="" />
             </div>
         </div>
-        <SeeMore project1={"ib"} project2={"acDf"}/>
     </div>
     )
 }

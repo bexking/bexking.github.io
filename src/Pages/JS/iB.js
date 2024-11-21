@@ -17,7 +17,6 @@ import TestIcon4 from "../../Assets/IB_Assets/test-icon4.png";
 import TestIcon5 from "../../Assets/IB_Assets/test-icon5.png";
 import TestIcon6 from "../../Assets/IB_Assets/test-icon6.png";
 import Results from "../../Assets/IB_Assets/ib-results.png";
-import SeeMore from "../../Components/JS/see-more.js"
 
 export default function IncognitoBreathing() {
     return (
@@ -285,7 +284,6 @@ export default function IncognitoBreathing() {
                     </div>
                 </div>
             </div>
-            <SeeMore project1={"hints"} project2={"acDf"} />
         </div>
     );
 } 

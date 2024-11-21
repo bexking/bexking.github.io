@@ -172,13 +172,6 @@
     padding: 10px;
 }
 
-.hint-page li {
-    font-family: 'HK Grotesk', sans-serif;
-    font-size: 18px;
-    color: #3B3B3B;
-    margin-top: 0;
-}
-
 .results {
     max-width: 40vw;
     margin: 1%;

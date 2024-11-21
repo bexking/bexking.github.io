@@ -19,7 +19,6 @@ import { wrapHistory } from "oaf-react-router";
 import ContactFooter from './Components/JS/contact-footer';
 import NotFoundMsg from "./Pages/JS/404";
 import Rm from "./Pages/JS/rm";
-import SeeMore from "./Components/JS/see-more.js"
 import NotFound from './Pages/JS/404';
 import Business from './Pages/JS/business.js';
 

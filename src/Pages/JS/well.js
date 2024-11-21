@@ -1,7 +1,6 @@
 import React from 'react'
 import '../CSS/well.css';
 import '../CSS/projectPage.css';
-import SeeMore from "../../Components/JS/see-more.js";
 import WellHero from '../../Assets/well-images/well3-overview-nologo.jpg';
 import DesignThinking from '../../Assets/well-images/design-thinking-model.png';
 import WellIt3 from '../../Assets/well-images/well-ideation1.jpg';
@@ -156,8 +155,6 @@ export default function Well() {
                     </div>
                 </div>
             </div>
-
-            <SeeMore project1={"ib"} project2={"rm"}/>
         </div>
 
     )

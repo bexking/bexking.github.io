@@ -14,7 +14,6 @@ import DfIt1v1 from '../../Assets/df-images/digital-it1.png';
 import DfIt1v2 from '../../Assets/df-images/digital-it2.png';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfHero from '../../Assets/df-images/df-hero-wide1.png';
-import SeeMore from "../../Components/JS/see-more.js";
 
 export default function AcDf() {
     return (
@@ -158,7 +157,6 @@ export default function AcDf() {
                 </div>    
             </div>
 
-            <SeeMore project1={"ib"} project2={"hints"} />
         </div>
     )
 }

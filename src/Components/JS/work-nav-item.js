@@ -11,12 +11,14 @@ export default function WorkNavItem(props) {
                     </div>
                 </Link>
             </div>
-            <div className='project-label'>
-                <span className="project-label-sml">{props.project.title}</span>
-                <span className="project-label-sml" id="light-text">YEAR</span>
-                {/* <h4>{props.project.workType}</h4>
-                <p className="home-caption">{props.project.description}</p> */}
-            </div>
+            <Link to={props.project.link} className="projectLink">   
+                <div className='project-label'>
+                    <span className="project-label-sml">{props.project.title}</span>
+                    <span className="project-label-sml" id="light-text">YEAR</span>
+                    {/* <h4>{props.project.workType}</h4>
+                    <p className="home-caption">{props.project.description}</p> */}
+                </div>
+            </Link>    
         </div>
     );
 }
