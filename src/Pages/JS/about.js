@@ -22,7 +22,9 @@ export default function About() {
                         <p className='intro-large'>
                             When I’m not doing mahi I spend most of my time at live music, or at home knitting or learning raranga (weaving).
                         </p>
-                        <div className="info-bullets">
+                    </div>
+                </div>
+                <div className="info-bullets">
                             <div className="info-bullet-group">
                                 <h5 className='xp'>Skills</h5>
                                 <ul>
@@ -34,8 +36,8 @@ export default function About() {
                                 </ul>    
                             </div>
 
-                        <div className="info-bullet-group">
-                            <h5 className='xp'>Education</h5>
+                            <div className="info-bullet-group">
+                                <h5 className='xp'>Education</h5>
                                 <ul className='xp-para'>
                                     <li className='xp-para'>
                                         Bachelor of Design Innovation (Interaction Design) 
@@ -46,19 +48,17 @@ export default function About() {
                                         <p className='p-attribution'>Te Wānanga o Raukawa, 2021</p>
                                     </li>
                                 </ul>                       
+                            </div>
+                            <div className="info-bullet-group">
+                                <h5 className='xp'>Resume</h5>
+                                <ul className='xp-para'>
+                                    <li className='xp-para'>
+                                    <a href="" className='Underlined-Link'>Download</a> 
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div className="info-bullet-group">
-                            <h5 className='xp'>Resume</h5>
-                            <ul className='xp-para'>
-                                <li className='xp-para'>
-                                <a href="" className='Underlined-Link'>Download</a> 
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
         <ContactFooter />
     </div>
     )

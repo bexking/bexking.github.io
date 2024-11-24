@@ -26,8 +26,8 @@
 
 .info-bullets {
     display: flex;
-    max-width: 100%;
-    justify-content: flex-start;
+    width: 100%;
+    justify-content: space-between;
     align-content: flex-start;
     margin-top: 5%;
     column-gap: 5%;
@@ -66,8 +66,54 @@ ul {
   .Underlined-Link:hover {
     text-decoration:underline 1px solid;
     text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
     text-underline-offset: 5px;
     transform: scale(1.1);
     transition: all .2s ease-in-out;
   }
+
+  /* media queries small */
+
+  @media only screen and (max-width: 480px) {
+    #feature-section {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #self-portrait {
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bio-container {
+        width: 100%;
+    }
+
+    #bio-h1 {
+        font-size: calc(6rem / 2.25);
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .info-bullets {
+        flex-direction: column;
+    }
+
+    .info-bullet-group {
+        width: 100%;
+    }
+
+    h5.xp {
+        margin-top: 2%;
+    }
+  }
+
+  /* media queries med*/
+
+@media only screen and (min-width: 780px) and (max-width: 1279px) {
+    #self-portrait {
+        max-width: 175px;
+        margin-right: 5%;
+    }
+}

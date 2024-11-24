@@ -90,6 +90,7 @@ h1 {
   color: #5C5347;
   font-size: 6rem;
   margin-top: 0;
+  margin-bottom: 3%;
 }
 
 .h1-small {
@@ -153,7 +154,7 @@ p {
     "SOFT" 100,
     "WONK" 0.5;
   color: #5C5347;
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .p-medium {
@@ -162,6 +163,7 @@ p {
   font-size: 1.5rem;
   color: #382F2F;
   text-decoration: none;
+  margin-bottom: 5%;
 }
 
 .p-attribution {
@@ -179,6 +181,10 @@ a {
   font-weight: 600;
   font-size: 1.125rem;
   color: #382F2F;
+}
+
+a:has(button) {
+  text-decoration: none;
 }
 
 a:hover {
@@ -278,7 +284,7 @@ span.project-label-large {
   }
   
   h2.contact {
-      font-size: calc(1rem / 2);
+      font-size: calc(1rem / 1.25);
   }
   
   h3 {
@@ -290,7 +296,7 @@ span.project-label-large {
   }
   
   h5 {
-    font-size: calc(1.5rem / 2);
+    font-size: calc(1.5rem / 1.25);
   }
   
   h6 {
@@ -298,31 +304,31 @@ span.project-label-large {
   }
   
   p {
-    font-size: calc(1.125rem / 2);
+    font-size: calc(1.125rem / 1.25);
   }
   
   .p-feature {
-    font-size: calc(4.5rem / 3);
+    font-size: calc(4.5rem / 2.75);
   }
 
   .p-medium {
-    font-size: calc(1.5rem / 2);
+    font-size: 1rem;
   }
   
   .p-attribution {
-      font-size: calc(1rem / 2);
+      font-size: calc(1.125rem / 1.5);
   }
   
   a {
-    font-size: calc(1.125rem / 2);
+    font-size: calc(1.125rem / 1.25);
   }
   
   .large-link {
-    font-size: calc(1.5rem / 2);
+    font-size: 1rem;
   }
   
   button {
-      font-size: calc(1.25rem / 2);
+      font-size: calc(1rem / 1.15);
   }
   
   ul {
@@ -330,7 +336,7 @@ span.project-label-large {
   }
   
   li {
-    font-size: calc(1.125rem / 2);
+    font-size: calc(1.125rem / 1.25);
   }
   
   .project-heading {
@@ -338,19 +344,19 @@ span.project-label-large {
   }
   
   span {
-    font-size: calc(1.125rem / 1.5);
+    font-size: calc(1.5rem / 1.75);
   }
   
   span.project-label-large {
-    font-size: calc(1.5rem / 2);
+    font-size: calc(1.5rem / 1.75);
   }
 }
 
 /* media queries med*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
   h1 {
-    font-size: calc(6rem / 2);
+    font-size: calc(6rem / 1.5);
   }
   
   .h1-small {
@@ -362,7 +368,7 @@ span.project-label-large {
   }
   
   h2.contact {
-      font-size: calc(1rem / 2);
+      font-size: calc(1rem / 1.25);
   }
   
   h3 {
@@ -374,7 +380,7 @@ span.project-label-large {
   }
   
   h5 {
-    font-size: calc(1.5rem / 2);
+    font-size: calc(1rem * 1.25);
   }
   
   h6 {
@@ -382,31 +388,31 @@ span.project-label-large {
   }
   
   p {
-    font-size: calc(1.125rem / 2);
+    font-size: 1rem;
   }
   
   .p-feature {
-    font-size: calc(4.5rem / 2);
+    font-size: calc(4.5rem / 1.5);
   }
 
   .p-medium {
-    font-size: calc(1.5rem / 2);
+    font-size: calc(1rem);
   }
   
   .p-attribution {
-      font-size: calc(1rem / 2);
+      font-size: calc(1.5rem / 1.75);
   }
   
   a {
-    font-size: calc(1.125rem / 2);
+    font-size: calc(1.125rem / 1.25);
   }
   
   .large-link {
-    font-size: calc(1.5rem / 2);
+    font-size: calc(1.5rem / 1.25);
   }
   
   button {
-      font-size: calc(1.25rem / 2);
+      font-size: calc(1.25rem / 1.5);
   }
   
   ul {
@@ -414,18 +420,18 @@ span.project-label-large {
   }
   
   li {
-    font-size: calc(1.125rem / 2);
+    font-size: 1rem;
   }
   
   .project-heading {
     font-size: calc(2.25rem / 2);
   }
   
-  span {
+  /* span {
     font-size: calc(1.125rem / 1.5);
-  }
+  } */
   
   span.project-label-large {
-    font-size: calc(1.5rem / 2);
+    font-size: 1.125rem;
   }
 }

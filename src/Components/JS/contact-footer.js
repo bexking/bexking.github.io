@@ -12,12 +12,9 @@ export default function ContactFooter() {
                 <h2 className="contact">Contact</h2>
                 <div className="contact-blurb">
                     <div id='contact-textblock'>
-                        <p id="footer-text" className='p-feature'>Any pātai or want to work together? Whakapā mai! </p>
-                        <a href="mailto:bexkingdesign@gmail.com">
-                            <button className='button-reg'>
-                            Email me</button>
-                        </a>                    
+                        <p id="footer-text" className='p-feature'>Any pātai or want to work together? Whakapā mai! </p>                 
                     </div>
+                    
                     <div className="contact-links">
                         <a href="linkedin.com" className='contactLink'>
                             linkedIn
@@ -31,6 +28,9 @@ export default function ContactFooter() {
                         {/* <a href="https://www.instagram.com/bex_sketchh" target="_blank"><img className="contact-icon" src={Insta}></img></a> */}
                     </div>
                 </div>
+                <a href="mailto:bexkingdesign@gmail.com">
+                    <button className='button-reg'>Email me</button>
+                </a>   
             </div>
             <img className="wavefooter" src={WavesFooter} alt="dark brown wave pattern" />
         </div>

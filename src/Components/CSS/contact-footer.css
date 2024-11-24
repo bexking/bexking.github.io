@@ -3,9 +3,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-top: 10%;
+    margin-top: 0;
     margin-bottom: 5%;
-    padding-bottom: 4%;
+    padding-bottom: 50px;
 }
 
 .footer-hr {
@@ -22,7 +22,7 @@
 .contact-blurb {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 
 #contact-textblock {
@@ -37,6 +37,7 @@
 
 #footer-text {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .button-reg {
@@ -81,16 +82,19 @@ button.button-reg:hover {
 }
 
 
-@media only screen and (max-width: 1512px) {
-    .work-feature {
-        margin-bottom: 5%;
+@media only screen and (max-width: 480px) {
+    #footer-text {
+        margin-bottom: 10%;
+        margin-top: 2%;
+        font-size: calc(4.5rem / 2.5);
     }
+
     .contactFooter {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-        margin-top: 10%;
+        margin-top: 7.5%;
         padding-bottom: 4%;
     }
 
@@ -98,9 +102,52 @@ button.button-reg:hover {
         height: 100px;
     }
 
+    .work-feature {
+        margin-bottom: 5%;
+    }
+
     .contact-blurb {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20%;
+        /* margin-bottom: 20%; */
     }
+
+    .button-reg {
+        margin-bottom: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1279px) {
+    .contactFooter {
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 1512px) {
+    .work-feature {
+        margin-bottom: 5%;
+    }
+    /* .contactFooter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 10%;
+        padding-bottom: 4%;
+    } */
+
+    .wavefooter{
+        height: 100px;
+    }
+
+    /* .contact-blurb {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20%;
+    } */
 }

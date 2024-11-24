@@ -35,3 +35,14 @@
     height: 8vh;
 }
 
+/* media query small */
+
+@media only screen and (max-width: 480px) {
+    .nav-logo {
+        width: 75%;
+    }
+
+    #main-nav {
+        margin-bottom: calc(12vh / 3 * 2);
+    }
+}
