@@ -82,6 +82,24 @@ button.button-reg:hover {
 }
 
 
+/* wave footer svg version */
+
+.wavefooter svg {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotate(180deg);
+}
+
+.wavefooter .shape-fill {
+    fill: #5C5347;
+}
+
+/* media queries */
+
 @media only screen and (max-width: 480px) {
     #footer-text {
         margin-bottom: 10%;

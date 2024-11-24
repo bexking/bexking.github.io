@@ -31,10 +31,8 @@
 .dropdownContent {
   max-height: 0;
   overflow: hidden;
-
   -webkit-transition: max-height 0.2s ease-in;
   transition: max-height 0.2s ease-in;
-
   margin-bottom: 5%;
 }
 
@@ -54,7 +52,7 @@
   max-height:300px;
 }
 
-.name {
+/* .name {
   margin-bottom: 0;
 }
 
@@ -66,11 +64,7 @@
   -webkit-transition: font-size 0.2s ease-out;
   font-size: 1.25rem;
   color:#000099;
-}
-
-.designType {
-  margin-bottom: 5%;
-}
+} */
 
 /* typography */
 

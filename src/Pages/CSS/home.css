@@ -2,7 +2,6 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: 50vh;
 }
 
 #intro-text-container {
@@ -14,8 +13,6 @@
     padding: 0;
     margin-top: auto;
     margin-bottom: auto;
-    position: fixed;
-    bottom: 50%;
 }
 
 .large-link:hover {
@@ -24,16 +21,16 @@
     transition: all .2s ease-in-out;
 }
 
-.wavefooter {
+#home-wave {
     width: 100%;
     rotate: 180deg;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
 }
 
-#home-fixed {
-    position: fixed;
+#home-wave .shape-fill {
+    fill: #5C5347;
 }
 
 /* media queries */
