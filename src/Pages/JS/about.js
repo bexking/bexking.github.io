@@ -11,7 +11,7 @@ export default function About() {
                 <div id='feature-section'>
                     <img id="self-portrait" src={SelfPortrait} alt="Illustration of Bex in monochromatic brown. She has curly hair and round glasses." />
                     <div className='bio-container'>
-                        <h1 id="bio-h1">Ko wai au?</h1>
+                        <h1 id="bio-h1">Ko wai ahau?</h1>
                         <p className='intro-large'>
                             Ko Bex King ahau. Ko Ngāti Porou te iwi. No Kōtirana (Scotland), no Te Tairāwhiti ōku tīpuna.</p>
                         <p className='intro-large'>

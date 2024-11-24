@@ -24,7 +24,7 @@
     padding-left: 5%;
 }
 
-.nav-places:hover {
+#nav-places:hover {
     text-decoration:underline;
     text-decoration-style: wavy;
     text-decoration-thickness: 1px;
@@ -34,11 +34,4 @@
 .nav-logo {
     height: 8vh;
 }
-
-@media only screen and (max-width: 500px) {
-    /* .nav-places {
-        padding-right: 4%;
-    } */
-}
-
 

@@ -262,9 +262,9 @@ span.project-label-large {
   margin-bottom: 3%;
 }
 
-/* media queries */
+/* media queries small*/
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   h1 {
     font-size: calc(6rem / 2);
   }
@@ -303,6 +303,90 @@ span.project-label-large {
   
   .p-feature {
     font-size: calc(4.5rem / 3);
+  }
+
+  .p-medium {
+    font-size: calc(1.5rem / 2);
+  }
+  
+  .p-attribution {
+      font-size: calc(1rem / 2);
+  }
+  
+  a {
+    font-size: calc(1.125rem / 2);
+  }
+  
+  .large-link {
+    font-size: calc(1.5rem / 2);
+  }
+  
+  button {
+      font-size: calc(1.25rem / 2);
+  }
+  
+  ul {
+    padding-left: calc(1.2rem / 2);
+  }
+  
+  li {
+    font-size: calc(1.125rem / 2);
+  }
+  
+  .project-heading {
+    font-size: calc(2.25rem / 2);
+  }
+  
+  span {
+    font-size: calc(1.125rem / 1.5);
+  }
+  
+  span.project-label-large {
+    font-size: calc(1.5rem / 2);
+  }
+}
+
+/* media queries med*/
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: calc(6rem / 2);
+  }
+  
+  .h1-small {
+    font-size: calc(2.25rem / 2);
+  }
+  
+  h2 {
+    font-size: calc(4rem / 2);
+  }
+  
+  h2.contact {
+      font-size: calc(1rem / 2);
+  }
+  
+  h3 {
+  
+  }
+  
+  h4 {
+  
+  }
+  
+  h5 {
+    font-size: calc(1.5rem / 2);
+  }
+  
+  h6 {
+  
+  }
+  
+  p {
+    font-size: calc(1.125rem / 2);
+  }
+  
+  .p-feature {
+    font-size: calc(4.5rem / 2);
   }
 
   .p-medium {
