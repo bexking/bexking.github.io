@@ -31,6 +31,14 @@
     transition: 0.3s;
 }
 
+.project-label {
+    text-decoration: none;
+}
+
+.projectLink {
+    text-decoration: none;
+}
+
 .project-label:hover {
     text-decoration: 1.25px solid underline;
     text-decoration-style: wavy;

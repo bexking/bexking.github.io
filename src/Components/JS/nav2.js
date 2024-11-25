@@ -9,7 +9,7 @@ export default function Nav() {
             <div id="nav-contents">
                 <Link to="/home"><img className="nav-logo" src={Logo} alt="logo saying Bex King"/></Link>
                 <div className="nav-pages"> 
-                    <Link to="/work" id="nav-places" className='large-link'>Work</Link>
+                    {/* <Link to="/work" id="nav-places" className='large-link'>Work</Link> */}
                     <Link to="/about" id="nav-places" className='large-link'>About</Link>
                     {/* <Link to="/contact" className="nav-places">Contact</Link> */}
                 </div>

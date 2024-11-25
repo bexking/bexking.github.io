@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function WorkNavItem(props) {
     return (
         <div>
+            {/* add class to div above to make hover apply to image and span simultaneously */}
             <div className={props.className} id={props.project.id} >
                 <Link to={props.project.link} className="projectLink">
                     <div className="title">
