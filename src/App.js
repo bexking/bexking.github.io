@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Router, Route, Switch} from "react-router-dom";
 import Home from "./Pages/JS/home";
+import Contact from "./Pages/JS/contact";
 import ProjectPage from "./Pages/JS/projectPage";
 import AcDf from "./Pages/JS/acDf";
 import Displacement from "./Pages/JS/displacement";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/(home|)" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/work" component={Work} />
+          <Route path="/contact" component={Contact} />
           <Route path="/projects" component={ProjectPage} />
           <Route path="/acdreamyfinder" component={AcDf} />
           <Route path="/displacement" component={Displacement} />

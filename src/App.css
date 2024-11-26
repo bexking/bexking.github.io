@@ -231,6 +231,19 @@ span.project-label-large {
   text-decoration: none;
 }
 
+label {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #382F2F;
+}
+
+textarea {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 /* content blocks */
 
 .full-width-content-block {

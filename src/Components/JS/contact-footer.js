@@ -1,8 +1,5 @@
 import React from 'react';  
 import '../CSS/contact-footer.css';
-import Contact from '../../Assets/contact.png';
-import Insta from '../../Assets/insta.png';
-import WavesFooter from "../../Assets/waves.svg";
 
 export default function ContactFooter() {
     return (
@@ -30,7 +27,8 @@ export default function ContactFooter() {
                 </div>
                 <a href="mailto:bexkingdesign@gmail.com">
                     <button className='button-reg'>Email me</button>
-                </a>   
+                </a>
+                
             </div>
             {/* <img className="wavefooter" src={WavesFooter} alt="dark brown wave pattern" /> */}
             <div className="wavefooter">

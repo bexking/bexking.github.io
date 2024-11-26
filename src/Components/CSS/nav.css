@@ -7,6 +7,10 @@
     margin-bottom: 12vh;
 }
 
+#hamburger-nav {
+    display: none;
+}
+
 #nav-contents {
     display: flex;
     justify-content: space-between;
@@ -45,4 +49,22 @@
     #main-nav {
         margin-bottom: calc(12vh / 3 * 2);
     }
+
+    #nav-contents {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: block;
+        float: right;
+        margin-top: 3%;
+    }
+
+    #hamburger {
+        fill: #5C5347;
+    }
+
+    #hamburger-nav.clicked {
+
+      }
 }

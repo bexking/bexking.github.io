@@ -1,0 +1,36 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw / 3);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 60px;
+    background-color: rgba(255, 255, 255, 0.53);
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.fields {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+}
+
+textarea {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}

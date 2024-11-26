@@ -11,10 +11,21 @@ export default function Nav() {
                 <div className="nav-pages"> 
                     {/* <Link to="/work" id="nav-places" className='large-link'>Work</Link> */}
                     <Link to="/about" id="nav-places" className='large-link'>About</Link>
-                    {/* <Link to="/contact" className="nav-places">Contact</Link> */}
+                    <Link to="/contact" id="nav-places" className='large-link'>Contact</Link>
                 </div>
             </div>
+
+            <div id='hamburger-nav'>
+                <svg id="hamburger" viewBox="0 0 100 80" width="30" height="40">
+                    <rect width="100" height="10" rx="8"></rect>
+                    <rect y="30" width="100" height="10" rx="8"></rect>
+                    <rect y="60" width="100" height="10" rx="8"></rect>
+                </svg>
+            </div>
         </nav>
+
+        
+        
        
     )
 }
