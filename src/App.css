@@ -240,8 +240,15 @@ label {
 
 textarea {
   font-family: "Manrope", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
+}
+
+input {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #382F2F;
 }
 
 /* content blocks */
