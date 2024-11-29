@@ -3,6 +3,8 @@ import ProjectGrid from '../../Components/JS/projectgrid.js';
 import ContactFooter from '../../Components/JS/contact-footer.js';
 import '../CSS/work.css';
 import Dis1 from '../../Assets/dis-images/dis1.jpg';
+import WorkNavItemHero from "../../Components/JS/work-nav-item-hero.js"
+import projects from "../../projects.js";
 
 export default function Work() {
     return (
@@ -16,12 +18,9 @@ export default function Work() {
                         </p>
                     </div>
                     <div className='project-two-thirds'>
-                        <img id="test-image" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
-                        <div className='project-label'>
-                            <span className='project-label-large'>Project Name</span>
-                            <span className='project-label-large' id='light-text'>YEAR</span>
+                        <div className='test-image'>
+                            <WorkNavItemHero project={projects.displace} className="hero-image" id="large-hero"/>
                         </div>
-                        
                     </div>
                 </div>
             </div>

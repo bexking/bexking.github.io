@@ -106,6 +106,7 @@ ul {
 
     .info-bullets {
         flex-direction: column;
+        float:none;
     }
 
     .info-bullet-group {
@@ -115,6 +116,7 @@ ul {
     h2.xp {
         margin-top: 2%;
     }
+    
   }
 
   /* media queries med*/

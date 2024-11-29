@@ -92,6 +92,26 @@ textarea {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    #success-msg {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #returntowork {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .large-link.c-success {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 /* media queries xl */

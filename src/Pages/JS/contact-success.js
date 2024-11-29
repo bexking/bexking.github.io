@@ -9,12 +9,13 @@ export default function ContactSuccess() {
            <div className="work-feature">
                 <div id='feature-section'>
                     <div className='bio-container'>
-                        <h1 id="bio-h1">Ngā mihi nui!</h1>
-                        <p className='intro-large'>
+                        <h1 id="bio-h1">Ngā mihi!</h1>
+                        
+                        <p className='intro-large' id="success-msg">
                             Your message has been sent.
                         </p>
                         <div id='returntowork'>
-                            <Link to="/work" className="large-link">See my work&emsp;&#8594;&nbsp;</Link>
+                            <Link to="/work" className="large-link c-success">See my work&emsp;&#8594;&nbsp;</Link>
                         </div>
                     </div>
                 
