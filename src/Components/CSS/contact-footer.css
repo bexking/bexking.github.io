@@ -12,7 +12,7 @@
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7.5%;
+    margin-top: 5%;
     margin-bottom: 5%;
     border: 0;
     height: 0;
@@ -22,7 +22,7 @@
 .contact-blurb {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 2.5%;
 }
 
 #contact-textblock {
@@ -149,22 +149,19 @@ button.button-reg:hover {
     .work-feature {
         margin-bottom: 5%;
     }
-    /* .contactFooter {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        margin-top: 10%;
-        padding-bottom: 4%;
-    } */
 
     .wavefooter{
         height: 100px;
     }
 
-    /* .contact-blurb {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 20%;
-    } */
+}
+
+/* media queries xl */
+@media only screen and (min-width: 3500px) {
+    .button-reg {
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
 }

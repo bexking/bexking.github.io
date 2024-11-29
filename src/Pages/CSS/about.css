@@ -13,10 +13,11 @@
 
 .bio-container {
     width: calc(100% / 3 * 2);
+    margin-right: 5%;
 }
 
 #self-portrait {
-    max-width: 300px;
+    max-width: 15%;
     margin-right: 5%;
 }
 
@@ -26,11 +27,13 @@
 
 .info-bullets {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     align-content: flex-start;
     margin-top: 5%;
+    margin-bottom: 5%;
     column-gap: 5%;
+    float: right;
 }
 
 .info-bullet-group {
@@ -38,6 +41,11 @@
 }
 
 .xp{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #382F2F;
+    text-decoration: none;
     margin-bottom: 2.5%;
 }
 
@@ -104,7 +112,7 @@ ul {
         width: 100%;
     }
 
-    h5.xp {
+    h2.xp {
         margin-top: 2%;
     }
   }
@@ -115,5 +123,12 @@ ul {
     #self-portrait {
         max-width: 175px;
         margin-right: 5%;
+    }
+}
+
+/* media queries xl */
+@media only screen and (min-width: 3500px) {
+    .xp {
+        font-size: 3rem;
     }
 }

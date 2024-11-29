@@ -26,7 +26,7 @@ export default function About() {
                 </div>
                 <div className="info-bullets">
                             <div className="info-bullet-group">
-                                <h5 className='xp'>Skills</h5>
+                                <h2 className='xp'>Skills</h2>
                                 <ul>
                                     <li className='xp-para'>UX/UI design</li>
                                     <li className='xp-para'>User research and testing</li>
@@ -37,7 +37,7 @@ export default function About() {
                             </div>
 
                             <div className="info-bullet-group">
-                                <h5 className='xp'>Education</h5>
+                                <h2 className='xp'>Education</h2>
                                 <ul className='xp-para'>
                                     <li className='xp-para'>
                                         Bachelor of Design Innovation (Interaction Design) 
@@ -50,7 +50,7 @@ export default function About() {
                                 </ul>                       
                             </div>
                             <div className="info-bullet-group">
-                                <h5 className='xp'>Resume</h5>
+                                <h2 className='xp'>Resume</h2>
                                 <ul className='xp-para'>
                                     <li className='xp-para'>
                                     <a href="" className='Underlined-Link'>Download</a> 

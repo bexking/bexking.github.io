@@ -90,23 +90,7 @@ h2 {
   font-size: 4rem;
 }
 
-h2.contact {
-  font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    color: #382F2F;
-    text-decoration: none;
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
+h2.contact-heading {
   font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
@@ -114,8 +98,16 @@ h5 {
   text-decoration: none;
 }
 
-h6 {
+h2.contact {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #382F2F;
+  text-transform: uppercase;
+}
 
+h5 {
+  
 }
 
 p {
@@ -134,7 +126,7 @@ p {
     "SOFT" 100,
     "WONK" 0.5;
   color: #5C5347;
-  font-size: 4rem;
+  font-size: 6.5rem;
 }
 
 .p-medium {
@@ -176,7 +168,7 @@ a:hover {
 .large-link {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: #382F2F;
   text-decoration: underline;
   text-underline-offset: 15px;
@@ -288,20 +280,8 @@ input {
       font-size: calc(1rem / 1.25);
   }
   
-  h3 {
-  
-  }
-  
-  h4 {
-  
-  }
-  
   h5 {
     font-size: calc(1.5rem / 1.25);
-  }
-  
-  h6 {
-  
   }
   
   p {
@@ -377,20 +357,8 @@ input {
       font-size: calc(1rem / 1.25);
   }
   
-  h3 {
-  
-  }
-  
-  h4 {
-  
-  }
-  
   h5 {
     font-size: calc(1rem * 1.25);
-  }
-  
-  h6 {
-  
   }
   
   p {
@@ -439,5 +407,70 @@ input {
   
   span.project-label-large {
     font-size: 1.125rem;
+  }
+}
+
+/* media queries med-large */
+@media only screen and (min-width: 1280px) and (max-width: 2499px) {
+  .p-feature {
+    font-size: calc(4.5rem / 1.25);
+  }
+
+    .large-link {
+      font-size: 2.5rem;
+    }
+}
+
+/* media queries xl */
+@media only screen and (min-width: 3500px) {
+  h1 {
+    font-size: 9rem;
+  }
+
+  h2.contact {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2.25rem;
+  }
+
+  p.intro-large {
+    font-size: 2.5rem;
+  }
+
+  .p-feature {
+    font-size: 9rem;
+  }
+
+  .p-attribution {
+    font-size: 2rem;
+  }
+
+  a {
+    font-size: 2rem;
+  }
+
+  .Underlined-Link {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 2rem;
+  }
+  label {
+    font-size: 2.25rem;
+  }
+
+  input {
+    font-size: 2rem;
+  }
+
+  textarea {
+    font-size: 2rem;
   }
 }

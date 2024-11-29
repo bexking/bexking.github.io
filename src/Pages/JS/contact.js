@@ -30,7 +30,7 @@ export default function Contact() {
             },
             body: JSON.stringify(formData),
             }).then((value) => {
-                history.push("/home"); // Redirect after form is finished submitting. You can change this
+                history.push("/contactsuccess"); // Redirect after form is finished submitting. You can change this
             })
       };
       
@@ -39,15 +39,20 @@ export default function Contact() {
            <div className="work-feature">
                 <div id='feature-section'>
                     <div className='bio-container'>
-                        <h1 id="bio-h1">Whakapā mai</h1>
+                        <h1 id="bio-h1">Kia ora!</h1>
                         <p className='intro-large'>
-                            Kia ora. Thanks for visiting my portfolio. If you'd like to get in touch, flick me an email using the form. </p>
+                            Thanks for visiting my portfolio. 
+                        </p>
+                        <p className='intro-large'>
+                        If you'd like to chat, see more, or work together please get in touch using this form.
+                        </p>
+                        <p className='intro-large'>I'd love to hear from you.</p>
                     </div>
                 
                     <form onSubmit={handleSubmit}>
                         <div className='contact-form'>
                             <div className='fields'>
-                            <h2 className='contact form-box'>Contact form</h2>
+                            <h2 className='contact-heading'>Contact form</h2>
                                 <label>Your email address:
                                     <input name="email" type="text" placeholder="Your email..." value={formData.email} onChange={handleChange} />
                                 </label>

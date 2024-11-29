@@ -11,6 +11,10 @@
     display: none;
 }
 
+#hamburger-list {
+    display: none;
+}
+
 #nav-contents {
     display: flex;
     justify-content: space-between;
