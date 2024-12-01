@@ -9,13 +9,13 @@ export default function ProjectPage() {
             <div className="project-page">           
                 <div className='project-heading-container'>
                     <div className="text-block-third">
-                        <span className='upper-title'>Pre-title</span>
-                        <h1 className="projectTitle">Project Title</h1>
+                        <span>Pre-title</span>
+                        <h1>Project Title</h1>
                         <p className='type-of-work'>Type of work</p>
                         <p>Here is a bit of a blurb which I will try and make roughly the length of a project blurb. When making this blurb i typed a lot on the computer, as I just wanted to get an idea of the spacing. Once I had done that I reviewed it. In the next phase of work I will test and refine the CSS to see what is/isn't working.</p>
                         <a href="" className='external-link'>Link to project</a>
                     </div>
-                    <div className="project-two-thirds case-study-hero">
+                    <div className="hero-two-thirds">
                         <img id="test-image1" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
                     </div>
                 </div> 

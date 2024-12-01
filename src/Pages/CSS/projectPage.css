@@ -8,43 +8,34 @@
 .project-heading-container {
    display: flex;
    justify-content: flex-start; 
+   margin-bottom: 5%;
 }
 
-.upper-title {
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: 1.125rem;
-    color: #5C5347;
-}
-
-.projectTitle {
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-      "SOFT" 100,
-      "WONK" 0.5;
-    color: #5C5347;
-    font-size: 2.25rem;
+.long-project-title {
+    font-size: 5rem;
+    margin-top: 5%;
 }
 
 .type-of-work {
-    font-family: "Manrope", sans-serif;
     font-weight: 800;
-    font-size: 1rem;
     color: #5C5347;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .external-link {
     font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 800;
     color: #382F2F;
     margin-bottom: 15%;
     text-decoration:underline;
     text-underline-offset: 5px;
+}
+
+.hero-two-thirds {
+    width: calc(100% / 3 * 2);
 }
 
 /* .external-link:hover {
@@ -139,6 +130,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+}
+
+.vid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 20px;
+    filter: drop-shadow(0 2mm 2mm #515d6346);
 }
 
 .center-img {
@@ -295,6 +295,10 @@
 
     #full-width-test {
         margin-bottom: 20px;
+    }
+
+    .hero-two-thirds {
+        width: 100%;
     }
     
 }
