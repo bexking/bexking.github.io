@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d071e0116691082bc3fed171f7cda39a",
+    "revision": "af2afa9671f39f0f966fc68a038fe3b9",
     "url": "/index.html"
   },
   {
-    "revision": "26badc8dcfabfbabc62b",
+    "revision": "feb16ef3f0a8159e07a3",
     "url": "/static/css/2.4dbeafc5.chunk.css"
   },
   {
-    "revision": "69018fb39c27ccea231e",
-    "url": "/static/css/main.5d8f3f74.chunk.css"
+    "revision": "285f7db46560bd3ee98c",
+    "url": "/static/css/main.3349fa60.chunk.css"
   },
   {
-    "revision": "26badc8dcfabfbabc62b",
-    "url": "/static/js/2.be5b5d18.chunk.js"
+    "revision": "feb16ef3f0a8159e07a3",
+    "url": "/static/js/2.248fac0f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.be5b5d18.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.248fac0f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "69018fb39c27ccea231e",
-    "url": "/static/js/main.72a3f9b4.chunk.js"
+    "revision": "285f7db46560bd3ee98c",
+    "url": "/static/js/main.cc746eec.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/HKGrotesk-SemiBold.75f2b19b.woff"
   },
   {
-    "revision": "41986c510275f841a331d759d77e4a3e",
-    "url": "/static/media/acnh-map.41986c51.jpg"
-  },
-  {
     "revision": "e69381545cb77f21b08d29daa7c27b96",
     "url": "/static/media/bus-hero.e6938154.jpg"
   },
@@ -76,52 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/design-thinking-model.edf9b761.png"
   },
   {
-    "revision": "7947318e1acedf18c9390f3b49c02fff",
-    "url": "/static/media/df-1.7947318e.jpg"
-  },
-  {
-    "revision": "427d1c88799db12bb1e2fbed7e04068a",
-    "url": "/static/media/df-2.427d1c88.jpg"
-  },
-  {
     "revision": "5f6e6bb0a743a7e2bb391e0737d905d5",
     "url": "/static/media/df-hero-wide1.5f6e6bb0.png"
   },
   {
     "revision": "6adcc2fa1530dc5f81bc997d7cc1b2dd",
     "url": "/static/media/df-prototype.6adcc2fa.mp4"
-  },
-  {
-    "revision": "84f11d0e2782af60f522eefcd4766aa0",
-    "url": "/static/media/df-sk1.84f11d0e.jpg"
-  },
-  {
-    "revision": "2f77e246618ac46b96760e5958ea0e7c",
-    "url": "/static/media/df-sk2.2f77e246.jpg"
-  },
-  {
-    "revision": "834cd9f183ea6b506be6e510b195a6db",
-    "url": "/static/media/df-sk3.834cd9f1.jpg"
-  },
-  {
-    "revision": "ccede0fb97d440bf15842959a019ca47",
-    "url": "/static/media/df-sk4.ccede0fb.jpg"
-  },
-  {
-    "revision": "c3c51ab1060fb0fee353bf5c1032e512",
-    "url": "/static/media/df-sk5.c3c51ab1.jpg"
-  },
-  {
-    "revision": "fae5551d7b456201283f2a8149b6f738",
-    "url": "/static/media/df-sk6.fae5551d.jpg"
-  },
-  {
-    "revision": "3d95414117b0b43fdadf9b439bcde977",
-    "url": "/static/media/digital-it1.3d954141.png"
-  },
-  {
-    "revision": "3512b5ae9ecb795fcd38bfdf0966f173",
-    "url": "/static/media/digital-it2.3512b5ae.png"
   },
   {
     "revision": "7a814f79bf366a68d2cc8cf7d92b8bc8",
