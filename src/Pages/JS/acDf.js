@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/projectPage.css';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
-import DfHero from '../../Assets/df-images/df-hero-wide1.png';
+import DfHero from '../../Assets/df-images/df-hero.png';
 import ContactFooter from '../../Components/JS/contact-footer.js';
 
 export default function AcDf() {

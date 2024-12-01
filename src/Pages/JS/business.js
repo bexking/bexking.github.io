@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/business.css';
+import '../CSS/projectPage.css';
 import BusHero from '../../Assets/bus-images/bus-hero.jpg';
 import BusVid from '../../Assets/bus-images/bus-vid.mp4';
 import BusLayers from '../../Assets/bus-images/bus-layers.jpg';
@@ -42,24 +42,3 @@ export default function Business() {
         </div>
     )
 }
-
-
-
-
-
-
-                // <div>
-                //     <img id="bus-layers" src={BusLayers} alt="Expanded layers version of the map" />
-                    
-                // </div>   
-
-                // <div className="written-content">
-                //     <h2 className="bus-h2">Outcomes</h2>
-                //     <p> 
-                //     The client was provided with the interactive prototype, as well as a video walkthough they could simply play for people while presenting if they wished. The client was able to get approval to explore the concept further with kaupapa Māori designers.
-                //     </p>
-                // </div>   
-            
-        //     </div>
-            
-        // </div>

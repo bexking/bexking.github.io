@@ -1,6 +1,13 @@
 import React from 'react'
 import '../CSS/projectPage.css';
 import '../CSS/hints.css';
+import Dis1 from '../../Assets/dis-images/dis1.jpg';
+
+import ContactFooter from '../../Components/JS/contact-footer.js';
+
+
+
+import HintBoxMain from '../../Assets/engoo-images/engoo-hintbox.png';
 import DrawingBox from '../../Assets/engoo-images/drawing-box-review.png';
 import EngooDv1 from '../../Assets/engoo-images/engoo-dvpt1.jpg';
 import Test1 from '../../Assets/engoo-images/testing-1.png';
@@ -41,9 +48,46 @@ let personas = (initialSlide) =>
 
 export default function Hints() {
     return (
-    <div>
+    <div> 
+        <div className="project-page">           
+            <div className='project-heading-container'>
+                <div className="text-block-third">
+                    <span>University project</span>
+                    <h1 className='long-project-title'>Innovating vocab hints for online English lessons with Engoo</h1>
+                    <p className='type-of-work'>UX/UI, UX Research, Prototyping</p>
+                    <p>
+                        English-language lesson platform Engoo provides one-on-one online English lessons. Engoo is Japan-based. It has users around the world, with its main markets in Japan and South Korea.
+                        The Daily News lesson material is the most popular feature of the site, providing simple-English news articles for users to read and have a converstion about. 
+                        The only hints/prompts offered within the section were direct translations in local languages for major markets, displayed in full below the English text. This disconnection from the text creates an inconvenient user experience, with users needing to scroll up and down, and getting spoilers for words they were yet to read.
+                        Many users opted to wait until they'd finished reading the article to check the local translation, but this creates limitations for retention and learning. Sentence by sentence is the ideal translation method for students to learn the material as it provides immediate feedback, additionally, during research I learned memory acquisition requires active engagement. Shallow acquisition creates more shallow memories [Psychology (Fifth Edition) by Gleitman, Fridlund & Reisberg]. I wanted to explore concepts that would allow users to input their own hints for greater impact.
+                    </p>
+                    <p>
+                        Engoo wanted to ensure the page retained a news feel, and that any solutions would be able to accommodate a wide-range of languages. I also sought to have a natural user flow, allow users to access more immediate translation feedback, work on a range of devices, and be easy to use for less technically proficient users.
+                    </p>
+                </div>
+                <div className="hero-two-thirds">
+                    <img id="test-image1" src={HintBoxMain} alt="Browser window with Engoo news article in the background and a modal box showing the word visitors and options to create different types of hints for this word." />
+                </div>
+            </div> 
+            <div className='full-width-content-block'>
+                <img id="full-width-test" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
+            </div>  
 
-        <div className="hint-page">
+            <div className='half-width-content-block'>
+                <img id="half-width-test" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
+                <img id="half-width-test" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
+            </div>
+        </div>
+        <ContactFooter />
+    </div>
+    )
+}
+
+
+
+
+
+        /* <div className="hint-page">
             <img id="homepage-hero" src={EngooHero} alt="engoo image hints box" />
             <h1 class="project-heading" id="hints-heading">Language Learning Hints - with Engoo</h1>
             <h2 id="hint-subtitle">Rethinking the way online English lessons deliver vocabulary hints</h2>
@@ -347,4 +391,4 @@ export default function Hints() {
         </div>
     </div>
     )
-}
+} */
