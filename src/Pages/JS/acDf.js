@@ -1,6 +1,5 @@
 import React from 'react'
 import '../CSS/projectPage.css';
-import '../CSS/acDf.css';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfHero from '../../Assets/df-images/df-hero-wide1.png';
 import ContactFooter from '../../Components/JS/contact-footer.js';
@@ -24,15 +23,15 @@ export default function AcDf() {
                         <p>
                             Dataminers discovered encounters with villagers aren't true random. Because the odds and strategies aren't obvious, I wanted to create a simple tool to show the estimated number of tickets to find a dreamy within different parameters to help players plan.
                         </p>
-                        <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank" className='external-link'>Try Dreamy Finder</a>
+                        <p>Watch the video below or try <a href="http://bexking.github.io/acnh-dreamy-finder" target="_blank" className='external-link'>Dreamy Finder</a>. </p>
                     </div>
 
                     <div className="hero-two-thirds">
-                        <img id="test-image1" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" />
+                        <img id="test-image1" className="hero-image" src={DfHero} alt="Green Imac with dreamy finder selection screen on teal background" />
                     </div>
                 </div>
                 <div className='full-width-content-block'>
-                    <div className="df-video-section">
+                    <div className="video-section">
                         <video className="vid" controls muted playsInline >
                             <source src={DfPrototype} type="video/mp4" />
                         </video>

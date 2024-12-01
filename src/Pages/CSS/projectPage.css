@@ -132,6 +132,11 @@
     column-gap: 10px;
 }
 
+.video-section {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .vid {
     display: block;
     margin-left: auto;
