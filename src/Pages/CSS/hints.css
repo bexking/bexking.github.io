@@ -200,12 +200,6 @@
     margin: 2%;
 }
 
-#fq-1 {
-    border: 2px solid #242838;
-    background-image: url(../../Assets/engoo-images/triangles.png);
-    background-size: 350px 350px;
-}
-
 #fq-1-text {
     color: #EF7A30;
     font-family: 'HK Grotesk SemiBold', sans-serif;
@@ -234,13 +228,6 @@
     color: #242838;
     font-family: 'HK Grotesk SemiBold', sans-serif;
     font-size: 1.5vw;
-}
-
-#fq-4 {
-    border: 2px solid #EF7A30;
-    color: #242838;
-    background-image: url(../../Assets/engoo-images/triangles.png);
-    background-size: 350px 350px;
 }
 
 #fq-4-text {

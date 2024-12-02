@@ -8,7 +8,7 @@ import ContactFooter from '../../Components/JS/contact-footer.js';
 
 
 import HintBoxMain from '../../Assets/engoo-images/engoo-hintbox.png';
-import DrawingBox from '../../Assets/engoo-images/drawing-box-review.png';
+import Lesson from '../../Assets/engoo-images/engoo-lesson.jpg';
 import EngooDv1 from '../../Assets/engoo-images/engoo-dvpt1.jpg';
 import Test1 from '../../Assets/engoo-images/testing-1.png';
 import Test2 from '../../Assets/engoo-images/testing-2.png';
@@ -56,21 +56,26 @@ export default function Hints() {
                     <h1 className='long-project-title'>Innovating vocab hints for online English lessons with Engoo</h1>
                     <p className='type-of-work'>UX/UI, UX Research, Prototyping</p>
                     <p>
-                        English-language lesson platform Engoo provides one-on-one online English lessons. Engoo is Japan-based. It has users around the world, with its main markets in Japan and South Korea.
-                        The Daily News lesson material is the most popular feature of the site, providing simple-English news articles for users to read and have a converstion about. 
-                        The only hints/prompts offered within the section were direct translations in local languages for major markets, displayed in full below the English text. This disconnection from the text creates an inconvenient user experience, with users needing to scroll up and down, and getting spoilers for words they were yet to read.
-                        Many users opted to wait until they'd finished reading the article to check the local translation, but this creates limitations for retention and learning. Sentence by sentence is the ideal translation method for students to learn the material as it provides immediate feedback, additionally, during research I learned memory acquisition requires active engagement. Shallow acquisition creates more shallow memories [Psychology (Fifth Edition) by Gleitman, Fridlund & Reisberg]. I wanted to explore concepts that would allow users to input their own hints for greater impact.
+                        Engoo provides one-on-one online English lessons. Based in Japan, the company has users worldwide, and main markets in Japan and South Korea.
+                        The site's popular lesson material is Daily News, providing simple-English news articles for learners to read and discuss. 
+                        Despite its popularity, Daily News lacked reminder features for learners, only providing direct local translations for major markets after the full body of English text. This interaction caused users to tediously scroll back and forth between versions, accidentally reading ahead in their native language, or more commonly waiting until to the end to check, reducing comprehension and the chance for immediate feedback.
+                        Sentence by sentence translation is better for students' learning. Additionally, memory acquisition requires active engagement - shallow acquisition creates more shallow memories [Psychology (Fifth Edition) by Gleitman, Fridlund & Reisberg].
                     </p>
                     <p>
-                        Engoo wanted to ensure the page retained a news feel, and that any solutions would be able to accommodate a wide-range of languages. I also sought to have a natural user flow, allow users to access more immediate translation feedback, work on a range of devices, and be easy to use for less technically proficient users.
+                    I wanted to explore concepts that would provide better feedback options, and explore ways users could input their own hints for greater impact. Engoo wanted to ensure the page retained a news feel, and that any solutions would be able to accommodate a wide-range of languages. I also sought to have a natural user flow, allow users to access more immediate translation feedback, work on a range of devices, and be easy to use for less technically proficient users. 
+                    </p>
+                    <p> I developed and tested two main prototypes, one with simple hints that could appear between paragraphs, and another more complex option which also included a variety of ways to add personalised hints including text, audio, and images which could be uploaded, or drawn by the user.
+                        In testing, the ability to create personalised hints was preferred, and this version was developed futher into a digital prototype. 
                     </p>
                 </div>
                 <div className="hero-two-thirds">
-                    <img id="test-image1" src={HintBoxMain} alt="Browser window with Engoo news article in the background and a modal box showing the word visitors and options to create different types of hints for this word." />
+                    <img id="test-image1" src={Lesson} alt="Man sits at laptop at a table with a coffee. On the laptop screen is the site Engoo. The man is drawing a picture of some people and a house as a visual hint for the word visitors.
+                    
+                    " />
                 </div>
             </div> 
             <div className='full-width-content-block'>
-                <img id="full-width-test" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
+                {/* <img id="full-width-test" src={} alt="Browser window with Engoo news article in the background and a modal box showing the word visitors and options to create different types of hints for this word." /> */}
             </div>  
 
             <div className='half-width-content-block'>
