@@ -4,7 +4,8 @@ const projects = {
         "link": "/businessecosystem",
         "workType": "Product Design",
         "description": "Proof of Concept interactive map of the local Māori buisness ecosystem",
-        "id": "bus"
+        "id": "bus",
+        "year": "2022"
     },
 
     "ib": {
@@ -20,7 +21,8 @@ const projects = {
         "workType": "UX/UI/Product Design",
         "description": "A new solution to provide hints to language learners on the Engoo Platform.",
         "link": "/hintswithengoo",
-        "id": "hints"
+        "id": "hints",
+        "year": "2020"
     },
 
     "acDf": {
@@ -28,7 +30,8 @@ const projects = {
         "workType": "Web Design",
         "description": "A tool to help Animal Crossing: New Horizons players work out the likelihood of finding their favourite villagers.",
         "link": "/acdreamyfinder",
-        "id": "acDf"
+        "id": "acDf",
+        "year": "2019"
     },
 
     "dome": {
@@ -76,7 +79,8 @@ const projects = {
         "workType": "Photography",
         "description": "A photographic series about the risk of sea level rise",
         "link": "/displacement",
-        "id": "displace"
+        "id": "displace",
+        "year": "2020"
     },
 
     "template": {

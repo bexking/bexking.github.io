@@ -16,7 +16,7 @@ export default function WorkNavItemHero(props) {
             <Link to={props.project.link} className="projectLink">   
                 <div className='project-label'>
                     <span className="project-label-large">{props.project.title}</span>
-                    <span className="project-label-large" id="light-text">YEAR</span>
+                    <span className="project-label-large" id="light-text">{props.project.year}</span>
                     {/* <h4>{props.project.workType}</h4>
                     <p className="home-caption">{props.project.description}</p> */}
                 </div>
