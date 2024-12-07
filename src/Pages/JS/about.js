@@ -15,13 +15,11 @@ export default function About() {
                         <p className='intro-large'>
                             Ko Bex King ahau. Ko Ngāti Porou te iwi. No Kōtirana (Scotland), no Te Tairāwhiti ōku tīpuna.</p>
                         <p className='intro-large'>
-                            I'm a multi-disciplinary designer based in Te-Whanganui-a-Tara, experienced and passionate about UX/UI, visual design, service design and research.
-                            I love creating exceptional, human-centred experiences that weave beauty and practicality together, making complexity feel simple.
+                            I'm a multi-disciplinary designer based in Te-Whanganui-a-Tara who loves design work that comes with challenge and variety. 
+                            I’m passionate about creating thoughtful UX/UI experiences, and conducting robust research. I also have experience in service design and graphic design. 
                         </p>
-                        <p className='intro-large'>add what kind of work I'm interested in</p>
-                        <p className='intro-large'>
-                            When I’m not doing mahi I spend most of my time at live music, or at home knitting or learning raranga (weaving).
-                        </p>
+                        <p className='intro-large'>I’m at my best when I can bring these skills together to create informed, user-centred designs which weave together beauty and pragmatism. I’m energised by complex and complicated problems and the opportunity to make the complex seem simple for users.</p>   
+                        <p className='intro-large'>When I’m not designing I can often be found at local live music events, or knitting up a storm at home.</p>
                     </div>
                 </div>
                 <div className="info-bullets">
@@ -29,10 +27,10 @@ export default function About() {
                                 <h2 className='xp'>Skills</h2>
                                 <ul>
                                     <li className='xp-para'>UX/UI design</li>
-                                    <li className='xp-para'>User research and testing</li>
-                                    <li className='xp-para'>Qualitative research</li>
-                                    <li className='xp-para'>Visual design</li>
-                                    <li className='xp-para'>Web design (HTML, CSS, JS)</li>
+                                    <li className='xp-para'>Research - UX, qualitative, thematic analysis</li>
+                                    <li className='xp-para'>Prototyping - digital, physical</li>
+                                    <li className='xp-para'>Graphic design</li>
+                                    <li className='xp-para'>Web design (HTML, CSS, ReactJS)</li>
                                 </ul>    
                             </div>
 

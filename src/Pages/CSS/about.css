@@ -25,6 +25,10 @@
     margin-bottom: 2.5%;
 }
 
+p.intro-large {
+    font-size: 1.5rem;
+  }
+
 .info-bullets {
     display: flex;
     width: 80%;
@@ -43,7 +47,7 @@
 .xp{
     font-family: "Manrope", sans-serif;
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #382F2F;
     text-decoration: none;
     margin-bottom: 2.5%;
@@ -51,6 +55,7 @@
 
 .xp-para{
     padding-left: 10px;
+    font-size: 1.5rem;
 }
 
 .attribution {

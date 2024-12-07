@@ -40,13 +40,15 @@ export default function Contact() {
                 <div id='feature-section'>
                     <div className='bio-container'>
                         <h1 id="bio-h1">Kia ora!</h1>
-                        <p className='intro-large'>
-                            Thanks for visiting my portfolio. 
+                        <p className='intro-large' id="contact-cta">
+                            Thanks for visiting my portfolio 
                         </p>
-                        <p className='intro-large'>
-                        If you'd like to chat, see more, or work together please get in touch using this form.
+                        <p className='intro-large' id="contact-cta">
+                            If you'd like to learn more or work together, send me a message through this form. I'd love to have a chat! 
                         </p>
-                        <p className='intro-large'>I'd love to hear from you.</p>
+                        <p className='intro-large' id="contact-cta">
+                            - Bex
+                        </p>
                     </div>
                 
                     <form onSubmit={handleSubmit}>

@@ -93,7 +93,7 @@ h2 {
 h2.contact-heading {
   font-family: "Manrope", sans-serif;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #382F2F;
   text-decoration: none;
 }
@@ -104,10 +104,6 @@ h2.contact {
   font-size: 1.5rem;
   color: #382F2F;
   text-transform: uppercase;
-}
-
-h5 {
-  
 }
 
 p {
@@ -141,7 +137,7 @@ p {
 .p-attribution {
   font-family: "Manrope", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #382F2F;
     text-decoration: none;
 }
@@ -151,7 +147,7 @@ a {
   text-underline-offset: 5px;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   color: #382F2F;
 }
 
@@ -177,7 +173,7 @@ a:hover {
 button {
   font-family: "Manrope", sans-serif;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #382F2F;
     text-decoration: none;
 }
@@ -210,36 +206,36 @@ li {
 span {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: 1.125rem;
-  color: #5C5347;
+  font-size: 1.5rem;
+  color: #382F2F;
   text-decoration: none;
 }
 
 span.project-label-large {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
-  color: #5C5347;
+  font-size: 2rem;
+  color: #382F2F;
   text-decoration: none;
 }
 
 label {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #382F2F;
 }
 
 textarea {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 input {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #382F2F;
 }
 

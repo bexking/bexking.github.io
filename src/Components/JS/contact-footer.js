@@ -13,20 +13,19 @@ export default function ContactFooter() {
                     </div>
                     
                     <div className="contact-links">
-                        <a href="linkedin.com" className='contactLink'>
+                        <a href="https://www.linkedin.com/in/bexking" target="_blank" className='contactLink'>
                             linkedIn
                         </a>  
-                        <a href="instagram.com" className='contactLink'>
+                        <a href="https://www.instagram.com/bexkingdesign" target="_blank" className='contactLink'>
                             Instagram
                         </a>  
-                        <a href="instagram.com" className='contactLink'>
+                        <a href="https://github.com/bexking" target="_blank" className='contactLink'>
                             Github
                         </a>  
-                        {/* <a href="https://www.instagram.com/bex_sketchh" target="_blank"><img className="contact-icon" src={Insta}></img></a> */}
                     </div>
                 </div>
                 <a href="mailto:bexkingdesign@gmail.com">
-                    <button className='button-reg'>Email me</button>
+                    <button className='button-reg'>Contact</button>
                 </a>
                 
             </div>
