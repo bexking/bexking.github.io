@@ -149,31 +149,6 @@
     align-items: center;
 }
 
-.hint-personas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1px;
-    margin-top: 0;
-    margin-bottom: 2%;
-}
-
-.hint-persona-img {
-    max-height: 25vw;
-    justify-self: start;
-}
-
-#hints-persona-1 {
-    background-color: blue;
-}
-
-#hints-persona-2 {
-    background-color: blue;
-}
-
-#hints-persona-5 {
-    background-color: blue;
-}
-
 .hint-dp {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -283,5 +258,15 @@
     .hero-two-thirds {
         width: 100%;
     }
+
+    .long-project-title {
+        font-size: 2rem;
+        margin-top: 2.5%;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
     
 }

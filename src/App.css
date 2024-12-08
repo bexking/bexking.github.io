@@ -285,7 +285,7 @@ input {
   }
   
   .p-feature {
-    font-size: calc(4.5rem / 2.75);
+    font-size: calc(4.5rem / 2.3);
   }
 
   .p-medium {
@@ -301,7 +301,7 @@ input {
   }
   
   .large-link {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   
   button {
