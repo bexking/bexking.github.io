@@ -14,7 +14,7 @@ export default function Work() {
                     <div className='text-block-third'>
                         <h1>Mahi</h1>
                         <p className='p-medium'>
-                            Take a look at some of my projects. If you are interested in seeing more or learning about work I can't show here, just send me an email.
+                            Explore some of my favourite projects.
                         </p>
                     </div>
                     <div className='project-two-thirds'>

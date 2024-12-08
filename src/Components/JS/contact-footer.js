@@ -1,5 +1,6 @@
 import React from 'react';  
 import '../CSS/contact-footer.css';
+import { Link } from "react-router-dom";
 
 export default function ContactFooter() {
     return (
@@ -24,10 +25,9 @@ export default function ContactFooter() {
                         </a>  
                     </div>
                 </div>
-                <a href="mailto:bexkingdesign@gmail.com">
+                <Link to="/contact" id="nav-places">
                     <button className='button-reg'>Contact</button>
-                </a>
-                
+                </Link>                
             </div>
             {/* <img className="wavefooter" src={WavesFooter} alt="dark brown wave pattern" /> */}
             <div className="wavefooter">

@@ -128,7 +128,7 @@ p {
 .p-medium {
   font-family: "Manrope", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #382F2F;
   text-decoration: none;
   margin-bottom: 5%;
@@ -151,7 +151,7 @@ a {
   color: #382F2F;
 }
 
-a:has(button) {
+.large-link:has(button) {
   text-decoration: none;
 }
 
@@ -305,7 +305,7 @@ input {
   }
   
   button {
-      font-size: calc(1rem / 1.15);
+      font-size: calc(1.25rem / 1.15);
   }
   
   ul {

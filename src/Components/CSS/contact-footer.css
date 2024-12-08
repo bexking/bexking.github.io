@@ -117,6 +117,14 @@ button.button-reg:hover {
         padding-bottom: 4%;
     }
 
+    .contactLink {
+        text-decoration: underline 1.5px;
+    }
+    
+    .contactLink:hover {
+        text-decoration: underline 1.5px;
+    }
+
     .wavefooter{
         height: 100px;
     }
