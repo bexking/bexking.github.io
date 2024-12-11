@@ -131,6 +131,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: 0;
+        max-width: 100%;
     }
 
     #hamburger {
