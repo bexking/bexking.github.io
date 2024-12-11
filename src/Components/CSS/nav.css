@@ -113,7 +113,7 @@
 
     .nav-logo {
         max-width: 75%;
-        margin-left: 0;
+        margin-left: 5%;
     }    
 
     #main-nav {
@@ -139,8 +139,8 @@
     #hamburger {
         fill: #5C5347;
         margin-top: 10px;
-        margin-right: 20px;
-        width: 20%;
+        margin-right: 5%;
+        width: 5%;
     }
 
     /* .nav-logo {
