@@ -136,6 +136,7 @@
         fill: #5C5347;
         margin-top: 10px;
         margin-right: 20px;
+        width: 5%;
     }
 
     .nav-logo {
@@ -166,4 +167,9 @@
         text-underline-offset: 10px;
         z-index: 1;
     }
+/*     
+    rect {
+        width: ;
+    } */
+
 }
