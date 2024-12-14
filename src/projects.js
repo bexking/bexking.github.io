@@ -83,6 +83,15 @@ const projects = {
         "year": "2020"
     },
 
+    "booking": {
+        "title": "Booking",
+        "workType": "UX/UI, Service Design",
+        "description": "",
+        "link": "/booking",
+        "id": "iil-booking",
+        "year": "2023"
+    },
+
     "template": {
         "title": "template",
         "worktype": "Testing",

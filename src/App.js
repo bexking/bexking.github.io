@@ -18,11 +18,10 @@ import Well from './Pages/JS/well';
 import Nav from './Components/JS/nav2';
 import { createBrowserHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
-import ContactFooter from './Components/JS/contact-footer';
 import NotFoundMsg from "./Pages/JS/404";
 import Rm from "./Pages/JS/rm";
-import NotFound from './Pages/JS/404';
 import Business from './Pages/JS/business.js';
+import iilBooking from './Pages/JS/iil-booking.js';
 
 function App() {
   const settings = {
@@ -60,9 +59,9 @@ function App() {
           <Route path="/remindmat" component={Rm}/>
           <Route path="/wellwellwell" component={Well}/>
           <Route path="/businessecosystem" component={Business}/>
+          <Route path="/booking" component={iilBooking}/>
           <Route component={NotFoundMsg}/>
         </Switch>
-        {/* <ContactFooter /> */}
       </Router>
     </div>
   );
