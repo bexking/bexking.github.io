@@ -126,10 +126,6 @@ textarea {
 
 /* media queries xl */
 @media only screen and (min-width: 3500px) {
-    h2.contact-heading {
-        font-size: 3rem;
-        font-weight: 800;
-    }
 
     label {
         row-gap: 10px;
@@ -141,11 +137,5 @@ textarea {
 
     textarea {
         margin-bottom: 65px;
-    }
-
-    .button-wide {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        font-size: 2.25rem;
     }
 }

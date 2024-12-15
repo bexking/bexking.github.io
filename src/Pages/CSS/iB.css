@@ -707,28 +707,3 @@
     }
 }
 
-@media only screen and (max-width: 650px) {
-    .testDetailIcons {
-        max-width: 80%;
-    }
-
-    .IB-testing-subheadings {
-        font-size: 85%;
-    }
-
-    .test-plan-description {
-        margin-left: 10%;
-        font-size: 80%;
-
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #page-ib {
-        margin-top: calc(65px + 6vh);
-    }
-
-    #ib-subtitle {
-        font-size: 4vw;
-    }
-}

@@ -104,9 +104,7 @@ ul {
     }
 
     #bio-h1 {
-        font-size: calc(6rem / 2.25);
         text-align: center;
-        margin-bottom: 3vh;
     }
 
     .info-bullets {
@@ -117,11 +115,6 @@ ul {
     .info-bullet-group {
         width: 100%;
     }
-
-    h2.xp {
-        margin-top: 2%;
-    }
-    
   }
 
   /* media queries med*/
@@ -130,12 +123,5 @@ ul {
     #self-portrait {
         max-width: 175px;
         margin-right: 5%;
-    }
-}
-
-/* media queries xl */
-@media only screen and (min-width: 3500px) {
-    .xp {
-        font-size: 3rem;
     }
 }

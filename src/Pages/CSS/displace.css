@@ -118,16 +118,8 @@
     .photos-section {
         max-width: 90%;
     }
-
-    .dis-caption {
-        font-size: 2vw;
-    }
-
+    
     #dis-heading {
         max-width: 94%;
-    }
-
-    .dis-p {
-        font-size: 14px;
     }
 }

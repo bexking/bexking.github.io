@@ -239,10 +239,6 @@
         margin-bottom: 5%;
     }
 
-    .type-of-work {
-        font-size: calc( 1.125rem / 1.25);
-    }
-
     .project-heading-container :nth-child(2) {
         order: -1; 
     }
@@ -260,13 +256,6 @@
     }
 
     .long-project-title {
-        font-size: 2rem;
         margin-top: 2.5%;
-    }
-
-    p {
-        font-size: 1.1rem;
-    }
-
-    
+    }   
 }
