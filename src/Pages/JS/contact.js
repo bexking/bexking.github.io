@@ -39,16 +39,13 @@ export default function Contact() {
            <div className="work-feature">
                 <div id='feature-section'>
                     <div className='bio-container'>
-                        <h1 id="bio-h1">Kia ora!</h1>
+                        <h1>Kia ora!</h1>
                         <p className='p-medium' id="contact-cta">
                             Thanks for visiting my portfolio. 
                         </p>
                         <p className='p-medium' id="contact-cta">
                             If you'd like to learn more or work together, send me a message through this form. I'd love to have a chat! 
                         </p>
-                        {/* <p className='p-medium' id="contact-cta">
-                            - Bex
-                        </p> */}
                     </div>
                 
                     <form onSubmit={handleSubmit}>

@@ -10,7 +10,7 @@ export default function ContactFooter() {
                 <h2 className="contact">Contact</h2>
                 <div className="contact-blurb">
                     <div id='contact-textblock'>
-                        <p id="footer-text" className='p-feature'>Any pātai or want to work together? Whakapā mai! </p>                 
+                        <p id="footer-text" className='p-feature'>Any pātai or want to work together?<br/> Whakapā mai! </p>                 
                     </div>
                     
                     <div className="contact-links">
@@ -25,7 +25,7 @@ export default function ContactFooter() {
                         </a>  
                     </div>
                 </div>
-                <Link to="/contact" id="nav-places">
+                <Link to="/contact">
                     <button className='button-reg'>Contact</button>
                 </Link>                
             </div>

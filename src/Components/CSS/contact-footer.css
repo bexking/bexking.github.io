@@ -40,23 +40,12 @@
     margin-bottom: 10px;
 }
 
-.button-reg {
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left: 45px;
-    padding-right: 45px;
-    border: 1.5px solid #382F2F;
-    border-radius: 45px;
-    box-shadow: 2px 2px 4px #5c534766;
-    background-color: #F2EFEB;
-}
-
 button.button-reg:hover {
     transform: scale(1.05);
     background-color: #5C5347;
     color: white;
     transition: all .2s ease-in-out;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .contact-links {
@@ -70,7 +59,7 @@ button.button-reg:hover {
 
 .contactLink {
     padding-right: 2.5%;
-    text-decoration: underline 2px;
+    text-decoration: underline 1px solid;
     margin-bottom: 15%;
     text-underline-offset: 5px;
 }

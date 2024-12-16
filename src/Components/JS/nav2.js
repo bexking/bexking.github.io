@@ -7,9 +7,9 @@ export default function Nav() {
     const [showBurger, setBurger] = useState(false);
 
     const links = <>
-        <Link onClick={() => setBurger(!showBurger)} to="/work" id="nav-places" className='large-link'>Work</Link>
-        <Link onClick={() => setBurger(!showBurger)} to="/about" id="nav-places" className='large-link'>About</Link>
-        <Link onClick={() => setBurger(!showBurger)} to="/contact" id="nav-places" className='large-link'>Contact</Link>
+        <Link onClick={() => setBurger(!showBurger)} to="/work" id="nav-places" className='nav-link'>Work</Link>
+        <Link onClick={() => setBurger(!showBurger)} to="/about" id="nav-places" className='nav-link'>About</Link>
+        <Link onClick={() => setBurger(!showBurger)} to="/contact" id="nav-places" className='nav-link'>Contact</Link>
     </>;
 
     return (

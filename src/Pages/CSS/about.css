@@ -21,14 +21,6 @@
     margin-right: 5%;
 }
 
-#bio-h1 {
-    margin-bottom: 2.5%;
-}
-
-p.intro-large {
-    font-size: 1.5rem;
-  }
-
 .info-bullets {
     display: flex;
     width: 80%;
@@ -42,20 +34,6 @@ p.intro-large {
 
 .info-bullet-group {
     width: 35%;
-}
-
-.xp{
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
-    color: #382F2F;
-    text-decoration: none;
-    margin-bottom: 2.5%;
-}
-
-.xp-para{
-    padding-left: 10px;
-    font-size: 1.5rem;
 }
 
 .attribution {
@@ -101,10 +79,6 @@ ul {
 
     .bio-container {
         width: 100%;
-    }
-
-    #bio-h1 {
-        text-align: center;
     }
 
     .info-bullets {
