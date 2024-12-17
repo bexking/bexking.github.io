@@ -93,7 +93,8 @@
 /* media queries small*/
 
 @media only screen and (max-width: 480px) {
-    #displace {
+    #iil-booking {
         height: calc(80vw / 4* 3);
     }
+
 }
