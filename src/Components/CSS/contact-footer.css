@@ -40,6 +40,11 @@
     margin-bottom: 10px;
 }
 
+.button-reg {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
 button.button-reg:hover {
     transform: scale(1.05);
     background-color: #5C5347;

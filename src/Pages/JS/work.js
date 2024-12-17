@@ -19,7 +19,7 @@ export default function Work() {
                     </div>
                     <div className='project-two-thirds'>
                         <div className='test-image'>
-                            <WorkNavItemHero project={projects.displace} className="hero-image" id="large-hero"/>
+                            <WorkNavItemHero project={projects.booking} className="hero-image" id="large-hero"/>
                         </div>
                     </div>
                 </div>

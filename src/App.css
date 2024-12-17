@@ -163,8 +163,8 @@ button {
     text-decoration: none;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
     border: 1.5px solid #382F2F;
     border-radius: 45px;
     box-shadow: 2px 2px 4px #5c534766;
@@ -232,6 +232,11 @@ input {
 
 .text-block-third {
   width: calc(100% / 3);
+  padding-right: 3%;
+}
+
+.text-block-half {
+  width: calc(100% / 2);
   padding-right: 3%;
 }
 
