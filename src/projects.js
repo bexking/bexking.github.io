@@ -84,7 +84,7 @@ const projects = {
     },
 
     "booking": {
-        "title": "Booking",
+        "title": "Interislander Booking Experience",
         "workType": "UX/UI, Service Design",
         "description": "",
         "link": "/booking",

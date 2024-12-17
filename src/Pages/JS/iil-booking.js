@@ -1,7 +1,7 @@
 import React from 'react'
 import '../CSS/projectPage.css';
 import ContactFooter from '../../Components/JS/contact-footer.js';
-import BookingHero from '../../Assets/iil-booking.jpg';
+import UserBooking from '../../Assets/iil/iil-booking-table.jpg';
 
 export default function iilBooking() {
     return (
@@ -18,7 +18,7 @@ export default function iilBooking() {
                         <p>At project completion, Interislander’s usual digital agency received the prototypes for final refinement and development. Reportedly, the new design saw the total booking time halved during internal testing. The new booking system went live in November, 2024.</p>
                     </div>
                     <div className="hero-two-thirds">
-                        <img id="test-image1" className='hero-image' src={BookingHero} alt="Hands holding a phone showing the Extras page in the booking system design" />
+                        <img id="test-image1" className='hero-image' src={UserBooking} alt="A person sitting at a table holding a phone showing the Interislander booking system" />
                     </div>
                 </div> 
 

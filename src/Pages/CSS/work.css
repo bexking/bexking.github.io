@@ -28,6 +28,10 @@
     background-position: left top;
 }
 
+#iil-booking {
+        height: calc(80vw / 3 * 2 / 4 * 3);
+}
+
 #displace {
     height: calc(80vw / 2 / 4* 3);
 }
