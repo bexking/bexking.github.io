@@ -13,9 +13,6 @@ export default function Work() {
                 <div className='feature-section'>
                     <div className='text-block-third'>
                         <h1>Mahi</h1>
-                        <p className='p-medium'>
-                            Explore some of my favourite projects.
-                        </p>
                     </div>
                     <div className='project-two-thirds'>
                         <div className='test-image'>

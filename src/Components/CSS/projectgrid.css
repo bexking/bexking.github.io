@@ -103,10 +103,10 @@
 }
 
 #hints {
-    background-image: url('../../Assets/hints-hero.png');
+    background-image: url('../../Assets/hints-hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: center;
 }
 
 #iil-booking {

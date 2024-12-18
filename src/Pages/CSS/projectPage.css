@@ -8,7 +8,7 @@
 .project-heading-container {
    display: flex;
    justify-content: flex-start; 
-   margin-bottom: 5%;
+   margin-bottom: 0;
 }
 
 .long-project-title {
@@ -34,7 +34,15 @@
 }
 
 .hero-two-thirds {
-    width: calc(100% / 3 * 2);
+    margin-top: 3%;
+    width: 70%;
+}
+
+.body-copy {
+    width: calc(80vw / 3 * 2);
+    float: right;
+    margin-top: 0;
+    margin-bottom: 3%;
 }
 
 /* .external-link:hover {
@@ -227,7 +235,7 @@
     background-image: url('../../Assets/bus-images/bus-hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: center;
 }
 
 /* media queries small */
@@ -235,7 +243,7 @@
 @media only screen and (max-width: 480px) {
     .project-heading-container {
         flex-direction: column;
-        margin-bottom: 5%;
+        margin-bottom: 0;
     }
 
     .project-heading-container :nth-child(2) {
@@ -256,5 +264,9 @@
 
     .long-project-title {
         margin-top: 2.5%;
-    }   
+    }
+
+    .body-copy {
+        width: 100%;
+    }
 }
