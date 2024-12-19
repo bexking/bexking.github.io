@@ -7,14 +7,12 @@ import ContactSuccess from './Pages/JS/contact-success.js';
 import ProjectPage from "./Pages/JS/projectPage";
 import AcDf from "./Pages/JS/acDf";
 import Displacement from "./Pages/JS/displacement";
-import Dome from "./Pages/JS/dome";
 import IncognitoBreathing from './Pages/JS/iB';
 import Shakespeare from './Pages/JS/shakespeare';
 import Hints from './Pages/JS/hints';
 import CookNook from './Pages/JS/cookNook';
 import About from './Pages/JS/about';
 import Work from './Pages/JS/work';
-import Well from './Pages/JS/well';
 import Nav from './Components/JS/nav2';
 import { createBrowserHistory } from "history";
 import { wrapHistory } from "oaf-react-router";
@@ -52,13 +50,11 @@ function App() {
           <Route path="/projects" component={ProjectPage} />
           <Route path="/acdreamyfinder" component={AcDf} />
           <Route path="/displacement" component={Displacement} />
-          <Route path="/takeoutdome" component={Dome} />
           <Route path="/hintswithengoo" component={Hints} />
           <Route path="/incognitobreathing" component={IncognitoBreathing} />
           <Route path="/shakemojispeare" component={Shakespeare} />
           <Route path="/cooknook" component={CookNook} />
           <Route path="/remindmat" component={Rm}/>
-          <Route path="/wellwellwell" component={Well}/>
           <Route path="/businessecosystem" component={Business}/>
           <Route path="/booking" component={iilBooking}/>
           <Route path="/screen-investment-review" component={screenInvReview} />

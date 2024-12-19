@@ -1,6 +1,5 @@
 import React from 'react'
 import '../CSS/projectPage.css';
-import '../CSS/hints.css';
 import ContactFooter from '../../Components/JS/contact-footer.js';
 import Lesson from '../../Assets/engoo-images/engoo-lesson.jpg';
 import Translations from '../../Assets/engoo-images/Translate.jpg';

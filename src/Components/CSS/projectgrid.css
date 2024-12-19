@@ -60,13 +60,6 @@
     margin-right: auto;
 }
 
-#well {
-    background-image: url('../../Assets/well-hero.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 #rm {
     background-image: url('../../Assets/rm-logo.png');
     background-size: cover;

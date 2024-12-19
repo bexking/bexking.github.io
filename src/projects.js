@@ -34,14 +34,6 @@ const projects = {
         "year": "2019"
     },
 
-    "dome": {
-        "title": "Dome Takeaway Container",
-        "workType": "UX/Psychology Research",
-        "description": "Rethinking the humble takeaway container to help manage portion-control.",
-        "link": "/dome",
-        "id": "dome"
-    },
-
     "cn": {
         "title": "Cook Nook Recipe Manager",
         "workType": "UX/UI, Graphic Design",
@@ -64,14 +56,6 @@ const projects = {
         "description": "A doormat to assist people affected by working memory challenges",
         "link": "/remindmat",
         "id": "rm"
-    },
-
-    "well": {
-        "title": "Well Well Well",
-        "workType": "Product Design",
-        "description": "An app to help VUW Students engage with UN Sustainable Development Goal 3 - Good Health & Wellbeing",
-        "link": "/wellwellwell",
-        "id": "well"
     },
 
     "displace": {
