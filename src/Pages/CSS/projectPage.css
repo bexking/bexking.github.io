@@ -51,7 +51,7 @@
     transform: scale(1.1);
 } */
 
-#full-width-test {
+.full-width-test {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -254,7 +254,7 @@
         width: 100%;
     }
 
-    #full-width-test {
+    .full-width-test {
         margin-bottom: 20px;
     }
 

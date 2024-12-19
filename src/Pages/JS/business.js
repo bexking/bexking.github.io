@@ -37,7 +37,7 @@ export default function Business() {
                 </div>
 
                 <div className='full-width-content-block'>
-                    <img id="full-width-test" src={BusLayers} alt="Expanded layers version of the map" />
+                    <img className="full-width-test" src={BusLayers} alt="Expanded layers version of the map" />
                 </div>  
             </div>
             <ContactFooter />

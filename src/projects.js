@@ -98,6 +98,13 @@ const projects = {
         "description": "setting up format",
         "link": "/projects",
         "id": "template"
+    },
+
+    "screen": {
+        "title": "Screen Sector Investment Review",
+        "link": "/screen-investment-review",
+        "id": "screen",
+        "year": "2023"
     }
 }
 

@@ -20,7 +20,7 @@ export default function ProjectPage() {
                     </div>
                 </div> 
                 <div className='full-width-content-block'>
-                    <img id="full-width-test" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
+                    <img className="full-width-test" src={Dis1} alt="Four small weatherboard huts sit in an icy coastal scene" />
                 </div>  
 
                 <div className='half-width-content-block'>
