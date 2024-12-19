@@ -63,9 +63,11 @@ textarea {
 #email-wave {
     width: 100%;
     rotate: 180deg;
-    position: fixed;
+    display: block;
+    position: absolute;
     left: 0;
     bottom: 0;
+    height: 10vh;
 }
 
 #email-wave .shape-fill {

@@ -33,6 +33,10 @@
     fill: #5C5347;
 }
 
+/* #wave1 {
+    height: 10vh;
+} */
+
 /* media queries small */
 
 @media only screen and (max-width: 480px) {
@@ -41,7 +45,7 @@
     }
 
     #wave1 {
-        height: 60px;
+        height: 10vh;
         width: 100%;
     }
 }
