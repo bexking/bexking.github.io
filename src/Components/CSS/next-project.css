@@ -6,9 +6,14 @@
 
 .med-link {
     font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    font-size: clamp(1.15rem, 1vw, 1.5rem);
+    font-weight: 700;
+    font-size: clamp(1rem, 1vw, 1.5rem);
     color: #382F2F;
-    text-decoration: underline;
+    text-decoration: none;
     text-underline-offset: 10px;
+  }
+
+  .med-link:hover {
+    text-decoration: 1.5px underline;
+    text-decoration-style: wavy;
   }
