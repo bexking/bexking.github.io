@@ -17,7 +17,7 @@ const projects = {
     },
 
     "hints": {
-        "title": "Hint System with Engoo",
+        "title": "Hint System for Engoo",
         "workType": "UX/UI/Product Design",
         "description": "A new solution to provide hints to language learners on the Engoo Platform.",
         "link": "/hintswithengoo",

@@ -3,6 +3,7 @@ import '../CSS/projectPage.css';
 import BusHero from '../../Assets/bus-images/bus-hero.jpg';
 import BusVid from '../../Assets/bus-images/bus-vid.mp4';
 import BusLayers from '../../Assets/bus-images/bus-layers.jpg';
+import { Link } from "react-router-dom";
 import ContactFooter from '../../Components/JS/contact-footer.js';
 
 export default function Business() {
@@ -19,7 +20,6 @@ export default function Business() {
                         <img id="test-image1" className='hero-image' src={BusHero} alt="Laptop mockup of prototype set to layer showing estimated māori economy statistics on a map of Te-Whanganui-a-Tara" />
                     </div>
                 </div> 
-
                 <div className='body-copy'>
                     <p>
                         The client wanted to create a geospatial map of the local Māori economy and needed  a low-medium fidelity prototype to pitch their idea to secure funding.</p>
@@ -27,7 +27,6 @@ export default function Business() {
                     <p>Tahlia Conrad-Hinga (Ngāi Te Rangi, Kāi Tahu) and I developed the narrative and build process together. She illustrated the assets I used to build the prototype.</p>
                     <p>The client secured funding to explore the concept further with kaupapa Māori designers.</p>
                 </div>
-
                 <div className='full-width-content-block'>
                     <div className='video-section'>
                         <video className="vid" muted controls playsInline>
@@ -35,10 +34,22 @@ export default function Business() {
                         </video>
                     </div>
                 </div>
-
                 <div className='full-width-content-block'>
                     <img className="full-width-test" src={BusLayers} alt="Expanded layers version of the map" />
                 </div>  
+                <div className='full-width-content-block'>
+                    <div>
+                        <div className='next-project-bar'>
+                            <div className='back'>
+                                <Link to="/screen-investment-review" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                            </div>
+            
+                            <div className='next'>
+                                <Link to="/hintswithengoo" className="med-link">Next&emsp;&#8594;&nbsp;</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <ContactFooter />
         </div>

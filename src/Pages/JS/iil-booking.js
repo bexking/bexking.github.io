@@ -2,6 +2,8 @@ import React from 'react'
 import '../CSS/projectPage.css';
 import ContactFooter from '../../Components/JS/contact-footer.js';
 import UserBooking from '../../Assets/iil/iil-booking-table.jpg';
+import NextProject from '../../Components/JS/next-project.js';
+import { Link } from "react-router-dom";
 
 export default function iilBooking() {
     return (
@@ -28,18 +30,27 @@ export default function iilBooking() {
                     <p>
                         At project completion, Interislander’s usual digital agency received the prototypes for final refinement and development. During internal testing booking time was reportedly halved. The final version went live in November, 2024.
                     </p>
+                </div>   
+
+                <div className='full-width-content-block'>
+                    <div>
+                        <div className='next-project-bar'>
+                            <div className='back'>
+                                <Link to="/work" className="med-link">&#8592;&emsp;&nbsp;All projects</Link>
+                            </div>
+            
+                            <div className='next'>
+                                <Link to="/screen-investment-review" className="med-link">Next&emsp;&#8594;&nbsp;</Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                    
 
                 <div className='full-width-content-block'>
                     
                 </div>
-
-                <div className='full-width-content-block'>
-                    
-                </div>  
             </div>
+            
             <ContactFooter />
         </div>
     )

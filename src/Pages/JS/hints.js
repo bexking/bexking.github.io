@@ -4,6 +4,7 @@ import ContactFooter from '../../Components/JS/contact-footer.js';
 import Lesson from '../../Assets/engoo-images/engoo-lesson.jpg';
 import Translations from '../../Assets/engoo-images/Translate.jpg';
 import Menu from '../../Assets/engoo-images/hint-menu.jpg';
+import { Link } from "react-router-dom";
 
 export default function Hints() {
     return (
@@ -36,6 +37,19 @@ export default function Hints() {
             <div className='half-width-content-block'>
                 <img id="half-width-test" src={Translations} alt="Laptop showing Engoo website with local language translation between two paragraphs in a scrollable box below english text" />
                 <img id="half-width-test" src={Menu} alt="Four small weatherboard huts sit in an icy coastal scene" />
+            </div>
+            <div className='full-width-content-block'>
+                <div>
+                    <div className='next-project-bar'>
+                        <div className='back'>
+                            <Link to="/businessecosystem" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                        </div>
+        
+                        <div className='next'>
+                            <Link to="/acdreamyfinder" className="med-link">Next&emsp;&#8594;&nbsp;</Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <ContactFooter />

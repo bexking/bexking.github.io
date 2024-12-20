@@ -1,0 +1,14 @@
+.next-project-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.med-link {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: clamp(1.15rem, 1vw, 1.5rem);
+    color: #382F2F;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }

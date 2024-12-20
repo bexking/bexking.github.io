@@ -2,6 +2,7 @@ import React from 'react'
 import '../CSS/projectPage.css';
 import DfPrototype from '../../Assets/df-images/df-prototype.mp4';
 import DfCozy from '../../Assets/df-images/df-cozy.png';
+import { Link } from "react-router-dom";
 import ContactFooter from '../../Components/JS/contact-footer.js';
 
 export default function AcDf() {
@@ -36,7 +37,20 @@ export default function AcDf() {
                             <source src={DfPrototype} type="video/mp4" />
                         </video>
                     </div>
-                </div>  
+                </div>
+                <div className='full-width-content-block'>
+                    <div>
+                        <div className='next-project-bar'>
+                            <div className='back'>
+                                <Link to="/hintswithengoo" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                            </div>
+            
+                            <div className='next'>
+                                <Link to="/work" className="med-link">All projects&emsp;&#8594;&nbsp;</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </div>
             <ContactFooter />
         </div>

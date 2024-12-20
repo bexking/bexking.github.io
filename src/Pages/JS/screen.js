@@ -4,6 +4,7 @@ import ContactFooter from '../../Components/JS/contact-footer.js';
 import Screen from '../../Assets/screen-sector-hero.jpg';
 import Exec from '../../Assets/screen-inv/exec-summary.jpg';
 import Focus from '../../Assets/screen-inv/prop-focus.jpg';
+import { Link } from "react-router-dom";
 
 export default function screenInvReview() {
     return (
@@ -39,6 +40,19 @@ export default function screenInvReview() {
                 </div>
                 <div className='full-width-content-block'>
                     <img className='full-width-test' src={Focus} alt="A4 booklet open to the Proposed Focus section of the report"/>
+                </div>
+                <div className='full-width-content-block'>
+                    <div>
+                        <div className='next-project-bar'>
+                            <div className='back'>
+                                <Link to="/booking" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                            </div>
+            
+                            <div className='next'>
+                                <Link to="/businessecosystem" className="med-link">Next&emsp;&#8594;&nbsp;</Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <ContactFooter />
