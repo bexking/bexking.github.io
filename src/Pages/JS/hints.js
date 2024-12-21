@@ -42,7 +42,7 @@ export default function Hints() {
                 <div>
                     <div className='next-project-bar'>
                         <div className='back'>
-                            <Link to="/businessecosystem" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                            <Link to="/pec" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
                         </div>
         
                         <div className='next'>

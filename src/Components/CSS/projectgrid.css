@@ -116,6 +116,13 @@
     background-position: center;
 }
 
+#pec {
+    background-image: url('../../Assets/pec-hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 @media only screen and (max-width: 780px) {
     .projectGrid {
         display: flex;

@@ -8,6 +8,13 @@ const projects = {
         "year": "2022"
     },
 
+    "pec": {
+        "title": "Aotearoa New Zealand Principal Eligibility Criteria",
+        "link": "/pec",
+        "id": "pec",
+        "year": "2022"
+    },
+
     "ib": {
         "title": "Incognito Breathing",
         "link": "/incognitobreathing",
