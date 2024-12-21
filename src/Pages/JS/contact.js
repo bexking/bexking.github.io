@@ -42,9 +42,7 @@ export default function Contact() {
                         <h1>Kia ora!</h1>
                         <p className='p-medium' id="contact-cta">
                             Thanks for visiting my portfolio. 
-                        </p>
-                        <p className='p-medium' id="contact-cta">
-                            If you'd like to learn more or work together, send me a message through this form. I'd love to have a chat! 
+                            If you'd like to learn more or work together, get in touch using the form. I'd love to have a chat! 
                         </p>
                     </div>
                 

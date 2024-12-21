@@ -26,7 +26,7 @@
     width: 80%;
     justify-content: space-between;
     align-content: flex-start;
-    margin-top: 5%;
+    margin-top: 1.5%;
     margin-bottom: 5%;
     column-gap: 5%;
     float: right;
@@ -54,6 +54,10 @@ ul {
     /* list-style-position: outside; */
   }
 
+.xp {
+    font-weight: 700;
+}
+
   .Underlined-Link:hover {
     text-decoration:underline 1px solid;
     text-decoration-style: wavy;
@@ -64,7 +68,7 @@ ul {
 
   /* media queries small */
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 779px) {
     #feature-section {
         flex-direction: column;
         align-items: center;
@@ -79,6 +83,7 @@ ul {
 
     .bio-container {
         width: 100%;
+        margin-right: 0;
     }
 
     .info-bullets {
@@ -88,6 +93,11 @@ ul {
 
     .info-bullet-group {
         width: 100%;
+    }
+
+    #contact-cta {
+        margin-right: 0;
+        margin-bottom: 3vh;
     }
   }
 

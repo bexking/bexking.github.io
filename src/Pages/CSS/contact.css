@@ -1,13 +1,13 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: calc(100vw / 3);
-    margin-top: 40px;
+    width: calc(100vw / 2);
+    /* margin-top: 40px; */
     margin-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 60px;
+    padding-bottom: 0;
+    padding-top: 5vh;
     background-color: rgba(255, 255, 255, 0.53);
     border-radius: 10px;
     margin-left: 5%;
@@ -80,13 +80,15 @@ textarea {
 
 /* media queries */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 779px) {
     .contact-form {
-        width: 70%;
+        width: 80vw;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 2.5vh;
     }
 
     #success-msg {
