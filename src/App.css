@@ -68,7 +68,7 @@ h1 {
     "SOFT" 100,
     "WONK" 0.5;
   color: #5C5347;
-  font-size: clamp(2.5rem, 3vw, 9rem);
+  font-size: clamp(2rem, 3.25vw, 9rem);
   margin-top: 0;
   margin-bottom: 3%;
 }

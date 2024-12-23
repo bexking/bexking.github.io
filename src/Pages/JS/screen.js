@@ -13,7 +13,7 @@ export default function screenInvReview() {
                 <div className='project-heading-container'>
                     <div className="text-block-third">
                         <span>MBIE & MCH </span>
-                        <h1 className='long-project-title'>Screen sector investment review - submissions analysis and reporting</h1>
+                        <h1 className='long-project-title'>Screen sector investment review analysis</h1>
                         <p className='type-of-work'>Qualitative analysis, Writing, Graphic design</p>
                         <a href="https://www.mbie.govt.nz/dmsdocument/26661-summary-of-submissions-and-surveys-thinkplace-pdf">Link to the full report</a>
                     </div>

@@ -41,7 +41,7 @@ export default function Business() {
                     <div>
                         <div className='next-project-bar'>
                             <div className='back'>
-                                <Link to="/screen-investment-review" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                                <Link to="/sc-review" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
                             </div>
             
                             <div className='next'>

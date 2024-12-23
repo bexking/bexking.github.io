@@ -12,7 +12,7 @@ export default function AcDf() {
                 <div className='project-heading-container'>
                     <div className="text-block-third">
                         <span>University project</span>
-                        <h1 className='long-project-title'>Dreamy Finder: Helping Animal Crossing players find their favourite neighbours</h1>
+                        <h1 className='long-project-title'>Finding dream neighbours in Animal Crossing: New Horizons</h1>
                         <p className='type-of-work'>UX/UI, Web design, Web development </p>
                     </div>
                     <div className="hero-two-thirds">

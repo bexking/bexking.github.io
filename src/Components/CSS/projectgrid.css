@@ -116,8 +116,15 @@
     background-position: center;
 }
 
+#sc-review {
+    background-image: url('../../Assets/sc-process.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #pec {
-    background-image: url('../../Assets/pec-hero.png');
+    background-image: url('../../Assets/pec/pec-desk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

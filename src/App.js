@@ -22,6 +22,7 @@ import Business from './Pages/JS/business.js';
 import iilBooking from './Pages/JS/iil-booking.js';
 import screenInvReview from './Pages/JS/screen.js';
 import Pec from './Pages/JS/pec.js';
+import ScReview from './Pages/JS/sc-review.js';
 
 function App() {
   const settings = {
@@ -57,6 +58,7 @@ function App() {
           <Route path="/cooknook" component={CookNook} />
           <Route path="/remindmat" component={Rm}/>
           <Route path="/businessecosystem" component={Business}/>
+          <Route path="/sc-review" component={ScReview}/>
           <Route path="/pec" component={Pec}/>
           <Route path="/booking" component={iilBooking}/>
           <Route path="/screen-investment-review" component={screenInvReview} />

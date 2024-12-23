@@ -1,4 +1,13 @@
 const projects = {
+    "scReview": {
+        "title": "Sensitive Claims Website Review",
+        "link": "/sc-review",
+        "workType": "User research, UX/UI, Workshop facilitation",
+        "description": "Reviewing a public sector organisation's online sensitive claims experience",
+        "id": "sc-review",
+        "year": "2023"
+    },
+    
     "business": {
         "title": "Mapping the Māori Business Ecosystem",
         "link": "/businessecosystem",

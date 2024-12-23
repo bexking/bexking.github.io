@@ -9,6 +9,7 @@ export default function ProjectGrid() {
     return (
             <div className="projectGrid">
                 <WorkNavItem project={projects.screen} className="hero-image"/>
+                <WorkNavItem project={projects.scReview} className="hero-image"/>
                 <WorkNavItem project={projects.business} className="hero-image"/>
                 <WorkNavItem project={projects.pec} className="hero-image"/>
                 {/* <WorkNavItem project={projects.ib} className="hero-image"/> */}
