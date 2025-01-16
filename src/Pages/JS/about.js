@@ -48,12 +48,12 @@ export default function About() {
                                 </ul>                       
                             </div>
                             <div className="info-bullet-group">
-                                <h2 className='xp'>Resume</h2>
+                                {/* <h2 className='xp'>Resume</h2>
                                 <ul className='xp-para'>
                                     <li className='xp-para'>
                                     <a href="" className='Underlined-Link'>Download</a> 
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
             </div>

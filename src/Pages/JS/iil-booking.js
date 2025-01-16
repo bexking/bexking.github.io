@@ -1,6 +1,10 @@
 import React from 'react'
 import '../CSS/projectPage.css';
 import ContactFooter from '../../Components/JS/contact-footer.js';
+import IilHero from '../../Assets/iil-booking.jpg';
+import Workshop from '../../Assets/iil/workshop.jpg';
+import WorkshopSB from '../../Assets/iil/workshop-storyboard.jpg';
+import WalkFlows from '../../Assets/iil/walk-on-passenger.jpg';
 import UserBooking from '../../Assets/iil/iil-booking-table.jpg';
 import NextProject from '../../Components/JS/next-project.js';
 import { Link } from "react-router-dom";
@@ -16,7 +20,7 @@ export default function iilBooking() {
                         <p className='type-of-work'>UX/UI, IA, Service Design</p>
                     </div>
                     <div className="hero-two-thirds">
-                        <img id="test-image1" className='hero-image' src={UserBooking} alt="A person sitting at a table holding a phone showing the Interislander booking system" />
+                        <img id="test-image1" className='hero-image' src={IilHero} alt="8 iphones showing different parts of the booking system such as search, vehicle details, and payment." />
                     </div>
                 </div> 
 
@@ -32,6 +36,19 @@ export default function iilBooking() {
                     </p>
                 </div>   
 
+                <div className='half-width-content-block'>
+                    <img id="half-width-test" src={Workshop} alt="Printed mobile screens in a workshop covered in post-its with people's feedback" />
+                    <img id="half-width-test" src={WorkshopSB} alt="Storyboard in a service design workshop stretched across the whole wall covered in feedback" />
+                </div>
+
+                <div className='full-width-content-block'>
+                    <img className="full-width-test" src={WalkFlows} alt="A diagram showing the Figma screens of one pathway through the bookng system, and booking amendments, for a walk-on paggenger" />
+                </div>  
+
+                <div className='full-width-content-block'>
+                    <img className="full-width-test" src={UserBooking} alt="A person sitting at a table holding a phone showing the Interislander booking system" />
+                </div>
+
                 <div className='full-width-content-block'>
                     <div>
                         <div className='next-project-bar'>
@@ -46,9 +63,6 @@ export default function iilBooking() {
                     </div>
                 </div>
 
-                <div className='full-width-content-block'>
-                    
-                </div>
             </div>
             
             <ContactFooter />

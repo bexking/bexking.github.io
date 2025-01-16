@@ -13,7 +13,7 @@ export default function ScReview() {
                 <div className='project-heading-container'>
                     <div className="text-block-third">
                         <span>Public Sector Organisation</span>
-                        <h1 className='long-project-title'>Rethinking the web experience for people engaging in a sensitive claims process</h1>
+                        <h1 className='long-project-title'>Revising a sensitive claims website experience</h1>
                         <p className='type-of-work'>User research, UX/UI, Workshop facilitation</p>
                     </div>
                     <div className="hero-two-thirds">

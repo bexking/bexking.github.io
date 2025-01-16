@@ -17,9 +17,9 @@ export default function ContactFooter() {
                         <a href="https://www.linkedin.com/in/bexking" target="_blank" className='contactLink'>
                             linkedIn
                         </a>  
-                        <a href="https://www.instagram.com/bexkingdesign" target="_blank" className='contactLink'>
+                        {/* <a href="https://www.instagram.com/bexkingdesign" target="_blank" className='contactLink'>
                             Instagram
-                        </a>  
+                        </a>   */}
                         <a href="https://github.com/bexking" target="_blank" className='contactLink'>
                             Github
                         </a>  
