@@ -28,15 +28,16 @@ export default function Business() {
                     <p>The client secured funding to explore the concept further with kaupapa Māori designers.</p>
                 </div>
                 <div className='full-width-content-block'>
+                    <img className="full-width-test" src={BusLayers} alt="Expanded layers version of the map" />
+                </div>  
+                <div className='full-width-content-block'>
                     <div className='video-section'>
                         <video className="vid" muted controls playsInline>
                             <source src={BusVid} type="video/mp4" />
                         </video>
                     </div>
                 </div>
-                <div className='full-width-content-block'>
-                    <img className="full-width-test" src={BusLayers} alt="Expanded layers version of the map" />
-                </div>  
+                
                 <div className='full-width-content-block'>
                     <div>
                         <div className='next-project-bar'>

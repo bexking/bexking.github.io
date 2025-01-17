@@ -2,6 +2,7 @@ import React from 'react'
 import '../CSS/projectPage.css';
 import ContactFooter from '../../Components/JS/contact-footer.js';
 import Lesson from '../../Assets/engoo-images/engoo-lesson.jpg';
+import HintsHero from '../../Assets/hints-hero.jpg';
 import Translations from '../../Assets/engoo-images/Translate.jpg';
 import Menu from '../../Assets/engoo-images/hint-menu.jpg';
 import { Link } from "react-router-dom";
@@ -17,7 +18,7 @@ export default function Hints() {
                     <p className='type-of-work'>UX/UI, UX Research, Prototyping</p>
                 </div>
                 <div className="hero-two-thirds">
-                    <img id="test-image1" src={Lesson} alt="Man sits at laptop at a table with a coffee. On the laptop screen is the site Engoo. The man is drawing a picture of some people and a house as a visual hint for the word visitors." />
+                    <img id="test-image1" src={HintsHero} alt="Macbook displaying the Engoo website on a screen where users can add their own vocab hint by drawing a picture." />
                 </div>
             </div> 
             <div className='body-copy'>
@@ -38,6 +39,9 @@ export default function Hints() {
                 <img id="half-width-test" src={Translations} alt="Laptop showing Engoo website with local language translation between two paragraphs in a scrollable box below english text" />
                 <img id="half-width-test" src={Menu} alt="Four small weatherboard huts sit in an icy coastal scene" />
             </div>
+            <div className='full-width-content-block'>
+                <img className="full-width-test" src={Lesson} alt="Man sits at laptop at a table with a coffee. On the laptop screen is the site Engoo. The man is drawing a picture of some people and a house as a visual hint for the word visitors." />
+            </div>  
             <div className='full-width-content-block'>
                 <div>
                     <div className='next-project-bar'>
