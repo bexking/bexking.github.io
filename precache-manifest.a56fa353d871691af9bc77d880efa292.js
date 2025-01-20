@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4773d70f3e743b3c0535564e94b60792",
+    "revision": "b9dfb56802c38408f5c7985eabdcf4d1",
     "url": "/index.html"
   },
   {
-    "revision": "50bbbc4325263b342227",
+    "revision": "327d8e4710462fd6e6b1",
     "url": "/static/css/2.6396245e.chunk.css"
   },
   {
-    "revision": "672c939e7507ba8c2d70",
-    "url": "/static/css/main.b98670ff.chunk.css"
+    "revision": "1fdd41d482ca109b3d11",
+    "url": "/static/css/main.020224af.chunk.css"
   },
   {
-    "revision": "50bbbc4325263b342227",
-    "url": "/static/js/2.9a574561.chunk.js"
+    "revision": "327d8e4710462fd6e6b1",
+    "url": "/static/js/2.3e7480f9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.9a574561.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3e7480f9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "672c939e7507ba8c2d70",
-    "url": "/static/js/main.d585e3f3.chunk.js"
+    "revision": "1fdd41d482ca109b3d11",
+    "url": "/static/js/main.a6584d7f.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3136f2d0a3f1e5c4cd10925608763c6d",
     "url": "/static/media/Translate.3136f2d0.jpg"
+  },
+  {
+    "revision": "7b54f9cad8f5f7169aa9dc72c44856fb",
+    "url": "/static/media/banking-hero.7b54f9ca.jpg"
   },
   {
     "revision": "9d1279a536042e6e64eab00aed0f8ca4",
@@ -210,6 +214,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bb189c465dea9649e1d5d95cb278075e",
     "url": "/static/media/iil-booking.bb189c46.jpg"
+  },
+  {
+    "revision": "ddd97709bfa3b2f2f2016e7ca2e46261",
+    "url": "/static/media/intro.ddd97709.jpg"
+  },
+  {
+    "revision": "1c74b0262d90fa544e78d0e97ed176ff",
+    "url": "/static/media/method.1c74b026.jpg"
+  },
+  {
+    "revision": "ced620f9c20711e4b3474deb4d943b8c",
+    "url": "/static/media/pages.ced620f9.jpg"
   },
   {
     "revision": "2373319fc0328ede6bd4a9a5642dc215",
