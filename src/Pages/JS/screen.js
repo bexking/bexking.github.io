@@ -45,7 +45,7 @@ export default function screenInvReview() {
                     <div>
                         <div className='next-project-bar'>
                             <div className='back'>
-                                <Link to="/booking" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
+                                <Link to="/banking" className="med-link">&#8592;&emsp;&nbsp;Previous</Link>
                             </div>
             
                             <div className='next'>

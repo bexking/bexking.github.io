@@ -57,7 +57,7 @@ export default function iilBooking() {
                             </div>
             
                             <div className='next'>
-                                <Link to="/screen-investment-review" className="med-link">Next&emsp;&#8594;&nbsp;</Link>
+                                <Link to="/banking" className="med-link">Next&emsp;&#8594;&nbsp;</Link>
                             </div>
                         </div>
                     </div>

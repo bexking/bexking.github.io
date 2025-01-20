@@ -8,6 +8,7 @@ import projects from "../../projects.js";
 export default function ProjectGrid() {
     return (
             <div className="projectGrid">
+                <WorkNavItem project={projects.banking} className="hero-image"/>
                 <WorkNavItem project={projects.screen} className="hero-image"/>
                 <WorkNavItem project={projects.scReview} className="hero-image"/>
                 <WorkNavItem project={projects.business} className="hero-image"/>

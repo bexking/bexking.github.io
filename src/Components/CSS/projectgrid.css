@@ -116,6 +116,13 @@
     background-position: center;
 }
 
+#banking {
+    background-image: url('../../Assets/banking-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #sc-review {
     background-image: url('../../Assets/sc-process.jpg');
     background-size: cover;

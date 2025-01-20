@@ -23,6 +23,7 @@ import iilBooking from './Pages/JS/iil-booking.js';
 import screenInvReview from './Pages/JS/screen.js';
 import Pec from './Pages/JS/pec.js';
 import ScReview from './Pages/JS/sc-review.js';
+import banking from './Pages/JS/banking.js';
 
 function App() {
   const settings = {
@@ -62,6 +63,7 @@ function App() {
           <Route path="/pec" component={Pec}/>
           <Route path="/booking" component={iilBooking}/>
           <Route path="/screen-investment-review" component={screenInvReview} />
+          <Route path="/banking" component={banking} />
           <Route component={NotFoundMsg}/>
           
         </Switch>

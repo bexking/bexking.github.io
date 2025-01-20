@@ -7,6 +7,15 @@ const projects = {
         "id": "sc-review",
         "year": "2023"
     },
+
+    "banking": {
+        "title": "Disability and Inclusion in Banking",
+        "link": "/banking",
+        "workType": "Qualitative research, Writing, Graphic Design, Accessibility",
+        "description": "Investigating the inclusiveness of banking and payment options for disabled people",
+        "id": "banking",
+        "year": "2025"
+    },
     
     "business": {
         "title": "Mapping the Māori Business Ecosystem",
