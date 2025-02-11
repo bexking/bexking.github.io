@@ -27,7 +27,7 @@ const projects = {
     },
 
     "pec": {
-        "title": "Aotearoa New Zealand Principal Eligibility Criteria",
+        "title": "Principal Eligibility Criteria",
         "link": "/pec",
         "id": "pec",
         "year": "2022"
